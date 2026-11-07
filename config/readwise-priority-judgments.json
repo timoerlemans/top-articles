@@ -18716,45 +18716,43 @@
       }
     },
     "01k8v9cz0ah2x4qddn265e4cnt": {
-      "relevance": 4,
+      "relevance": 2,
       "substance": 3,
-      "durability": 4,
+      "durability": 3,
       "usefulness": 2,
       "topicRelevance": {
         "scrum": 0,
         "software-development": 0,
-        "front-end-development": 1,
-        "social-studies": 4,
-        "adhd": 2,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 1,
         "philosophy": 3
       },
       "sequenceFit": {
-        "lees": 2,
-        "social-studies": 2,
-        "adhd": 1,
-        "philosophy": 2
+        "social-studies": 1
       },
-      "confidence": "high",
+      "confidence": "medium",
       "reasonCodes": [
-        "codex-full-source-review"
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
       ],
-      "sourceFingerprint": "641b17a0a74205c7b52859a1999c3d427a3a375844191fcd2ed83e2e295f10a1",
-      "evidenceFingerprint": "84a22fbc2450360fb7f78549a32f57240c6f4e2ed209c215b41247496effecfd",
+      "sourceFingerprint": "6b8d28826c22a52fc77a020f2e46c92df70b13ec6d52b1c57db7a6b31154a56f",
+      "evidenceFingerprint": "fb5d8367a6d32a5a380e2d13c8403946bb8444163abf436c30b7f303938aa061",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "judgedBy": "codex-full-source-review-2026-11-05",
-      "judgedAt": "2026-11-05T15:30:00Z",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
       "evidenceRefs": [
         "source-sha256:2aafa9916d5f5fec4ae9274cf38fc0288663758be5eaf26b42dc14024686b50f",
-        "assessment-sha256:9aa6c9b220c3635fdaf3de53b54f012fb4b1ab69fa431691b14cf4860829c37d",
-        "additional-source-sha256:693e9b3b52c7a54c0f1f59b04ba62ff45507a28aa483eab1765c7c8cddfce39f"
+        "assessment-sha256:77df86e36d8d1066cf90474f34b7e1777c10c43b3436fc076aebfefbe4f4809c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.114"
       ],
       "sourceReview": {
         "standard": "full-source-v1",
         "contentHash": "2aafa9916d5f5fec4ae9274cf38fc0288663758be5eaf26b42dc14024686b50f",
         "sourceStatus": "complete",
-        "assessmentFingerprint": "9aa6c9b220c3635fdaf3de53b54f012fb4b1ab69fa431691b14cf4860829c37d"
+        "assessmentFingerprint": "77df86e36d8d1066cf90474f34b7e1777c10c43b3436fc076aebfefbe4f4809c"
       }
     },
     "01k8982yc86fjcjhr0h7yctwh2": {
@@ -31025,51 +31023,42 @@
       "judgedAt": "2026-10-29T00:00:00Z"
     },
     "01m61sjspffcbc39n5vdc1w1qx": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
       "sourceFingerprint": "5e86c43420166eb51fd78d45583d95fbc9f16f7f366d18d7bf768c258aaf2ea4",
       "evidenceFingerprint": "0a6730caf87e54ab7b87f6b0b0880fc5f2321ab415b59bfc507c07ac86b33dfc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "relevance": 3,
-      "substance": 2,
-      "durability": 1,
-      "usefulness": 2,
-      "sequenceFit": {
-        "video": 0,
-        "boek": 0,
-        "pdf": 0,
-        "lees": 1,
-        "dutch": 0,
-        "short": 0,
-        "short-dutch": 0,
-        "luchtig": 0,
-        "luchtig-nederlands": 0,
-        "scrum": 0,
-        "software-development": 1,
-        "front-end-development": 0,
-        "social-studies": 0,
-        "adhd": 0,
-        "philosophy": 0
-      },
-      "topicRelevance": {
-        "scrum": 0,
-        "software-development": 1,
-        "front-end-development": 0,
-        "social-studies": 0,
-        "adhd": 0,
-        "philosophy": 0
-      },
-      "confidence": "medium",
-      "reasonCodes": [
-        "semantic-independent-review",
-        "evidence:title-summary-notes-tags",
-        "knowledge-management-relevance"
-      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
       "evidenceRefs": [
-        ".tmp/readwise/priority-evidence.json#documents.01m61sjspffcbc39n5vdc1w1qx"
+        "source-sha256:fd85ccbd76227741b0a8f04dbdecfad20518215d7055677c1751d646e34d79a9",
+        "assessment-sha256:8a0c7e41db6d8ebaf1d33deb1b35cc4a0e1d1a66e4f62b967ead84ac55ab341a",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.1"
       ],
-      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-29",
-      "judgedAt": "2026-10-29T00:00:00Z"
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "fd85ccbd76227741b0a8f04dbdecfad20518215d7055677c1751d646e34d79a9",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8a0c7e41db6d8ebaf1d33deb1b35cc4a0e1d1a66e4f62b967ead84ac55ab341a"
+      }
     },
     "01m61sm6xbhbqwhzfq03wsvxn0": {
       "sourceFingerprint": "414fb7dd0ef1cc9bb7fde70add54d26c1cef6bf2fdd92032af7d18de50219c6d",
@@ -31487,51 +31476,44 @@
       }
     },
     "01m639vs09x47sefys7t5fbfcv": {
-      "sourceFingerprint": "38be09b2d0e90f90e9dd86284b63c7a304e6c1a4ad1d40ee4271754044a617e7",
-      "evidenceFingerprint": "7008fbcf965e515ee4bee11e41b3e05bec80da8a1851d3531251409d02b9a9b2",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "relevance": 4,
+      "relevance": 3,
       "substance": 3,
-      "durability": 3,
-      "usefulness": 4,
-      "sequenceFit": {
-        "video": 0,
-        "boek": 0,
-        "pdf": 0,
-        "lees": 0,
-        "dutch": 0,
-        "short": 0,
-        "short-dutch": 0,
-        "luchtig": 0,
-        "luchtig-nederlands": 0,
-        "scrum": 0,
-        "software-development": 2,
-        "front-end-development": 0,
-        "social-studies": 0,
-        "adhd": 0,
-        "philosophy": 0
-      },
+      "durability": 2,
+      "usefulness": 3,
       "topicRelevance": {
-        "scrum": 1,
-        "software-development": 4,
+        "scrum": 3,
+        "software-development": 2,
         "front-end-development": 1,
-        "social-studies": 2,
+        "social-studies": 0,
         "adhd": 0,
         "philosophy": 1
       },
+      "sequenceFit": {
+        "scrum": 2
+      },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-independent-review",
-        "evidence:title-summary-notes-tags",
-        "clear-personal-or-professional-payoff"
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
       ],
+      "sourceFingerprint": "9c260cb076140ec3519effab85f0d7cef9d9b8fa67aae5a6f50e51e8a01e93f8",
+      "evidenceFingerprint": "58e09c54005a9def8e77200871d08b2b64baa360e550a3e54f78f85c48ca4e05",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "status": "accepted",
       "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
       "evidenceRefs": [
-        ".tmp/readwise/priority-judgment-batches/batch-001.json#documents.01m639vs09x47sefys7t5fbfcv"
+        "source-sha256:a54c2373932465348a1d80b3057dc46c72e0440223193e4cf3148e7801e40064",
+        "assessment-sha256:4e3bb417a05ed2be50334c63e97c75ffbfe2c31b1321d2b47b6f32f3a9ee6073",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.105"
       ],
-      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-29",
-      "judgedAt": "2026-10-29T00:00:00Z"
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "a54c2373932465348a1d80b3057dc46c72e0440223193e4cf3148e7801e40064",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "4e3bb417a05ed2be50334c63e97c75ffbfe2c31b1321d2b47b6f32f3a9ee6073"
+      }
     },
     "01m639vkv58dmakfm7pnyedren": {
       "relevance": 4,
@@ -32640,42 +32622,41 @@
       "judgedAt": "2026-10-30T10:47:52.579Z"
     },
     "01m63b43a5q3mxswjnw44kj7ed": {
-      "relevance": 4,
+      "relevance": 3,
       "substance": 3,
-      "durability": 4,
+      "durability": 3,
       "usefulness": 4,
       "topicRelevance": {
-        "scrum": 3,
-        "software-development": 1,
+        "scrum": 0,
+        "software-development": 0,
         "front-end-development": 0,
-        "social-studies": 4,
-        "adhd": 1,
-        "philosophy": 2
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
       },
-      "sequenceFit": {
-        "lees": 2,
-        "social-studies": 2
-      },
-      "confidence": "high",
+      "sequenceFit": {},
+      "confidence": "medium",
       "reasonCodes": [
-        "codex-full-source-review"
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
       ],
       "sourceFingerprint": "efa3d7595d07f248557540173223c9f2084c19bc112771861c52d02b42390015",
       "evidenceFingerprint": "9808f07bba09b9b5313eb91a586918d3b9a6e1344dc1b5b930699b36c5309068",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "judgedBy": "codex-full-source-review-2026-10-29",
-      "judgedAt": "2026-10-29T12:57:18.932Z",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
       "evidenceRefs": [
         "source-sha256:a725c852422e866909827e7a63c83301e714c034493e4088f5c44e586bb10353",
-        "assessment-sha256:d9ba63259878a68bd123d2da9f141549492e8f332f9a9d700eff148a22be28bb"
+        "assessment-sha256:a16935332da6af3d2c9a2629e3ff83b0ca24aceac99773ba4b252e1cee9cfe6f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.2"
       ],
       "sourceReview": {
         "standard": "full-source-v1",
         "contentHash": "a725c852422e866909827e7a63c83301e714c034493e4088f5c44e586bb10353",
         "sourceStatus": "complete",
-        "assessmentFingerprint": "d9ba63259878a68bd123d2da9f141549492e8f332f9a9d700eff148a22be28bb"
+        "assessmentFingerprint": "a16935332da6af3d2c9a2629e3ff83b0ca24aceac99773ba4b252e1cee9cfe6f"
       }
     },
     "01m646hqpqnckg4an1zg1yj6a5": {
@@ -32771,6 +32752,3702 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-11-07T10:59:05.981Z"
+    },
+    "01m649bjfce5r8g5khpzxmmtb5": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "0f506ae258a181d7e7e43e73920f2748db68b9660605aa0a84eee9d4c085a4d5",
+      "evidenceFingerprint": "89d1c8b17b15cfe7f8bc9db8440674675f6479363bced119ea10414c1dd9665b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:9b851320530c22264a631c44f93756507a5507ddc087d5f68196aca1f25fdc83",
+        "assessment-sha256:5f224b99f60d4ab0c2d1b855277c7929243524bafdd3949713ea0923eea12901",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.3"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "9b851320530c22264a631c44f93756507a5507ddc087d5f68196aca1f25fdc83",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "5f224b99f60d4ab0c2d1b855277c7929243524bafdd3949713ea0923eea12901"
+      }
+    },
+    "01m64bs3yej4q45vdnt31szq21": {
+      "relevance": 1,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "d13f9f43d6e82e7d19bb3e4ab33677324aa6d9dc60316d95a33e226cadd932c6",
+      "evidenceFingerprint": "47a3ad8466576010d54426332793765b93c5d609749f8f789a23d7faa035858b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:b44de99d30233c8ac5b040a89365fc92efccbdb338ff6c63923855b1dc980e6e",
+        "assessment-sha256:950afe02e2e1926f36186caf540389669d04a345131ce52db8c28b0724b08326",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.5"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "b44de99d30233c8ac5b040a89365fc92efccbdb338ff6c63923855b1dc980e6e",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "950afe02e2e1926f36186caf540389669d04a345131ce52db8c28b0724b08326"
+      }
+    },
+    "01m65kspf0vytgckj1r6d5v0gq": {
+      "relevance": 4,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 4,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "6d52da05d2d3f7b03a28c107ccf01f3aa6ae87a6be9b8a29b46557107a62a75e",
+      "evidenceFingerprint": "eed5ec0714482a39fbe6971288bef8c7f1446e94456b4c11d690ffb599511b3b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:11d01b1cbe84c87c6cdd669dc51ee8e007a92bcf6e003bf92892703e972f0294",
+        "assessment-sha256:08ba05efd6b247b4b134a470e3bf40a62728874354e07feecfcaf14146a92c7a",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.7"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "11d01b1cbe84c87c6cdd669dc51ee8e007a92bcf6e003bf92892703e972f0294",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "08ba05efd6b247b4b134a470e3bf40a62728874354e07feecfcaf14146a92c7a"
+      }
+    },
+    "01m65vhvthpc8fbrwdrvexyeqm": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "400bd925d4cc72175cbe8680e80b3a4274ac51782b4d23cd10191ea7d6365ea7",
+      "evidenceFingerprint": "6b6d0b09ce95c773491b69e87d375964921dcb0a91d2e91587e5096eb9501bd8",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:3ae39b4a3d9e95d5fb61f8cdc7e8325b784c20d99408d673e65afdcc5a2c7fcb",
+        "assessment-sha256:24587f0ad0a1347e73e8fb18f1378e13c5655b97d43ab3206985fa0071a2d218",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.8"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "3ae39b4a3d9e95d5fb61f8cdc7e8325b784c20d99408d673e65afdcc5a2c7fcb",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "24587f0ad0a1347e73e8fb18f1378e13c5655b97d43ab3206985fa0071a2d218"
+      }
+    },
+    "01m660dc1k02b5q1246xwxhxmb": {
+      "relevance": 2,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a4dc76681a149559846539c9c7e3ef0ee9c41d1e812d6c593e2c2f6993ae927e",
+      "evidenceFingerprint": "1683fdc3302711b7819a0be31d40ecbda75b28cb62ce3b09fde2ac49780a1a2c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:ac14d47e39a53c955d5a523506db9d72f44d6620ed5b406bbd5aabe57c6741cd",
+        "assessment-sha256:3453966618f2c08a0923d5c64f5cf5d90391265770001058c971a90bab2e537b",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.9"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "ac14d47e39a53c955d5a523506db9d72f44d6620ed5b406bbd5aabe57c6741cd",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "3453966618f2c08a0923d5c64f5cf5d90391265770001058c971a90bab2e537b"
+      }
+    },
+    "01m660dby0e6ywwzfp7edg7zsv": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3a34235f5700b8fdadd757924b46f4df71caf5f54c8e9b249313e4648d766ce6",
+      "evidenceFingerprint": "0efd897b27e4bb421b1952ea631a1d861608e00c2f1078f7623c7e073aecf7d3",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:4f98a21eb4a554e035ae64fe28732db915dadde433dcf8202650c30c7916077f",
+        "assessment-sha256:d7ce3dd0a3773fa40c48070dc5254648433d4698dff73293cc83e12bcb5cafdc",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.10"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "4f98a21eb4a554e035ae64fe28732db915dadde433dcf8202650c30c7916077f",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "d7ce3dd0a3773fa40c48070dc5254648433d4698dff73293cc83e12bcb5cafdc"
+      }
+    },
+    "01m660y94f0w1zywfyhygbkdhw": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "14f295230f90eda36a47c9a9b2ea883ae89bb035644dca13a14fb52b3015b9f2",
+      "evidenceFingerprint": "6f200f13437d15ac7c56286018976a174515165524b3d3e669a76338c459327d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:9f489e2b8f53992cdc24d54577ac4f6c7fed0004ae69dcd46ea86c2f12b2734d",
+        "assessment-sha256:d8725d568beb62b64f9194058ee2020970163daf50bebce761657faaeeabed2c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.11"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "9f489e2b8f53992cdc24d54577ac4f6c7fed0004ae69dcd46ea86c2f12b2734d",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "d8725d568beb62b64f9194058ee2020970163daf50bebce761657faaeeabed2c"
+      }
+    },
+    "01m668syvrnffe15p6mps0zs6z": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "11208e3a7462460b66a58f80a76186fad7e9715e0756bffadceaa601ffe72c6f",
+      "evidenceFingerprint": "da32c26f03171976eb2e41e8903d28bb31964ab412967380986cdf13539479ef",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:c3606450ac20612184f85666abe13d25dc280c68d6eee5b8be75b2a15e9bcb07",
+        "assessment-sha256:b7e7b415e06c037727572401b11aa83a1417ed5364b4b82eaa8a38c8d27636fa",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.12"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "c3606450ac20612184f85666abe13d25dc280c68d6eee5b8be75b2a15e9bcb07",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "b7e7b415e06c037727572401b11aa83a1417ed5364b4b82eaa8a38c8d27636fa"
+      }
+    },
+    "01m66cjjp8dd0wndvbh5ev9n3v": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "89f4aaf9d45176b925b2fa19a6acb4cba87b274f9c467ee349845fdfe6a8bf16",
+      "evidenceFingerprint": "c08108a06e5a2a7e16298aa70412d1d878c0eb7ec0f1fa248503e4afcb1cc016",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6b0bb23f16a57b9125278d5f5baf62e54d7bb08f74d8d6604134732be4e7dc55",
+        "assessment-sha256:104ce0d89a45099e8d6b1c11f314479a73d29720915fe02024d8ba32e607db7f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.13"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6b0bb23f16a57b9125278d5f5baf62e54d7bb08f74d8d6604134732be4e7dc55",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "104ce0d89a45099e8d6b1c11f314479a73d29720915fe02024d8ba32e607db7f"
+      }
+    },
+    "01m66rn5zcr4yywarhfej23z89": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 4,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "9ae15a5401020c6b7c84eb259bcc67681a780ffca4e8b890fd8fc2e64c424ca8",
+      "evidenceFingerprint": "0d2e3fa715aeea4dac4d96ca45b57e97ce1920a24916899e28e9c32d9cc70cd5",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:f3666efd826df605bd1f10016f5c0d0497d1460e5095c7a13bf9e45754fef176",
+        "assessment-sha256:01c39d3bc23e227c48d15a95f97ebecb3d6b34c3072b9eb9e208f155ace3508c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.14"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "f3666efd826df605bd1f10016f5c0d0497d1460e5095c7a13bf9e45754fef176",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "01c39d3bc23e227c48d15a95f97ebecb3d6b34c3072b9eb9e208f155ace3508c"
+      }
+    },
+    "01m66vzks3gb61wz1fc1e3epsv": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ba6bc48e80c7067bd3741df34ca1894ea0ca998065625d46d83391b48ab11939",
+      "evidenceFingerprint": "6357805a4576a57caad07527c3c62020347f047982094b68bfaa18808a62f61c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:8027f6c75eb40504b80cc46c67947c97e1cacf7ab4543518bb52507be23cf5e4",
+        "assessment-sha256:8ff43e068b374c5e93571e30e5a60e1737358cf91b5eb178002955f31f1947fc",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.15"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "8027f6c75eb40504b80cc46c67947c97e1cacf7ab4543518bb52507be23cf5e4",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8ff43e068b374c5e93571e30e5a60e1737358cf91b5eb178002955f31f1947fc"
+      }
+    },
+    "01m677zjk10nzfpaa13xqzst16": {
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "abd0c9e1858a5c808b87661849956fcaca805ecce89d268d6d6a48eddfd1ca95",
+      "evidenceFingerprint": "0571b5f1db461a72a5181e55a18ff95df74afecf28215b5df854e161a948440a",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:09c36c80e7ec76b9de7d85f6030e49d9560df6eaa09bb01a6ce30cc82da9ec20",
+        "assessment-sha256:6025b98c37f1a658ea5f5fed0442f1477badc365f00fbbbcf6a61792811de65b",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.17"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "09c36c80e7ec76b9de7d85f6030e49d9560df6eaa09bb01a6ce30cc82da9ec20",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "6025b98c37f1a658ea5f5fed0442f1477badc365f00fbbbcf6a61792811de65b"
+      }
+    },
+    "01m6858kjmym6dbbk42kf14d80": {
+      "relevance": 1,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "301b947a5b4a5281fb80ea1c3b744bcd7588098f63081d6221f9468f630f90dd",
+      "evidenceFingerprint": "8e309805ced13531191a469ecf006c35c3ce8788d0f3c10a82990bc522d62946",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:fffadcfde0f848442eaf4b7810d603879e09ee774f9094e2ec8b8ab1be702875",
+        "assessment-sha256:baf542433c7b8199f8a40f7a09f24ffeeae71468dc47c41c3c8576f839be6043",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.18"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "fffadcfde0f848442eaf4b7810d603879e09ee774f9094e2ec8b8ab1be702875",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "baf542433c7b8199f8a40f7a09f24ffeeae71468dc47c41c3c8576f839be6043"
+      }
+    },
+    "01m68bad6b7r2vc5ms3a3hxbgv": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "7f1901a03a1a009d72b20f03354ba50a871ddcc7efc42d9930be77cc5b4922b6",
+      "evidenceFingerprint": "d8a66d395b20d93f828ff352b351511b64e1379d51e13d33aec14336fb2a1d18",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:42d53693e7683aace677e1617c689166a5d1f0dcbfc771badbc840db85207e50",
+        "assessment-sha256:8d63b86589a8b94a5ce67068df2c86e57c8001aea04f8818e4763e03e047ea69",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.19"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "42d53693e7683aace677e1617c689166a5d1f0dcbfc771badbc840db85207e50",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8d63b86589a8b94a5ce67068df2c86e57c8001aea04f8818e4763e03e047ea69"
+      }
+    },
+    "01m68j04yxygbqtxvs1c1jfnfp": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "1253f155e661f534e54c71aac7c1d39ed438e0b88bea81e6aa4dededaf01fe66",
+      "evidenceFingerprint": "84213168a5a8a4d8cb841585bf58df0f1d8c93f2fa79a16f9cef097ba750ba29",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:0667e809b0ea5f48d916bdcae42a2d25ca92b916b5ac6c20cdfed43e8e20f77c",
+        "assessment-sha256:7e054cc28c93187dcf81bbf36b8707aebf5017b02e6c148b5e90876acf4732aa",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.20"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "0667e809b0ea5f48d916bdcae42a2d25ca92b916b5ac6c20cdfed43e8e20f77c",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "7e054cc28c93187dcf81bbf36b8707aebf5017b02e6c148b5e90876acf4732aa"
+      }
+    },
+    "01m68rjzr08ds43576swqabbdb": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 3,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "6a8be6400bf642f4f8ee1f3df16185588d7c411c75c48d29c105c71ec898cee3",
+      "evidenceFingerprint": "c2f4fb013eb5a27986a2176506d5168b81d3f898018fceea4d50f82d890322a2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:7535e6c1fc6ebcf21959d97cb290131153f5fd48917835d1e317a7dcf2cd3211",
+        "assessment-sha256:1e4244f23f64ff64122dac4da7d08ebaabe93288e07ea69d4bc39d8996dc2708",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.21"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "7535e6c1fc6ebcf21959d97cb290131153f5fd48917835d1e317a7dcf2cd3211",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "1e4244f23f64ff64122dac4da7d08ebaabe93288e07ea69d4bc39d8996dc2708"
+      }
+    },
+    "01m68tdf4stppre6dmtgqgcyhf": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "bc9ee2b0d29fdd1093af48849912b31ddf1bb679bd5c91da383a7cc820e8f1fc",
+      "evidenceFingerprint": "1622b906ff1e0b0494da738c3b14358d92a1e3f6f09f2ee87bd8a3cf8baa57a0",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:abef63cb3ff6782bb0482e85c830b0334aa28b7e6d84f92ab23bfc45c403b697",
+        "assessment-sha256:47fb13c5629cef3c47de3a046b9743ca678b5b325c60e16099d13a024b2a9b68",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.22"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "abef63cb3ff6782bb0482e85c830b0334aa28b7e6d84f92ab23bfc45c403b697",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "47fb13c5629cef3c47de3a046b9743ca678b5b325c60e16099d13a024b2a9b68"
+      }
+    },
+    "01m68zjbhv63f7p1g5nrr6e0tw": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 4,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a7eb2ae8cc7a6ffbe4907ce238a58874bb99470699e0e225212a73eea4fbb6f2",
+      "evidenceFingerprint": "9639ece1a97893aa007b622648beae26e1e4097d593a69ebf85746dcb5abbbd7",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:e9bcc74e3e93e0532f5b17978cba2dbc51f92e2806538787bfcf5b2ee673e44a",
+        "assessment-sha256:be6811b2aaf1ef332fae9906df5ffa64dfa11df2c51a6bde511a0c72e9a3bdd7",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.23"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "e9bcc74e3e93e0532f5b17978cba2dbc51f92e2806538787bfcf5b2ee673e44a",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "be6811b2aaf1ef332fae9906df5ffa64dfa11df2c51a6bde511a0c72e9a3bdd7"
+      }
+    },
+    "01m69ba8gxkyjsyf34655p7g6w": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3470dd5a7ee8c8f528ed1dec09fd7956743a549125dc63704506cb7f12ba247f",
+      "evidenceFingerprint": "d0187caada7fc32765e8ff6a1093b5d633764188661e52ada2d3eefe0cd13a6f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:8f799d62b43564cf7e813d167e510cca2b92c5dba9e632ef3c06441c389c3419",
+        "assessment-sha256:72fab5919f14e4ebeb03c7978f0c2b874dc6866b9ebe7b14d795c48e802b2066",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.24"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "8f799d62b43564cf7e813d167e510cca2b92c5dba9e632ef3c06441c389c3419",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "72fab5919f14e4ebeb03c7978f0c2b874dc6866b9ebe7b14d795c48e802b2066"
+      }
+    },
+    "01m69eegkcypqe5s10sy3hcb6g": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "12b03f4f5b06f099af80416228f3be76795540d5398e5849f541337c6805fd82",
+      "evidenceFingerprint": "c5a57c428e064946822111388edb874c47e809a8222d2a68fd76554a119e76ee",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:5f042ba71d5558431adf954e9fad4821e2026cf1ebaa2ec14459bf39b6e03237",
+        "assessment-sha256:1ced52b75ee7421b7297b104e98b09f4e119518b4dee633e5a5e7183dc3b2a5c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.25"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "5f042ba71d5558431adf954e9fad4821e2026cf1ebaa2ec14459bf39b6e03237",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "1ced52b75ee7421b7297b104e98b09f4e119518b4dee633e5a5e7183dc3b2a5c"
+      }
+    },
+    "01m69qw0mga54qqt57kvnzwzzd": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "2401a91ba345cb456e18c9521fa9ccf7b08e7e1bf892c7b5901c38b86b747587",
+      "evidenceFingerprint": "7c1c75f088e5794b30f27f542084591096028e5272fd28985f8a0391c343123d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6e88939de11bcf184d9e488c30f16b71ed6e01f7de4a4945672c2609755241c1",
+        "assessment-sha256:2270e932ac41d8ba4db2681813a83ddcb7cf6bfaef028f256ffe32ac24a47bf1",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.26"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6e88939de11bcf184d9e488c30f16b71ed6e01f7de4a4945672c2609755241c1",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "2270e932ac41d8ba4db2681813a83ddcb7cf6bfaef028f256ffe32ac24a47bf1"
+      }
+    },
+    "01m6avase1ew8wcwm7rsvkff45": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "20bf18dfdd617e0e0ddfbdb8a4e242d46b416f85bef7eca8b90cc4aa7a95b757",
+      "evidenceFingerprint": "97b2820b74494357f404b231d9b3332483f55871a04dcfd799819dad017abeaa",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:cf604d4c52042d10853b6a112e7493c049897e3d280498e129d5b9ea44579dba",
+        "assessment-sha256:bfb5ccbfb6398470e9dae93ff132928819a5a96d8ff10ffaa216130c7bf14aba",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.27"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "cf604d4c52042d10853b6a112e7493c049897e3d280498e129d5b9ea44579dba",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "bfb5ccbfb6398470e9dae93ff132928819a5a96d8ff10ffaa216130c7bf14aba"
+      }
+    },
+    "01m6b01a21mm1nznhemztgssdb": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "6c455099ddbee505b05f96fbf62245d25a11a6397e8fc333e0eddb87a17bc2c6",
+      "evidenceFingerprint": "e06acd88c0aa9a20741688c0d293602cebf10ff9657404c1dfcff20b77b1cc0d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:06832547d59ec5f9ffead34272f3fa758ec90d4e59054b10d868fe2119086d24",
+        "assessment-sha256:ad5291558a3060e06e42b4166c25c5c518f326c0913b05be2395419b642e0e0c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.28"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "06832547d59ec5f9ffead34272f3fa758ec90d4e59054b10d868fe2119086d24",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "ad5291558a3060e06e42b4166c25c5c518f326c0913b05be2395419b642e0e0c"
+      }
+    },
+    "01m6b01r8a8hdmja274htff235": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "dfe2577c8d5f5c1f45a7e11e58685d6f082bfceef73a07e4cce329e6beba9557",
+      "evidenceFingerprint": "e978aa767c4f536c6aab7728275693d89626a5f98a625bc6bb6a05d0633e4869",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:c8941a853be3b188c678c9acfa33c642686146f5e4b536b04d3f89af68e9aefd",
+        "assessment-sha256:9ac6cbb13be780a9ea647bff69d79c6f8ede9b73186e5d3e92199d25a271797a",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.30"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "c8941a853be3b188c678c9acfa33c642686146f5e4b536b04d3f89af68e9aefd",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "9ac6cbb13be780a9ea647bff69d79c6f8ede9b73186e5d3e92199d25a271797a"
+      }
+    },
+    "01m6b026ptpbpfg1s52rr9f69w": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "477c561a141cf0f0ae2b7044c72ac828b01a3b7d482e71deb5bc078a2a74477c",
+      "evidenceFingerprint": "bb6d624dc6351eb1e234cc6649299e001a77118eef3de2d946768eaf162fef1c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:1a9ad47329d4d2478b68d16196a443f09c4e7940f81fe7ba4d989a62e950a758",
+        "assessment-sha256:331517407dafe94fd6b5b6c3206a4fdc48e28128d8b60b2017b570b7aed34b27",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.32"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "1a9ad47329d4d2478b68d16196a443f09c4e7940f81fe7ba4d989a62e950a758",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "331517407dafe94fd6b5b6c3206a4fdc48e28128d8b60b2017b570b7aed34b27"
+      }
+    },
+    "01m6b03gr09rf6cmjyd5q5axkn": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3555fa91987d817e5f5d3960e5bc58fda2f3404616274801fe9532ee0835cf64",
+      "evidenceFingerprint": "5677672debd7e42b3c2f121ccd14dfdf7bce9fb611d9fd5dbbd4e211ccfd9371",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:280fe5cefaac5ec5ee2feb2b51f39e327b9293937f5addb5534125718080cab9",
+        "assessment-sha256:c0fbff71c0cf3e2e510a21bb6c74dd1b6f526126197f30bfa7c6d3d9074adecc",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.34"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "280fe5cefaac5ec5ee2feb2b51f39e327b9293937f5addb5534125718080cab9",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c0fbff71c0cf3e2e510a21bb6c74dd1b6f526126197f30bfa7c6d3d9074adecc"
+      }
+    },
+    "01m6b03pxtvpf1qgzpk1kh5dwt": {
+      "relevance": 1,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "72633c8183fb543a47d77f26b37adb1ace3a4e9402882930d85d54ab8147a776",
+      "evidenceFingerprint": "8d996522f78d124c8a17b5bb87a213aa6086aedf69e25db6394b8166946fdead",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:acffc1eca0c00e7991888ad7f402e58c7ecd0bd0763bd6e0fa35620fb3b1bb2b",
+        "assessment-sha256:32fb0dcdd1433d43d317e04127d200d6acbe8f769ce113d285a89f26c0d7ea56",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.35"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "acffc1eca0c00e7991888ad7f402e58c7ecd0bd0763bd6e0fa35620fb3b1bb2b",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "32fb0dcdd1433d43d317e04127d200d6acbe8f769ce113d285a89f26c0d7ea56"
+      }
+    },
+    "01m6b03xy49a5jf2gdf6zw9qpd": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 3,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ea811930896417ee1481a17652d27ce6ec12aea4be7584ab5da7a57c7b99ec54",
+      "evidenceFingerprint": "a54c3360977891e187cce7dcfd876a0ba915651febc704421710eaa7a342c0c1",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:34ba1310a9ff4c2878b2a7c5b1f2aaf85b82c50eee91a8f67959f672b90c49c5",
+        "assessment-sha256:e9e4724e31a3b1db4c8075f312a7902875116a531508288350e3ae5efe40fc46",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.36"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "34ba1310a9ff4c2878b2a7c5b1f2aaf85b82c50eee91a8f67959f672b90c49c5",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "e9e4724e31a3b1db4c8075f312a7902875116a531508288350e3ae5efe40fc46"
+      }
+    },
+    "01m6b04ajvb0jy3rzkscgp3m1q": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "989061c99f362c65e6565932774545d3caf9ca596ee6af4081c65993bf26e661",
+      "evidenceFingerprint": "83fa521c552795516b471db13b0b4a41181da00ac8af33b1e7c649fe3024eb79",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:5838bd69f890a7365283d3acbfc45d09436a0ebf99d50595edbb375ffbed30e9",
+        "assessment-sha256:dbd5ae73ea38c66bee2d0ba9d45c63317820827265ae04ced591c705669400e4",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.37"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "5838bd69f890a7365283d3acbfc45d09436a0ebf99d50595edbb375ffbed30e9",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "dbd5ae73ea38c66bee2d0ba9d45c63317820827265ae04ced591c705669400e4"
+      }
+    },
+    "01m6b04my837bm2f9jag89qf84": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "69324d924edf91030e077b0f24a967dfebd00dd1d66c5eec363c79db97835441",
+      "evidenceFingerprint": "904c487fd96e480bb7a829a9a4d0e26713c48e8e2516eab0b8b9b2d94b0276f9",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:58373349026413c8c72a35d2e8af5d130ac8c7877e0523b4d2d17371ba275be3",
+        "assessment-sha256:3216292b1c88f48a0f72c5382b2d0308c376d06bbc36ead7ffe0de6b95c0b885",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.38"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "58373349026413c8c72a35d2e8af5d130ac8c7877e0523b4d2d17371ba275be3",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "3216292b1c88f48a0f72c5382b2d0308c376d06bbc36ead7ffe0de6b95c0b885"
+      }
+    },
+    "01m6b04xj9gbjh4446c0b95n8q": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "cae6fa41e3ef79b72940b53d685af3a706bade3dfe99619f01da2db2a791dd25",
+      "evidenceFingerprint": "a1e92ebe0857f606fb528fee7674736650342a02931ecb0c305226daa1e6aac2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:78cdb05c6ba44e57126ee349c3cd15fd4f200aeb91205227d80a81f45fa83b6f",
+        "assessment-sha256:c3afab922695acfd519f90a9ac5f9bd81776efb35a72c0646271e4be16495e5f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.39"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "78cdb05c6ba44e57126ee349c3cd15fd4f200aeb91205227d80a81f45fa83b6f",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c3afab922695acfd519f90a9ac5f9bd81776efb35a72c0646271e4be16495e5f"
+      }
+    },
+    "01m6b05q83je3ppewxpbcs5c7h": {
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "24e6e9dac7ad3279f23731c230302a8d11f81ab9eb8ec456adee109332f4803a",
+      "evidenceFingerprint": "f98768ecb6e71903398b1dbfa4ed9880c313be4ccb470d9b20379451ef517a44",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:9a6dcde6ff6c23dec4816dd86b95178a993ed5ca50346d3c5c8c019d7aad5c10",
+        "assessment-sha256:14f688e8be96e4355dbd82912ccb85a6ec5ba086c4078e63f97205b7c96b59c2",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.40"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "9a6dcde6ff6c23dec4816dd86b95178a993ed5ca50346d3c5c8c019d7aad5c10",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "14f688e8be96e4355dbd82912ccb85a6ec5ba086c4078e63f97205b7c96b59c2"
+      }
+    },
+    "01m6b0qnjfc9wwqkgxjwm1ze8c": {
+      "relevance": 2,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ab020e660db4cecbd0b2dc311600a11540ea40570a1f489eadaac64a568eddd0",
+      "evidenceFingerprint": "1a2fc573ed7536748cd70ace68977e87346cd6916b466538965426faffbee168",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:505f27066ad2a89e4fa6103ae37a2bc6f8f8466f841556af3aa060b3915d36db",
+        "assessment-sha256:e24452c0a5b332fa11de0b50d28975923ac857aa32e6f9b04b2dc7f2edd916a0",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.41"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "505f27066ad2a89e4fa6103ae37a2bc6f8f8466f841556af3aa060b3915d36db",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "e24452c0a5b332fa11de0b50d28975923ac857aa32e6f9b04b2dc7f2edd916a0"
+      }
+    },
+    "01m6b308tbvg2j18b7h5fkx3ew": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "4dd85d09d8873c485cdadd0790b3b9d62435180855382812f80e7a4a3ee819cc",
+      "evidenceFingerprint": "9698f1368f2c96c9705f939bc49643eec3fdbfdfb62da22da622bde2cc1e098b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:39f52e42bc0cb6ca5576a3bba769b65edeb2f5c139fcb520490f125aaee2d5ec",
+        "assessment-sha256:226afb7f9a3f37e5af33a2140b36aa44a3ec2c02dc02cf0c3d987197ef9cde04",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.42"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "39f52e42bc0cb6ca5576a3bba769b65edeb2f5c139fcb520490f125aaee2d5ec",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "226afb7f9a3f37e5af33a2140b36aa44a3ec2c02dc02cf0c3d987197ef9cde04"
+      }
+    },
+    "01m6bkx74h512fhaw4xc8s6xx9": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "7ac8f9544aa38492f500df7be43d761015dae406ff95fa8c174d9809675ffa51",
+      "evidenceFingerprint": "1f123dbcd30f9a4392a5547ab7922e8681b30cbd038aa0b07aa2669aabe6727a",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:7d6f47c1f31acf354818f9e32e3a40c745c5b81f84799409873dafe090ff65e3",
+        "assessment-sha256:327e198037325cdcf6a7d04ff8c880c76d489fdfa400c8ee9bac2fbd743a71b7",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.43"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "7d6f47c1f31acf354818f9e32e3a40c745c5b81f84799409873dafe090ff65e3",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "327e198037325cdcf6a7d04ff8c880c76d489fdfa400c8ee9bac2fbd743a71b7"
+      }
+    },
+    "01m6bkym7s4p07cdae95yt1xax": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "47bb442b437e703cb8966403d8418e7f279b0b4bb15a37a59da0b2c4aaf610ae",
+      "evidenceFingerprint": "b0b206bdefcc56d17c9c505fcf812ec24797f5e227c2b0b61fce634d97c6a333",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:308d20f4dffc848d6329bf09b6f4be9c20061c85bb44c2e7fcf8ddffecdcc9de",
+        "assessment-sha256:5716229c5ecad90f3c38c1458ecf43555b7cbc8bbf7e1c9aeec4fd1a7d6c8f53",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.44"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "308d20f4dffc848d6329bf09b6f4be9c20061c85bb44c2e7fcf8ddffecdcc9de",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "5716229c5ecad90f3c38c1458ecf43555b7cbc8bbf7e1c9aeec4fd1a7d6c8f53"
+      }
+    },
+    "01m6br48b9b1nmpr3y24rq1srh": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 4,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "5fe517f93029466e6784d1c72570f9015dcf4b569051f6686e908594b226c8b9",
+      "evidenceFingerprint": "9fa5f956f21c851f08bdf6074e4ffbded8e39e7cb2a887520d683b3c71e458bd",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:ee8bfcd3cb7bca375f62c7a59093dbceda6f0925234d8b88f22c8432bb4a8b44",
+        "assessment-sha256:6d6f2c1c6d8c8ec0f7de59403c057e6c0c9e32ef29fb4cc112c460b536207fb3",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.45"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "ee8bfcd3cb7bca375f62c7a59093dbceda6f0925234d8b88f22c8432bb4a8b44",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "6d6f2c1c6d8c8ec0f7de59403c057e6c0c9e32ef29fb4cc112c460b536207fb3"
+      }
+    },
+    "01m6b0153cmr7tccy5vqtdm1g8": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "351baf58fde3fde443a07262af903312b332ac23386258de190f198b694ff0c4",
+      "evidenceFingerprint": "7c0599cd1ad70de29c21db7c497bde9ea4cf4f97edb9b622adadfbc11e9403bb",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:d86cb31331f4e3944933f0cf4c13b2f5316dc0cd21ea91c0c36416b3cb33fc4b",
+        "assessment-sha256:6751d1af8c5f5e89cecaa33b13c6f581611093d87d6e6c962e5e1b8c3804e7b5",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.47"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "d86cb31331f4e3944933f0cf4c13b2f5316dc0cd21ea91c0c36416b3cb33fc4b",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "6751d1af8c5f5e89cecaa33b13c6f581611093d87d6e6c962e5e1b8c3804e7b5"
+      }
+    },
+    "01m6e0f5x4az6198vn48facpms": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 3,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "de7b0638f00bf875528932ca62df25d6245b09e44e553b4d444faa7cb12ab7fd",
+      "evidenceFingerprint": "6e8f04427751b1fe7b7251c2f58a8b846513f540565aebf5065014f5ec1e1734",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:5093957d863ede39576a4c5ba8e7ef78b0f3edfdca11d8030ddc720e3cf4e03c",
+        "assessment-sha256:7c844dec3960d7aa2f1b9c5b579f3de62f11dc428df848783c86994570c07ed3",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.49"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "5093957d863ede39576a4c5ba8e7ef78b0f3edfdca11d8030ddc720e3cf4e03c",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "7c844dec3960d7aa2f1b9c5b579f3de62f11dc428df848783c86994570c07ed3"
+      }
+    },
+    "01m6e2bnm7erhwsse06pg5j4e6": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "d6135d08a45559c6db5bae4f3d8caf8576f4faa1bd012ebd334d7ecbc4a8886d",
+      "evidenceFingerprint": "fec8d29712225bff23021b73f4f370ad5b9d1a5e43e4a057ce6195ef7de50e83",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:19c64bc22e55db57f57910ffa49198ccd3ec89b67077d4740751faf4239941d0",
+        "assessment-sha256:f8a38d0f7474100f5052eeb48ef05e9fa85b08dd8e0f73fa8ba57a4748587da6",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.50"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "19c64bc22e55db57f57910ffa49198ccd3ec89b67077d4740751faf4239941d0",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "f8a38d0f7474100f5052eeb48ef05e9fa85b08dd8e0f73fa8ba57a4748587da6"
+      }
+    },
+    "01m6ect06f18gqdbxv6rht0y5t": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "4ab06e2a2fd47f0c336a55fd196257358be5cc7300bbc7d820be2056e077c886",
+      "evidenceFingerprint": "d5c020813246c4306829e85dd23b2e1c7208e0ab5c8149a3fd8d19e7f364652d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:e13d4685629ddd3b63710686bdcb35bba5f1cdb5263bb3d8407939902ed50858",
+        "assessment-sha256:2bd5b047c43383ed80b9f546cfb03e0ebf7a309e02046d9a19767662cd602f55",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.51"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "e13d4685629ddd3b63710686bdcb35bba5f1cdb5263bb3d8407939902ed50858",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "2bd5b047c43383ed80b9f546cfb03e0ebf7a309e02046d9a19767662cd602f55"
+      }
+    },
+    "01m6egjxhp8983xtev5yhtf98c": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ea4bf880784e20950744624aa4814238462a36d97f6df374c8e547d55008e436",
+      "evidenceFingerprint": "f58b56dc98831dd90724a6932ccf1582d3abbf507298a8afbd795ed55f5094f5",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:953e700fcaa5448df6b92f711ec18206dcaf3b9f8f76acddb04f2bf96ad00b56",
+        "assessment-sha256:a83eb3522a14f93116b2be80ae7684b41ec6242379f573a47791ac9e5016ff68",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.52"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "953e700fcaa5448df6b92f711ec18206dcaf3b9f8f76acddb04f2bf96ad00b56",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "a83eb3522a14f93116b2be80ae7684b41ec6242379f573a47791ac9e5016ff68"
+      }
+    },
+    "01m6f1dcc2xzzcmrzf4fj69mtx": {
+      "relevance": 2,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "18609d7579b3ed504d4f62ca03620d7769c994f45fdab70e08511c90e3f6d539",
+      "evidenceFingerprint": "bd4029986786f40a0f257ac8b61e50ea2c0d427fc7cffc9d49459a7021008e75",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:817c0bcf58e12f9455532779beca83930f5c633270d101719d899867effef699",
+        "assessment-sha256:5fe0b613a5c206da20d7dfeb38fedd44b35792eb7909dda29e9317a3ec37e2f1",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.53"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "817c0bcf58e12f9455532779beca83930f5c633270d101719d899867effef699",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "5fe0b613a5c206da20d7dfeb38fedd44b35792eb7909dda29e9317a3ec37e2f1"
+      }
+    },
+    "01m6fraa3jk50k6cpxfbgps5bv": {
+      "relevance": 3,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "2cda96e5353212e598ffedab64fd2025978b5c567fa9c6b1995e4fe448f44a84",
+      "evidenceFingerprint": "899602b8cc54996bc50a310bf578a42b06076da4fd380a79d1095940f436345c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:8cc66c59ca057a637f1d53e0b6f4c5ea1ff95e8d76202e90928b752e449f4403",
+        "assessment-sha256:865a7409854050dd9e55151041c1586eb7c315d1098e6324c4f172d02d29f442",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.54"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "8cc66c59ca057a637f1d53e0b6f4c5ea1ff95e8d76202e90928b752e449f4403",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "865a7409854050dd9e55151041c1586eb7c315d1098e6324c4f172d02d29f442"
+      }
+    },
+    "01m6fxfea28zvchzpce15v3kxg": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "58c35223064b624e378f056b4314b45d1fcf4f33d7e5b51c7266362ae354942a",
+      "evidenceFingerprint": "bc89e8e0eb5328acf0bfe63672314032fade324edb89b0f81ed3699e52585e6a",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:dbf7ec0e1b79c168e783f53dd8cdef12075f563c4f7ff49fd0d210feceb7ed4a",
+        "assessment-sha256:bc7f686e0329ec26345561e4a34d7060923cb9c51c0053f62a8bf1c6a0ae191d",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.55"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "dbf7ec0e1b79c168e783f53dd8cdef12075f563c4f7ff49fd0d210feceb7ed4a",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "bc7f686e0329ec26345561e4a34d7060923cb9c51c0053f62a8bf1c6a0ae191d"
+      }
+    },
+    "01m6g3ewpxxg560fr9h0nt0a36": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 4,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "9ae43dfa293bcd0acfb6bab6ba48aa39e153f546764e30a030b20054a30934e0",
+      "evidenceFingerprint": "1c789ceb15d38b42b43dd7a0116993f16d581572bf4508c051993f5c1c653b5c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:f272de6f609b65a50e4b8f440950ee437b4f1762f1e12ea4f0b94ad6ba907477",
+        "assessment-sha256:c759277929a012541677ed656c4366423df40d2230c2da7422d00cbafe603285",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.56"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "f272de6f609b65a50e4b8f440950ee437b4f1762f1e12ea4f0b94ad6ba907477",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c759277929a012541677ed656c4366423df40d2230c2da7422d00cbafe603285"
+      }
+    },
+    "01m6gbsmqtbdk0m3gejz91p6rx": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "27010be244e743b70816f6ad60b7fd99c7262b077017aefc4a4bcf61d04a6e60",
+      "evidenceFingerprint": "1499844ac62e99d9eb574b6c1777c981f331300c2f73b758d2f13251d382c4ff",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:226c255a66efb86f5b6ef97861aed05b276fd0c872befe41a6ca32fbe03fa24d",
+        "assessment-sha256:58387cfb50bdaa989eb9bcc1a14360f41dcfd794249b826c88cb5a775ef26c3f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.57"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "226c255a66efb86f5b6ef97861aed05b276fd0c872befe41a6ca32fbe03fa24d",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "58387cfb50bdaa989eb9bcc1a14360f41dcfd794249b826c88cb5a775ef26c3f"
+      }
+    },
+    "01m6gdexrc06tk5rwtcvgrc05x": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "999e522986f424e8ca475b6b05f9634a5fc5867722af63b713e06bd17468da75",
+      "evidenceFingerprint": "f3828c0b1b95ff837da4184979c972be1ae02013159fbfccd40f990d441aee14",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:909344e127cdf21e93be5411b69c519265bcaf4fad1edb6ed02390a282872f24",
+        "assessment-sha256:b9567992fbfd3dcc954c3f44260a059ebaf1144b3d63df8d96c9441b760f2b78",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.58"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "909344e127cdf21e93be5411b69c519265bcaf4fad1edb6ed02390a282872f24",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "b9567992fbfd3dcc954c3f44260a059ebaf1144b3d63df8d96c9441b760f2b78"
+      }
+    },
+    "01m6h5gr31djhj4qjxzbz2eyjw": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "2129c992d6d20ceaa9b2cdc9767c79a8459f33c1e7c1b9492b884fe02dcef003",
+      "evidenceFingerprint": "6f86e47574decc5257bffa8ccc3451ece1d89a2f3512dadcaefab439dc4b6aaf",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:54779f64177984a7bad978d730ed1666e0aa550cf06db2dbcfa3d78cf214f2fd",
+        "assessment-sha256:d2d85208ce2d059afed26cba806d139923053eb5aaf40451986b2e47a665d983",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.59"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "54779f64177984a7bad978d730ed1666e0aa550cf06db2dbcfa3d78cf214f2fd",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "d2d85208ce2d059afed26cba806d139923053eb5aaf40451986b2e47a665d983"
+      }
+    },
+    "01m6h5jak19ct1z4w0yfdn9281": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3bf5331ce9ef3c803ef018102b4059b93627d126eec88f7c607fa63070f40498",
+      "evidenceFingerprint": "d6aea8d0006f0fcc6c20d40f31f7a88ffaf0582ceb4be84294e72696d2591075",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:3760722d33bc6edb222c486b15ccdf4593cd0101f19c5f678e4a8f8fb21976ba",
+        "assessment-sha256:07e9870cd744ef3438071db9136849e07c54aa9a89e2c95bc55c76f75ade4c31",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-a.json#items.60"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "3760722d33bc6edb222c486b15ccdf4593cd0101f19c5f678e4a8f8fb21976ba",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "07e9870cd744ef3438071db9136849e07c54aa9a89e2c95bc55c76f75ade4c31"
+      }
+    },
+    "01m6h80zhs1mdwny5akhnc3y12": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "23a4f7657e44a81a75f97c684eaea25919dd207de1ba7d4c075e4c2c2895ebfe",
+      "evidenceFingerprint": "b58c3d70633d0d550bd3687d8885cb91f23db15382de74fdaa7827db45dca927",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:d244a737583b939ecbb69621f64a1598812c4d00595dd74aa6c2302190770a6a",
+        "assessment-sha256:029ddbd1827f9d91e18c940009c3f510f0b43068f6a6277021ce4a62158d9a4d",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.62"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "d244a737583b939ecbb69621f64a1598812c4d00595dd74aa6c2302190770a6a",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "029ddbd1827f9d91e18c940009c3f510f0b43068f6a6277021ce4a62158d9a4d"
+      }
+    },
+    "01m6jzfg5wdcs3hvzsat1trtgn": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 4,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "2e33e0e681c6b1725ea14e3ff5d4795b7e95afd52a8357001876413b05ff3fdd",
+      "evidenceFingerprint": "03976ede5429658634daeb686ac7715fc3fc1f6529c4b740fe0af8d5153ce213",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:9161f70fff907b01c0c93089b728d725c55537e56fa6fbc6e8521a6fabc07685",
+        "assessment-sha256:bf00c76185ef5633086ab8f0fda1f44d2cf603326e68b556d0a64e5d19be9fd6",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.63"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "9161f70fff907b01c0c93089b728d725c55537e56fa6fbc6e8521a6fabc07685",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "bf00c76185ef5633086ab8f0fda1f44d2cf603326e68b556d0a64e5d19be9fd6"
+      }
+    },
+    "01m6k0k9j7yz1n5stfbty2n4sk": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "c96ba1f04e3badf99edeb38e9c17a724d10b8881c30c7acd1e51d4469dd50bc5",
+      "evidenceFingerprint": "0266749709a406724431a5c4cd385f0571cb0c2b0930b614d328775f9ce0eb50",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:17c3fc47576bbc61d1d0bf5e1e934234a9e19b1039ae8e2359d7b55a837f93ca",
+        "assessment-sha256:da6f6265a0248af4b85d97527ed2f505f45494d714e6c5916a33b1547a274798",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.64"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "17c3fc47576bbc61d1d0bf5e1e934234a9e19b1039ae8e2359d7b55a837f93ca",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "da6f6265a0248af4b85d97527ed2f505f45494d714e6c5916a33b1547a274798"
+      }
+    },
+    "01m6k3wkntrgndqw9s434mftyb": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "4a814bdac5318beb0a740c800d52626a5ab629850d620650d38bf6204b2751c9",
+      "evidenceFingerprint": "8a3d01f6cf2cde90d81c06bbb031eb2a780d3ef1e2b1e00e3efeac0fcbd8b6fa",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:572e7fdcbaa962bb02c4d3b657096fe7ab3a6cbfd4744df070d947d58414cd50",
+        "assessment-sha256:9502fdbd6ebe7f22a83057892506ac973a78a0257628226e4c4e13075bbc40c1",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.65"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "572e7fdcbaa962bb02c4d3b657096fe7ab3a6cbfd4744df070d947d58414cd50",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "9502fdbd6ebe7f22a83057892506ac973a78a0257628226e4c4e13075bbc40c1"
+      }
+    },
+    "01m6k58mttfa0z5yx1qv6yp4sh": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "565dff79426619be580e26a8c720a934eea933fa85aecfcf0fb304a6fdbc8229",
+      "evidenceFingerprint": "ed05455612ab319ec16a893ee2acc630c87814e9646e5b15c3569a4408a0edf0",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:917dc7f985588a3fd1a18d2ae03ce0259fdca1750162da02a543e2fa9576c50d",
+        "assessment-sha256:be5ecb41888bfd5ab7876f27d0e66923058a2ebfabb1328e102818308db56ddd",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.66"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "917dc7f985588a3fd1a18d2ae03ce0259fdca1750162da02a543e2fa9576c50d",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "be5ecb41888bfd5ab7876f27d0e66923058a2ebfabb1328e102818308db56ddd"
+      }
+    },
+    "01m6kbasmkpj5e6cyj7z2zt7a7": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ae4eda67d6a44fb175f2c23f4e613f047bc1f49c7242c63573d6d54fd05a94a5",
+      "evidenceFingerprint": "b222fae838a67046f3e9b16dd533df73bf5da4e7cdd3692d9ef07340a11bb371",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:e2ebd424d728367b6287f3fe4594db578c80a51150f352e64ecc2368103c4d6e",
+        "assessment-sha256:96150f2bed0401ea221838b83991ec5a8d938b3a5eb66531f13cada797d421be",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.67"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "e2ebd424d728367b6287f3fe4594db578c80a51150f352e64ecc2368103c4d6e",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "96150f2bed0401ea221838b83991ec5a8d938b3a5eb66531f13cada797d421be"
+      }
+    },
+    "01m6kgdf12vf137vy60q6dzq11": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "dfa4702c7f15c263e97c275524678e35fef1fbf522cd788a645d8a69c7b0e3e6",
+      "evidenceFingerprint": "31c6894ff4401d5a11b4cf61de401b168343abc9e4c38ad0b08ee1113044789c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:4e8de5b03930eb9e7c27866f128bf9f887fbcc4bcf3a2ae5ff67872a792c4143",
+        "assessment-sha256:34de40962ba7d313f5ae18877ee9a18857348e3fcc40677f0442ff918d408fed",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.69"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "4e8de5b03930eb9e7c27866f128bf9f887fbcc4bcf3a2ae5ff67872a792c4143",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "34de40962ba7d313f5ae18877ee9a18857348e3fcc40677f0442ff918d408fed"
+      }
+    },
+    "01m6khb3tebqkeh9r2apnntgct": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3905e55cfe060d8f92269c5feb8a01c9ee8b139c35b138ea4a901791853f2f96",
+      "evidenceFingerprint": "12cf86e9e3556f968abb2357aa4a37ad8a4956ef1569f3c68613a99be35b3e00",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:7ffb6d17629f1fff7af02092ada75398ee4adb26af3aa769b3679959f7a81c12",
+        "assessment-sha256:8175995612c70acd6d48c89ef01e8a6bc54bcf70e00e56b1549fbfec83ef4f35",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.70"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "7ffb6d17629f1fff7af02092ada75398ee4adb26af3aa769b3679959f7a81c12",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8175995612c70acd6d48c89ef01e8a6bc54bcf70e00e56b1549fbfec83ef4f35"
+      }
+    },
+    "01m6knewadxyksngqcjeq605c9": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "0021ef6029584b84e30410c34aa841f3174bca419e6d2c02a38488a46f50f12a",
+      "evidenceFingerprint": "a7e7c87f524e31dc88a44341e570896cdc5c94eaca40cb767804c81eb8fa6088",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:db6f37a73667a24cc9477ab81ba4447e14270427d2998dc2bf3149208c605092",
+        "assessment-sha256:4887348da07d05edbae4f6292bcb4c3523e8e0663d6cae22d5ecc7d5a9cf611c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.71"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "db6f37a73667a24cc9477ab81ba4447e14270427d2998dc2bf3149208c605092",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "4887348da07d05edbae4f6292bcb4c3523e8e0663d6cae22d5ecc7d5a9cf611c"
+      }
+    },
+    "01m6kzmgehvgtkmcnevsp3yj9b": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "62d917d9fe72e3e52c95d971ef6f92d0eaa1e8716286dc67f0f7479caa003c1e",
+      "evidenceFingerprint": "07ebed6ce45cb489d2b25fc7405c82354d536ca485d2d5e338db7cb1ef1300e3",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:ea3c7ab9f6dd13bf80823b57aaad775bc296b45be561704e9ec34082aa53db68",
+        "assessment-sha256:648543460d590001ed8e746851e5ade258bbe5ac7bacf94f5bb5b0766495e5ea",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.73"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "ea3c7ab9f6dd13bf80823b57aaad775bc296b45be561704e9ec34082aa53db68",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "648543460d590001ed8e746851e5ade258bbe5ac7bacf94f5bb5b0766495e5ea"
+      }
+    },
+    "01m6m9gqd12whecmf6esgnbnd9": {
+      "relevance": 3,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {
+        "social-studies": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "07660e0bb4c829dd44ed47e08e06901fb2e492a8d476e7773a5699a50b0b0358",
+      "evidenceFingerprint": "5ccb9283fba5363bc2ba9e0f37331ea18d4759856bc3858a723fec9a14b5d94c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:0a51b42b9a4e3c7934fb73cbeafba93451c79e819e9a18e4f994a35ec40e86b2",
+        "assessment-sha256:59c5895a38cf50d31f4490ee4918346892a4862a0916841c543357c26753306a",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.74"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "0a51b42b9a4e3c7934fb73cbeafba93451c79e819e9a18e4f994a35ec40e86b2",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "59c5895a38cf50d31f4490ee4918346892a4862a0916841c543357c26753306a"
+      }
+    },
+    "01m6mqamyd6214j5hwtr3ah26q": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "cd0dd5548027437fb8c89c7680d2625ef59233cb226578f16cd073a95279a957",
+      "evidenceFingerprint": "ec635b5807c4d90c8f9b03f67a8e6f38c31ba4223a4c8572194b12703b50ed32",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6426485e739107e9c1eefd72bc6810936b8802f3fd6dfbb2441dc7bfad5fbdc3",
+        "assessment-sha256:c261a3a3204c8965c0703d6f213c08c19cf61ba2dbeb700a7e56970ab97c39d3",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.76"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6426485e739107e9c1eefd72bc6810936b8802f3fd6dfbb2441dc7bfad5fbdc3",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c261a3a3204c8965c0703d6f213c08c19cf61ba2dbeb700a7e56970ab97c39d3"
+      }
+    },
+    "01m6n165y3a1wn992zjh6cj4rt": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "e81bae211684d23a082eb170e44f33e5064b9b107de12c674051abd796dd1f6f",
+      "evidenceFingerprint": "a0c600d8ca3985ae4a3bfb90c1208379f534a17ace18a200f74ac6ac5f6e9bec",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:036ce27ec18daee82936f58c5a36750a91589b4aa0a9f3284cca631e80df18cb",
+        "assessment-sha256:740c4d27b454b9216497c4a32c80a0a4177a6e4ccd11030b2af5a804b1783c86",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.77"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "036ce27ec18daee82936f58c5a36750a91589b4aa0a9f3284cca631e80df18cb",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "740c4d27b454b9216497c4a32c80a0a4177a6e4ccd11030b2af5a804b1783c86"
+      }
+    },
+    "01m6n18d531gq9eg7n11bh5021": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "e9b4d33b311a84054c70ba7acaea5e24bd66f1cdeb8e189b30737144543871ff",
+      "evidenceFingerprint": "87fa10bd29d9522163b9eb8a83d65e10fe046f6982a15e50ba5dbcba95cc22d2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:06db2a32b549134c9290384d35c9ad5cb443e2258220921398f188b47f1cfe91",
+        "assessment-sha256:c8bc68b6840a7a3dd2adb07976521325c346221367fdb3a59b0246e43ca2dc3b",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.78"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "06db2a32b549134c9290384d35c9ad5cb443e2258220921398f188b47f1cfe91",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c8bc68b6840a7a3dd2adb07976521325c346221367fdb3a59b0246e43ca2dc3b"
+      }
+    },
+    "01m6n25rva57mt7xs923hyph6v": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "989cb5f68a7156957459e14da15172b9fcd5b0377a674b7b02bf6923597625f2",
+      "evidenceFingerprint": "ba53f2f4a5595e04c03031aa771df093d976d2deff4b33bf231f7335e7f54b2b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:a599c9d77d1e3039fa05c9ea1cb2e4a1f6057e480dd52ae63d82a635a11ea10c",
+        "assessment-sha256:dce6f17e62a595b24bd14bbabc2c7175b03a78fef198e0b94b745c39d4b7e18e",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.79"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "a599c9d77d1e3039fa05c9ea1cb2e4a1f6057e480dd52ae63d82a635a11ea10c",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "dce6f17e62a595b24bd14bbabc2c7175b03a78fef198e0b94b745c39d4b7e18e"
+      }
+    },
+    "01m6n7jg41bwzr7e144t93cpv9": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a6f2273fb27d0be3f37d84ac052eda0aff57af19a618d9dd48144b67507c0bf6",
+      "evidenceFingerprint": "06f0321f5622a9c734293903198ab37de860d376256240725d004ae8524144cc",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:ce1c0ae930e686c5c7792dfab91b8c878df096729cdfd8c740dab6e1e501277a",
+        "assessment-sha256:e66863549546c4264bf5e20eb652678489cb84898f4887d6c4df425ff73eec2c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.80"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "ce1c0ae930e686c5c7792dfab91b8c878df096729cdfd8c740dab6e1e501277a",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "e66863549546c4264bf5e20eb652678489cb84898f4887d6c4df425ff73eec2c"
+      }
+    },
+    "01m6nf9rpvcc8dy5pzx2vjrwkc": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "7944a5ae6ff0cb3b4c36d43ac61170a9410af58e16466d033294ea3899eff38c",
+      "evidenceFingerprint": "2a70fc2bf2b68f847ce6f5178adc0181244ade948e377bfba10b1326ff238f2c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:0871456503850cde3d5a7ae73894cdde5995e72cdcb119643a12ba2d6fc88f16",
+        "assessment-sha256:59584b22bf468f5766d2d9b707654d04e254f7145b665e2ffc1b0f052af0b6aa",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.81"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "0871456503850cde3d5a7ae73894cdde5995e72cdcb119643a12ba2d6fc88f16",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "59584b22bf468f5766d2d9b707654d04e254f7145b665e2ffc1b0f052af0b6aa"
+      }
+    },
+    "01m6npbes0gf4vrryyah91f7h5": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "10ab374aa2fa6e1ccc95441ccf46dfeccc3c40bdcc809049d3e7f1f41786fa3c",
+      "evidenceFingerprint": "aa4213d137846e0b51a48455fe4b90ffc567b8b6299ad1f9f213190e2628bb79",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:754c7badedf13dc89bfbba109d4fa0771d43f12c0021ad4928aea67769b7f597",
+        "assessment-sha256:fdf3338a98537f92fe61c9bf20873ad08a3afeab9304d95900fb51a794f55047",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.82"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "754c7badedf13dc89bfbba109d4fa0771d43f12c0021ad4928aea67769b7f597",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "fdf3338a98537f92fe61c9bf20873ad08a3afeab9304d95900fb51a794f55047"
+      }
+    },
+    "01m6npdtp3d1g12p0ezaw954gx": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "302316e1e7e69e2441ebc269c20fa521b629028b6bfc4e31cbbe0fee157fd2e5",
+      "evidenceFingerprint": "acc54d356f30e40bb94985907512c607f7c90ff4a838f1be595b5c17f494de9e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:295f20f41ce2bc38e38ad082ceb4a95d482e3599d11e4e3212a07101dfcd90ac",
+        "assessment-sha256:08bf426fff9836d9df13ff4cdd92910e9f91a21ace6c6c91ca118634f0321dc3",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.83"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "295f20f41ce2bc38e38ad082ceb4a95d482e3599d11e4e3212a07101dfcd90ac",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "08bf426fff9836d9df13ff4cdd92910e9f91a21ace6c6c91ca118634f0321dc3"
+      }
+    },
+    "01m6npqmj7f7t53f8b7spac12n": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "7bfb302941c6968e22d5cd7f0b44ea800790ca0465693798802cd281505097b3",
+      "evidenceFingerprint": "940720ac6c1c81bc72209014730cb4023a9efeb97a4ab4a8bdc9b8dcd68367de",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:37a6e3d061edb71bf5254c6a26442a7b02d9c23e87a1007caf2bf22df1cd2e3d",
+        "assessment-sha256:8c87231ed991a23bf83452f47f2893dbd3ca49a9d632126beb4a77eb3cbdd6b1",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.84"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "37a6e3d061edb71bf5254c6a26442a7b02d9c23e87a1007caf2bf22df1cd2e3d",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8c87231ed991a23bf83452f47f2893dbd3ca49a9d632126beb4a77eb3cbdd6b1"
+      }
+    },
+    "01m6nqnf6mhpqwqcx4azhksfyf": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "3ec1eca6e869a260b73311580062d53b943b61e1b928e4350e3f92adcd9e2b00",
+      "evidenceFingerprint": "f09be0f93b56625f49d135b72abb8e5b04ae775a1d0623ba1326a3cbbeea4643",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:f2d63b6e0b7ef47a2d3143aabedd38fd1ff7df2a6cea104d90b6a902c6b0472d",
+        "assessment-sha256:637797585ae10e812809a411c89a7d40a40570339524b95c0b7234c938fc7426",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.85"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "f2d63b6e0b7ef47a2d3143aabedd38fd1ff7df2a6cea104d90b6a902c6b0472d",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "637797585ae10e812809a411c89a7d40a40570339524b95c0b7234c938fc7426"
+      }
+    },
+    "01m6nx2adsqtdxvsx9yfd3a86g": {
+      "relevance": 1,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "6105dac33faa1bbba5a0f91315f7b2947d5f04a546b1e49c8493a9c5ccee2939",
+      "evidenceFingerprint": "a5dbf9da5812279ce57016ada272d960539228fe1778b4f5d824c085ad9b4a6c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:2f829d7f088d4e617b0e4ae2fb2676c49f4fff98db210b93a42ab2df1bbc1233",
+        "assessment-sha256:a0b064dbe5f638cce6dd12e94f56d675e10236e7dff9b388a56e6bd30cd42a70",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.86"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "2f829d7f088d4e617b0e4ae2fb2676c49f4fff98db210b93a42ab2df1bbc1233",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "a0b064dbe5f638cce6dd12e94f56d675e10236e7dff9b388a56e6bd30cd42a70"
+      }
+    },
+    "01m6p3a1zfeyf9097k7257x284": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 3,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "scrum": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ca35f8d9fe998f50cf0576fcefb10dcd71e51c4e437cf176c68533136c5aedaa",
+      "evidenceFingerprint": "0c85436aa84a16ed5c5b365bf5efd7a46bb98d529e1946ee0ab5e74b190d38b6",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:63e008566b466e052ed9c3b19b134e0150a4a0f87dbb398a78aeb79019f48323",
+        "assessment-sha256:a5335999d0c8c36a1e35b90db67d1991d769ac2f7f04e853becf4dc5c98e8970",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.87"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "63e008566b466e052ed9c3b19b134e0150a4a0f87dbb398a78aeb79019f48323",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "a5335999d0c8c36a1e35b90db67d1991d769ac2f7f04e853becf4dc5c98e8970"
+      }
+    },
+    "01m6p3e7f5n4vssv1zgjppd8r9": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "7777592c30b954c85b4f6e015ac6a955dca2b8aaa3ffce96135e2cfd9d852209",
+      "evidenceFingerprint": "81a9afe9e345204b43db26289132ebde4934b29afc68e2c1804a808b5799eb15",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:4fa7e250d70da737bbe33fcad988011f0a75b810280f64523c0b0d3280157495",
+        "assessment-sha256:fa3ec1afceb07d0a01eb57c16494b621107c6f67d7725f92627b3b6615affb6b",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.88"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "4fa7e250d70da737bbe33fcad988011f0a75b810280f64523c0b0d3280157495",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "fa3ec1afceb07d0a01eb57c16494b621107c6f67d7725f92627b3b6615affb6b"
+      }
+    },
+    "01m6phcnk63qwn0xp5e71hgxfj": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "c61a9ee78e7c3f4f1739e812be0d56923edd272b4ca80857df317897115a7dae",
+      "evidenceFingerprint": "2f59f2b5dfac4366b8bf5b1b13d67830e4868b3cf47a413a574e5a22af8fa901",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6a05e04f2413c613fbaee70f9a86d4ae3ae2da584b19e894a7eb28c0ebc7a6a0",
+        "assessment-sha256:84860afd36343d94b19f8995678fb26c0c708a75b5347dd2fbc709c60cbb721f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.89"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6a05e04f2413c613fbaee70f9a86d4ae3ae2da584b19e894a7eb28c0ebc7a6a0",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "84860afd36343d94b19f8995678fb26c0c708a75b5347dd2fbc709c60cbb721f"
+      }
+    },
+    "01m6phcnfq5nxz7z2h342ma8cf": {
+      "relevance": 3,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "79b6847ba9ff48e94b00b28a41ee6006d15f8d353259164fcfa6227a8c004f59",
+      "evidenceFingerprint": "57e9a04b48a75c53ce58cd0e80940e8edaaf9d5908ed945f9f79960ef6d08d3e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:afe733c93b156efd18ea3ca7f240e07a67272106cbc0c65e74774b527bd55372",
+        "assessment-sha256:c483b265ac2b55c3f550936a7170ac6c54ce69cf826b5bab04aa3f05be1d001e",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.90"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "afe733c93b156efd18ea3ca7f240e07a67272106cbc0c65e74774b527bd55372",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "c483b265ac2b55c3f550936a7170ac6c54ce69cf826b5bab04aa3f05be1d001e"
+      }
+    },
+    "01m6phcn8q5bx70y5tsxh1a36e": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "273be572bd549f40eea6db464bf9ad2787ddfcddcfd2990d211f59d7139fb3cc",
+      "evidenceFingerprint": "d2e0b220974a4b4476d8ec5629553cf690786009b1294f7174f0cdb8e249472d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:199edf28b86622ca74a2f3c3f4a4cf6b950b3ded5747e510551d12054699dfcf",
+        "assessment-sha256:624e6389ce588b7dbc6c7f662dfda28faa38cc9a6bc604b56324eb2259f11fa7",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.91"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "199edf28b86622ca74a2f3c3f4a4cf6b950b3ded5747e510551d12054699dfcf",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "624e6389ce588b7dbc6c7f662dfda28faa38cc9a6bc604b56324eb2259f11fa7"
+      }
+    },
+    "01m6ppv0aejybgywfk4jraab2z": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ae717efd80b9891712b0d584e7a7954f092b579317ee960544f38d0ceaf488e2",
+      "evidenceFingerprint": "68e5c700be13e374a487bea899609f46c21927f46670fa69a319559feed2db0e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6d960302f4814decdc687d205c46364c200b3567f13119ddc713021a1a00c94b",
+        "assessment-sha256:37efa51b5b49ed62265028c170dd4fc3710b30f3be9ba8e7dfd5e6d93ab308fa",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.93"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6d960302f4814decdc687d205c46364c200b3567f13119ddc713021a1a00c94b",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "37efa51b5b49ed62265028c170dd4fc3710b30f3be9ba8e7dfd5e6d93ab308fa"
+      }
+    },
+    "01m6pstjmx64q9zfy4sg3cwstk": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "d8c45a0547b41db15f85ac42f5f770ac7632a1b6e900adefdf964bb626884456",
+      "evidenceFingerprint": "cb0231c55c5917ea00b7033277c120fc3d248f4f30408a348025d8066b125acd",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:6bd406486267968a05f83a1f4b48af6350a1c3a58c936f50156d662c4a792f1a",
+        "assessment-sha256:cb6ff3aaf0759e9564508f840cc8d127d0c6dfacfbeb7b4137d9618f9f56bef4",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.94"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "6bd406486267968a05f83a1f4b48af6350a1c3a58c936f50156d662c4a792f1a",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "cb6ff3aaf0759e9564508f840cc8d127d0c6dfacfbeb7b4137d9618f9f56bef4"
+      }
+    },
+    "01m6qzwm572de8kkxcksrz4m1z": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "scrum": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "1813b7d5f51cd25f8edb279834d4de10e06e2c3412061c71d0351aa2528c2864",
+      "evidenceFingerprint": "3ed45fb733aeb65df99e0b5dbbf8452f91898ebc99af0db8b4a7208d56fb3c11",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:930a7f0162c58516bc0e03439fc88387456bbd5c97af62d56405eeafb1feddbb",
+        "assessment-sha256:60a5dc3cec0e3e0f74981955a98a06b0f922ddf418f8ab4dc046aa9e194843e2",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.95"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "930a7f0162c58516bc0e03439fc88387456bbd5c97af62d56405eeafb1feddbb",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "60a5dc3cec0e3e0f74981955a98a06b0f922ddf418f8ab4dc046aa9e194843e2"
+      }
+    },
+    "01m6r2vvcw11h9egjqdzq32pkg": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 1,
+      "usefulness": 4,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "f1e15ffdc2a064594de7140e896297ea8332debad896e10542d145b9e2d8105d",
+      "evidenceFingerprint": "d4bffc6b0b36f13f3adbce3f4d9ffb096bfe5dcce8038f291b2f2ba392e3de24",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:9326cb42f371b5623ee7aa3f880bcc88a304c80dd3e0d54c3b687714ddb51804",
+        "assessment-sha256:f497ac0de70dd609f9617bbe22cac82a886f2e3a985e6e9c69b74956c04889b7",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.96"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "9326cb42f371b5623ee7aa3f880bcc88a304c80dd3e0d54c3b687714ddb51804",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "f497ac0de70dd609f9617bbe22cac82a886f2e3a985e6e9c69b74956c04889b7"
+      }
+    },
+    "01m6r9xeqxecb7ya599pv2wv9x": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "e931e4dd9f88f14f7d57f38720cbaff1ef83d8580e67ab87ec0ef4e14856fba0",
+      "evidenceFingerprint": "340b3b4d9c6b61faa9914f27fb7bfee298b46a1a98f77fe5c0ceb8b304f251fa",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:394aca4f74825c8fb248b46c16d799af8549015e74ca182478d44b95b1de48a8",
+        "assessment-sha256:3d870c0a9a606444a6aed67559af1be32333d4af34a3834909379ba16aa06fa5",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.97"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "394aca4f74825c8fb248b46c16d799af8549015e74ca182478d44b95b1de48a8",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "3d870c0a9a606444a6aed67559af1be32333d4af34a3834909379ba16aa06fa5"
+      }
+    },
+    "01m6ra898yp217txe093tp1hkz": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "ac6e68bdb2a43cb0afe26bdc519babf46d86a016d29661d490377fa24b3b0365",
+      "evidenceFingerprint": "728839e592ca5e18088a31e421b8b9f0af90920a409486f948f1e8aedc68db1c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:2f14d50480464699046af19a7ebf5a79ca01ded75f102f9ae37c57d9bb5fd0fe",
+        "assessment-sha256:0a8fee51f161c4eec3886e0d98b5982f3fa7d883bd05f0dad1db1cf834aed92f",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.98"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "2f14d50480464699046af19a7ebf5a79ca01ded75f102f9ae37c57d9bb5fd0fe",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "0a8fee51f161c4eec3886e0d98b5982f3fa7d883bd05f0dad1db1cf834aed92f"
+      }
+    },
+    "01m6ranw5mr62qbg750avkzxe9": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "547717b7afd376ab57703b0c1d63bbb725e9c287e11b51e6950bf7169c511d53",
+      "evidenceFingerprint": "e7c0f25e559506769328d6b9a67c2b7fad2b31da8ca2fdca9f33dab57e7ae253",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:8222e207e76f7cc19464e58b944f9287931ee270c76997ac589c75a9fa442150",
+        "assessment-sha256:ff5299030fac28faab3554c3c3d92676b294f03cde044db0cd6fcba65afec954",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.99"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "8222e207e76f7cc19464e58b944f9287931ee270c76997ac589c75a9fa442150",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "ff5299030fac28faab3554c3c3d92676b294f03cde044db0cd6fcba65afec954"
+      }
+    },
+    "01m072k5pcs8smv4xq9jmm5jef": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "software-development": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a17b3eb2ee0410bd89c261ec16dcde9867fe52a8d5158bfad30fd522e930ba51",
+      "evidenceFingerprint": "ced1629accbe9163109cf2d2d11c7f5d745dab07c27b81ab98adf6124d8ffe8c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:4e7efb3d6e6b0ba0bdeac3d08cf7b8947757f8e0bde2f96dcf04be41b4af3a98",
+        "assessment-sha256:8da3a756b4d2001b6beb1f28ecf099d7008c11711ec4676dc76d6a3a93a75aab",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.103"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "4e7efb3d6e6b0ba0bdeac3d08cf7b8947757f8e0bde2f96dcf04be41b4af3a98",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "8da3a756b4d2001b6beb1f28ecf099d7008c11711ec4676dc76d6a3a93a75aab"
+      }
+    },
+    "01m6rxncwce17pevzw7etzbmqk": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": {
+        "software-development": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "c2c4e5e3125099fc38725a75ad24aedbc9957aef681466bdef9bb7eaffe398c4",
+      "evidenceFingerprint": "e0df83f1ea3f0f8c3e8841b760fbc5f522ab7fea21afeb3f6e0867fab9c7a88d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:2a49df8b565e891abc1cdaf55086247c54ce5e31f155fe7bdcff39dd5e340cb1",
+        "assessment-sha256:90b5fa66de5373de6b9e5566842e1f727942ff397e5e8ed6b7a315b89b65b14e",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.104"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "2a49df8b565e891abc1cdaf55086247c54ce5e31f155fe7bdcff39dd5e340cb1",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "90b5fa66de5373de6b9e5566842e1f727942ff397e5e8ed6b7a315b89b65b14e"
+      }
+    },
+    "01m6s30hm9h07nn74ycgy69qt0": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 1,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "f1d843f934b91b6f0c3a8a193b3d6c26825e61e70e224e915c0e7873fce1a24d",
+      "evidenceFingerprint": "b478d24be386432e68371fbed6e2eb3ee42cd4cf1cef536f446ba60e718bea14",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:af06524fcf8f28f46db9c4502f3b9ce277567baac97cec263b337f9bc264afc5",
+        "assessment-sha256:b9897df9d0661585100bd709ba861e0fe87507056072c2d77d81e8c2961cceaf",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.108"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "af06524fcf8f28f46db9c4502f3b9ce277567baac97cec263b337f9bc264afc5",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "b9897df9d0661585100bd709ba861e0fe87507056072c2d77d81e8c2961cceaf"
+      }
+    },
+    "01m6s30qjmt8e0s5bbdde03g00": {
+      "relevance": 2,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "58c9aa75f9c8bdc2daaeb3078d72fcc831255e9aa9f08ad37c7dada7e1222420",
+      "evidenceFingerprint": "6a2542d4e2b9610ddf67c4645ebbb3cefa660fae34251f9fd2667547dee0d455",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:d47400a050572804324e2d95b31668bfef489e8ee8c1eb09276922a7d6ae0a7e",
+        "assessment-sha256:9608a755c62c0713f46fb37e9c18774316643b5806ca16a874ad5f2565792a1c",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.109"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "d47400a050572804324e2d95b31668bfef489e8ee8c1eb09276922a7d6ae0a7e",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "9608a755c62c0713f46fb37e9c18774316643b5806ca16a874ad5f2565792a1c"
+      }
+    },
+    "01m6s30wm16vpbywvyjfczb6av": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "2c9b00764f8e602da5e7a566db07af102c6a2c5f2bc2a0c1cd0e88725e2c7785",
+      "evidenceFingerprint": "ee1f4ab91cbd7b814339924a95bdc2fcfdb1a64fe01ed8469f0009c1bc753bb5",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:7ffeba2f5763126cb252006bdffe6e3d67f4ce45f57984b9e56f845165f7dcc9",
+        "assessment-sha256:0ddfdffb6006ad337562f139c9c39d52111f794a3beca284e8296d5f4121bad5",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.110"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "7ffeba2f5763126cb252006bdffe6e3d67f4ce45f57984b9e56f845165f7dcc9",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "0ddfdffb6006ad337562f139c9c39d52111f794a3beca284e8296d5f4121bad5"
+      }
+    },
+    "01m6s3119tv38efbw3rpzjsn62": {
+      "relevance": 1,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": {},
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a561fd11412d08754b2c059d85a6c35488abe7a8f53d926f36f48f0b878b0d59",
+      "evidenceFingerprint": "81220f1f7e4c42b47d340b1c45d0334bcba426c2780235b28fec9cdff26a053c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:381f803f2f95b27468b4e9b63d7f59b8812fa87d9ec4281718bffd6f2efb63cc",
+        "assessment-sha256:d2563fccbadb9e78420c655ce55c089ff81340ace8a4137c50613b1cf2880a44",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.112"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "381f803f2f95b27468b4e9b63d7f59b8812fa87d9ec4281718bffd6f2efb63cc",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "d2563fccbadb9e78420c655ce55c089ff81340ace8a4137c50613b1cf2880a44"
+      }
+    },
+    "01m6s4ytbn691aqfcgqs5e73q0": {
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "74823f1ad129021d3909173265b2cda12f338257218e9eeb7a15b9c87da3bc1e",
+      "evidenceFingerprint": "1d2fa9d3bb5485141582bfdf9ff170e8e00ece760a1d949b6957b43b1405ad3d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:d0bc60d3d5c4a4825f0e08177df5bc72cadfbb926097307f6ee6b5b70620c093",
+        "assessment-sha256:762b63f97d26517c9c6fc7b9480720dc9a48afa9085321bf64c3edb3a4ffdeff",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.115"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "d0bc60d3d5c4a4825f0e08177df5bc72cadfbb926097307f6ee6b5b70620c093",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "762b63f97d26517c9c6fc7b9480720dc9a48afa9085321bf64c3edb3a4ffdeff"
+      }
+    },
+    "01m6sch2svmtwggpfbqtysc41d": {
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "68961f05edfcc1ac6291794abb18e08c24d8425b4b41a0f2b0d9eb8425777156",
+      "evidenceFingerprint": "fed6b4c2c101938b7c0ebfbd34d97c235e635ecdba2a7b8fce175c728a1e6911",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:11ef1eb3e7483252326417ce960424cd8f97bff403940a19f33d576c0fd127da",
+        "assessment-sha256:114d8cc130eed6a250a2b91104531d877f4bdbcb5cd654caf731645e770de2e3",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.117"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "11ef1eb3e7483252326417ce960424cd8f97bff403940a19f33d576c0fd127da",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "114d8cc130eed6a250a2b91104531d877f4bdbcb5cd654caf731645e770de2e3"
+      }
+    },
+    "01m6tfhgb8dy99xee97f7fn789": {
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "614fc6bf11b36e9f9ef269004bab194343c77a145a66e74d8a6d64ee2cf91846",
+      "evidenceFingerprint": "7e8d140fc1244aa510104d7bf97df79dc7ce16190b63d8fb4b317041504436e8",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:aad7e208c96262499b2508cde056648e493e8914e9a94f10b6f163aed34b71d7",
+        "assessment-sha256:f43e78890b5e409c9d9a46202e8d0b98eeee56747639644bdb4e586821061977",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.118"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "aad7e208c96262499b2508cde056648e493e8914e9a94f10b6f163aed34b71d7",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "f43e78890b5e409c9d9a46202e8d0b98eeee56747639644bdb4e586821061977"
+      }
+    },
+    "01m6thz0jqetv5mcb2rsd1pzrn": {
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": {
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "48c705f93d24977d3a8ccad6969d47268a614a9f7e07faadd644bc8ce5af408a",
+      "evidenceFingerprint": "ad736cde81952e760dbd96156f7283378cf9ec04393565983297fd3ed8cf599e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:3c39be171d6cc5a0472b740ff132649d6d039be11fcae33e18a5ec82f38270a0",
+        "assessment-sha256:5c4ee404ea20029a4670ceb2dada07f8d63055d1cb47ce41e65b74771a1f422e",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.119"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "3c39be171d6cc5a0472b740ff132649d6d039be11fcae33e18a5ec82f38270a0",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "5c4ee404ea20029a4670ceb2dada07f8d63055d1cb47ce41e65b74771a1f422e"
+      }
+    },
+    "01m6tqfc309dsa303dxwv37m0y": {
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": {
+        "social-studies": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "codex-luna-full-source-review",
+        "semantic-report-import-2026-11-07"
+      ],
+      "sourceFingerprint": "a107a6cfda757398234d077160f1557e25e7f617be97bd8b7af3cd4dab3db6d7",
+      "evidenceFingerprint": "668d7996ab6361c58c314879c2f4565c998ef4252753fb860104e1c713ceab34",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "judgedBy": "codex-luna-full-source-review-2026-11-07",
+      "judgedAt": "2026-11-07T00:00:00.000Z",
+      "evidenceRefs": [
+        "source-sha256:c8397bfc69f0d2e9ec11143277d5e9d0893059e13b732d78643097d334d21c6c",
+        "assessment-sha256:9f6479dab8391de54d308559b179c4a9ee0e2e73ad70213b7023f39336db7e07",
+        "docs/readwise-reviews/2026-11-07/semantic-luna-b.json#items.120"
+      ],
+      "sourceReview": {
+        "standard": "full-source-v1",
+        "contentHash": "c8397bfc69f0d2e9ec11143277d5e9d0893059e13b732d78643097d334d21c6c",
+        "sourceStatus": "complete",
+        "assessmentFingerprint": "9f6479dab8391de54d308559b179c4a9ee0e2e73ad70213b7023f39336db7e07"
+      }
     }
   }
 }
