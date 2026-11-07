@@ -36,7 +36,7 @@
     "review:publish": "npm run compile && node dist/scripts/review-publication.js"
   },
   "dependencies": {
-    "zod": "^4.4.3"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
