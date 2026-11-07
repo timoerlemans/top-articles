@@ -5,34 +5,6 @@ window.TOP_ARTICLES = {
     "scope": "later",
     "complete": true,
     "profiles": {
-      "01m639wbhe2tppkmntphbdw0pk": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m639w91kqfn5nwkx4kfmf11t": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m639w70rqt8swv8jgphbavmz": {
         "effort": 3,
         "emotionalWeight": 1,
@@ -117,34 +89,6 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m639v3eh8y3zpqnfcmffkpsa": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m633tr3dk6zq2a3wymzb8xtf": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
       "01m630n1qbyvwk2m7e32eefkbv": {
         "effort": 3,
         "emotionalWeight": 1,
@@ -158,20 +102,6 @@ window.TOP_ARTICLES = {
         },
         "activation": 3,
         "interruptibility": 3
-      },
-      "01m6253wasaqeqr09esepf6ce4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
       },
       "01m61sjspffcbc39n5vdc1w1qx": {
         "effort": 2,
@@ -355,34 +285,6 @@ window.TOP_ARTICLES = {
         "activation": 2,
         "interruptibility": 3
       },
-      "01m5pja9vm1g7m51acr9ggcv42": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5n14vhxqbqbz5m0t4vnrpmg": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 0,
-          "verkennen": 4,
-          "verdieping": 1
-        },
-        "activation": 1,
-        "interruptibility": 4
-      },
       "01m5m4makfc0pnx0qq5sdbff6g": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -523,20 +425,6 @@ window.TOP_ARTICLES = {
         "activation": 1,
         "interruptibility": 4
       },
-      "01m5gwt14r8ebqanamy80vgk6n": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 4
-      },
       "01m5gwp6ep6gvcf3xx3cb3y5p2": {
         "effort": 2,
         "emotionalWeight": 0,
@@ -550,34 +438,6 @@ window.TOP_ARTICLES = {
         },
         "activation": 3,
         "interruptibility": 3
-      },
-      "01m5ftnbrjf5btmyd44aqah2sg": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5ftnbj89zvdrzraz9rv4fqj": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 4
       },
       "01m5f3r12kh3x5fyhkkevzb97a": {
         "effort": 2,
@@ -747,20 +607,6 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m56r7aw786wk9a6kc6kf4zfy": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m56pa85xwwv9nzyqz2kf4pkv": {
         "effort": 2,
         "emotionalWeight": 3,
@@ -776,20 +622,6 @@ window.TOP_ARTICLES = {
         "interruptibility": 3
       },
       "01m56p9757qs78686smx9cvxrp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m545jh1b36vp93z7y5xg0j2h": {
         "effort": 3,
         "emotionalWeight": 3,
         "tone": "intens",
@@ -838,34 +670,6 @@ window.TOP_ARTICLES = {
         "needFit": {
           "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m530r3z9f8ngeabyzkfp0h90": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m52v47tcgb0r8g9zp2t5sb0a": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -956,20 +760,6 @@ window.TOP_ARTICLES = {
         },
         "activation": 4,
         "interruptibility": 1
-      },
-      "01m5047m2h6rg4yac579cq8h45": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
       },
       "01m4zyxsb59qr3v6e8t0tvtn61": {
         "effort": 3,
@@ -1097,20 +887,6 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m4yt70bw7wdtpswabmjwr5ck": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m4yt6xy3kkmz3q1kqk3s2jzb": {
         "effort": 3,
         "emotionalWeight": 3,
@@ -1166,20 +942,6 @@ window.TOP_ARTICLES = {
         },
         "activation": 3,
         "interruptibility": 3
-      },
-      "01m4wzexh7q3xmd7135d13ndac": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 2
       },
       "01m4vhf1shc9axz4ck68axr6he": {
         "effort": 3,
@@ -1264,20 +1026,6 @@ window.TOP_ARTICLES = {
         },
         "activation": 4,
         "interruptibility": 4
-      },
-      "01m4qtqgx2she3t2xh4z4qgx3e": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
       },
       "01m4ny01vqj9zf6y2qc6s2v79r": {
         "effort": 3,
@@ -1490,20 +1238,6 @@ window.TOP_ARTICLES = {
         "interruptibility": 3
       },
       "01m48ahd34prmsrfdgerqhjrj6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m463tv9v9ehkfdr0cy5ztc8s": {
         "effort": 3,
         "emotionalWeight": 3,
         "tone": "intens",
@@ -1895,20 +1629,6 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m3gc16x6ngvkfyghamnw0c63": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m3fe92ymyskn9x20za5fda1b": {
         "effort": 3,
         "emotionalWeight": 3,
@@ -2093,20 +1813,6 @@ window.TOP_ARTICLES = {
       },
       "01m3d23rpk52c2w0wbveaf1ywq": {
         "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cwjfaj7qym77emh0jhfn93": {
-        "effort": 3,
         "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
@@ -2457,20 +2163,6 @@ window.TOP_ARTICLES = {
       },
       "01m33sv6k8pxz000kd3nv0jm5j": {
         "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m33f1t1qgfmdw5jw3m1x5hze": {
-        "effort": 3,
         "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
@@ -3099,34 +2791,6 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m2f1qxw8ddqy8yg8bedvven0": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2f1qxfpj7qyzp0fj9d7qbfr": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m2f1qrd2q395gz2wkwc8x1n7": {
         "effort": 2,
         "emotionalWeight": 3,
@@ -3715,35 +3379,7 @@ window.TOP_ARTICLES = {
         "activation": 3,
         "interruptibility": 3
       },
-      "01m1p7nxnhh4j001458qw06n22": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
       "01m1p7414hg20qvstgwygjwdhv": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p73e78g88e21p5pm8ccfy4": {
         "effort": 3,
         "emotionalWeight": 3,
         "tone": "intens",
@@ -4389,20 +4025,6 @@ window.TOP_ARTICLES = {
       },
       "01kye6cwzsz29j9v1g53fzfy45": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kycfev2jfr2v5x5pqr2scxz7": {
-        "effort": 2,
         "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
@@ -5397,7 +5019,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-11-07T14:34:32.937Z",
+  "generatedAt": "2026-11-07T17:39:06.526Z",
   "families": [
     {
       "id": "algemeen",
@@ -13589,6 +13211,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 20,
+              "id": "01m66xp7tm3cy6h89g8pky6gwg",
+              "title": "Robert Caro – The master biographer reflects at 91",
+              "author": "Dwarkesh Patel",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "29 mins",
+              "readingMinutes": 29,
+              "wordCount": 7479,
+              "publishedDate": "2026-10-30",
+              "savedDate": "2026-10-30T17:28:30.292000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c1768176e60314616fa5f68143ae4e6a",
+              "readwiseUrl": "https://read.readwise.io/read/01m66xp7tm3cy6h89g8pky6gwg",
+              "summary": "Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST.",
+              "whyRead": "Robert Caro legt uit hoe hij macht, politieke instituties en biografische waarheidsvinding onderzoekt, met lessen over interviewen, documentonderzoek en schrijven.",
+              "bestMoment": "Als je nadenkt over macht, leiderschap of hoe je een groot onderzoeksproject structureert.",
+              "tags": [
+                "arts & culture",
+                "history",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis"
+              ],
+              "alsoIn": [
+                "aaa-philosophy-top-100"
+              ]
+            },
+            {
+              "position": 21,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -13621,7 +13276,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 22,
               "id": "01m5rrrs6xz132z08z1se2h3yk",
               "title": "It’s okay to be evil if you're talented",
               "author": "georgie",
@@ -13655,7 +13310,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 23,
               "id": "01hvgq17yct5zke2svk47k1148",
               "title": "Manage Your Energy, Not Your Time",
               "author": "Salman Ansari",
@@ -13682,7 +13337,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -13710,39 +13365,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-philosophy-top-100"
-              ]
-            },
-            {
-              "position": 24,
-              "id": "01m66xp7tm3cy6h89g8pky6gwg",
-              "title": "Robert Caro – The master biographer reflects at 91",
-              "author": "Dwarkesh Patel",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "29 mins",
-              "readingMinutes": 29,
-              "wordCount": 7479,
-              "publishedDate": "2026-10-30",
-              "savedDate": "2026-10-30T17:28:30.292000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c1768176e60314616fa5f68143ae4e6a",
-              "readwiseUrl": "https://read.readwise.io/read/01m66xp7tm3cy6h89g8pky6gwg",
-              "summary": "Antithesis lets you run thorough simulation tests on every PR your coding agents ship. That’s because Antithesis is FAST.",
-              "whyRead": "Robert Caro legt uit hoe hij macht, politieke instituties en biografische waarheidsvinding onderzoekt, met lessen over interviewen, documentonderzoek en schrijven.",
-              "bestMoment": "Als je nadenkt over macht, leiderschap of hoe je een groot onderzoeksproject structureert.",
-              "tags": [
-                "arts & culture",
-                "history",
-                "political philosophy"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis"
-              ],
-              "alsoIn": [
                 "aaa-philosophy-top-100"
               ]
             },
@@ -17634,9 +17256,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 37,
@@ -21089,6 +20709,34 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 33,
+              "id": "01m6knewadxyksngqcjeq605c9",
+              "title": "🎓 Why Redistribution Alone Doesn't Move People Between Social Classes",
+              "author": "Eleanor Konik",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3279,
+              "publishedDate": "2026-11-04",
+              "savedDate": "2026-11-04T16:14:48.141000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ae4ac3f22b8e133ab7d3c5b904ce7bdb",
+              "readwiseUrl": "https://read.readwise.io/read/01m6knewadxyksngqcjeq605c9",
+              "summary": "I recently read Treasure Island along with some eighth graders I tutor.",
+              "whyRead": "Onderzoekt waarom herverdeling op zichzelf mensen niet vanzelf tussen sociale klassen verplaatst.",
+              "bestMoment": "Voor sociale mobiliteit, klasse en de relatie tussen geld en gedrag.",
+              "tags": [
+                "economics",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 34,
               "id": "01m17hcyt40k1nn13p6cp7eyr9",
               "title": "the tyranny of the measurable",
               "author": "erinmerylstudy",
@@ -21122,7 +20770,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01m3cb3gpqmpsv8vqrtrmk8mfa",
               "title": "Building trust, active listening and constructive feedback: 3 core tools in coaching",
               "author": "wind4change.com",
@@ -21157,7 +20805,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01m4jp40rkevzjv5xyngmtthj0",
               "title": "How to make your team read your mind",
               "author": "Anton Zaides",
@@ -21189,7 +20837,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01m6c62das6e2b03ewbfv5t2ss",
               "title": "🎙️#19 Prof. Jason Ā. Josephson Storm: Disenchantment is a Myth",
               "author": "The Living Philosophy",
@@ -21222,7 +20870,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01krtrbnj1rtn0p7gt8fatgj7p",
               "title": "Whose Ideas Count?",
               "author": "Sven Brodmerkel (PhD)",
@@ -21257,7 +20905,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01kwragbn5fwjf0dvfyfvwvne8",
               "title": "The incredible story of Benjamin Lay: abolitionist, vegan, and centuries ahead of his time",
               "author": "Rutger Bregman",
@@ -21292,7 +20940,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01m2nwzbeakn8gefz8s64p7gte",
               "title": "Why Classic Brainstorming Fails Neurodivergent Brains (And Why It's Not You)",
               "author": "Sven Brodmerkel",
@@ -21328,7 +20976,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01m45a14vq9drbgqajeqxzh3ge",
               "title": "First women of philosophy",
               "author": "Dag Herbjørnsrud",
@@ -21362,7 +21010,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01m69eegkcypqe5s10sy3hcb6g",
               "title": "People Were People",
               "author": "Evan Þ from Papyrus Rampant",
@@ -21395,7 +21043,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01m110gbsyqc7vv1ejwtptm5rf",
               "title": "Communication Is … Dialogue",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -21430,7 +21078,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01m1xy92em8n4jbgr4g35t97vt",
               "title": "The Agile Coaching Growth Wheel",
               "author": "Shannon Carter, Rickard Jones, Martin Lambert, Stacey Luxley, Tom Reynolds, Rohit Raut, Andre Rabit, Kuber Sharma, and Mark Summers",
@@ -21467,7 +21115,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01m5vaedk96gh4yky54hdwckx7",
               "title": "The Case Against Business School",
               "author": "Christopher Marquis",
@@ -21499,7 +21147,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -21533,7 +21181,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01m3c9fqw050mxx7dsfhet3t6b",
               "title": "TL; DR: Estimates Are Useful, Just Ditch the Numbers",
               "author": "age-of-product.com",
@@ -21568,7 +21216,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01m3cb3dw9r8bbxaervxrhm68q",
               "title": "The GROW Model and the powerful questions",
               "author": "wind4change.com",
@@ -21602,7 +21250,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01m68bad6b7r2vc5ms3a3hxbgv",
               "title": "Geld is onze god geworden. Hoe worden we weer vrij?",
               "author": "De Ongelooflijke",
@@ -21635,7 +21283,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01kmmsmygjapx4f6gb2bhxds2j",
               "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
               "author": "Derek Thompson",
@@ -21670,7 +21318,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": "Astral Codex Ten",
@@ -21704,7 +21352,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01kyy1z2njt280geg81vv0be2q",
               "title": "The Art of Disagreement",
               "author": "Dr. Ian Hallett",
@@ -21735,7 +21383,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m2w4q0nawzn679w0k1s4v64h",
               "title": "Signals and Levers: Building Thriving Engineering Organizations - InfoQ",
               "author": "r.updates.infoq.com",
@@ -21767,7 +21415,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m2ykm2r74ak92tq0x6tfmr32",
               "title": "Stop Presenting Roadmaps",
               "author": "Product Leaders",
@@ -21799,7 +21447,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m677zjk10nzfpaa13xqzst16",
               "title": "Love with nowhere to go",
               "author": "Aeon",
@@ -21832,7 +21480,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m6b01z1h24ztwc841c49a588",
               "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
               "author": "Lenny Rachitsky",
@@ -21862,7 +21510,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m2dzwen6cfw2jhhrnmqv43xp",
               "title": "After Work, We’ll Have Each Other",
               "author": "Clara Collier",
@@ -21892,7 +21540,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m3cb40jc9x524gherhdhpg3w",
               "title": "Understand a Team’s Maturity (Cog's Ladder)",
               "author": "linkedin.com",
@@ -21925,7 +21573,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m5rrrs6xz132z08z1se2h3yk",
               "title": "It’s okay to be evil if you're talented",
               "author": "georgie",
@@ -21959,7 +21607,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01m630n1qbyvwk2m7e32eefkbv",
               "title": "The Product Backlog Refinement Agent",
               "author": "Stefan Wolpers",
@@ -21992,7 +21640,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01kc3qh6f73jpx7bkeq1j800wh",
               "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
               "author": "Harvard Philosophy Department",
@@ -22027,7 +21675,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01ky7rxntf6dz2x70h2w6vgtqr",
               "title": "The Height Gap | The New Yorker",
               "author": "newyorker.com",
@@ -22060,7 +21708,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kyexyg0m6s4a4nddcw8mm63e",
               "title": "Time for some game theory",
               "author": "lionelpage.substack.com",
@@ -22093,7 +21741,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01m1kscgrbsgy40tyeqfk38mb2",
               "title": "Opinion | Was This Ancient Taoist the First Philosopher of Disability? - The New York Times",
               "author": "nytimes.com",
@@ -22127,7 +21775,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01m2kqe102n76g6yvve5qmew7f",
               "title": "Plurality philosophy in an incredibly oversized nutshell",
               "author": "vitalik.eth.limo",
@@ -22160,7 +21808,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01m43wq4jh5a6amm99p0epyqf6",
               "title": "Ideologie, evidence-informed werken en de vraag wie de doelen bepaalt",
               "author": "Substack",
@@ -22193,7 +21841,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01krtrc68m499tqp0qe471vq9c",
               "title": "The Speed Trap of Modern Thought",
               "author": "Sven Brodmerkel (PhD)",
@@ -22226,7 +21874,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01m0phz82jsqawszgfebvkggxm",
               "title": "No amount of velocity can shield your team from opportunity cost",
               "author": "Pavel Samsonov",
@@ -22258,7 +21906,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01m1x3htad4kaatak8j78p7e11",
               "title": "Team autonomy only works when leadership shows trust",
               "author": "Willem-Jan Ageling",
@@ -22294,7 +21942,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m2a8v1prarfgvmkgwy4ercs4",
               "title": "Beyond Autonomous Teams in Software Product Development",
               "author": "Ben Linders",
@@ -22329,7 +21977,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m43x3maqp34bay2egnk1wa2j",
               "title": "I don't want the details",
               "author": "Power Skills",
@@ -22363,7 +22011,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m6b0768zn0gg3ewwdm1x4pgz",
               "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
               "author": "Lenny's Podcast",
@@ -22393,7 +22041,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m6krn18z5ts8vs2g5x8yatdb",
               "title": "a day in the Software Factory - how it all comes together",
               "author": "Matt Pocock (AI Hero)",
@@ -22425,7 +22073,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m6s30erxntyas758dayd4y8y",
               "title": "Software Factories for Real Engineers",
               "author": "go.drovr.sh",
@@ -22457,7 +22105,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01kysnpk8azvdg0fmar8118yy0",
               "title": "The Three Griefs: Why Timing Matters",
               "author": "thereframediaries.substack.com",
@@ -22490,7 +22138,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m17hc9s31gyv0433ecry76qg",
               "title": "On being a woman who wants power",
               "author": "erinmerylstudy",
@@ -22524,7 +22172,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m2yqbzyzcaeyktxzs2d07g03",
               "title": "Night Knowledge",
               "author": "The Yale Review | Essays",
@@ -22558,7 +22206,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01m3cb3whaaxfkqzwdh0snehej",
               "title": "How to run a retrospective meeting in 6 steps",
               "author": "mural.co",
@@ -22590,7 +22238,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01m66vzks3gb61wz1fc1e3epsv",
               "title": "The Sediment Of Culture Shapes Political Order",
               "author": "Nathan Gardels",
@@ -22623,7 +22271,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m6sch2svmtwggpfbqtysc41d",
               "title": "Your Book Review: Orality and Literacy",
               "author": "Astral Codex Ten",
@@ -22655,7 +22303,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kysfkm9jz6j3neya2h22rqsb",
               "title": "Can Your Autistic Nervous System Survive Your Workplace?",
               "author": "thereframediaries.substack.com",
@@ -22688,7 +22336,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m1rqhq0jsh1hs8h8v39a8etr",
               "title": "Case Study: When Agile Meets Neurodivergence",
               "author": "Joe Foley & Pulkit Singhal & Katarzyna Oratowska & Eren Özdemir & Agile Alliance & Daniele Davi & Thamiris Ramos",
@@ -22725,7 +22373,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m4dcpyr9emw3hkp5y46gsvhy",
               "title": "On Hannah Arendt and Mary McCarthy’s Decades-Long Friendship",
               "author": "Roger Berkowitz",
@@ -22759,7 +22407,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -22791,7 +22439,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -22823,7 +22471,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m2msap2g98nwk78n4yxf36tf",
               "title": "Lead Without a Ladder: How I Climbed Into Engineering Leadership",
               "author": "Pauline Jepp",
@@ -22855,7 +22503,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m3d23yzdxhdbmn7g4xd0dszh",
               "title": "All You Need is INVEST? No!",
               "author": "xp123.com",
@@ -22887,7 +22535,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m3gr6gfvpw8z714qvbjnrf43",
               "title": "Same People",
               "author": "Mike Fisher",
@@ -22917,7 +22565,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m3xsf7y0hmmx9v9c5h5sak2f",
               "title": "Inventing and Implementing “The Scrum Master Dilemma Game”",
               "author": "agilealliance.org",
@@ -22948,7 +22596,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m42nfy60gm6jzew68zd47tab",
               "title": "The Ticket Is Not The Work",
               "author": "Blogger",
@@ -22979,7 +22627,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m60mzr2a4tdwwsbbzz1m6e8n",
               "title": "More output, less progress?",
               "author": "Anton from Manager.dev",
@@ -23013,7 +22661,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m60ynpvc0gfx60p3ake0bh6x",
               "title": "How to Run a 30-Minute Weekly Team Meeting That Replaces the Hour You Have Now",
               "author": "Nick Martin from WorkshopBank's Substack",
@@ -23045,7 +22693,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m6sapnhx0db2671gavkq579q",
               "title": "A new name for a familiar problem",
               "author": "Sven Brodmerkel | The Reception Gap",
@@ -23075,7 +22723,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m4yvw2405j0m7sdqs200ng1s",
               "title": "To Switch, or Not to Switch the AI Model",
               "author": "Stefan Wolpers",
@@ -23108,7 +22756,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m56p9757qs78686smx9cvxrp",
               "title": "TBM 445: The Feature Factory: A 10-Year Retrospective",
               "author": "John Cutler",
@@ -23139,7 +22787,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m2jr89jfxrk18w99tsfc48xg",
               "title": "On idea-driven ideas",
               "author": "eth.limo",
@@ -23172,7 +22820,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m19mp23fe6k9kgv4ca02h3nc",
               "title": "The Puzzle That Explains Why Planning Poker Actually Works",
               "author": "Dejan Majkic",
@@ -23206,7 +22854,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01ktnkd8gctpytce8pvke8za97",
               "title": "The Trouble With Grit",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -23237,7 +22885,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m50n6dyfbfy91gvy25mp411t",
               "title": "Book Review: Nationalism as a Way of Life",
               "author": "thesiseleven.com",
@@ -23271,7 +22919,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m2mpk5g0ptfm6wsn2w2db6nz",
               "title": "One Outcome Per Hour: How to Design Any Workshop in 45 Minutes",
               "author": "Nick Martin from WorkshopBank's Substack",
@@ -23292,37 +22940,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "facilitation",
                 "learning & meta-learning",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m2w4wa0sspde6x1j82q8jhrd",
-              "title": "Escaping The Retrospective Theatre – How to Make Real Impact Again",
-              "author": "Joe Foley",
-              "siteName": "Agile Alliance |",
-              "category": "article",
-              "language": null,
-              "readingTime": "18 mins",
-              "readingMinutes": 18,
-              "wordCount": 4759,
-              "publishedDate": "2025-07-30",
-              "savedDate": "2026-09-19T06:15:24.953000+00:00",
-              "imageUrl": "https://www.aafix23.wpengine.com/wp-content/uploads/2021/11/agile-logo-new-1200x28-1.jpg",
-              "sourceUrl": "https://agilealliance.org/resources/experience-reports/escaping-the-retrospective-theatre-how-to-make-real-impact-again/",
-              "readwiseUrl": "https://read.readwise.io/read/01m2w4wa0sspde6x1j82q8jhrd",
-              "summary": "This experience report explores the journey of two Scrum Masters as they experimented with different approaches to create impactful retrospectives.",
-              "whyRead": "Raakt direct je werk als Scrum Master en je interesse in teamdynamiek en faciliteren. De meerwaarde is een concreet kader om retrospectieven niet te laten ontaarden in theater, maar te richten op echte problemen en verbeteringen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "facilitation",
-                "scrum",
                 "team coaching"
               ],
               "coreInterests": [
@@ -28363,6 +27980,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 13,
+              "id": "01j29b7ntzajr6pssz3xz0h0gd",
+              "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
+              "author": "Jesse J. Anderson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 2 mins",
+              "readingMinutes": 122,
+              "wordCount": 32156,
+              "publishedDate": "2023-09-19",
+              "savedDate": "2024-07-08T14:16:18.043000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393475/_X2nayWK05ZV85G7snhJ13VPdGeTuqjLeUEseZdldos-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29b7ntzajr6pssz3xz0h0gd",
+              "readwiseUrl": "https://read.readwise.io/read/01j29b7ntzajr6pssz3xz0h0gd",
+              "summary": "Understanding how ADHD affects attention and focus can help individuals with ADHD navigate challenges in prioritizing tasks and following through on goals. People with ADHD often struggle with distinguishing between urgent tasks and important tasks, leading to a tendency to prioritize immediate needs over long-term goals. Despite good intentions, individuals with ADHD may face difficulties in remembering and consistently applying productivity strategies or new habits.",
+              "whyRead": "Raakt je interesse in ADHD en neurodiversiteit; een toegankelijke startgids die de sterke kanten en valkuilen van volwassen ADHD beschrijft met praktische strategieën.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "adhd & neurodivergence",
+                "cognitive science",
+                "tools & workflows"
+              ],
+              "coreInterests": [
+                "pkm",
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 14,
               "id": "01kxh3cr3pknc3hxnhsx33xdcx",
               "title": "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
               "author": "read.readwise.io",
@@ -28392,7 +28039,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01j29b7stf12s2wpwzqdtfzme7",
               "title": "Self-Reliance",
               "author": "Ralph Waldo Emerson",
@@ -28421,7 +28068,36 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 16,
+              "id": "01j5gahscsyzezft9tvjy6h15x",
+              "title": "Het nationaalsocialisme als rancuneleer",
+              "author": "Menno ter Braak",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "29 mins",
+              "readingMinutes": 29,
+              "wordCount": 7518,
+              "publishedDate": "2022-01-27",
+              "savedDate": "2024-08-17T14:06:07.275000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/206166652/SZj1MHNjMH8oKo-hEmXPMoiJwoAHgK0Kz560xPgZGHw-cove_lIDUPFn.jpg",
+              "sourceUrl": "private://read/01j5gahscsyzezft9tvjy6h15x",
+              "readwiseUrl": "https://read.readwise.io/read/01j5gahscsyzezft9tvjy6h15x",
+              "summary": "Het nationaalsocialisme is ontstaan uit een gevoel van wrok en ressentiment binnen de samenleving. Het is een beweging die zich voedt met haat en tegenstellingen, en die de democratische waarden perverteert. De strijd tegen het nationaalsocialisme moet zich richten op de idealisering van dit ressentiment, niet alleen onder nationaalsocialisten, maar ook onder democraten en socialisten.",
+              "whyRead": "Raakt je kerninteresses in politieke filosofie en fascisme — Ter Braak analyseert het nazisme als ressentiment-ideologie, met Nietzsche als sleutel, vóórdat de Tweede Wereldoorlog uitbrak.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 17,
               "id": "01j29d3ekt10z6968e7p58zr3a",
               "title": "The Art of War (Chiron Academic Press - The Original Authoritative Edition)",
               "author": "Sun Tzu",
@@ -28451,7 +28127,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 18,
               "id": "01kqn2zjmevdr865h4ah7q46ca",
               "title": "The Shortest History of Europe",
               "author": "John Hirst",
@@ -28483,7 +28159,67 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 19,
+              "id": "01jz08kx1t39dbdpjq58cwgnsp",
+              "title": "Mind Management, Not Time Management",
+              "author": "David Kadavy",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 33 mins",
+              "readingMinutes": 273,
+              "wordCount": 72204,
+              "publishedDate": "2025-06-10",
+              "savedDate": "2025-06-30T11:12:37.032000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/324517530/OnVPrFtaX8YcP3RMyRNkUfe1HwyZ2qtWYxca7D4sJ9w-MMT-_8H3nNRh.jpg",
+              "sourceUrl": "private://read/01jz08kx1t39dbdpjq58cwgnsp",
+              "readwiseUrl": "https://read.readwise.io/read/01jz08kx1t39dbdpjq58cwgnsp",
+              "summary": "Creativity works best when you match your mental state to the task. Find your Creative Sweet Spot, a special time when you can generate ideas easily. Use your most creative hours for new ideas and later times to polish and finish work.",
+              "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 20,
+              "id": "01k5r4cnzrn3zybwgkzzfxmc0n",
+              "title": "The Second Mountain",
+              "author": "David Brooks",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "7 hrs 31 mins",
+              "readingMinutes": 451,
+              "wordCount": 119350,
+              "publishedDate": "2019-04-16",
+              "savedDate": "2025-09-22T07:14:42.317000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/366099070/RN-CZvy48u-odnRzVM8Ea2bMWfdliT3Sxu-obLTvArQ-cover-cover.jpeg",
+              "sourceUrl": "private://read/01k5r4cnzrn3zybwgkzzfxmc0n",
+              "readwiseUrl": "https://read.readwise.io/read/01k5r4cnzrn3zybwgkzzfxmc0n",
+              "summary": "Suffering can wake people up and reveal a deep urge to care for others. The \"second mountain\" is a life of commitment, community, and service that grows from that inner change. Society must shift from hyper‑individualism toward solidarity so more people can find this fuller life.",
+              "whyRead": "Raakt je interesse in filosofie en deugdethiek — Brooks' argument over de tweede berg als diepere toewijding raakt direct aan vragen over wat een goed leven is.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 21,
               "id": "01k7rktczvt1p4nx2bqf9gqas2",
               "title": "Waarom generalisten verder komen (Range)",
               "author": "David Epstein",
@@ -28512,7 +28248,37 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 22,
+              "id": "01kxh3d2n0y4xzmz2rvatkatm6",
+              "title": "All Things Shining_ Reading the Western Classics to Find Meaning in a Secular Age",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "5 hrs 38 mins",
+              "readingMinutes": 338,
+              "wordCount": 89325,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:30.118000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3d2n0y4xzmz2rvatkatm6",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3d2n0y4xzmz2rvatkatm6",
+              "summary": "The Simon & Schuster Speakers Bureau can bring authors to your live event.",
+              "whyRead": "Raakt je interesse in klassieke filosofie en betekenis in een seculiere wereld. Dreyfus en Kelly lezen de westerse canon als bron voor praktijken van toewijding zonder terug te vallen op één absolute moraal.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "geschiedenis"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 23,
               "id": "01j3530y8vbksg0q6pbjw4dvt7",
               "title": "Principles: Life and Work",
               "author": "Ray Dalio",
@@ -28542,7 +28308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 24,
               "id": "01j28vhxyk558cnpcqjsy3p80p",
               "title": "Walden",
               "author": "Henry David Thoreau",
@@ -28572,7 +28338,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 25,
               "id": "01j29d37x3cztmzd8trte1m38n",
               "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",
               "author": "Sönke Ahrens",
@@ -28599,7 +28365,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 26,
               "id": "01m61vy1haj02qj5r8mhkvxzhb",
               "title": "All Things Shining — Nederlands",
               "author": "Hubert Dreyfus",
@@ -28628,7 +28394,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 27,
               "id": "01j28vsd63175zdak33c46ccey",
               "title": "De druiven der gramschap",
               "author": "Steinbeck",
@@ -28656,7 +28422,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 28,
               "id": "01j28vse5rr7e97cxrbf3jh4h1",
               "title": "Ons feilbare denken",
               "author": "Daniel Kahneman",
@@ -28682,7 +28448,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 29,
               "id": "01j29d3606c404ravsnqd4m202",
               "title": "Enchiridion",
               "author": "Epictetus",
@@ -28711,7 +28477,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 30,
               "id": "01j3smc8th5ac3n6axj4yg2s37",
               "title": "What's Our Problem?",
               "author": "Tim Urban",
@@ -28740,7 +28506,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 31,
               "id": "01k5r4czdk2jfrtx340tw8zcrt",
               "title": "The Social Animal",
               "author": "David Brooks",
@@ -28769,7 +28535,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 32,
               "id": "01k5r4d6q3vkqnk8tn09k2eqrd",
               "title": "How to Know a Person",
               "author": "David Brooks",
@@ -28798,7 +28564,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 33,
               "id": "01j29b7vnf4wt6n264dxs18wem",
               "title": "The Enlightenment: A Very Short Introduction",
               "author": "John Robertson",
@@ -28828,7 +28594,35 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 34,
+              "id": "01j29b7wmwqd8j7qn6fes4n48j",
+              "title": "Walden",
+              "author": "Henry David Thoreau",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "6 hrs 48 mins",
+              "readingMinutes": 408,
+              "wordCount": 107951,
+              "publishedDate": "1996-01-02",
+              "savedDate": "2024-07-08T14:16:25.001000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393610/h-dQUl_4iy0C9XCO0pP3fS7FFbCIAYWxu48AFw1LFYA-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29b7wmwqd8j7qn6fes4n48j",
+              "readwiseUrl": "https://read.readwise.io/read/01j29b7wmwqd8j7qn6fes4n48j",
+              "summary": "In \"Walden,\" Henry David Thoreau describes his two years living alone in a self-built house by Walden Pond. He reflects on the mistakes people make in their busy lives, missing the beauty and simplicity of nature. Thoreau emphasizes the importance of connecting with the natural world and appreciating its gifts.",
+              "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; Walden is Thoreau's klassieke verslag van zijn experiment in zelfvoorziening — tijdloos in zijn kritiek op consumptie en materialisme.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 35,
               "id": "01j29d3746nt7zejbxvg8cvbr9",
               "title": "Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi",
               "author": "Mihaly Csikszentmihalyi",
@@ -28855,7 +28649,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 36,
               "id": "01j29d3dwx997fvp2v7meykqtp",
               "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
               "author": "Nick Trenton",
@@ -28882,7 +28676,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 37,
               "id": "01j29d3fx2eh2cjm300ymbnbeg",
               "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
               "author": "Patrick M. Lencioni",
@@ -28909,7 +28703,64 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 38,
+              "id": "01kxh3cv21q7mnt54x3w2y1b19",
+              "title": "The Shortest History of Europe",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "3 hrs 47 mins",
+              "readingMinutes": 227,
+              "wordCount": 59991,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:22.035000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3cv21q7mnt54x3w2y1b19",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3cv21q7mnt54x3w2y1b19",
+              "summary": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form by any means electronic, mechanical, photocopying, recording or otherwise without the prior consent of the publishers.",
+              "whyRead": "Raakt je interesse in West-Europese geschiedenis en politieke ideeëngeschiedenis. Hirst biedt een korte, leesbare interpretatie van de krachten die Europa vormden.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 39,
+              "id": "01k0mdvkd0e8bgcq04s7nky4wb",
+              "title": "Rest: Why You Get More Done When You Work Less",
+              "author": "Alex Soojung-Kim Pang",
+              "siteName": null,
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "5 hrs 36 mins",
+              "readingMinutes": 336,
+              "wordCount": 88832,
+              "publishedDate": "2016-11-17",
+              "savedDate": "2025-07-20T17:24:41.518000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/340559222/sZ06a61FTErqNNhoHiP0zhFvn_KFF9HDLXX1j-iv1EM-cove_npKie9K.jpg",
+              "sourceUrl": "private://read/01k0mdvkd0e8bgcq04s7nky4wb",
+              "readwiseUrl": "https://read.readwise.io/read/01k0mdvkd0e8bgcq04s7nky4wb",
+              "summary": "Rest is not just a break from work but a vital part of being creative and productive. Many great thinkers worked only a few hours a day and spent the rest of their time resting or enjoying hobbies. Treating rest as a skill and making it active helps us work better and live more fulfilling lives.",
+              "whyRead": "Raakt je interesse in leren en productiviteit — Pang onderbouwt met wetenschappelijk bewijs dat rust geen verspilling is maar een voorwaarde voor diep werk.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "health & wellness",
+                "learning & meta-learning",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 40,
               "id": "01j29d39ky8ne144y1vxzs5wec",
               "title": "Meditations",
               "author": "Marcus Marcus Aurelius",
@@ -28938,7 +28789,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 41,
               "id": "01j5m80ektv0bcx45xmy2a5kdy",
               "title": "Crime and Punishment",
               "author": "Fyodor Dostoevsky",
@@ -28967,7 +28818,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 42,
               "id": "01j9hge0y4p2at8emp4c3kkhwp",
               "title": "Good Work: Reclaiming Your Inner Ambition",
               "author": "Paul Millerd",
@@ -28996,7 +28847,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 43,
               "id": "01j6q1n1v6s769rr1vxcs8ztd1",
               "title": "How to Live on 24 Hours a Day",
               "author": "Arnold Bennett",
@@ -29024,7 +28875,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 44,
               "id": "01kksm80zx4vk4cskkm9r0nddv",
               "title": "On the Art of Reading",
               "author": "Arthur Quiller-Couch",
@@ -29050,7 +28901,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 45,
               "id": "01j29b7xf9vas2b7q4308ts4bb",
               "title": "Writing to Learn",
               "author": "William Knowlton Zinsser",
@@ -29079,7 +28930,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 46,
               "id": "01j422azr657ycnf0hesy20s0f",
               "title": "Stuurloos",
               "author": "Kustaw Bessems",
@@ -29110,7 +28961,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 47,
               "id": "01m61xcbtbphxk6pwr75kt9wq3",
               "title": "Ik zie wat ik geloof",
               "author": "Roxane van Iperen",
@@ -29141,7 +28992,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 48,
               "id": "01j28vk7ysb2em2twbr7zmfv0b",
               "title": "Een kleine geschiedenis van bijna alles",
               "author": "Bill Bryson",
@@ -29170,7 +29021,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 49,
               "id": "01ksdsnsw2mbeb6y7y17ghhey9",
               "title": "The Way of Excellence",
               "author": "Brad Stulberg",
@@ -29193,7 +29044,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 50,
               "id": "01j29d3aw87yzcwsjrejygem67",
               "title": "Mind Gym: Achieve More by Thinking Differently",
               "author": "Sebastian Bailey",
@@ -29220,7 +29071,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 51,
               "id": "01j3291sr3ramzk98nw3hqwcpc",
               "title": "Flow: Psychologie van de optimale ervaring",
               "author": "Mihaly Csikszentmihalyi",
@@ -29250,7 +29101,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 52,
               "id": "01jjp69txapfggvjvr95mrfp46",
               "title": "Co-intelligentie",
               "author": "Ethan Mollick",
@@ -29277,7 +29128,35 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 53,
+              "id": "01k544vnd6tt5zdpkvyvvkv0hy",
+              "title": "All Things Shining",
+              "author": "Hubert Dreyfus",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "5 hrs 57 mins",
+              "readingMinutes": 357,
+              "wordCount": 94520,
+              "publishedDate": null,
+              "savedDate": "2025-09-14T12:58:04.594000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363012753/ast2ETEPgJSe681HhC9vYNfrPDiOdWpIEb4PDW1u0mo-cove_mCBcqF4.jpg",
+              "sourceUrl": "private://read/01k544vnd6tt5zdpkvyvvkv0hy",
+              "readwiseUrl": "https://read.readwise.io/read/01k544vnd6tt5zdpkvyvvkv0hy",
+              "summary": "Modern thought makes humans the sole source of meaning and hides the sacred richness Homer saw. Melville’s Moby Dick argues we should accept surface events and everyday moods as their own meanings instead of hunting for hidden truths. Homeric polytheism shows that the gods’ danger and multiplicity give life force, so we must resist trying to “become gods” ourselves.",
+              "whyRead": "Raakt je interesse in filosofie en cultuurgeschiedenis — Dreyfus en Kelly zoeken naar het heilige in een seculiere wereld via literatuur van Homerus tot Melville.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 54,
               "id": "01kxh3cnkmne0bwxm5vvjzsnvy",
               "title": "Rapt_ Attention and the Focused Life",
               "author": "read.readwise.io",
@@ -29304,7 +29183,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 55,
               "id": "01k5r4ct2znt611x3k9c2v3bqd",
               "title": "The Road to Character",
               "author": "David Brooks",
@@ -29333,7 +29212,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 56,
               "id": "01kcfce24153fpqayz3qftq7ch",
               "title": "Chop Wood, Carry Water: The Yoga of Work",
               "author": "Andrew Taggart",
@@ -29361,7 +29240,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 57,
               "id": "01j29d3v4emc1z1ap0jt2jvqfh",
               "title": "Your Brain's Not Broken",
               "author": "Tamara Phd Rosier",
@@ -29390,7 +29269,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 58,
               "id": "01j29d3vyb3g8h2zwk7t0gcyrs",
               "title": "Your Life Can Be Better Second Edition: Using Strategies for Adult ADHD",
               "author": "Douglas A Puryear",
@@ -29419,7 +29298,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 59,
               "id": "01j3175ma4rfsfx5ryhqvdcpy4",
               "title": "A System for Writing",
               "author": "Bob Doto",
@@ -29445,7 +29324,59 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 60,
+              "id": "01kxh3cyaq8vgrybrcg1c5kz91",
+              "title": "Tiny Experiments",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "4 hrs 35 mins",
+              "readingMinutes": 275,
+              "wordCount": 72830,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:34.960000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3cyaq8vgrybrcg1c5kz91",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3cyaq8vgrybrcg1c5kz91",
+              "summary": "‘I loved this profound, practical, and generous book.",
+              "whyRead": "Raakt je interesse in PKM, leren en een minder rigide vorm van zelfontwikkeling. Le Cunff vervangt grote doelen door kleine, toetsbare experimenten die nieuwsgierigheid en feedback centraal zetten.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
+              "id": "01kxh3de9mx3etpeb0vtg4cz7d",
+              "title": "How to Know a Person_ The Art of Seeing Others Deeply and Being Deeply Seen",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "5 hrs 29 mins",
+              "readingMinutes": 329,
+              "wordCount": 87017,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:42.496000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3de9mx3etpeb0vtg4cz7d",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3de9mx3etpeb0vtg4cz7d",
+              "summary": "The culture of my upbringing could be summed up by the phrase “Think Yiddish, act British. ” We were reserved, stiff-upper-lip types.",
+              "whyRead": "Raakt je interesse in reflectief ouderschap en menselijke relaties. Brooks biedt een essayistische gids voor aandachtig waarnemen, goede gesprekken en empathie zonder mensen tot problemen te reduceren.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 62,
               "id": "01j29b7tpmzr9ms5g74w2v2s5s",
               "title": "The 12 Week Year",
               "author": "Brian P. Moran",
@@ -29474,7 +29405,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 63,
               "id": "01j2pppkbaxn15tdt0yj02g52k",
               "title": "Het boek waarvan je baas niet wil dat je het leest",
               "author": "Roland Grootenboer",
@@ -29503,7 +29434,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 64,
               "id": "01j39ztxxknjf83wz26vwx4mz4",
               "title": "Mindset",
               "author": "Dr Carol S. Dweck",
@@ -29530,7 +29461,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 65,
               "id": "01j29arv27jhq09z72ajwp9kjy",
               "title": "The Pathless Path: Imagining a New Story for Work and Life",
               "author": "Paul Millerd",
@@ -29559,7 +29490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 66,
               "id": "01j29b7rm4eskpwwc52cxc3029",
               "title": "Mind Mapping: Improve Memory, Concentration, Communication, Organization, Creativity, and Time Management",
               "author": "Kam Knight",
@@ -29589,7 +29520,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 67,
+              "id": "01k5450gkevfxv0ag824t5vmk1",
+              "title": "Rapt",
+              "author": "Winifred Gallagher",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 49 mins",
+              "readingMinutes": 289,
+              "wordCount": 76524,
+              "publishedDate": null,
+              "savedDate": "2025-09-14T13:00:43.523000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363013240/C9kI4k1B4QfwXmT_xm3FOeWO1-iwQbLWWEz-OgDpEHU-cove_i3NpUaF.jpg",
+              "sourceUrl": "private://read/01k5450gkevfxv0ag824t5vmk1",
+              "readwiseUrl": "https://read.readwise.io/read/01k5450gkevfxv0ag824t5vmk1",
+              "summary": "Your attention shapes your reality and your sense of self.  \nIt is limited and selective, so what you focus on becomes real while other things fade.  \nYou can train focus to create flow and well‑being, but modern distractions often scatter it.",
+              "whyRead": "Raakt je interesse in psychologie en aandacht — Gallaghers these dat de kwaliteit van je leven bepaald wordt door waar je aandacht op richt is een krachtig en wetenschappelijk onderbouwd idee.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "cognitive science",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 68,
               "id": "01j29d38xxr3gp6z4x14nzw6es",
               "title": "How to Win Friends and Influence People",
               "author": "Dale Carnegie",
@@ -29616,7 +29574,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 69,
               "id": "01j29d3cds6c9f3v6jjbwjd0m8",
               "title": "Never Binge Again(tm): Reprogram Yourself to Think Like a Permanently Thin Person. Stop Overeating and Binge Eating and Stick to the Food Plan of Your Choice!",
               "author": "Glenn Livingston, Ph.d.",
@@ -29645,7 +29603,63 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 70,
+              "id": "01kxh3ct67mq72nz251bvhx6dq",
+              "title": "The Second Mountain",
+              "author": "David Brooks",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "7 hrs 29 mins",
+              "readingMinutes": 449,
+              "wordCount": 118750,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:21.588000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3ct67mq72nz251bvhx6dq",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3ct67mq72nz251bvhx6dq",
+              "summary": "",
+              "whyRead": "Diepgaand Amerikaans essay over de overgang van individuele prestatie ('eerste berg') naar betekenis via toewijding, gemeenschap en relaties ('tweede berg') - sterke raakvlakken met filosofie, moraalsociologie en persoonlijke groei.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 71,
+              "id": "01kxh3cwavw31x7t8azkzf0fcn",
+              "title": "The Social Animal_ The Hidden Sources of Love, Character, and Achievement",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "9 hrs 44 mins",
+              "readingMinutes": 584,
+              "wordCount": 154678,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:24.490000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3cwavw31x7t8azkzf0fcn",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3cwavw31x7t8azkzf0fcn",
+              "summary": "LIBRARY OF CONGRESS CATALOGING-IN-PUBLICATION DATA Brooks, David The social animal: the hidden sources of love, character, and achievement / David Brooks. p.",
+              "whyRead": "Raakt je interesse in sociale structuren, karakter en psychologie. Brooks verweeft onderzoek met levensverhalen om te laten zien hoe relaties, normen en omgeving keuzes vormen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 72,
               "id": "01m6p8vtja4m4rc3ena3scq4gp",
               "title": "Dad Brain",
               "author": "Darby Saxbe, Darby Saxbe, PhD",
@@ -29674,7 +29688,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 73,
               "id": "01j29d3hp212xny83jkj13kan8",
               "title": "Think and Grow Rich",
               "author": "Napoleon Hill",
@@ -29701,7 +29715,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 74,
               "id": "01m6dahydg800t0wj21evmkja5",
               "title": "The Commanding Heights",
               "author": "Will Manidis",
@@ -29729,7 +29743,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 75,
               "id": "01k04hd67cscrapj1n35btr6tg",
               "title": "The Inner Compass: Cultivating the Courage to Trust Yourself",
               "author": "Lawrence Yeo",
@@ -29757,7 +29771,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 76,
               "id": "01j29d3tbesb7m09zyn0z78vjr",
               "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
               "author": "Tim Urban",
@@ -29783,7 +29797,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 77,
               "id": "01j422ay10wfm6whm7md7qny8s",
               "title": "Vertel me het einde",
               "author": "Valeria Luiselli",
@@ -29811,7 +29825,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 78,
               "id": "01j29d3bqtx49g937cc5fnz2dc",
               "title": "Mind Management, Not Time Management",
               "author": "David Kadavy",
@@ -29841,7 +29855,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 79,
               "id": "01j28vk6sshcs4s85dctd96np2",
               "title": "Hoe we een klimaatramp kunnen vermijden",
               "author": "Bill Gates",
@@ -29868,7 +29882,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 80,
               "id": "01kc0e4wxqhr18yfp4mf49hg2n",
               "title": "Short Science Fiction",
               "author": "Isaac Asimov",
@@ -29895,7 +29909,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 81,
               "id": "01m4p9vrm6q6hzcbh8mgm9m7qs",
               "title": "Anatomy of a Breakthrough: How to Get Unstuck When It Matters Most",
               "author": "Adam Alter",
@@ -29922,7 +29936,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 82,
               "id": "01keqeq7nyxjpnsd031e66kmej",
               "title": "As I Lay Dying",
               "author": "William Faulkner",
@@ -29951,7 +29965,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 83,
               "id": "01j29b7q4wm936424r1keh3kz8",
               "title": "How to Read a Book",
               "author": "Mortimer J. Adler",
@@ -29978,7 +29992,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 84,
               "id": "01jjc89qwjr4ry5xp4wneehw5x",
               "title": "Ondernemingsraad voor Dummies",
               "author": "Ruben Houweling",
@@ -30003,7 +30017,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 85,
               "id": "01k4d2kxngyzjt0vzg9sav4hbn",
               "title": "Traumasporen in lichaam, brein en geest",
               "author": "Bessel van der Kolk",
@@ -30029,7 +30043,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 86,
               "id": "01k4z6fmjcf1ffwdqjh2hf4j5k",
               "title": "Diep werk: werken in een wereld vol afleiding",
               "author": "Cal Newport",
@@ -30055,7 +30069,165 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 87,
+              "id": "01kxh3cs7g026yxg2v0sfmvjby",
+              "title": "The Road to Character",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "7 hrs 2 mins",
+              "readingMinutes": 422,
+              "wordCount": 111578,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:20.528000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3cs7g026yxg2v0sfmvjby",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3cs7g026yxg2v0sfmvjby",
+              "summary": "Excerpt from George C. Marshall: Education of a General, 1880–1939 by Forrest C.",
+              "whyRead": "Raakt je interesse in karakter, deugd en betekenisvolle levenskeuzes. Brooks contrasteert uiterlijke prestaties met nederigheid, dienstbaarheid en morele vorming.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 88,
+              "id": "01kxh3czjr80mzr8pvskbk9jb8",
+              "title": "Traumasporen in lichaam, brein en geest",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "11 hrs 54 mins",
+              "readingMinutes": 714,
+              "wordCount": 189114,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:27.737000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3czjr80mzr8pvskbk9jb8",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3czjr80mzr8pvskbk9jb8",
+              "summary": "‘Dit boek is een tour de force.",
+              "whyRead": "Raakt je interesse in de emotionele kant van zorg en psychologisch herstel. Van der Kolk verbindt trauma aan lichaam, brein, relaties en meerdere vormen van behandeling.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "behavioral psychology & coaching",
+                "health & wellness"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 89,
+              "id": "01kxh3d1q5vzfd5h11dr5a7gyx",
+              "title": "Waarom Generalisten Verder Komen",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "7 hrs 29 mins",
+              "readingMinutes": 449,
+              "wordCount": 118839,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:29.328000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
+              "summary": "De uitgever heeft getracht alle rechthebbenden te achterhalen.",
+              "whyRead": "Raakt je interesse in leren en loopbaanontwikkeling. Epstein verdedigt brede ervaring, experimenteren en traag specialiseren in complexe, onzekere domeinen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "professional development"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 90,
+              "id": "01kxh3d3s4z22xfj6gfratdzr3",
+              "title": "Creativiteit_ Flow en de psychologie van de ontdekking",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "8 hrs 22 mins",
+              "readingMinutes": 502,
+              "wordCount": 132904,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:31.311000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
+              "summary": "Alle rechten voorbehouden.",
+              "whyRead": "Raakt je interesse in creativiteit, aandacht en een betekenisvol dagelijks leven. Csikszentmihalyi beschrijft flow als een toestand waarin uitdaging en vaardigheid elkaar precies raken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 91,
+              "id": "01kxh3d5wyz061tvv798szmrge",
+              "title": "Diep Werk_ Werken Met Aandacht in Een Wereld Vol Afleiding",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "4 hrs 53 mins",
+              "readingMinutes": 293,
+              "wordCount": 77522,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:33.259000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3d5wyz061tvv798szmrge",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3d5wyz061tvv798szmrge",
+              "summary": "Cal Newport gebruikte de term ‘diep werk’ voor het eerst op zijn populaire blog.",
+              "whyRead": "Raakt je interesse in aandacht, werk en leerstrategieën. Newport verdedigt langdurige concentratie als zeldzame vaardigheid in een economie van afleiding.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "professional development"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 92,
+              "id": "01kxh3dh3k49hmjw138btvczcf",
+              "title": "Mindset",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "6 hrs 46 mins",
+              "readingMinutes": 406,
+              "wordCount": 107416,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:45.482000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3dh3k49hmjw138btvczcf",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3dh3k49hmjw138btvczcf",
+              "summary": "Carol Dweck is widely regarded as one of the world’s leading researchers in the fields of personality, social psychology and developmental psychology. She has been the William B.",
+              "whyRead": "Raakt je interesse in leren en gedragspsychologie. Dwecks onderscheid tussen vaste en groeigerichte overtuigingen geeft taal voor hoe mensen op fouten, inspanning en ontwikkeling reageren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "behavioral psychology & coaching",
+                "learning & meta-learning"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 93,
               "id": "01m5y5dpmj43zgg4mpehkre2sb",
               "title": "Co-existentie: Leven en werken met slimmere AI",
               "author": "Ethan Mollick",
@@ -30082,7 +30254,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 94,
               "id": "01m63hhr3qh54vvej7c2rja659",
               "title": "The Devils",
               "author": "Joe Abercrombie",
@@ -30107,7 +30279,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 95,
               "id": "01m69p19mkt5dnrgreerj9gk4d",
               "title": "Mind Management, Not Time Management: Productivity When Creativity Matters (Getting Art Done Book 2)",
               "author": "David Kadavy",
@@ -30133,7 +30305,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 96,
               "id": "01m69v7htjq8zjgayyy6as51sm",
               "title": "Children of Time: Winner of the Arthur C. Clarke Award for Best Science Fiction Novel (The Children of Time Novels Book 1)",
               "author": "Adrian Tchaikovsky",
@@ -30158,7 +30330,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 97,
               "id": "01m69v7jkmxnbgva4qbf3rssn6",
               "title": "Autonomous",
               "author": "Annalee Newitz",
@@ -30183,7 +30355,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 98,
               "id": "01m69v7m92kwqvqzv1dpqa4atn",
               "title": "The Ghost Brigades (Old Man's War Book 2)",
               "author": "John Scalzi",
@@ -30208,7 +30380,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 99,
               "id": "01m69v7nenq47prfygx975063t",
               "title": "The Alloy of Law (The Mistborn Saga)",
               "author": "Brandon Sanderson",
@@ -30233,7 +30405,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 100,
               "id": "01m69v7p7ebyvvrpacwa89sjge",
               "title": "The Emperor's Blades: Chronicle of the Unhewn Throne, Book I",
               "author": "Brian Staveley",
@@ -30253,526 +30425,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
               "tags": [
                 "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 81,
-              "id": "01m69v7q2ddpdm3ks173ry5vw9",
-              "title": "The Magic of Recluce (Saga of Recluce Book 1)",
-              "author": "L.E. Modesitt, Jr.",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "10 hrs 28 mins",
-              "readingMinutes": 628,
-              "wordCount": 166364,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:20.548000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807211/bbHhMmhz2l7Ez68XZ0e3MoLu-rQICFSQb6acnv0e4A8-p0-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v7q2ddpdm3ks173ry5vw9",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7q2ddpdm3ks173ry5vw9",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 82,
-              "id": "01m69v7kfk61k793epzwj39b6q",
-              "title": "Blindsight (Firefall)",
-              "author": "Peter Watts",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "6 hrs 48 mins",
-              "readingMinutes": 408,
-              "wordCount": 108004,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:21.574000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807213/YbHdKfy-VfOZBrGUP8Vzwfk7AA7ExO5JJPy9mvb3rpM-p0-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v7kfk61k793epzwj39b6q",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7kfk61k793epzwj39b6q",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 83,
-              "id": "01m69v7sbddvrmsy2j54yczd6m",
-              "title": "Old Man's War",
-              "author": "John Scalzi",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "6 hrs 12 mins",
-              "readingMinutes": 372,
-              "wordCount": 98564,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:22.919000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807216/8vMf9j6LUdO3s9U5ylRzCe0vAM0GOpjPipQMc32osZ4-p1-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v7sbddvrmsy2j54yczd6m",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7sbddvrmsy2j54yczd6m",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 84,
-              "id": "01m69v7tdmgx6k6dzq5qswy02a",
-              "title": "The Dragon Reborn: Book Three of 'The Wheel of Time'",
-              "author": "Robert Jordan",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "18 hrs 6 mins",
-              "readingMinutes": 1086,
-              "wordCount": 287760,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:23.979000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807219/d3cHMTNbmszls7FfAu0H0EMwtYqeJv_zUoNO8njbo2M-p51-_JZjIJn6.jpg",
-              "sourceUrl": "private://read/01m69v7tdmgx6k6dzq5qswy02a",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7tdmgx6k6dzq5qswy02a",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 85,
-              "id": "01m69v7rkqqyd8yvjsb3wjh0hh",
-              "title": "The Shadow Rising: Book Four of 'The Wheel of Time'",
-              "author": "Robert Jordan",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "27 hrs 12 mins",
-              "readingMinutes": 1632,
-              "wordCount": 432432,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:26.472000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807226/uMVcmNc0f0AHgTcldhbRc252wobz3ScdwlY5nxw0y5s-p52-_4ltSYOG.jpg",
-              "sourceUrl": "private://read/01m69v7rkqqyd8yvjsb3wjh0hh",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7rkqqyd8yvjsb3wjh0hh",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 86,
-              "id": "01m69v7x9j2fs92xhj3sexvv9j",
-              "title": "Words of Radiance: Book Two of the Stormlight Archive (The Stormlight Archive, Book 2)",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "28 hrs 2 mins",
-              "readingMinutes": 1682,
-              "wordCount": 445491,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:26.960000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807229/JWLyJ5Q4S8H1vgrU4hKK8HNaZ2t81kKGezmj0QHtbSE-p62-_zCTvdWJ.jpg",
-              "sourceUrl": "private://read/01m69v7x9j2fs92xhj3sexvv9j",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7x9j2fs92xhj3sexvv9j",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 87,
-              "id": "01m69v7y09z58gwvmq9522q1y6",
-              "title": "Shadows for Silence in the Forests of Hell (Kindle Single)",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "1 hr 17 mins",
-              "readingMinutes": 77,
-              "wordCount": 20151,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:27.642000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807230/rP540VdMLvwxN-F6ZFkLg6Ehtr9mBbSQ01dokeReBBg-p0-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v7y09z58gwvmq9522q1y6",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7y09z58gwvmq9522q1y6",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 88,
-              "id": "01m69v7yqsw0cssey169dv4k66",
-              "title": "Perfect State (Kindle Single)",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "1 hr 17 mins",
-              "readingMinutes": 77,
-              "wordCount": 20184,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:28.394000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807231/wBTK_0hGR3JxUq1QcjxNDMb_WHcVz6x7bTY01x5CHN8-p0-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v7yqsw0cssey169dv4k66",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v7yqsw0cssey169dv4k66",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 89,
-              "id": "01m69v80zz5jmbw3xbnqwfgngw",
-              "title": "Mistborn Trilogy (The Mistborn Saga)",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "48 hrs 5 mins",
-              "readingMinutes": 2885,
-              "wordCount": 764351,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:30.720000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807236/DWB62nnDv7Pb0WxLiAoJDw2plKzhwcQNH-4d_cGlxlA-p48-_JH23wSn.jpg",
-              "sourceUrl": "private://read/01m69v80zz5jmbw3xbnqwfgngw",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v80zz5jmbw3xbnqwfgngw",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 90,
-              "id": "01m69v824n6p0cjmteaz65venn",
-              "title": "Warbreaker: A Cosmere Novel",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "16 hrs 3 mins",
-              "readingMinutes": 963,
-              "wordCount": 254981,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:31.881000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807237/m3mkI-nr3EC3KFp8NIU-RrsPik-wIR6XNfn3YzylrEU-p0-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v824n6p0cjmteaz65venn",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v824n6p0cjmteaz65venn",
-              "summary": "",
-              "whyRead": "Een volledig boek over een alternatief verhaal voor werk en leven.",
-              "bestMoment": "Voor een langere studie van betekenisvol werk en loopbaankeuzes.",
-              "tags": [
-                "personal growth & life philosophy",
-                "professional development"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 91,
-              "id": "01m69v8360dj5fks0qqee26wjy",
-              "title": "Elantris: Tenth Anniversary Author's Definitive Edition",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "14 hrs 43 mins",
-              "readingMinutes": 883,
-              "wordCount": 233736,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:32.951000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807238/kfeL7ueO5RDxm52zO7GGyOyqA0ivjgytRFUr_9ypZrg-p33-_vGq6chj.jpg",
-              "sourceUrl": "private://read/01m69v8360dj5fks0qqee26wjy",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v8360dj5fks0qqee26wjy",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 92,
-              "id": "01m69v89a7b9t41aqqamst33dz",
-              "title": "The Well of Ascension: Book Two of Mistborn",
-              "author": "Brandon Sanderson",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "17 hrs 20 mins",
-              "readingMinutes": 1040,
-              "wordCount": 275545,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:39.228000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807240/tFRu_OXFm0Obopl5bcMameqxa4_kukQAVIcOhX9fHb4-p74-_UiRLWeP.jpg",
-              "sourceUrl": "private://read/01m69v89a7b9t41aqqamst33dz",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v89a7b9t41aqqamst33dz",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 93,
-              "id": "01m69v8bcxf54d6f4sc5wdc4bc",
-              "title": "The Pathless Path: Imagining a New Story For Work and Life (The Pathless Path Collection Book 1)",
-              "author": "Paul Millerd",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "4 hrs 22 mins",
-              "readingMinutes": 262,
-              "wordCount": 69356,
-              "publishedDate": null,
-              "savedDate": "2026-10-31T20:43:41.359000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807243/DZWJBga6tRnAmia7QfvaUSKMUKBiGxdxsk8dzB6s0Qg-p1-image-0-0.jpg",
-              "sourceUrl": "private://read/01m69v8bcxf54d6f4sc5wdc4bc",
-              "readwiseUrl": "https://read.readwise.io/read/01m69v8bcxf54d6f4sc5wdc4bc",
-              "summary": "",
-              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-              "tags": [
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01j422az0v87b7wzb7fx7f9r9t",
-              "title": "Uitgewoond",
-              "author": "Cody Hochstenbach",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "6 hrs 14 mins",
-              "readingMinutes": 374,
-              "wordCount": 99033,
-              "publishedDate": "2022-02-04",
-              "savedDate": "2024-07-30T14:57:31.176000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199899402/QuXYrL6y1YkOgbobSImUA45J1DS-RYrtYaRRdWjimOY-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j422az0v87b7wzb7fx7f9r9t",
-              "readwiseUrl": "https://read.readwise.io/read/01j422az0v87b7wzb7fx7f9r9t",
-              "summary": "Cody Hochstenbach (1989) is als stadsgeograaf verbonden aan de Universiteit van Amsterdam.",
-              "whyRead": "Raakt je interesse in sociologie en Nederlandse samenleving — Hochstenbach ontmantelt de wooncrisis als gevolg van bewuste politieke keuzes, niet pech of marktfalen.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "sociology & social structures"
-              ],
-              "coreInterests": [
-                "sociologie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 95,
-              "id": "01kxh3cq0yd7tq672g97w9pts7",
-              "title": "Rest_ Why You Get More Done When You Work Less",
-              "author": "read.readwise.io",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "5 hrs 29 mins",
-              "readingMinutes": 329,
-              "wordCount": 87109,
-              "publishedDate": "2026-07-14",
-              "savedDate": "2026-07-14T19:59:18.075000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://read.readwise.io/read/01kxh3cq0yd7tq672g97w9pts7",
-              "readwiseUrl": "https://read.readwise.io/read/01kxh3cq0yd7tq672g97w9pts7",
-              "summary": "Alex Soojung-Kim Pang is the founder of the Restful Company, a consulting company in Silicon Valley, California, and a visiting academic at Stanford University.",
-              "whyRead": "Raakt je interesse in duurzaam kenniswerk, creativiteit en persoonlijke groei. Pang maakt rust niet tot beloning ná productiviteit, maar tot voorwaarde voor goed en origineel werk.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "health & wellness",
-                "personal growth & life philosophy",
-                "professional development"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 96,
-              "id": "01j6f8r2v0xj1cgdnf7pqxqjyz",
-              "title": "Candide",
-              "author": "Voltaire",
-              "siteName": null,
-              "category": "epub",
-              "language": null,
-              "readingTime": "2 hrs 20 mins",
-              "readingMinutes": 140,
-              "wordCount": 36844,
-              "publishedDate": "2014-05-25",
-              "savedDate": "2024-08-29T14:31:03.776000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/208577671/pwrBnaxIxWcVGx24iu-GkDjTmnsId2IwsTEpAHidwnc-cove_vhFGQXY.jpg",
-              "sourceUrl": "private://read/01j62kcp0vk20jp9525jm2efwv",
-              "readwiseUrl": "https://read.readwise.io/read/01j6f8r2v0xj1cgdnf7pqxqjyz",
-              "summary": "Candide travels through war-torn villages, longing for Miss Cunégonde and feeling remorse for his past actions. He discovers wealth in diamonds but is consumed by grief and worry for her well-being. Ultimately, he reflects on his experiences, feeling that returning to Europe has brought him more misery than happiness.",
-              "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01jaraxstjdzrdw2zs4r638p2v",
-              "title": "Journey to the Center of the Earth",
-              "author": "Jules Verne",
-              "siteName": null,
-              "category": "epub",
-              "language": null,
-              "readingTime": "4 hrs 45 mins",
-              "readingMinutes": 285,
-              "wordCount": 75359,
-              "publishedDate": "2020-07-01",
-              "savedDate": "2024-10-21T20:05:07.695000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/227853731/FmaMJNXV-gJNkJYpN29uVWiHqgBTeOS1Hn8AbttosvI-cove_Ag906PX.jpg",
-              "sourceUrl": "private://read/01jagf2tpmeye0951wr9zt69cz",
-              "readwiseUrl": "https://read.readwise.io/read/01jaraxstjdzrdw2zs4r638p2v",
-              "summary": "In \"Journey to the Center of the Earth,\" the narrator feels both excitement and fear as he and his companions descend into a volcanic crater. Their guide, Hans, skillfully leads them through dangerous terrain while the narrator's uncle eagerly observes everything. Despite the challenges, Hans bravely manages to save important supplies, showing his dedication to the journey.",
-              "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "science"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kgdfpy0f0pts3sax7x38mdqc",
-              "title": "Short Fiction",
-              "author": "Mary Shelley",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "11 hrs 13 mins",
-              "readingMinutes": 673,
-              "wordCount": 178271,
-              "publishedDate": "2025-12-13",
-              "savedDate": "2026-02-01T20:53:34.193000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/415657935/Bryf_WamFy0rkqSWdl_xPb86r9GLajueqw6Jd-aYYfk-cove_BYflIEV.jpg",
-              "sourceUrl": "private://read/01kgdfpy0f0pts3sax7x38mdqc",
-              "readwiseUrl": "https://read.readwise.io/read/01kgdfpy0f0pts3sax7x38mdqc",
-              "summary": "Stories of love, loss, and curses haunt these lives. Secret vows, forced matches, and deaths bring grief and flight. Yet through children and care, despair softens into hope.",
-              "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01j29d3d60k7dhd72yfq1ytt3z",
-              "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
-              "author": "Kirk Teachout",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "2 hrs 35 mins",
-              "readingMinutes": 155,
-              "wordCount": 40811,
-              "publishedDate": "2023-04-16",
-              "savedDate": "2024-07-08T14:48:55.244000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401381/7mvzTcWGM-LqIHxt8Z36_8vfIK8p_NP5KyV1Ad2Yd6w-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3d60k7dhd72yfq1ytt3z",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3d60k7dhd72yfq1ytt3z",
-              "summary": "No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without written permission from the author, except for the use of brief quotations in a book review.",
-              "whyRead": "Brede gids over angst, slaapproblemen en negatief denken als symptomen van overmatig piekeren.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "cognitive science",
-                "health & wellness",
-                "writing & essays"
-              ],
-              "coreInterests": [
-                "schrijven"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01j29d3477vpv22gsyz7y1zrp7",
-              "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
-              "author": "Catherine Shanahan, M. D.",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "19 hrs 38 mins",
-              "readingMinutes": 1178,
-              "wordCount": 312044,
-              "publishedDate": "2017-01-03",
-              "savedDate": "2024-07-08T14:48:46.155000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401240/jfK5f80o7qNc3L1lkpSG6603GoAcTSoObX__CNCgW38-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3477vpv22gsyz7y1zrp7",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3477vpv22gsyz7y1zrp7",
-              "summary": "In \"Deep Nutrition,\" Dr. Catherine Shanahan emphasizes the importance of traditional foods for better health, supported by new scientific findings. She argues that processed foods and vegetable oils are harmful, while natural fats and well-sourced ingredients can enhance our health. This updated edition aims to reinforce the idea that our diet directly influences our genes and overall well-being.",
-              "whyRead": "Raakt je interesse in gezondheid en voeding; Shanahan onderbouwt met evolutionaire biologie waarom traditionele voeding beter aansluit bij onze genetische aanleg.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "food & cooking",
-                "health & wellness",
-                "popular science"
               ],
               "coreInterests": [],
               "alsoIn": []
@@ -38617,68 +38269,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6thz0jqetv5mcb2rsd1pzrn",
-        "title": "Het loopt op rolletjes: Friesland deel 2",
-        "author": "Holly en Roos",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1976,
-        "publishedDate": "2026-11-07",
-        "savedDate": "2026-11-07T08:28:23.511000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/673808f12a101f4fe2af42c02070143e",
-        "readwiseUrl": "https://read.readwise.io/read/01m6thz0jqetv5mcb2rsd1pzrn",
-        "summary": "Na een zonnige tocht door de Deelen en het oranjewoud kom ik aan in gemeente 203: het Friese Westellingwerf. Al zullen sommige mensen stellen dat dit niet meer ‘echt’ Friesland is.",
-        "whyRead": "Een warme Nederlandse reis- en reflectietekst die wandelen, ontmoeting en anarchistische gemeenschapspraktijken verbindt. Vooral interessant als toegankelijke ingang naar gedeeld bezit, machtspreiding en betekenisvolle lokale initiatieven.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6tfhgb8dy99xee97f7fn789",
-        "title": "Max (28) was neonazi, maar werd christen: “Ik vond het heel prettig om alles te haten”",
-        "author": "De Ongelooflijke",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2513,
-        "publishedDate": "2026-11-07",
-        "savedDate": "2026-11-07T07:46:03.752000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/96d43c09725e13f2488d7e612d53a5a2",
-        "readwiseUrl": "https://read.readwise.io/read/01m6tfhgb8dy99xee97f7fn789",
-        "summary": "De AIVD en NCTV waarschuwen voor nieuwe extreemrechtse bewegingen en detoenemende radicalisering van jongeren op internet.",
-        "whyRead": "Een concreet Nederlands getuigenis over online radicalisering: hoe algoritmische aanbevelingen, isolement en behoefte aan broederschap iemand een neonazistisch netwerk intrekken — en welke sociale relaties een uitweg bieden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "sociology & social structures",
-          "technology",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6sch2svmtwggpfbqtysc41d",
         "title": "Your Book Review: Orality and Literacy",
         "author": "Astral Codex Ten",
@@ -38718,7 +38308,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -38761,93 +38351,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6s4ytbn691aqfcgqs5e73q0",
-        "title": "The Pendulum Cycles",
-        "author": "Brennan Kenneth Brown",
-        "siteName": "brennan.day",
-        "category": "rss",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1542,
-        "publishedDate": "2026-11-07",
-        "savedDate": "2026-11-06T19:21:48.221000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/cycles.jpg",
-        "sourceUrl": "https://brennan.day/the-pendulum-cycles/",
-        "readwiseUrl": "https://read.readwise.io/read/01m6s4ytbn691aqfcgqs5e73q0",
-        "summary": "Democrats flipped both chambers of Congress on Tuesday, and the markets shed $2 trillion. What we want is safety rather than power, and the Seville Statement's insistence that war isn't in our nature. On Salon announcing its end after thirty years, and why nothing we build is promised permanence. On Ginsburg's pendulum, bell hooks' optimism, Shakespeare's seven ages, and the decomposers that break down finished work so something new can grow.",
-        "whyRead": "Een reflectie op terugkerende pendulumbewegingen in cultuur en politiek.",
-        "bestMoment": "Voor historische patronen en ideologische verschuivingen.",
-        "tags": [
-          "arts & culture",
-          "current affairs & politics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6s313vcvncp2hv7s7hye5xp",
-        "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
-        "author": "ideas.repec.org",
-        "siteName": "repec.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 222,
-        "publishedDate": "2002-02-02",
-        "savedDate": "2026-11-06T18:48:09.241000+00:00",
-        "imageUrl": "https://ideas.repec.org/cgi-bin/twimage.cgi?a&nat:nature:v:415:y:2002:i:6870:d:10.1038_415429a",
-        "sourceUrl": "https://ideas.repec.org/a/nat/nature/v415y2002i6870d10.1038_415429a.html?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6s313vcvncp2hv7s7hye5xp",
-        "summary": " When a person looks at an object while exploring it with their hand, vision and touch both provide information for estimating the properties of the object. Vision frequently dominates the integrated ",
-        "whyRead": "Een onderzoek naar hoe mensen visuele en haptische informatie combineren op een statistisch optimale manier.",
-        "bestMoment": "Voor perceptie, cognitie en interdisciplinaire wetenschap.",
-        "tags": [
-          "research papers & academia",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6s3119tv38efbw3rpzjsn62",
-        "title": "Why slowing down might be the most underrated way to change",
-        "author": "theslowreturn.substack.com",
-        "siteName": "The Slow Return",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1485,
-        "publishedDate": "2026-09-29",
-        "savedDate": "2026-11-06T18:48:06.637000+00:00",
-        "imageUrl": "https://images.unsplash.com/photo-1543039625-14cbd3802e7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxNzJ8fG5hdHVyZXxlbnwwfHx8fDE3OTA1MTM2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "sourceUrl": "https://theslowreturn.substack.com/p/why-slowing-down-might-be-the-most?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6s3119tv38efbw3rpzjsn62",
-        "summary": "What we tend to miss when everything happens at full speed",
-        "whyRead": "Een artikel over vertragen als onderschatte manier om verandering en betere keuzes mogelijk te maken.",
-        "bestMoment": "Voor aandacht, tempo en duurzame gewoonten.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -38886,64 +38392,6 @@ window.TOP_ARTICLES = {
             "position": 90
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6s30qjmt8e0s5bbdde03g00",
-        "title": "Bench on the Clocktower",
-        "author": "lesswrong.com",
-        "siteName": "lesswrong.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2795,
-        "publishedDate": "2026-09-30",
-        "savedDate": "2026-11-06T18:47:56.669000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/4pgGkbwvdmxKPcJsM/labqja3iehoyuiprslwx",
-        "sourceUrl": "https://www.lesswrong.com/posts/4pgGkbwvdmxKPcJsM/bench-on-the-clocktower?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6s30qjmt8e0s5bbdde03g00",
-        "summary": "Tl;dr\n * We turn Blood on the Clocktower into a multi-agent benchmark, and a testbed for deception and coordination capabilities.\n * GPT-5.6 Sol is t…",
-        "whyRead": "Een benchmark- en spelcontext waarin modellen onder tijdsdruk strategische keuzes maken.",
-        "bestMoment": "Voor AI-evaluatie, incentives en speltheoretische modeltests.",
-        "tags": [
-          "ai ethics & society",
-          "games",
-          "research papers & academia"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6s30hm9h07nn74ycgy69qt0",
-        "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
-        "author": "reuters.com",
-        "siteName": "Reuters",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 665,
-        "publishedDate": "2026-07-17",
-        "savedDate": "2026-11-06T18:47:50.665000+00:00",
-        "imageUrl": "https://www.reuters.com/resizer/v2/NRHYCAJVXVKIBNE2V6ZEC76QGI.jpg?auth=a6fa53d74cbb0e92d33c714ec8d5f9e6e74de128afa11a35400af1deb6754261&height=1005&width=1920&quality=80&smart=true",
-        "sourceUrl": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
-        "readwiseUrl": "https://read.readwise.io/read/01m6s30hm9h07nn74ycgy69qt0",
-        "summary": "Chinese President Xi Jinping cast ‌Beijing as the champion of a new global AI order, using China's premier tech conference to promote open-source technology and challenge U.S. influence over the rules governing the fast-moving sector.",
-        "whyRead": "Een actuele analyse van Xi's poging China als leider van een nieuwe mondiale AI-orde te positioneren.",
-        "bestMoment": "Voor geopolitieke AI-actualiteit.",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -38986,7 +38434,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 73
+            "position": 74
           },
           {
             "familyId": "software-development",
@@ -39035,205 +38483,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6rehk42cpbv5gz1711w8pt1",
-        "title": "A lazy writer's guide to writing a lot (from a lazy writer)",
-        "author": "amugofinsights.org",
-        "siteName": "A Mug of Insights",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 920,
-        "publishedDate": "2026-10-05",
-        "savedDate": "2026-11-06T12:50:11.796000+00:00",
-        "imageUrl": "https://storage.ghost.io/c/4c/bc/4cbc0360-11e9-4e97-9d5b-641fbd8fb570/content/images/2026/10/Untitled-design--2--1.png",
-        "sourceUrl": "https://www.amugofinsights.org/a-lazy-writers-guide-to-writing-a-lot-from-a-lazy-writer/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
-        "readwiseUrl": "https://read.readwise.io/read/01m6rehk42cpbv5gz1711w8pt1",
-        "summary": "an antidote to all the grindset BS",
-        "whyRead": "Een praktische gids om veel te schrijven zonder op inspiratie of perfectionisme te wachten.",
-        "bestMoment": "Voor schrijfritme, ideeën en output.",
-        "tags": [
-          "arts & culture",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6rehd46e8py7grpbmr35ma4",
-        "title": "happy people are too busy living to post about it",
-        "author": "amugofinsights.org",
-        "siteName": "A Mug of Insights",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1415,
-        "publishedDate": "2026-10-12",
-        "savedDate": "2026-11-06T12:50:06.072000+00:00",
-        "imageUrl": "https://storage.ghost.io/c/4c/bc/4cbc0360-11e9-4e97-9d5b-641fbd8fb570/content/images/2026/10/Untitled-design--2--2-1.png",
-        "sourceUrl": "https://www.amugofinsights.org/happy-people-are-too-busy-living-to-post-about-it/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
-        "readwiseUrl": "https://read.readwise.io/read/01m6rehd46e8py7grpbmr35ma4",
-        "summary": "the social media reset that gave me my life back",
-        "whyRead": "Een reflectie op waarom gelukkige mensen minder behoefte hebben om hun leven online te etaleren.",
-        "bestMoment": "Voor aandacht, sociale media en persoonlijke grenzen.",
-        "tags": [
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6reh50gn4vnqdnqaqy7scyt",
-        "title": "The most painful year of my life",
-        "author": "amugofinsights.org",
-        "siteName": "A Mug of Insights",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1086,
-        "publishedDate": "2026-10-19",
-        "savedDate": "2026-11-06T12:49:58.799000+00:00",
-        "imageUrl": "https://storage.ghost.io/c/4c/bc/4cbc0360-11e9-4e97-9d5b-641fbd8fb570/content/images/2026/10/Untitled-design--2--3-1.png",
-        "sourceUrl": "https://www.amugofinsights.org/the-most-painful-year-of-my-life/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
-        "readwiseUrl": "https://read.readwise.io/read/01m6reh50gn4vnqdnqaqy7scyt",
-        "summary": "How a humiliating rejection became the best thing that ever happened to my writing",
-        "whyRead": "Een persoonlijk essay over een pijnlijk levensjaar en wat het veranderde.",
-        "bestMoment": "Voor reflectie en herkenning, niet voor systematische kennisopname.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6ranw5mr62qbg750avkzxe9",
-        "title": "America’s Backlash Against Oligarchy",
-        "author": "Paul Krugman",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1572,
-        "publishedDate": "2026-11-06",
-        "savedDate": "2026-11-06T11:42:35.189000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d555f3bf70889e1590ec029c7b307d68",
-        "readwiseUrl": "https://read.readwise.io/read/01m6ranw5mr62qbg750avkzxe9",
-        "summary": "Marketing note 1: I have a new ebook, Navigating the Chaos: Chronicles of Economic and Political Madness, which uses material from this Substack to construct a thematic narrative of the past two years and the issues that Democrats must now address to build an enduring progressive movement.",
-        "whyRead": "Analyseert de Amerikaanse backlash tegen oligarchie en de politieke gevolgen van extreme vermogensconcentratie.",
-        "bestMoment": "Voor politieke economie, democratie en macht.",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6ra898yp217txe093tp1hkz",
-        "title": "De nieuwsbrief is dood",
-        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 709,
-        "publishedDate": "2026-11-06",
-        "savedDate": "2026-11-06T11:35:09.855000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a54cda92a0698d2f297a6718c678f45d",
-        "readwiseUrl": "https://read.readwise.io/read/01m6ra898yp217txe093tp1hkz",
-        "summary": "De nieuwsbrief is dood, zegt een nieuwsbriefmaker. Dan Shipper van Every verdient zijn brood met e-mail en toch voorspelt hij dat straks agents je inbox gaan lezen in plaats van jij.",
-        "whyRead": "Een reflectie op de dood van nieuwsbrieven en de verschuiving naar andere media- en distributievormen.",
-        "bestMoment": "Voor media, technologie en de economie van aandacht.",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6r9xeqxecb7ya599pv2wv9x",
-        "title": "Stress? Zoek uit wat je negeert",
-        "author": "Intentioneel Leven",
-        "siteName": null,
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 412,
-        "publishedDate": "2026-11-06",
-        "savedDate": "2026-11-06T11:29:15.005000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6263e8a244abd327078ac36ef7750ffd",
-        "readwiseUrl": "https://read.readwise.io/read/01m6r9xeqxecb7ya599pv2wv9x",
-        "summary": "Ja, ik weet het, Bezos is obsceen rijk en Amazon heeft monopolistische trekjes. Maar hij bouwde in bijna drie decennia een van de grootste bedrijven ter wereld.",
-        "whyRead": "Een reflectie op stress als signaal van iets wat je negeert.",
-        "bestMoment": "Voor zelfonderzoek naar werkdruk, emoties en vermeden behoeften.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6r2vvcw11h9egjqdzq32pkg",
-        "title": "Je brandbook is genoeg: zo maak je een design system in Claude",
-        "author": "Saskia en Alinda van her/ai",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1842,
-        "publishedDate": "2026-11-06",
-        "savedDate": "2026-11-06T09:26:02.396000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/64837249e43bad64b93cb66b92a98f55",
-        "readwiseUrl": "https://read.readwise.io/read/01m6r2vvcw11h9egjqdzq32pkg",
-        "summary": "Wij zijn Saskia en Alinda, en we schrijven over AI voor vrouwen die ermee willen (leren) werken. Door niet alleen erover te lezen, maar vooral te doen.",
-        "whyRead": "Laat zien hoe je een bestaand brandbook kunt gebruiken om met Claude een samenhangend design system te bouwen.",
-        "bestMoment": "Voor frontend, design systems en AI-assisted productwerk.",
-        "tags": [
-          "ai ethics & society",
-          "professional development",
-          "software development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6qzwm572de8kkxcksrz4m1z",
         "title": "The Paradox of Collaboration: You Need Troublemakers",
         "author": "Maarten Dalmijn from Maarten’s Newsletter",
@@ -39269,60 +38518,6 @@ window.TOP_ARTICLES = {
             "position": 70
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6pstjmx64q9zfy4sg3cwstk",
-        "title": "The benchmark where AIs have to lie to win",
-        "author": "Dwarkesh Patel",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4208,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T21:28:49.054000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/2b2fcd61db8886a270866858e8f4fda5",
-        "readwiseUrl": "https://read.readwise.io/read/01m6pstjmx64q9zfy4sg3cwstk",
-        "summary": "I’m a big fan of this social deception game called Blood on the Clocktower. It’s similar to Werewolf or Mafia.",
-        "whyRead": "Bespreekt een benchmark waarin AI-systemen moeten liegen om te winnen, en wat dat zegt over evaluatie en doeloptimalisatie.",
-        "bestMoment": "Voor AI-veiligheid, benchmarks en incentiveproblemen.",
-        "tags": [
-          "ai ethics & society",
-          "research papers & academia"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6ppv0aejybgywfk4jraab2z",
-        "title": "The AI Business Model Just Collapsed",
-        "author": "Ted Gioia",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1322,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T20:36:37.326000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/4861f14a1ed7946760a214cf8b273187",
-        "readwiseUrl": "https://read.readwise.io/read/01m6ppv0aejybgywfk4jraab2z",
-        "summary": "On December 28, 2025, I shifted my attention to data centers and public sentiment, warning that 2026 would witness a huge backlash.",
-        "whyRead": "Een opiniestuk over veranderende AI-businessmodellen en de afnemende houdbaarheid van hype.",
-        "bestMoment": "Voor een actuele markt- en strategiecheck.",
-        "tags": [
-          "ai ethics & society",
-          "business & startups"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39515,204 +38710,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 58
+            "position": 72
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6p3e7f5n4vssv1zgjppd8r9",
-        "title": "Building The New Equilibrium Economy",
-        "author": "Philipp Humm",
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4110,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T14:57:32.718000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/11/The-Self-Weaving-Loom-Portrait-scaled.jpg?fm=pjpg&ixlib=php-3.3.1&s=a0862fec7bfcacab604126e596d69ea1",
-        "sourceUrl": "https://www.noemamag.com/building-the-new-equilibrium-economy",
-        "readwiseUrl": "https://read.readwise.io/read/01m6p3e7f5n4vssv1zgjppd8r9",
-        "summary": "The post Building The New Equilibrium Economy appeared first on NOEMA.",
-        "whyRead": "Verkenning van een nieuwe evenwichtseconomie waarin technologie, ecologie en welvaart anders worden verbonden.",
-        "bestMoment": "Voor economische toekomstbeelden en de relatie tussen groei en duurzaamheid.",
-        "tags": [
-          "economics",
-          "environment & sustainability",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6p3a1zfeyf9097k7257x284",
-        "title": "How to show your impact when your best work is invisible",
-        "author": "Vibhor Chandel",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2012,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T14:55:19.024000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/e64c75d1025a31f9b59c4871949c3909",
-        "readwiseUrl": "https://read.readwise.io/read/01m6p3a1zfeyf9097k7257x284",
-        "summary": "The cost of your role, on the other hand, is easy to see. People see you in meetings.",
-        "whyRead": "Een praktisch kader voor zichtbaar maken van werk dat waardevol is maar niet meteen meetbaar of spectaculair.",
-        "bestMoment": "Bij performancegesprekken, statusupdates en kenniswerk.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6nx2adsqtdxvsx9yfd3a86g",
-        "title": "Ness Labs: The Paradox of Comfort ☁️",
-        "author": "Anne-Laure Le Cunff",
-        "siteName": "Ness Labs",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1608,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T13:06:14.073000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c9ec38b763c6cefb6c8f816ed645532c",
-        "readwiseUrl": "https://read.readwise.io/read/01m6nx2adsqtdxvsx9yfd3a86g",
-        "summary": "I recently moved house and spent much of the past few weeks assembling furniture. There are many skills I’m proud of, but this is definitely not one of them!",
-        "whyRead": "Een reflectie op comfort, groei en waarom een prettig leven soms juist verandering kan blokkeren.",
-        "bestMoment": "Voor persoonlijke reflectie op gewoonten en ongemak.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6nqnf6mhpqwqcx4azhksfyf",
-        "title": "What Democrats Can Do",
-        "author": "Paul Krugman",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1075,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T11:31:50.100000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b423e38326135df2a8f29b786777d32c",
-        "readwiseUrl": "https://read.readwise.io/read/01m6nqnf6mhpqwqcx4azhksfyf",
-        "summary": "Marketing note: I have a new ebook, Navigating the Chaos: Chronicles of Economic and Political Madness, which uses material from this Substack to construct a thematic narrative of the past two years and the issues that Democrats must now address to build an enduring progressive movement.",
-        "whyRead": "Een analyse van wat de Democraten kunnen doen na een politieke nederlaag.",
-        "bestMoment": "Voor actuele Amerikaanse partijstrategie.",
-        "tags": [
-          "current affairs & politics",
-          "economics"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6npqmj7f7t53f8b7spac12n",
-        "title": "5 hidden benefits of slowing down",
-        "author": "The Slow Return",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1304,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T11:15:32.552000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/1e8ee50471976eac7c03306509bbc867",
-        "readwiseUrl": "https://read.readwise.io/read/01m6npqmj7f7t53f8b7spac12n",
-        "summary": "Maybe we eat standing up, or with one eye on something else, and barely remember what the food tasted like.",
-        "whyRead": "Vijf verborgen voordelen van vertragen, zoals herstel, aandacht en betere besluitvorming.",
-        "bestMoment": "Bij reflectie op tempo, stress en duurzame werkgewoonten.",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6npdtp3d1g12p0ezaw954gx",
-        "title": "The Laws of Thought",
-        "author": "Tommy Blanchard from Cognitive Wonderland",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2206,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T11:10:11.139000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/236ae1c591e6bfccf842508f4a0edde3",
-        "readwiseUrl": "https://read.readwise.io/read/01m6npdtp3d1g12p0ezaw954gx",
-        "summary": "The hard sciences have been incredibly successful at using math to describe the behavior of the physical world.",
-        "whyRead": "Een filosofische uitleg van de wetten van het denken en hoe formele regels ons redeneren begrenzen en ondersteunen.",
-        "bestMoment": "Voor logica, wetenschap en de relatie tussen denken en werkelijkheid.",
-        "tags": [
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6npbes0gf4vrryyah91f7h5",
-        "title": "Bouw van AI-datacenters onzeker na Amerikaanse verkiezingen",
-        "author": "AI Report",
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3111,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T11:08:53.409000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/789d54977c056a5e295cc194b3d3e7a7",
-        "readwiseUrl": "https://read.readwise.io/read/01m6npbes0gf4vrryyah91f7h5",
-        "summary": "Amerikaanse kiezers hebben de bouw van AI-datacenters dinsdag een gevoelige slag toegebracht. In minstens 38 gemeenten en gebieden stemden ze voor verboden of beperkingen.",
-        "whyRead": "Een actuele analyse van onzekerheid rond de bouw van AI-datacenters na de Amerikaanse verkiezingen.",
-        "bestMoment": "Voor energie, infrastructuur en AI-politiek in het nieuws.",
-        "tags": [
-          "current affairs & politics",
-          "environment & sustainability",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39750,184 +38750,6 @@ window.TOP_ARTICLES = {
             "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6n7jg41bwzr7e144t93cpv9",
-        "title": "I think we're nearing the end of the scrolling era",
-        "author": "Substack",
-        "siteName": "Uncynical",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3293,
-        "publishedDate": null,
-        "savedDate": "2026-11-05T06:50:35.468000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!UWSU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54953f87-3f08-4294-8996-694fd908f31d_1344x896.jpeg",
-        "sourceUrl": "https://uncynical.substack.com/p/the-end-of-our-smartphone-era",
-        "readwiseUrl": "https://read.readwise.io/read/01m6n7jg41bwzr7e144t93cpv9",
-        "summary": "Looking back and looking ahead.",
-        "whyRead": "Een waarschuwing dat de scrolling-interface en eindeloze feeds misschien hun grens bereiken.",
-        "bestMoment": "Voor aandacht, technologieontwerp en digitale gewoonten.",
-        "tags": [
-          "personal growth & life philosophy",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6n25rva57mt7xs923hyph6v",
-        "title": "Measuring AI Impact",
-        "author": "Stefan Wolpers",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4888,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T05:16:15.594000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/93adaf539c283efe1b0cb2b91f91a0e8",
-        "readwiseUrl": "https://read.readwise.io/read/01m6n25rva57mt7xs923hyph6v",
-        "summary": "Sooner or later, someone in your organization shows a slide with a number about what AI did for your team: typically, the team’s “velocity” before and after the coding agents arrived, plus a percentage that looks like a return on the token bill.",
-        "whyRead": "Een praktische bespreking van hoe je AI-impact meet zonder activiteit, tokens of demo's te verwarren met waarde.",
-        "bestMoment": "Bij AI-adoptie, engineeringmetrics en productiviteitsmeting.",
-        "tags": [
-          "flow & delivery",
-          "organizational behavior & culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6n18d531gq9eg7n11bh5021",
-        "title": "De geestelijk vader van de Amerikaanse AI-industrie spreekt!",
-        "author": "Maurits Martijn",
-        "siteName": "De Correspondent",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1132,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T05:00:13.347000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/549206477121fb82ea299607293464d5",
-        "readwiseUrl": "https://read.readwise.io/read/01m6n18d531gq9eg7n11bh5021",
-        "summary": "Deze week publiceerde De Correspondent mijn interview met Nick Bostrom.",
-        "whyRead": "Een gesprek met een vroege stem uit de Amerikaanse AI-industrie over technologie, macht en de ideeën achter de sector.",
-        "bestMoment": "Voor historische en filosofische context bij AI-ontwikkeling.",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6n165y3a1wn992zjh6cj4rt",
-        "title": "Weerstand",
-        "author": "Simon van Teutem",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 538,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T04:59:00.420000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/478f60d9b48f119527f0033c08616b7c",
-        "readwiseUrl": "https://read.readwise.io/read/01m6n165y3a1wn992zjh6cj4rt",
-        "summary": "Luie mensen, die nadenken maar een vervelend karwei vinden en overal de weg van de minste weerstand zoeken, zullen hun denkwerk steeds vaker van begin tot eind uitbesteden aan een chatbot.",
-        "whyRead": "Een reflectie op weerstand tegen AI, leren en de vraag wanneer frictie juist waardevol is.",
-        "bestMoment": "Bij nadenken over automatisering, onderwijs en menselijke oefening.",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6mqamyd6214j5hwtr3ah26q",
-        "title": "Links For November 2026",
-        "author": "Astral Codex Ten",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3401,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T02:06:41.101000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/30cc48fc05ce21f9b6ab354c1c72080c",
-        "readwiseUrl": "https://read.readwise.io/read/01m6mqamyd6214j5hwtr3ah26q",
-        "summary": "[I haven’t independently verified each link. On average, commenters will end up spotting evidence that around two or three of the links in each links post are wrong or misleading.",
-        "whyRead": "Een nieuwsbriefdigest met uiteenlopende links en aanbevelingen.",
-        "bestMoment": "Voor snelle ontdekking van nieuwe onderwerpen.",
-        "tags": [
-          "arts & culture",
-          "current affairs & politics",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6mgkgd9yx6ev75b2mzfj8bh",
-        "title": "James Talarico’s Leap of Faith",
-        "author": "New Yorker Substack",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1149,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T00:09:11.338000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/83238e91ea4baa1a3a86d842f71f0145",
-        "readwiseUrl": "https://read.readwise.io/read/01m6mgkgd9yx6ev75b2mzfj8bh",
-        "summary": "To support journalism like this, consider subscribing.",
-        "whyRead": "Een profiel van James Talarico en zijn sprong van geloof naar politiek leiderschap.",
-        "bestMoment": "Voor actuele Amerikaanse politiek, religie en publieke overtuiging.",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39975,35 +38797,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6kzmgehvgtkmcnevsp3yj9b",
-        "title": "The Music Innovator Who Lived in a Friend's Basement",
-        "author": "Ted Gioia",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2001,
-        "publishedDate": "2026-11-04",
-        "savedDate": "2026-11-04T19:12:38.353000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/394507df78574cb678498cd785ccabb0",
-        "readwiseUrl": "https://read.readwise.io/read/01m6kzmgehvgtkmcnevsp3yj9b",
-        "summary": "During the last five years, I’ve a published a series of essay on people I call Sound Wizards.",
-        "whyRead": "Een cultureel portret van een muziekvernieuwer en de omstandigheden achter zijn carrière.",
-        "bestMoment": "Voor ontspannen muziek- en cultuurlectuur.",
-        "tags": [
-          "arts & culture",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6krn18z5ts8vs2g5x8yatdb",
         "title": "a day in the Software Factory - how it all comes together",
         "author": "Matt Pocock (AI Hero)",
@@ -40043,7 +38836,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "software-development",
@@ -40078,8 +38871,16 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "sociologie"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 33
+          }
+        ]
       },
       {
         "position": null,
@@ -40156,62 +38957,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6kfwyxsk0kf0fajntykq37a",
-        "title": "I got my dream book deal, then I stopped writing...",
-        "author": "A Mug of Insights",
-        "siteName": "Ghost - The Professional Publishing Platform",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1464,
-        "publishedDate": "2026-11-04",
-        "savedDate": "2026-11-04T14:37:38.106000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d88a4c34db90c694a63aa375dead8e16",
-        "readwiseUrl": "https://read.readwise.io/read/01m6kfwyxsk0kf0fajntykq37a",
-        "summary": "In case you haven't watched it yet, The Bear is a show about a young chef, Carmen Berzatto and his story of trying to save his dead brother's struggling restaurant.",
-        "whyRead": "Een persoonlijk verhaal over een droomboekdeal, stoppen met schrijven en de druk die succes kan veroorzaken.",
-        "bestMoment": "Bij reflectie op creatief werk, ambitie en de relatie tussen output en identiteit.",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6kbasmkpj5e6cyj7z2zt7a7",
-        "title": "6 Lessons from the Blue Tsunami",
-        "author": "Brian Klaas",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1524,
-        "publishedDate": "2026-11-04",
-        "savedDate": "2026-11-04T13:17:48.564000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b154eb47697d95906baf6bf87c9b007e",
-        "readwiseUrl": "https://read.readwise.io/read/01m6kbasmkpj5e6cyj7z2zt7a7",
-        "summary": "The MAGA Republicans who predicted that a Blue Wave wouldn’t happen were accidentally right: it was a Blue Tsunami.",
-        "whyRead": "Zes lessen uit de politieke 'blue tsunami' over kiezers, polarisatie en democratische verandering.",
-        "bestMoment": "Voor politieke psychologie en de dynamiek achter verkiezingsuitslagen.",
-        "tags": [
-          "current affairs & politics",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6k58mttfa0z5yx1qv6yp4sh",
         "title": "A Woebegone Pivot?",
         "author": "Bob Galen from Agile Moose",
@@ -40247,60 +38992,6 @@ window.TOP_ARTICLES = {
             "position": 100
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6k3wkntrgndqw9s434mftyb",
-        "title": "5 boring ways to become more creative",
-        "author": "Mark Manson from No Solutions… Only Trade-O ffs",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3427,
-        "publishedDate": "2026-11-04",
-        "savedDate": "2026-11-04T11:07:43.674000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/82c3420970d445b71e1992b75b9aa643",
-        "readwiseUrl": "https://read.readwise.io/read/01m6k3wkntrgndqw9s434mftyb",
-        "summary": "Almost by definition, creativity is the opposite of boring.",
-        "whyRead": "Vijf eenvoudige, weinig glamoureuze gewoonten die creativiteit op lange termijn ondersteunen.",
-        "bestMoment": "Wanneer je creatieve routines wilt opbouwen zonder op inspiratie te wachten.",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6k0k9j7yz1n5stfbty2n4sk",
-        "title": "On Self-Doubt, Self-Worth, and How to Manage Your Self-Esteem as a Writer",
-        "author": "Helen Betya Rubinstein",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2829,
-        "publishedDate": "2026-11-04",
-        "savedDate": "2026-11-04T10:10:06.680000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/pencil-and-notebook-768x410.jpg",
-        "sourceUrl": "https://lithub.com/on-self-doubt-self-worth-and-how-to-manage-your-self-esteem-as-a-writer/",
-        "readwiseUrl": "https://read.readwise.io/read/01m6k0k9j7yz1n5stfbty2n4sk",
-        "summary": "The journey there was inauspicious. In the basement of Port Authority I was told that the bus route I was holding a paper ticket for had been permanently canceled, so I had to race across Manhattan to catch a train",
-        "whyRead": "Bespreekt zelftwijfel en eigenwaarde bij schrijvers zonder die gevoelens meteen als persoonlijk falen te behandelen.",
-        "bestMoment": "Bij reflectie op creatief werk, kwetsbaarheid en de psychologische kant van schrijven.",
-        "tags": [
-          "arts & culture",
-          "behavioral psychology & coaching"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -40342,36 +39033,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6h80zhs1mdwny5akhnc3y12",
-        "title": "In Praise Of Japan’s Failure To Keep Up",
-        "author": "Michael Fitzpatrick",
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5782,
-        "publishedDate": "2026-11-03",
-        "savedDate": "2026-11-03T17:41:29.345000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/11/Noema.jpg?fm=pjpg&ixlib=php-3.3.1&s=c1164eea0672e3c5fd970f2d5584d198",
-        "sourceUrl": "https://www.noemamag.com/in-praise-of-japans-failure-to-keep-up",
-        "readwiseUrl": "https://read.readwise.io/read/01m6h80zhs1mdwny5akhnc3y12",
-        "summary": "The post In Praise Of Japan’s Failure To Keep Up appeared first on NOEMA.",
-        "whyRead": "Een reflectie op Japans achterblijven bij technologische en economische veranderingen.",
-        "bestMoment": "Bij vergelijkingen tussen innovatie, cultuur en economische stagnatie.",
-        "tags": [
-          "economics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6h5r2r0pyyht8p7vhbfs63y",
         "title": "A Brief History of Courage",
         "author": "Odysseas",
@@ -40409,91 +39070,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6h5jak19ct1z4w0yfdn9281",
-        "title": "The most lucrative AI business to start in 2027",
-        "author": "Dan Koe",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3515,
-        "publishedDate": "2026-11-03",
-        "savedDate": "2026-11-03T16:58:34.977000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c8cbc154b8dd8d700d088d6444e19d4f",
-        "readwiseUrl": "https://read.readwise.io/read/01m6h5jak19ct1z4w0yfdn9281",
-        "summary": "If your goal is making more money, it doesn’t matter how good a software you build. It doesn’t matter if it took you 3 years and endless scrapped drafts to write a book.",
-        "whyRead": "Een verkenning van AI-businesskansen voor 2027.",
-        "bestMoment": "Alleen wanneer je actuele startup- en marktideeën wilt scannen.",
-        "tags": [
-          "business & startups",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6h5gr31djhj4qjxzbz2eyjw",
-        "title": "Why I started reviewing every book I read",
-        "author": "Sam Rinko from Knowledge Lust",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1389,
-        "publishedDate": "2026-11-03",
-        "savedDate": "2026-11-03T16:57:43.265000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/84b05848a5324390df37ba3fbe7d9fca",
-        "readwiseUrl": "https://read.readwise.io/read/01m6h5gr31djhj4qjxzbz2eyjw",
-        "summary": "For about 3/4 of the books I’d read, if someone were to ask me what the book was about, I wouldn’t have been able to give them a clear and thoughtful answer.",
-        "whyRead": "Onderzoekt waarom systematisch boeken reviewen leidt tot beter onthouden en meer inzicht.",
-        "bestMoment": "Bij het ontwerpen van een eigen lees- en notitiepraktijk.",
-        "tags": [
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6gdexrc06tk5rwtcvgrc05x",
-        "title": "How J.R.R. Tolkien’s Strong Catholic Faith Influenced His Writing",
-        "author": "D.J. Taylor",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1423,
-        "publishedDate": "2026-11-03",
-        "savedDate": "2026-11-03T09:57:14.708000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/11/tolkienglow-copy-768x410.jpg",
-        "sourceUrl": "https://lithub.com/how-j-r-r-tolkiens-strong-catholic-faith-influenced-his-writing/",
-        "readwiseUrl": "https://read.readwise.io/read/01m6gdexrc06tk5rwtcvgrc05x",
-        "summary": "To ask what Tolkien thought of God is rather like asking what Marx thought of socialism or how Samuel Pepys regarded the business of diary-keeping. In each case the subject so completely overwhelms the world to which it is introduced",
-        "whyRead": "Beschrijft hoe Tolkiens katholieke geloof zijn wereldbouw, symboliek en vertelkeuzes beïnvloedde.",
-        "bestMoment": "Bij literatuurkritiek, religie en de interpretatie van fictie.",
-        "tags": [
-          "arts & culture",
-          "history",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6gbsmqtbdk0m3gejz91p6rx",
         "title": "Four useful questions",
         "author": "Henrik Karlsson",
@@ -40516,35 +39092,6 @@ window.TOP_ARTICLES = {
           "professional development"
         ],
         "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6g3ewpxxg560fr9h0nt0a36",
-        "title": "Welcome to the Neutral Zone",
-        "author": "Anton from Manager.dev",
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2540,
-        "publishedDate": "2026-11-03",
-        "savedDate": "2026-11-03T07:02:30.878000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/33d11237d7188c47824f9a22976c0ef6",
-        "readwiseUrl": "https://read.readwise.io/read/01m6g3ewpxxg560fr9h0nt0a36",
-        "summary": "Last month my coding agent followed our architecture doc perfectly. The problem was we had changed some of the decisions in Slack two weeks earlier.",
-        "whyRead": "Een managementessay over een neutrale zone waarin organisaties oude werkwijzen verliezen voordat nieuwe duidelijk zijn.",
-        "bestMoment": "Bij organisatieverandering en het begeleiden van teams door onzekerheid.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
         "alsoIn": [],
         "memberships": []
       },
@@ -40636,34 +39183,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6f1dcc2xzzcmrzf4fj69mtx",
-        "title": "FAQ for Software Factories for Real Engineers",
-        "author": "Matt Pocock (AI Hero)",
-        "siteName": "aihero.dev",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 608,
-        "publishedDate": "2026-11-02",
-        "savedDate": "2026-11-02T21:07:29.795000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/4fa05eecbb24d095956d58094af61771",
-        "readwiseUrl": "https://read.readwise.io/read/01m6f1dcc2xzzcmrzf4fj69mtx",
-        "summary": "I don't want you and your teammates to miss this cohort because of an open question about the format, timing, or whether it's a fit for you or your team.",
-        "whyRead": "Een FAQ over software factories die AI inzetten zonder de engineeringdiscipline en onderhoudbaarheid op te offeren.",
-        "bestMoment": "Bij AI-assisted development, codekwaliteit en teamprocessen.",
-        "tags": [
-          "ai ethics & society",
-          "professional development",
-          "software development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6egjxhp8983xtev5yhtf98c",
         "title": "Migration myth 5/22: Development in poor countries will reduce migration",
         "author": "Hein de Haas from Hein de Haas",
@@ -40740,33 +39259,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6e2bnm7erhwsse06pg5j4e6",
-        "title": "What if the problem isn’t actually the problem?",
-        "author": "The Slow Return",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1413,
-        "publishedDate": "2026-11-02",
-        "savedDate": "2026-11-02T12:04:47.879000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d435aa6c1653db481f4dcb1050727569",
-        "readwiseUrl": "https://read.readwise.io/read/01m6e2bnm7erhwsse06pg5j4e6",
-        "summary": "Een reflectie op de mogelijkheid dat een hardnekkig probleem slechts een symptoom is van een andere onvervulde behoefte.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6e0f5x4az6198vn48facpms",
         "title": "When is Fast…Too Fast?",
         "author": "Bob Galen from Agile Moose",
@@ -40805,33 +39297,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6dajfbk010n505kmcq0cmww",
-        "title": "Happiness is a 2x2 Matrix",
-        "author": "David Epstein",
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 325,
-        "publishedDate": "2026-10-28",
-        "savedDate": "2026-11-02T05:09:05.011000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!FpLl!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facec0f55-af3e-44cb-a441-064fb1b78b76_2516x2186.png",
-        "sourceUrl": "https://davidepstein.substack.com/p/happiness-is-a-2x2-matrix-691",
-        "readwiseUrl": "https://read.readwise.io/read/01m6dajfbk010n505kmcq0cmww",
-        "summary": "From the Range Widely archive",
-        "whyRead": "Een helder model dat geluk koppelt aan verschillende combinaties van verwachtingen, aandacht en uitkomsten.",
-        "bestMoment": "Voor reflectie op leren, motivatie en de kwaliteit van ervaringen.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6dahydg800t0wj21evmkja5",
         "title": "The Commanding Heights",
         "author": "Will Manidis",
@@ -40863,36 +39328,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 60
+            "position": 74
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6dahdgcez65myptnxpcdx72",
-        "title": "How I work with Agents",
-        "author": "Thorsten Ball",
-        "siteName": "X (formerly Twitter)",
-        "category": "tweet",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 663,
-        "publishedDate": "2026-10-25",
-        "savedDate": "2026-11-02T05:08:30.349000+00:00",
-        "imageUrl": "https://pbs.twimg.com/profile_images/2073288299528024064/3itOM_L5.jpg",
-        "sourceUrl": "https://x.com/thorstenball/status/2114386050638336082/?rw_tt_thread=True",
-        "readwiseUrl": "https://read.readwise.io/read/01m6dahdgcez65myptnxpcdx72",
-        "summary": "Finally summarized what I've been sending to friends in DMs",
-        "whyRead": "Een compacte praktijkreflectie op het werken met agents, modelkeuze en het beschrijven van wat je wilt in plaats van hoe.",
-        "bestMoment": "Bij agent-workflows en het formuleren van softwaretaken.",
-        "tags": [
-          "ai ethics & society",
-          "software development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -40978,7 +39416,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 36
+            "position": 37
           },
           {
             "familyId": "philosophy",
@@ -41065,96 +39503,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6bkx74h512fhaw4xc8s6xx9",
-        "title": "I Met the Ferryman of the Underworld on the Thames (London Dispatch #4)",
-        "author": "Vashik Armenikus from Genius & Ink 🖌",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1544,
-        "publishedDate": "2026-11-01",
-        "savedDate": "2026-11-01T13:13:45.361000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f156c1fd36cd5cb3a0edd8833ab7ef5b",
-        "readwiseUrl": "https://read.readwise.io/read/01m6bkx74h512fhaw4xc8s6xx9",
-        "summary": "Before you find out about the similarity between the River Styx and the River Thames let’s talk about Carl Jung.",
-        "whyRead": "Verbindt Jung, de Thames en de mythe van de veerman van de onderwereld aan een leesclub rond The Undiscovered Self.",
-        "bestMoment": "Voor filosofische en literaire reflectie met een Londense, mythische invalshoek.",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b308tbvg2j18b7h5fkx3ew",
-        "title": "Waarom mag een hobby geen geld opleveren?",
-        "author": "Tussen de regels",
-        "siteName": "Myrthe Geerts",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2431,
-        "publishedDate": "2026-10-16",
-        "savedDate": "2026-11-01T08:18:19.596000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!TmLq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F270ce334-51fe-4ab5-90fe-228bce7c5931_245x285.gif",
-        "sourceUrl": "https://myrthegeerts.substack.com/p/waarom-mag-een-hobby-geen-geld-opleveren?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b308tbvg2j18b7h5fkx3ew",
-        "summary": "Over waarom de luxe van een gepensioneerde hobbyist niet de maatstaf is voor een onafhankelijke journalist, de illusie van 'gratis' en waarom we wel 4 euro aan koffie uitgeven.",
-        "whyRead": "Onderzoekt waarom culturele productie niet altijd gratis hoeft te zijn en hoe prijs, arbeid en plezier zich tot elkaar verhouden.",
-        "bestMoment": "Als je nadenkt over werk, creativiteit, verdienmodellen en de waarde van onafhankelijke journalistiek.",
-        "tags": [
-          "economics",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b0qnjfc9wwqkgxjwm1ze8c",
-        "title": "Railroading: Don’t have AI FOMO, As You’re Already Missing Out Every Day",
-        "author": "Maarten Dalmijn from Maarten’s Newsletter",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 597,
-        "publishedDate": "2026-11-01",
-        "savedDate": "2026-11-01T07:38:40.591000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/e6d70500623c50c744e1fc5ae1cfa4c7",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b0qnjfc9wwqkgxjwm1ze8c",
-        "summary": "If you’re railroading your teams, you can splurge on AI trainings to make them the best AI experts in the world, but they’re still busy operating steam trains: exerting lots of effort to move slow without much creativity.",
-        "whyRead": "Waarschuwt dat AI-training niets oplost als organisaties hun onderliggende werkprocessen en bottlenecks niet veranderen.",
-        "bestMoment": "Bij AI-adoptie, procesverbetering en het onderscheiden van echte snelheid van schijnbare snelheid.",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "software development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6b0768zn0gg3ewwdm1x4pgz",
         "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
         "author": "Lenny's Podcast",
@@ -41187,7 +39535,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 71
+            "position": 72
           },
           {
             "familyId": "videos",
@@ -41195,95 +39543,6 @@ window.TOP_ARTICLES = {
             "position": 15
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6b05q83je3ppewxpbcs5c7h",
-        "title": "Zombie stats.",
-        "author": "Mack Grenfell",
-        "siteName": "Trakkr",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1970,
-        "publishedDate": "2026-10-28",
-        "savedDate": "2026-11-01T07:28:52.483000+00:00",
-        "imageUrl": "https://trakkr.ai/images/research/og/zombie-stats.png",
-        "sourceUrl": "https://trakkr.ai/trakkr-research/zombie-stats?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b05q83je3ppewxpbcs5c7h",
-        "summary": "We asked five AI assistants 200 questions that call for a number and followed 1,285 of the statistics they cited back to the source.",
-        "whyRead": "Laat zien hoe AI-systemen schijnbaar plausibele statistieken kunnen herhalen zonder betrouwbare bron, en waarom broncontrole nodig blijft.",
-        "bestMoment": "Voor factchecking, AI-geletterdheid en het beoordelen van kwantitatieve claims.",
-        "tags": [
-          "ai ethics & society",
-          "research papers & academia",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b04xj9gbjh4446c0b95n8q",
-        "title": "Why Narcissistic Leaders Don’t Like Remote Work",
-        "author": "Knowledge at Wharton",
-        "siteName": "Knowledge at Wharton",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1068,
-        "publishedDate": "2026-10-26",
-        "savedDate": "2026-11-01T07:28:26.185000+00:00",
-        "imageUrl": "https://knowledge.wharton.upenn.edu/wp-content/uploads/2026/10/10.28.26-grant-shandell-elliott-narcissistic-leader-remote-work-v2-GettyImages-2262239813-600x500.jpg",
-        "sourceUrl": "https://knowledge.wharton.upenn.edu/article/why-narcissistic-leaders-dont-like-remote-work/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b04xj9gbjh4446c0b95n8q",
-        "summary": "A new study from Wharton’s Adam Grant finds narcissism is the common denominator among CEOs who are most resistant to remote and hybrid work.",
-        "whyRead": "Vat onderzoek samen dat narcistische leiders vaker tegen remote work zijn omdat aanwezigheid macht en status beter zichtbaar maakt.",
-        "bestMoment": "Bij de relatie tussen leiderschap, macht, kantoorbeleid en organisatiecultuur.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b04my837bm2f9jag89qf84",
-        "title": "Let Chaos Reign, and Then Rein In Chaos",
-        "author": "Marc Andreessen",
-        "siteName": "a16z",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1838,
-        "publishedDate": "2026-10-26",
-        "savedDate": "2026-11-01T07:28:17.352000+00:00",
-        "imageUrl": "https://www.a16z.news/api/v1/press_kit/asset/221795255/overlay/composed?aspectRatio=link",
-        "sourceUrl": "https://www.a16z.news/p/let-chaos-reign-and-then-rein-in?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b04my837bm2f9jag89qf84",
-        "summary": "Replit and the Agent Habitat",
-        "whyRead": "Beschrijft hoe agentische AI chaos kan vergroten wanneer agents zonder duidelijke bevoegdheden, credentials en zichtbaarheid werken.",
-        "bestMoment": "Bij AI-governance, agentarchitectuur en de inrichting van veilige bedrijfsprocessen.",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "software development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41326,146 +39585,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6b03xy49a5jf2gdf6zw9qpd",
-        "title": "Getting good at AI takes time and practice",
-        "author": "seangoedecke.com",
-        "siteName": "seangoedecke.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1238,
-        "publishedDate": null,
-        "savedDate": "2026-11-01T07:27:53.797000+00:00",
-        "imageUrl": "https://seangoedecke.com/favicon-32x32.png?v=ac7bb3aa286bd21c42741d9c9aa60cb7",
-        "sourceUrl": "https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b03xy49a5jf2gdf6zw9qpd",
-        "summary": "Many people think that getting “good at AI” is trivial. Sure, with some early models there were tricks you had to learn, but current models don’t need them…",
-        "whyRead": "Legt uit waarom goed worden in AI contextkennis, oefening en duurzame vaardigheden vereist in plaats van alleen prompttrucs.",
-        "bestMoment": "Bij het opbouwen van AI-geletterdheid en verantwoord gebruik in engineering.",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b03pxtvpf1qgzpk1kh5dwt",
-        "title": "Practical AI for Academics",
-        "author": "Claes Bäckman",
-        "siteName": "claesbackman.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1645,
-        "publishedDate": null,
-        "savedDate": "2026-11-01T07:27:46.618000+00:00",
-        "imageUrl": "https://claesbackman.com/assets/photo.jpg",
-        "sourceUrl": "https://claesbackman.com/ai_workshop/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b03pxtvpf1qgzpk1kh5dwt",
-        "summary": "Slides, Claude Code skills, and guides from the workshop for academic economists.",
-        "whyRead": "Een praktische workshop over LLM's, agents, foutcontrole, Claude Code, academisch schrijven en reproduceerbare onderzoeksworkflows.",
-        "bestMoment": "Voor het veilig en controleerbaar inzetten van AI in academisch werk.",
-        "tags": [
-          "ai ethics & society",
-          "professional development",
-          "research papers & academia"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b03gr09rf6cmjyd5q5axkn",
-        "title": "No Signs of AI Payoff Outside the Tech Sector",
-        "author": "apollo.com",
-        "siteName": "Apollo Global Management, Inc.",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 649,
-        "publishedDate": "2026-10-24",
-        "savedDate": "2026-11-01T07:27:40.288000+00:00",
-        "imageUrl": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
-        "sourceUrl": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b03gr09rf6cmjyd5q5axkn",
-        "summary": "Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech. Subscribe for daily updates.",
-        "whyRead": "Stelt op basis van macro-economische indicatoren dat AI buiten de techsector nog geen duidelijke financiële opbrengst laat zien.",
-        "bestMoment": "Voor een nuchtere check op AI-hype, productiviteit en bedrijfsinvesteringen.",
-        "tags": [
-          "ai ethics & society",
-          "business & startups",
-          "economics"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b0369nb37ewthz9y8t42d0",
-        "title": "AI is overwhelming and I’m doing it wrong",
-        "author": "Ben Tossell",
-        "siteName": "bensbites.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1307,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-11-01T07:27:29.589000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!AM0R!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2115535996909490176.jpg",
-        "sourceUrl": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b0369nb37ewthz9y8t42d0",
-        "summary": "Let’s think about what we’re doing here",
-        "whyRead": "Een persoonlijke reflectie op AI-overweldiging, keuzeverlamming en de druk om voortdurend nieuwe tools en agents te volgen.",
-        "bestMoment": "Als je je eigen AI-gebruik wilt begrenzen en opnieuw wilt kiezen wat werkelijk nuttig is.",
-        "tags": [
-          "ai ethics & society",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m6b026ptpbpfg1s52rr9f69w",
-        "title": "Heterogeneous Product Management is the future",
-        "author": "allan kelly",
-        "siteName": "Allan Kelly - Growing Effective digital enterprises with agile and OKRs",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1141,
-        "publishedDate": "2026-10-20",
-        "savedDate": "2026-11-01T07:26:57.243000+00:00",
-        "imageUrl": "https://www.allankelly.net/wp-content/uploads/2026/10/iStock-837022338m.jpeg",
-        "sourceUrl": "https://www.allankelly.net/archives/10815/heterogeneous-product-management-is-the-future/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b026ptpbpfg1s52rr9f69w",
-        "summary": "My early career repeatedly moved between corporate software (products used in the business) and commercial product companies (products which earned revenue).",
-        "whyRead": "Verkent waarom productmanagement in verschillende organisatiestructuren anders werkt en waarom er geen universele productmanagerrol bestaat.",
-        "bestMoment": "Bij organisatieontwerp, productrollen en de spanning tussen context en standaardprocessen.",
-        "tags": [
-          "organizational behavior & culture",
-          "product management"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m6b01z1h24ztwc841c49a588",
         "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
         "author": "Lenny Rachitsky",
@@ -41503,39 +39622,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6b01r8a8hdmja274htff235",
-        "title": "Why Product Looks Like a Cost Center| ProdPad",
-        "author": "Janna Bastow",
-        "siteName": "ProdPad",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1856,
-        "publishedDate": "2026-10-22",
-        "savedDate": "2026-11-01T07:26:42.442000+00:00",
-        "imageUrl": "https://www.prodpad.com/wp-content/uploads/2026/10/Your-Board-Update-Is-the-Reason-Product-Looks-Like-a-Cost-Center.png",
-        "sourceUrl": "https://www.prodpad.com/blog/board-update-product-cost-center/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m6b01r8a8hdmja274htff235",
-        "summary": "Your board update decides if product looks like a cost center. Report it as an investment: bets, evidence, return and next allocation.",
-        "whyRead": "Laat zien waarom productteams als kostenpost worden gezien en hoe bestuursrapportages productwaarde beter kunnen tonen.",
-        "bestMoment": "Bij productstrategie, metrics en communicatie met directie of board.",
-        "tags": [
-          "organizational behavior & culture",
-          "product management",
-          "professional development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41652,89 +39741,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m6avase1ew8wcwm7rsvkff45",
-        "title": "I Am Relentless and Undaunted",
-        "author": "Brennan Kenneth Brown",
-        "siteName": "brennan.day",
-        "category": "rss",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1303,
-        "publishedDate": "2026-11-01",
-        "savedDate": "2026-11-01T06:04:12.682000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/undaunted.jpg",
-        "sourceUrl": "https://brennan.day/i-am-relentless-and-undaunted/",
-        "readwiseUrl": "https://read.readwise.io/read/01m6avase1ew8wcwm7rsvkff45",
-        "summary": "AO3 went dark after a security breach, and fanfiction.lol doubled overnight. On the blur of breaches and Sam Altman calling it 'terrible' that people have RAM in their PCs. On the end of affordable hardware and DDR4 prices quintupling, 2026 hard drive production sold out to hyperscalers, and what we surrender when we're compelled to rent and lease and borrow. On Repair Cafés, Buy Nothing groups, Snowflake proxies, ArchiveTeam Warriors, and two junk-bin computers joining the server farm.",
-        "whyRead": "Een security-incident bij Archive of Our Own laat zien hoe open-source infrastructuur, fan communities en onverwachte schaal samenkomen.",
-        "bestMoment": "Als je community-infrastructuur en operationele veerkracht wilt begrijpen.",
-        "tags": [
-          "environment & sustainability",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v8g8dvvd0pzb5a0bfbatx",
-        "title": "Digital Zettelkasten: Principles, Methods, & Examples",
-        "author": "David Kadavy",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "1 hr 12 mins",
-        "readingMinutes": 72,
-        "wordCount": 18906,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:46.340000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807248/LwwqFIuEJxt9DrSc4iIGA5m-dfKfXu-fLJpcjQ5_FRI-p22-_2PxwLCj.jpg",
-        "sourceUrl": "private://read/01m69v8g8dvvd0pzb5a0bfbatx",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v8g8dvvd0pzb5a0bfbatx",
-        "summary": "",
-        "whyRead": "Een volledig boek over Zettelkasten, kennisorganisatie en voorbeelden van een duurzaam notitiesysteem.",
-        "bestMoment": "Voor een langere studie van persoonlijke kennismanagementpraktijken.",
-        "tags": [
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v8ff23551hwq9cn32wy96",
-        "title": "Hearts of Oak",
-        "author": "Eddie Robson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "3 hrs 22 mins",
-        "readingMinutes": 202,
-        "wordCount": 53388,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:45.524000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807247/Z5In3KpxePeIVzPvszK1YuaDet8zZt8KPCXONDYKHvk-p1-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v8ff23551hwq9cn32wy96",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v8ff23551hwq9cn32wy96",
-        "summary": "",
-        "whyRead": "Een volledige fictieroman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m69v8ens25w912z90bzwam7n",
         "title": "The Kaiju Preservation Society",
         "author": "John Scalzi",
@@ -41764,67 +39770,6 @@ window.TOP_ARTICLES = {
             "familyId": "pdfs",
             "size": "top-100",
             "position": 24
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v8cxnpz8y0mttx6thjap3",
-        "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present (The Path to Calm Book 1)",
-        "author": "Nick Trenton",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "2 hrs 47 mins",
-        "readingMinutes": 167,
-        "wordCount": 44169,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:42.920000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807245/mwtQazEOmW-v30gUtySNp70YjnYpyOswMF_9KeMlhtg-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v8cxnpz8y0mttx6thjap3",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v8cxnpz8y0mttx6thjap3",
-        "summary": "",
-        "whyRead": "Een volledig boek met technieken om piekeren en stress te verminderen.",
-        "bestMoment": "Voor geconcentreerde zelfstudie over mentale gewoonten.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v8bcxf54d6f4sc5wdc4bc",
-        "title": "The Pathless Path: Imagining a New Story For Work and Life (The Pathless Path Collection Book 1)",
-        "author": "Paul Millerd",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "4 hrs 22 mins",
-        "readingMinutes": 262,
-        "wordCount": 69356,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:41.359000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807243/DZWJBga6tRnAmia7QfvaUSKMUKBiGxdxsk8dzB6s0Qg-p1-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v8bcxf54d6f4sc5wdc4bc",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v8bcxf54d6f4sc5wdc4bc",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 93
           }
         ]
       },
@@ -41865,272 +39810,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m69v89a7b9t41aqqamst33dz",
-        "title": "The Well of Ascension: Book Two of Mistborn",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "17 hrs 20 mins",
-        "readingMinutes": 1040,
-        "wordCount": 275545,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:39.228000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807240/tFRu_OXFm0Obopl5bcMameqxa4_kukQAVIcOhX9fHb4-p74-_UiRLWeP.jpg",
-        "sourceUrl": "private://read/01m69v89a7b9t41aqqamst33dz",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v89a7b9t41aqqamst33dz",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 92
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v888a17rh64f2kwr5p2da",
-        "title": "Rhythm of War: Book Four of the Stormlight Archive (The Stormlight Archive, 4)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "32 hrs 1 mins",
-        "readingMinutes": 1921,
-        "wordCount": 508839,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:38.140000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807241/uKaw22vu8Gv57rnP3pX2rnFD3s_xvHDkOZBya07Ylek-p62-_w1yzYSj.jpg",
-        "sourceUrl": "private://read/01m69v888a17rh64f2kwr5p2da",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v888a17rh64f2kwr5p2da",
-        "summary": "",
-        "whyRead": "Een volledig boek met technieken om piekeren te verminderen en aandacht terug te brengen.",
-        "bestMoment": "Voor geconcentreerde zelfstudie over stress en mentale gewoonten.",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v8360dj5fks0qqee26wjy",
-        "title": "Elantris: Tenth Anniversary Author's Definitive Edition",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "14 hrs 43 mins",
-        "readingMinutes": 883,
-        "wordCount": 233736,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:32.951000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807238/kfeL7ueO5RDxm52zO7GGyOyqA0ivjgytRFUr_9ypZrg-p33-_vGq6chj.jpg",
-        "sourceUrl": "private://read/01m69v8360dj5fks0qqee26wjy",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v8360dj5fks0qqee26wjy",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 91
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v824n6p0cjmteaz65venn",
-        "title": "Warbreaker: A Cosmere Novel",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "16 hrs 3 mins",
-        "readingMinutes": 963,
-        "wordCount": 254981,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:31.881000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807237/m3mkI-nr3EC3KFp8NIU-RrsPik-wIR6XNfn3YzylrEU-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v824n6p0cjmteaz65venn",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v824n6p0cjmteaz65venn",
-        "summary": "",
-        "whyRead": "Een volledig boek over een alternatief verhaal voor werk en leven.",
-        "bestMoment": "Voor een langere studie van betekenisvol werk en loopbaankeuzes.",
-        "tags": [
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 90
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v80zz5jmbw3xbnqwfgngw",
-        "title": "Mistborn Trilogy (The Mistborn Saga)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "48 hrs 5 mins",
-        "readingMinutes": 2885,
-        "wordCount": 764351,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:30.720000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807236/DWB62nnDv7Pb0WxLiAoJDw2plKzhwcQNH-4d_cGlxlA-p48-_JH23wSn.jpg",
-        "sourceUrl": "private://read/01m69v80zz5jmbw3xbnqwfgngw",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v80zz5jmbw3xbnqwfgngw",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 89
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7yqsw0cssey169dv4k66",
-        "title": "Perfect State (Kindle Single)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "1 hr 17 mins",
-        "readingMinutes": 77,
-        "wordCount": 20184,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:28.394000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807231/wBTK_0hGR3JxUq1QcjxNDMb_WHcVz6x7bTY01x5CHN8-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7yqsw0cssey169dv4k66",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7yqsw0cssey169dv4k66",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 88
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7y09z58gwvmq9522q1y6",
-        "title": "Shadows for Silence in the Forests of Hell (Kindle Single)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "1 hr 17 mins",
-        "readingMinutes": 77,
-        "wordCount": 20151,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:27.642000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807230/rP540VdMLvwxN-F6ZFkLg6Ehtr9mBbSQ01dokeReBBg-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7y09z58gwvmq9522q1y6",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7y09z58gwvmq9522q1y6",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 87
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7x9j2fs92xhj3sexvv9j",
-        "title": "Words of Radiance: Book Two of the Stormlight Archive (The Stormlight Archive, Book 2)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "28 hrs 2 mins",
-        "readingMinutes": 1682,
-        "wordCount": 445491,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:26.960000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807229/JWLyJ5Q4S8H1vgrU4hKK8HNaZ2t81kKGezmj0QHtbSE-p62-_zCTvdWJ.jpg",
-        "sourceUrl": "private://read/01m69v7x9j2fs92xhj3sexvv9j",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7x9j2fs92xhj3sexvv9j",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 86
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01m69v7v82e8d7zvcnfe1dyfb1",
         "title": "The Word for World Is Forest",
         "author": "Ursula K. Le Guin",
@@ -42165,142 +39844,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m69v7tdmgx6k6dzq5qswy02a",
-        "title": "The Dragon Reborn: Book Three of 'The Wheel of Time'",
-        "author": "Robert Jordan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "18 hrs 6 mins",
-        "readingMinutes": 1086,
-        "wordCount": 287760,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:23.979000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807219/d3cHMTNbmszls7FfAu0H0EMwtYqeJv_zUoNO8njbo2M-p51-_JZjIJn6.jpg",
-        "sourceUrl": "private://read/01m69v7tdmgx6k6dzq5qswy02a",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7tdmgx6k6dzq5qswy02a",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 84
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7sbddvrmsy2j54yczd6m",
-        "title": "Old Man's War",
-        "author": "John Scalzi",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "6 hrs 12 mins",
-        "readingMinutes": 372,
-        "wordCount": 98564,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:22.919000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807216/8vMf9j6LUdO3s9U5ylRzCe0vAM0GOpjPipQMc32osZ4-p1-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7sbddvrmsy2j54yczd6m",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7sbddvrmsy2j54yczd6m",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 83
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7rkqqyd8yvjsb3wjh0hh",
-        "title": "The Shadow Rising: Book Four of 'The Wheel of Time'",
-        "author": "Robert Jordan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "27 hrs 12 mins",
-        "readingMinutes": 1632,
-        "wordCount": 432432,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:26.472000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807226/uMVcmNc0f0AHgTcldhbRc252wobz3ScdwlY5nxw0y5s-p52-_4ltSYOG.jpg",
-        "sourceUrl": "private://read/01m69v7rkqqyd8yvjsb3wjh0hh",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7rkqqyd8yvjsb3wjh0hh",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 85
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7q2ddpdm3ks173ry5vw9",
-        "title": "The Magic of Recluce (Saga of Recluce Book 1)",
-        "author": "L.E. Modesitt, Jr.",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "10 hrs 28 mins",
-        "readingMinutes": 628,
-        "wordCount": 166364,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:20.548000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807211/bbHhMmhz2l7Ez68XZ0e3MoLu-rQICFSQb6acnv0e4A8-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7q2ddpdm3ks173ry5vw9",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7q2ddpdm3ks173ry5vw9",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 81
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01m69v7p7ebyvvrpacwa89sjge",
         "title": "The Emperor's Blades: Chronicle of the Unhewn Throne, Book I",
         "author": "Brian Staveley",
@@ -42329,7 +39872,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 80
+            "position": 100
           }
         ]
       },
@@ -42363,7 +39906,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 79
+            "position": 99
           }
         ]
       },
@@ -42397,41 +39940,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 78
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7kfk61k793epzwj39b6q",
-        "title": "Blindsight (Firefall)",
-        "author": "Peter Watts",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "6 hrs 48 mins",
-        "readingMinutes": 408,
-        "wordCount": 108004,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:21.574000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807213/YbHdKfy-VfOZBrGUP8Vzwfk7AA7ExO5JJPy9mvb3rpM-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7kfk61k793epzwj39b6q",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7kfk61k793epzwj39b6q",
-        "summary": "",
-        "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 82
+            "position": 98
           }
         ]
       },
@@ -42465,7 +39974,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 77
+            "position": 97
           }
         ]
       },
@@ -42499,7 +40008,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 76
+            "position": 96
           }
         ]
       },
@@ -42573,84 +40082,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m69v7e4mbfb863nzkyrswzv6",
-        "title": "We Are Legion (We Are Bob) (Bobiverse Book 1)",
-        "author": "Dennis E. Taylor",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "5 hrs 57 mins",
-        "readingMinutes": 357,
-        "wordCount": 94586,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:11.395000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807195/ZaTGg8bnF8r_R5sQHPWnFJmA_UpsTgGGQA65kTrD9iY-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7e4mbfb863nzkyrswzv6",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7e4mbfb863nzkyrswzv6",
-        "summary": "",
-        "whyRead": "Een volledige sciencefictionroman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v7dce7z83931537b6s2nj",
-        "title": "Permutation City",
-        "author": "Greg Egan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "7 hrs 6 mins",
-        "readingMinutes": 426,
-        "wordCount": 112673,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:10.633000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807193/m9WyIembhyfzQEF68KBneZ3KLEiFUpwJzRyFVI_C6_Y-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7dce7z83931537b6s2nj",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7dce7z83931537b6s2nj",
-        "summary": "",
-        "whyRead": "Een volledige sciencefictionroman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v7cmj64yxkvc7n8cj7xhs",
-        "title": "Diaspora",
-        "author": "Greg Egan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "6 hrs 1 mins",
-        "readingMinutes": 361,
-        "wordCount": 95600,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:09.863000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807190/plzQrQ25UnKeeD8pegD4DajT3l2IlaHzzkCmtdOF22o-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7cmj64yxkvc7n8cj7xhs",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7cmj64yxkvc7n8cj7xhs",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m69v7bts10jhbw9xv56t4k76",
         "title": "A Memory Called Empire",
         "author": "Arkady Martine",
@@ -42682,32 +40113,6 @@ window.TOP_ARTICLES = {
             "position": 21
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m69v7ak3bdnf899tjanzne7w",
-        "title": "A Change of Plans",
-        "author": "Dennis E. Taylor",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "29 mins",
-        "readingMinutes": 29,
-        "wordCount": 7442,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:07.767000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807185/FLWPs-p4gkzi-Rp-4-h5in9n9EpZmtCBc13JZ0HX414-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v7ak3bdnf899tjanzne7w",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v7ak3bdnf899tjanzne7w",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -42813,189 +40218,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m69v76ywwvnb9wxbbr9tt32b",
-        "title": "Instantiation",
-        "author": "Greg Egan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "9 hrs 4 mins",
-        "readingMinutes": 544,
-        "wordCount": 144033,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:04.045000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807181/XZGFnRgKe_TO6ifRg027HrDhpbSJ3kEra7sUYzx3M3Q-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v76ywwvnb9wxbbr9tt32b",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v76ywwvnb9wxbbr9tt32b",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v763pebmw6168emxcv66p",
-        "title": "Axiomatic",
-        "author": "Greg Egan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "7 hrs 5 mins",
-        "readingMinutes": 425,
-        "wordCount": 112610,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:03.176000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807179/L3IVLftj__axRhpnjJ8WJ3EpJLS1SX8Jttx6WmayPpY-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v763pebmw6168emxcv66p",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v763pebmw6168emxcv66p",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v75ag5b235mkakcy00ejz",
-        "title": "Schild’s Ladder",
-        "author": "Greg Egan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "6 hrs 23 mins",
-        "readingMinutes": 383,
-        "wordCount": 101376,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:02.374000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807176/QwwIxiEecFLZfG6NYo6sf8FVFk8NAhXeI6od8cl8K5I-p1-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v75ag5b235mkakcy00ejz",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v75ag5b235mkakcy00ejz",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v74g2w5z2xjk42vb15cxj",
-        "title": "Shadow & Claw: 1 (The Book of the New Sun)",
-        "author": "Gene Wolfe",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "12 hrs 45 mins",
-        "readingMinutes": 765,
-        "wordCount": 202473,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:01.528000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807174/yJDM0zwo5yI006YpZtYCtdVWIo43jM_675WykHW1SHc-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v74g2w5z2xjk42vb15cxj",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v74g2w5z2xjk42vb15cxj",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v73gncwjvh7y8jqth7vj6",
-        "title": "The Fires of Heaven: Book Five of 'The Wheel of Time'",
-        "author": "Robert Jordan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "26 hrs 14 mins",
-        "readingMinutes": 1574,
-        "wordCount": 416953,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:00.523000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807170/c183HsvKSxdNdjDAwc-OMISFKDXLg0vGqQHJekV66cQ-p57-_F32KDwY.jpg",
-        "sourceUrl": "private://read/01m69v73gncwjvh7y8jqth7vj6",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v73gncwjvh7y8jqth7vj6",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69v72f28stq4cyrjhz6wwf6",
-        "title": "The Eye of the World: Book One of The Wheel of Time",
-        "author": "Robert Jordan",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "22 hrs 28 mins",
-        "readingMinutes": 1348,
-        "wordCount": 357055,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:42:59.448000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807165/Ek_2uyhxKhcCGq_CbzezTUqVgH9x361LonzRNv7Ry2w-p49-_3Bnqza7.jpg",
-        "sourceUrl": "private://read/01m69v72f28stq4cyrjhz6wwf6",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v72f28stq4cyrjhz6wwf6",
-        "summary": "",
-        "whyRead": "Een volledige roman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor geconcentreerd fictielezen.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m69qw0mga54qqt57kvnzwzzd",
-        "title": "My 10 Rules for Public Speaking",
-        "author": "Ted Gioia",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2793,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T19:44:31.376000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a3c825b99dc078b33a4606252db32da0",
-        "readwiseUrl": "https://read.readwise.io/read/01m69qw0mga54qqt57kvnzwzzd",
-        "summary": "It started at age 13, when I pestered my parents to buy me a record player. There was a sweet little model at nearby Clark’s Drugstore.",
-        "whyRead": "Tien concrete principes voor duidelijker en overtuigender spreken, gebaseerd op een persoonlijke leergeschiedenis.",
-        "bestMoment": "Voor voorbereiding op presentaties, lezingen of publieke communicatie.",
-        "tags": [
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m69p19mkt5dnrgreerj9gk4d",
         "title": "Mind Management, Not Time Management: Productivity When Creativity Matters (Getting Art Done Book 2)",
         "author": "David Kadavy",
@@ -43025,35 +40247,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 75
+            "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m69nd867hdx03sxe4bcvcdxg",
-        "title": "Oathbringer: Book Three of the Stormlight Archive (The Stormlight Archive, Book 3)",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "31 hrs 58 mins",
-        "readingMinutes": 1918,
-        "wordCount": 508161,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T19:01:30.462000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514797759/boWjScla8SU1ar4_eaVORnafX-0LNE8eYx6v_2L-zRg-p80-_9GAAgY9.jpg",
-        "sourceUrl": "private://read/01m69nd867hdx03sxe4bcvcdxg",
-        "readwiseUrl": "https://read.readwise.io/read/01m69nd867hdx03sxe4bcvcdxg",
-        "summary": "",
-        "whyRead": "Een omvangrijke fantasyroman voor langdurige ontspanningslectuur.",
-        "bestMoment": "Wanneer je tijd hebt voor een volledige roman binnen The Stormlight Archive.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43092,7 +40288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 41
+            "position": 42
           },
           {
             "familyId": "philosophy",
@@ -43100,60 +40296,6 @@ window.TOP_ARTICLES = {
             "position": 41
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m69ba8gxkyjsyf34655p7g6w",
-        "title": "You're Invited: A Five-Course Menu of EU Law",
-        "author": "Leonie on the EU",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2548,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T16:05:06.718000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/21cde9a8e6500284c0718b0da21d0d50",
-        "readwiseUrl": "https://read.readwise.io/read/01m69ba8gxkyjsyf34655p7g6w",
-        "summary": "I’m a big foodie, and I love hosting and cooking for my friends and family. You too?",
-        "whyRead": "Legt EU-landbouwbeleid uit via voedsel, labels, dierenwelzijn, natuur en de honderden miljarden van het Gemeenschappelijk Landbouwbeleid.",
-        "bestMoment": "Als je Europese politiek en landbouw wilt begrijpen via concrete gevolgen voor dagelijks eten.",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "environment & sustainability"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m699w5th1fbvttpag3zj2y1m",
-        "title": "The King’s Blood",
-        "author": "Daniel Abraham",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "9 hrs 19 mins",
-        "readingMinutes": 559,
-        "wordCount": 147923,
-        "publishedDate": "2012-03-05",
-        "savedDate": "2026-10-31T15:39:56.652000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514707645/-54NBEGc61kX1rnUf2S5o9R_9JbvIGHtTks7SdN_34I-cove_sui6lFn.jpg",
-        "sourceUrl": "private://read/01m699w5th1fbvttpag3zj2y1m",
-        "readwiseUrl": "https://read.readwise.io/read/01m699w5th1fbvttpag3zj2y1m",
-        "summary": "In any of the cities and villages of the Keshet or Borja or Pût, the temple would have been the central fact of the community, a point of pride and honor, and the axis about which all life turned.",
-        "whyRead": "Een omvangrijke fantasyroman die je als langlopend fictieproject kunt lezen wanneer je ruimte hebt voor een volledige wereld en verhaallijn.",
-        "bestMoment": "Voor geconcentreerde ontspanningslectuur, niet als snelle kennisopname.",
-        "tags": [
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43190,90 +40332,6 @@ window.TOP_ARTICLES = {
             "position": 49
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m68tdf4stppre6dmtgqgcyhf",
-        "title": "G.K. Chesterton’s Nightmare: ‘The Man Who Was Thursday’",
-        "author": "Miller’s Book Review 📚",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1926,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T11:09:46.010000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/03cfaa79aa727c5e425b99c12e4665ef",
-        "readwiseUrl": "https://read.readwise.io/read/01m68tdf4stppre6dmtgqgcyhf",
-        "summary": "In one of her many sharp asides in “Writing Short Stories,” Flannery O’Connor notes that “A story is good when you continue to see more and more in it, and when it continues to escape you.",
-        "whyRead": "Een literaire bespreking van Chestertons surrealistische spionageroman en de manier waarop een verhaal onder herlezing nieuwe betekenislagen blijft tonen.",
-        "bestMoment": "Als je klassieke fictie, verteltechniek en de relatie tussen satire, droomlogica en politieke verbeelding wilt verkennen.",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m68rjzr08ds43576swqabbdb",
-        "title": "Azeem Azhar on the Explosion of Hacking and Other AI Issues",
-        "author": "Paul Krugman",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "31 mins",
-        "readingMinutes": 31,
-        "wordCount": 8176,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T10:37:49.696000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/cc58e0c1d8c8306372079e7522facb80",
-        "readwiseUrl": "https://read.readwise.io/read/01m68rjzr08ds43576swqabbdb",
-        "summary": "Paul Krugman: Hi everyone.",
-        "whyRead": "Een gesprek over de snelle opkomst van AI-gedreven hacking, systeemrisico's en de maatschappelijke gevolgen van steeds capabelere modellen.",
-        "bestMoment": "Als je actuele AI-risico's, cybersecurity en geopolitieke implicaties in samenhang wilt begrijpen.",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m68j04yxygbqtxvs1c1jfnfp",
-        "title": "Is Understanding Just \"Remembering in Disguise”?",
-        "author": "Carl Hendrick from The Learning Dispatch",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1662,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T08:42:40.990000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a3e55038fd96ddd79e935c43fd400e60",
-        "readwiseUrl": "https://read.readwise.io/read/01m68j04yxygbqtxvs1c1jfnfp",
-        "summary": "One of the many superpowers of Dan Willingham is his Hemingway-esque ability to compress oceans of meaning into a few words.",
-        "whyRead": "Legt met cognitieve-belastingtheorie uit waarom begrip ontstaat uit betekenisvol georganiseerde herinneringen en elementinteractie.",
-        "bestMoment": "Als je leren, onderwijs of kennisopbouw wilt ontwerpen rond voorkennis en reconstructie.",
-        "tags": [
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43317,7 +40375,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 48
+            "position": 49
           },
           {
             "familyId": "philosophy",
@@ -43325,33 +40383,6 @@ window.TOP_ARTICLES = {
             "position": 29
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6858kjmym6dbbk42kf14d80",
-        "title": "De Linkse Zuil - Biodiversiteit",
-        "author": "De Linkse Zuil van De Linkse Mannen lossen het op",
-        "siteName": "Ghost - The Professional Publishing Platform",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2218,
-        "publishedDate": "2026-10-31",
-        "savedDate": "2026-10-31T05:00:06.612000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8c70b1f725cbb592d79c6437c4de4f0d",
-        "readwiseUrl": "https://read.readwise.io/read/01m6858kjmym6dbbk42kf14d80",
-        "summary": "RM: Biodiversiteit betekent letterlijk: bio is leven en diversiteit is verscheidenheid. Hoe meer verschillende levensvormen, hoe meer biodiversiteit.",
-        "whyRead": "Een toegankelijke uitleg van biodiversiteit, ecosystemen en de waarde van kleine stedelijke natuurgebieden, met concrete voorbeelden voor natuureducatie.",
-        "bestMoment": "Als je ecologie of natuurbescherming in een Nederlandse, alledaagse context wilt begrijpen.",
-        "tags": [
-          "environment & sustainability",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43395,7 +40426,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 54
+            "position": 55
           },
           {
             "familyId": "philosophy",
@@ -43441,7 +40472,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 24
+            "position": 20
           },
           {
             "familyId": "philosophy",
@@ -43487,7 +40518,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 78
+            "position": 79
           },
           {
             "familyId": "philosophy",
@@ -43536,62 +40567,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m66cjjp8dd0wndvbh5ev9n3v",
-        "title": "Minder telefoon, meer leven",
-        "author": "Thijs Launspach",
-        "siteName": null,
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 734,
-        "publishedDate": "2026-10-30",
-        "savedDate": "2026-10-30T12:29:24.553000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d653f2f62e671be4fa4a6b18cf0774ac",
-        "readwiseUrl": "https://read.readwise.io/read/01m66cjjp8dd0wndvbh5ev9n3v",
-        "summary": "Het is een zegen én een vloek: die smartphone die we gemiddeld zo'n drie uur per dag in onze handen hebben.",
-        "whyRead": "Een betoog over smartphonegebruik bij kinderen, verslavende interfacepatronen en de vraag of verantwoordelijkheid bij ouders of bij technologiebedrijven ligt. Dit raakt aandacht, sociale psychologie, opvoeding en platformmacht.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "health & wellness",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m668syvrnffe15p6mps0zs6z",
-        "title": "Hoe ik schrijf (in vijf stappen)",
-        "author": "Ernst-Jan Pfauth",
-        "siteName": null,
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 944,
-        "publishedDate": "2026-10-30",
-        "savedDate": "2026-10-30T11:23:32.088000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/36b080a3158b823239e614eef3b2e9cd",
-        "readwiseUrl": "https://read.readwise.io/read/01m668syvrnffe15p6mps0zs6z",
-        "summary": "Hij is Amerikaan, maar ik durf Mollick wel de AI-duider des Vaderlands te noemen. Zijn boek Co-intelligentie uit 2024 verkocht in Nederland meer dan 150.",
-        "whyRead": "Een concreet schrijfproces voor het AI-tijdperk: eerst verzamelen en met de hand denken, daarna AI inzetten voor transcriptie, redactie en verbanden, vervolgens menselijke feedback en snelle publicatie. Dit sluit aan op leren, schrijven, AI-ethiek en kenniswerk.",
-        "bestMoment": "toepassen",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m660y94f0w1zywfyhygbkdhw",
         "title": "An Interrogation of Reality: On the Legacy of Blade Runner",
         "author": "Joanne McNeil",
@@ -43627,65 +40602,6 @@ window.TOP_ARTICLES = {
             "position": 93
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m660dc1k02b5q1246xwxhxmb",
-        "title": "Artificial Intelligence is a Horror Story",
-        "author": "Nick Ripatrazone",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 978,
-        "publishedDate": "2026-10-30",
-        "savedDate": "2026-10-30T08:56:44.995000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Untitled-design-2026-10-28T141919.667-768x432.png",
-        "sourceUrl": "https://lithub.com/artificial-intelligence-is-a-horror-story/",
-        "readwiseUrl": "https://read.readwise.io/read/01m660dc1k02b5q1246xwxhxmb",
-        "summary": "Imagine your body—flesh and blood, muscle and bone—cast aside as mere refuse, and your brain “immersed in a liquid of the nature of cerebro-spinal fluid” inside a cylinder. Thus goes the dark prophecy of Irish physicist John Desmond Bernal nearly",
-        "whyRead": "Een filosofisch en cultureel betoog dat generatieve AI als een vorm van lichamelijke en existentiële horror leest. Het verbindt AI aan menselijke eindigheid, waardigheid, creativiteit en de macht van technocraten en instellingen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m660dby0e6ywwzfp7edg7zsv",
-        "title": "No One Really Drives Away from Anything in Horror Films",
-        "author": "Tyler Malone",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4079,
-        "publishedDate": "2026-10-30",
-        "savedDate": "2026-10-30T08:56:47.880000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/empty-highway-at-night-768x384.png",
-        "sourceUrl": "https://lithub.com/no-one-really-drives-away-from-anything-in-horror-films/",
-        "readwiseUrl": "https://read.readwise.io/read/01m660dby0e6ywwzfp7edg7zsv",
-        "summary": "I. Taking to the Open Road Afoot and light-hearted I take to the open road, Healthy, free, the world before me, The long brown path before me leading wherever I choose. These words of Walt Whitman’s—from his poem “Song of",
-        "whyRead": "Een filosofisch essay over road horror, vrijheid, zelfontsnapping, de gespleten aandacht van het rijden en de auto als verlengstuk van het lichaam. Via Psycho, Lost Highway, Crash en andere films onderzoekt het de grens tussen mens en machine.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43766,97 +40682,6 @@ window.TOP_ARTICLES = {
             "position": 72
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m64v04a6erk44m6p33khgp3k",
-        "title": "In Theory",
-        "author": "The Ideas Letter",
-        "siteName": "opensocietyfoundations.org",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2344,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-10-29T22:02:59.782000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a0c62b18235d1a34a8e67ee54517debc",
-        "readwiseUrl": "https://read.readwise.io/read/01m64v04a6erk44m6p33khgp3k",
-        "summary": "In a review of two new books by Emily Eakin and Onur Erdur, Seaton revisits how French Theory transformed the humanities and captivated generations of scholars, particularly at universities in the US.",
-        "whyRead": "Een sterke curated digest met essays over Franse theorie, de Frankfurt School, populisme, technologie en schoonheid, historische herinnering, Ralph Ellison en microgeschiedenis. Dit sluit direct aan op sociale en politieke filosofie, macht, epistemische kaders, democratische erosie en geest/taal.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m64bs3yej4q45vdnt31szq21",
-        "title": "Authors are boycotting Canada’s largest bookstore chain.",
-        "author": "Dan Sheehan",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 902,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-10-29T17:36:58.390000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Indigo-Books-768x404.avif",
-        "sourceUrl": "https://lithub.com/authors-are-boycotting-canadas-largest-bookstore-chain/",
-        "readwiseUrl": "https://read.readwise.io/read/01m64bs3yej4q45vdnt31szq21",
-        "summary": "Viet Thanh Nguyen, Mosab Abu Toha, Jenan Matari, and Daniel José Older are among the more than 100 writers who have signed an open letter vowing to boycott Indigo Books and Music, Canada’s largest bookstore. By signing the letter, the",
-        "whyRead": "Een concreet voorbeeld van boycot, desinvestering en politieke verantwoordelijkheid in de culturele sector. Het verbindt literatuur en instituties aan macht, ethiek, geopolitiek en de vraag hoe organisaties publiek rekenschap afleggen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "current affairs & politics",
-          "ethics"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m64bb24wgdqt9qweczp7x7n2",
-        "title": "“Imagining is Resistance”: Tareq Baconi with Naomi Klein",
-        "author": "Naomi Klein",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 899,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-10-29T17:29:20.797000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8eedf0f970c054f3624d3ce9bbeef164",
-        "readwiseUrl": "https://read.readwise.io/read/01m64bb24wgdqt9qweczp7x7n2",
-        "summary": "More than 900 of you joined me live this week for a conversation with Tareq Baconi, the Palestinian writer and scholar who leads Al-Shabaka: the Palestinian Policy Network.",
-        "whyRead": "Een politiek-filosofisch gesprek over Palestina, kolonialisme, vrijheid, dekolonisatie en internationale solidariteit. Het stuk sluit aan op macht, klasse, democratische erosie, fascisme en alternatieven voor de bestaande orde.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43941,7 +40766,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 74
+            "position": 94
           }
         ]
       },
@@ -44021,94 +40846,6 @@ window.TOP_ARTICLES = {
             "position": 88
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m63b43a5q3mxswjnw44kj7ed",
-        "title": "The Meeting Before the Meeting",
-        "author": "Sven Brodmerkel | Off-Script At Work",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1871,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-10-29T08:06:18.181000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b1d465f494229c7c58291d974e09ad66",
-        "readwiseUrl": "https://read.readwise.io/read/01m63b43a5q3mxswjnw44kj7ed",
-        "summary": "Weeks of strategic thinking, creative development, research and preparation would culminate in a presentation.",
-        "whyRead": "Dit raakt je professionele interesse in organisatiegedrag en samenwerking: het essay laat zien waarom belangrijke beslissingen vaak al vóór de formele vergadering worden gevormd.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m639wbhe2tppkmntphbdw0pk",
-        "title": "You can't choose the system. You choose how you act inside it.",
-        "author": "stevendeneir.substack.com",
-        "siteName": "Fundamentals before Frameworks",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1328,
-        "publishedDate": "2026-09-10",
-        "savedDate": "2026-10-29T07:44:35.886000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!u6Xa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F657e5625-cc4d-45b7-a629-673ce7f8fb95_1672x941.png",
-        "sourceUrl": "https://stevendeneir.substack.com/you-cant-choose-the-system-you-choose",
-        "readwiseUrl": "https://read.readwise.io/read/01m639wbhe2tppkmntphbdw0pk",
-        "summary": "Wizard's Fourteenth Rule, and the one move a broken organization can never make for you",
-        "whyRead": "Raakt je interesse in samenwerking en agile teamcoaching. Het stuk maakt scherp hoe teams systeembeperkingen kunnen onderscheiden van hun eigen handelingsruimte.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "agile",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m639w91kqfn5nwkx4kfmf11t",
-        "title": "At some point, not knowing becomes a choice",
-        "author": "stevendeneir.substack.com",
-        "siteName": "Fundamentals before Frameworks",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1429,
-        "publishedDate": "2026-08-27",
-        "savedDate": "2026-10-29T07:44:33.331000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!eiGR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9951eb43-426a-41ab-9f93-f5e8ca33b488_1672x941.png",
-        "sourceUrl": "https://stevendeneir.substack.com/at-some-point-not-knowing-becomes",
-        "readwiseUrl": "https://read.readwise.io/read/01m639w91kqfn5nwkx4kfmf11t",
-        "summary": "Wizard's Tenth Rule, and the truth your organization has already seen and decided to step around",
-        "whyRead": "Raakt je interesse in organisatiegedrag, psychologische veiligheid en agile samenwerking. Het essay laat zien hoe herhaaldelijk benoemde problemen veranderen in bewuste organisatorische keuzes wanneer niemand ze hardop wil aanpakken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "agile",
-          "organizational behavior & culture"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -44433,67 +41170,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m639v3eh8y3zpqnfcmffkpsa",
-        "title": "Evolve: The Operating Model AI Demands",
-        "author": "zenexmachina.com",
-        "siteName": "Zen Ex Machina",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 174,
-        "publishedDate": null,
-        "savedDate": "2026-10-29T07:43:54.833000+00:00",
-        "imageUrl": "https://zenexmachina.com/wp-content/uploads/2026/07/zxm-56970-featured-flux-v1.webp?_t=1790115390",
-        "sourceUrl": "https://zenexmachina.com/evolve/",
-        "readwiseUrl": "https://read.readwise.io/read/01m639v3eh8y3zpqnfcmffkpsa",
-        "summary": "Zen Ex Machina. Independent executive strategy and advisory firm. Founded Canberra 2011. No implementation arm. Diagnostic before prescription. APAC.",
-        "whyRead": "Een beknopte samenvatting van waarom AI-waarde vooral afhangt van het operating model, niet van het aantal gebruikte tools. Relevant voor softwareontwikkeling, productdenken en organisatieverandering.",
-        "bestMoment": "strategisch",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "product management",
-          "software development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m633tr3dk6zq2a3wymzb8xtf",
-        "title": "Rechtsom",
-        "author": "Simon van Teutem",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 658,
-        "publishedDate": "2026-10-29",
-        "savedDate": "2026-10-29T05:58:51.757000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/fd760157c578fab510d3dc4ee5dcbb63",
-        "readwiseUrl": "https://read.readwise.io/read/01m633tr3dk6zq2a3wymzb8xtf",
-        "summary": "Conservatieven en sociaaldemocraten voerden meer dan zeventig jaar de boventoon in Europa. Sinds de financiële crisis rukt een derde politieke familie op, en dat is radicaal-rechts.",
-        "whyRead": "Raakt je interesse in politieke ideologieën en Europese politieke ontwikkeling. Deze nieuwsbrief schetst hoe radicaal-rechts in Europa naast conservatieven en sociaaldemocraten een derde machtsblok is geworden.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m630n1qbyvwk2m7e32eefkbv",
         "title": "The Product Backlog Refinement Agent",
         "author": "Stefan Wolpers",
@@ -44539,7 +41215,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 59
+            "position": 60
           },
           {
             "familyId": "philosophy",
@@ -44547,37 +41223,6 @@ window.TOP_ARTICLES = {
             "position": 71
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m6253wasaqeqr09esepf6ce4",
-        "title": "Societal Complexity and the Problem of Comprehension",
-        "author": "New York Journal of Philosophy",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3407,
-        "publishedDate": "2026-10-28",
-        "savedDate": "2026-10-28T21:02:05.145000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a84ab80b61034fec9cb31c538d327dc5",
-        "readwiseUrl": "https://read.readwise.io/read/01m6253wasaqeqr09esepf6ce4",
-        "summary": "Culture and society are on a seemingly endless trip to incomprehensibility. When I was a kid, maybe four or five, my parents would bring me to my grandparents’ house in Hillsdale, New York.",
-        "whyRead": "Een scherp essay over de groeiende kloof tussen de complexiteit van maatschappelijke systemen en wat één mens kan begrijpen. Het sluit direct aan op je interesse in filosofie, sociologie en AI-ethiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -44615,7 +41260,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 39
+            "position": 47
           }
         ]
       },
@@ -44653,7 +41298,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 21
+            "position": 26
           }
         ]
       },
@@ -44813,7 +41458,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -44902,7 +41547,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 90
+            "position": 91
           },
           {
             "familyId": "software-development",
@@ -44985,7 +41630,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 73
+            "position": 93
           }
         ]
       },
@@ -45640,7 +42285,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -45775,12 +42420,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 21
+            "position": 22
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 58
+            "position": 59
           },
           {
             "familyId": "philosophy",
@@ -45941,66 +42586,6 @@ window.TOP_ARTICLES = {
             "position": 39
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m5pja9vm1g7m51acr9ggcv42",
-        "title": "Things that go Bump",
-        "author": "Alan Freeman",
-        "siteName": "Alan Freeman",
-        "category": "article",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5638,
-        "publishedDate": "2026-09-24",
-        "savedDate": "2026-10-24T09:01:53.908000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!SSWN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc979224c-4e8d-4dbe-ac9c-27ab01baac13_1200x800.jpeg",
-        "sourceUrl": "https://alanfreeman874769.substack.com/p/things-that-go-bump?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m5pja9vm1g7m51acr9ggcv42",
-        "summary": "Recessions happen every ten years, give or take. So why do they always take economists by surprise?",
-        "whyRead": "Raakt je interesse in economie en politieke filosofie; Alan Freeman reconstrueert scherp waarom de economische orthodoxie terugkerende recessies zo slecht verklaart.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m5n14vhxqbqbz5m0t4vnrpmg",
-        "title": "Noema’s AI Reading List",
-        "author": "Nathan Gardels",
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 491,
-        "publishedDate": "2026-10-23",
-        "savedDate": "2026-10-23T18:42:32.197000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/Screenshot-2026-09-22-at-4.21.03-PM-1.png?fm=png&ixlib=php-3.3.1&s=91973e6711e5c2e9a45e6ab85e9b5d5b",
-        "sourceUrl": "https://www.noemamag.com/noemas-ai-reading-list-2",
-        "readwiseUrl": "https://read.readwise.io/read/01m5n14vhxqbqbz5m0t4vnrpmg",
-        "summary": "The post Noema’s AI Reading List appeared first on NOEMA.",
-        "whyRead": "Raakt je kerninteresse in AI-ethiek en maatschappij; Noema bundelt essays over macht, arbeid, ongelijkheid, bewustzijn en de vraag wat menselijke relaties waardevol maakt naast AI.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -46449,36 +43034,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m5gwt14r8ebqanamy80vgk6n",
-        "title": "Verlangen",
-        "author": "Simon van Teutem",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 563,
-        "publishedDate": "2026-10-22",
-        "savedDate": "2026-10-22T04:09:48.441000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/7266bb1c7493fc101f22ee998aaa749f",
-        "readwiseUrl": "https://read.readwise.io/read/01m5gwt14r8ebqanamy80vgk6n",
-        "summary": "De toekomst biedt de optimist een stip op de horizon, zodat ze het goede leven voortdurend voor zich uit kan schuiven, alsof nieuwe ervaringen niet gewoon weer nieuwe verlangens zullen wekken.",
-        "whyRead": "Raakt je interesse in technology en ai ethics & society; de bron biedt een toegankelijke inhoudelijke invalshoek en concrete context.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "history",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m5gwp6ep6gvcf3xx3cb3y5p2",
         "title": "AI-Assisted Product Discovery",
         "author": "Stefan Wolpers",
@@ -46518,64 +43073,6 @@ window.TOP_ARTICLES = {
             "position": 85
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m5ftnbrjf5btmyd44aqah2sg",
-        "title": "In an open letter, dozens of writers confirm that Sally Rooney is not a terrorist.",
-        "author": "Brittany Allen",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 291,
-        "publishedDate": "2026-10-21",
-        "savedDate": "2026-10-21T18:12:57.891000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Untitled-Design-68-768x384.png",
-        "sourceUrl": "https://lithub.com/in-an-open-letter-dozens-of-writers-confirm-that-sally-rooney-is-not-a-terrorist/",
-        "readwiseUrl": "https://read.readwise.io/read/01m5ftnbrjf5btmyd44aqah2sg",
-        "summary": "An open letter published today on The New Statesman and signed by dozens of artists, authors, actors, politicians, and public thinkers, asserts that, in case you were wondering, “Sally Rooney is a writer, not a terrorist.” The letter is a",
-        "whyRead": "Raakt je interesse in technology en ai ethics & society; de bron geeft een concrete, inhoudelijke invalshoek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m5ftnbj89zvdrzraz9rv4fqj",
-        "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
-        "author": "Literary Hub",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 164,
-        "publishedDate": "2026-10-21",
-        "savedDate": "2026-10-21T18:13:00.688000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/pip-adam-UKLGP-768x432.jpg",
-        "sourceUrl": "https://lithub.com/pip-adam-has-won-the-2026-ursula-k-le-guin-prize-for-fiction/",
-        "readwiseUrl": "https://read.readwise.io/read/01m5ftnbj89zvdrzraz9rv4fqj",
-        "summary": "Today, the Ursula K. Le Guin Foundation announced Pip Adam’s Audition (Coffee House Press) as the winner of the 2026 Ursula K. Le Guin Prize for Fiction, which seeks to reward books that represent the legendary writer’s literary, moral, and",
-        "whyRead": "Raakt je interesse in technology en ai ethics & society; de bron biedt een toegankelijke inhoudelijke invalshoek en concrete context.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "ai ethics & society",
-          "history",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -47054,36 +43551,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m56r7aw786wk9a6kc6kf4zfy",
-        "title": "Why Systems Thinking Must Come Before Analytical Thinking",
-        "author": "Nicole Williams",
-        "siteName": "PM Researcher",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 555,
-        "publishedDate": "2025-08-31",
-        "savedDate": "2026-10-18T05:37:17.122000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!KZmK!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d3039da-0ccd-45ea-8cb3-7767e44465cc_1320x1568.jpeg",
-        "sourceUrl": "https://pmresearcher.substack.com/p/why-systems-thinking-must-come-before",
-        "readwiseUrl": "https://read.readwise.io/read/01m56r7aw786wk9a6kc6kf4zfy",
-        "summary": "When most projects begin, the first instinct is to get into the weeds: create a timeline, define deliverables, assign tasks, and set up the Gantt chart.",
-        "whyRead": "Raakt je interesse in systeemdenken en organisatieverbetering; het korte stuk waarschuwt voor perfecte uitvoering van het verkeerde probleem.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "professional development",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m56pcg1mnefzyy8geb24p9bg",
         "title": "Before You Switch the AI Model: The Hidden Cost of \"Updating\" Models",
         "author": "Age of Product",
@@ -47210,39 +43677,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m545jh1b36vp93z7y5xg0j2h",
-        "title": "De Zondeval van het Christendom",
-        "author": "De Ongelooflijke",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3369,
-        "publishedDate": "2026-10-17",
-        "savedDate": "2026-10-17T05:32:52.139000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/dd95cd52f97a9c9cb31edf8d4bfb3011",
-        "readwiseUrl": "https://read.readwise.io/read/01m545jh1b36vp93z7y5xg0j2h",
-        "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
-        "whyRead": "Raakt je interesse in zingeving, religieuze cultuur en geschiedenis; deze verhalende pelgrimage onderzoekt wat je achterlaat wanneer je langzaam gaat reizen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "history",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -47359,62 +43796,6 @@ window.TOP_ARTICLES = {
             "position": 84
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m530r3z9f8ngeabyzkfp0h90",
-        "title": "Let’s Kill the Four-Chord Song",
-        "author": "Ted Gioia",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1635,
-        "publishedDate": "2026-10-16",
-        "savedDate": "2026-10-16T18:49:18.057000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/9c4ff8c13230d51c54af114f2e8e6f03",
-        "readwiseUrl": "https://read.readwise.io/read/01m530r3z9f8ngeabyzkfp0h90",
-        "summary": "Membership, as they say, has its privileges—including my Best of Year guide to music (coming in about six weeks), access to more than five hundred essays, listicles and such in the archive, as well as spiffy new stuff every few days.",
-        "whyRead": "Raakt je interesse in muziek als cultuur; Ted Gioia onderzoekt waarom het dominante vier-akkoordenmodel van popmuziek zijn aantrekkingskracht verliest.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m52v47tcgb0r8g9zp2t5sb0a",
-        "title": "The Vertiginous Revelations of “You Can See Everything”",
-        "author": "New Yorker Substack",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 732,
-        "publishedDate": "2026-10-16",
-        "savedDate": "2026-10-16T17:11:03.756000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/843f93428ad289ed09a5df4b1e609156",
-        "readwiseUrl": "https://read.readwise.io/read/01m52v47tcgb0r8g9zp2t5sb0a",
-        "summary": "Each week, our editors select a New Yorker story for you to read: something timely, something important, or something unexpected—or even, perhaps, all three.",
-        "whyRead": "Raakt je interesse in cultuur en menselijke misleiding; de recensie gebruikt een documentaire over Elizabeth Holmes om manipulatie, verdenking en oprechtheid te onderzoeken.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "behavioral psychology & coaching"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -47576,7 +43957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "philosophy",
@@ -47667,36 +44048,6 @@ window.TOP_ARTICLES = {
             "position": 82
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m5047m2h6rg4yac579cq8h45",
-        "title": "Having Friends Doesn’t Always Prevent Loneliness",
-        "author": "Adam Grant",
-        "siteName": "substack.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 359,
-        "publishedDate": "2026-10-15",
-        "savedDate": "2026-10-15T15:52:25.498000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!PuSc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F314cf961-4f77-43c3-a867-7a7a9e53e229_4500x4500.png",
-        "sourceUrl": "https://adamgrant.substack.com/p/having-friends-doesnt-always-prevent",
-        "readwiseUrl": "https://read.readwise.io/read/01m5047m2h6rg4yac579cq8h45",
-        "summary": "We don’t just need to bond—we need to belong too.",
-        "whyRead": "Raakt je interesse in sociale psychologie, sociale structuren. Toegankelijke uitleg over sociale netwerken en gemeenschapsvorming, met concreet toepasbaar idee.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "health & wellness",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48170,7 +44521,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "philosophy",
@@ -48178,35 +44529,6 @@ window.TOP_ARTICLES = {
             "position": 70
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m4yt70bw7wdtpswabmjwr5ck",
-        "title": "Motivated Stopping and Motivated Continuation",
-        "author": "lesswrong.com",
-        "siteName": "lesswrong.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 825,
-        "publishedDate": "2007-10-28",
-        "savedDate": "2026-10-15T03:38:08.124000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/L32LHWzy9FzSDazEg/motivated-stopping-and-motivated-continuation",
-        "readwiseUrl": "https://read.readwise.io/read/01m4yt70bw7wdtpswabmjwr5ck",
-        "summary": "While I disagree with some views of the Fast and Frugal crowd—in my opinion they make a few too many lemons into lemonade—it also seems to me that they tend to develop the most psychologically realis…",
-        "whyRead": "Raakt je interesse in sociale psychologie, besluitvorming en filosofie van menselijk gedrag. Het essay benoemt hoe verborgen voorkeuren niet alleen onze conclusies kleuren, maar ook bepalen wanneer we stoppen met zoeken en bewijs verzamelen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48361,36 +44683,6 @@ window.TOP_ARTICLES = {
             "position": 67
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m4wzexh7q3xmd7135d13ndac",
-        "title": "My Top 5 Leadership Epiphanies",
-        "author": "Bob Galen from Agile Moose",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 493,
-        "publishedDate": "2026-10-14",
-        "savedDate": "2026-10-14T10:31:21.384000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/033d0ab9055992d8293b9164a52abef2",
-        "readwiseUrl": "https://read.readwise.io/read/01m4wzexh7q3xmd7135d13ndac",
-        "summary": "I was closing the last session of our Saturday EBAC coaching masterclass on Saturday, April 18th, when I mentioned that Appreciative Inquiry was probably among my top 5 leadership learnings or epiphanies from my career.",
-        "whyRead": "Raakt je interesse in agile/teamcoaching en reflectief leiderschap. Bob Galen vat vijf persoonlijke lessen samen die direct bruikbaar zijn voor coaching, zelfonderzoek en het ontwikkelen van leiderschap.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "agile",
-          "professional development",
-          "team coaching"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48651,36 +44943,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m4qtqgx2she3t2xh4z4qgx3e",
-        "title": "Jen: Thoughts on Leadership",
-        "author": "Bob Galen from Agile Moose",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 579,
-        "publishedDate": "2026-10-12",
-        "savedDate": "2026-10-12T10:32:28.322000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/52a1ca653c87fc4c36c61dd90f52be7c",
-        "readwiseUrl": "https://read.readwise.io/read/01m4qtqgx2she3t2xh4z4qgx3e",
-        "summary": "For caring deeply about the people entrusted to them. For taking the time to guide, mentor, challenge, and develop them.",
-        "whyRead": "Raakt je interesse in leiderschap en teamcoaching; dit korte stuk geeft een menselijk criterium voor verantwoord leidinggeven.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team coaching"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m4p9vrm6q6hzcbh8mgm9m7qs",
         "title": "Anatomy of a Breakthrough: How to Get Unstuck When It Matters Most",
         "author": "Adam Alter",
@@ -48711,7 +44973,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 67
+            "position": 81
           }
         ]
       },
@@ -49199,7 +45461,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -49359,7 +45621,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 82
+            "position": 83
           },
           {
             "familyId": "philosophy",
@@ -49520,37 +45782,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m463tv9v9ehkfdr0cy5ztc8s",
-        "title": "The Loneliness of Being Conscious | Dostoyevsky",
-        "author": "Philosophy Stuff from Philosophy Stuff",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1701,
-        "publishedDate": "2026-10-05",
-        "savedDate": "2026-10-05T13:25:14.683000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f8ed4a41912c9b957f007f527ac420ba",
-        "readwiseUrl": "https://read.readwise.io/read/01m463tv9v9ehkfdr0cy5ztc8s",
-        "summary": "In one of his earliest novels, a nameless narrator walks the streets of Saint Petersburg at night and confesses something strange to the reader before the story has barely begun.",
-        "whyRead": "Raakt je interesse in filosofie en menselijke verbinding; het essay leest Dostojewski als een onderzoeker van zelfbewustzijn dat contact kan blokkeren.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "fiction",
-          "philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m45j75m87y74yd60vb2hww00",
         "title": "Against popular culture",
         "author": "aeon.co",
@@ -49637,7 +45868,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 40
+            "position": 41
           },
           {
             "familyId": "philosophy",
@@ -49704,7 +45935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -49745,7 +45976,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 65
+            "position": 66
           },
           {
             "familyId": "philosophy",
@@ -49852,7 +46083,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -49965,7 +46196,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -50871,7 +47102,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -50912,36 +47143,6 @@ window.TOP_ARTICLES = {
             "position": 35
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m3gc16x6ngvkfyghamnw0c63",
-        "title": "Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates of Short-Form Video Use",
-        "author": "psycnet.apa.org",
-        "siteName": "American Psychological Association",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 hr 9 mins",
-        "readingMinutes": 69,
-        "wordCount": 18178,
-        "publishedDate": "2025-09-22",
-        "savedDate": "2026-09-27T02:45:14.276000+00:00",
-        "imageUrl": "https://psycnet.apa.org/ftasset/journals/bul/151/9/images/thumb_bul_151_9_1125_fig1a.jpg",
-        "sourceUrl": "https://psycnet.apa.org/record/2026-89350-001",
-        "readwiseUrl": "https://read.readwise.io/read/01m3gc16x6ngvkfyghamnw0c63",
-        "summary": "APA PsycNet FullTextHTML page",
-        "whyRead": "Dit raakt je interesse in sociale psychologie, digitale cultuur en welzijn: het brengt onderzoek naar korte video’s samen in plaats van op losse studies te leunen. De meta-analyse geeft een bruikbaar beeld van verbanden met aandacht en mentale gezondheid, en maakt tegelijk duidelijk waar de gegevens geen causale conclusie toelaten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "health & wellness",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -51406,7 +47607,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -51638,36 +47839,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m3cwjfaj7qym77emh0jhfn93",
-        "title": "Fooled By Your Own Brain",
-        "author": "Virginia Hughes",
-        "siteName": "Nautilus",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1883,
-        "publishedDate": "2013-05-23",
-        "savedDate": "2026-09-25T18:17:19.442000+00:00",
-        "imageUrl": "https://assets.nautil.us/376_142949df56ea8ae0be8b5306971900a4.png?auto=compress&fm=png&ixlib=php-3.3.1",
-        "sourceUrl": "https://nautil.us/fooled-by-your-own-brain-234361",
-        "readwiseUrl": "https://read.readwise.io/read/01m3cwjfaj7qym77emh0jhfn93",
-        "summary": "Een lang Nautilus-artikel over de beperkingen van aandacht, change blindness, inattentional blindness, sociale waarneming en visuele illusies.",
-        "whyRead": "Raakt je interesse in wetenschap en sociale psychologie. Dit toegankelijke, speelse overzicht laat met experimenten zien hoe aandacht, gezichtsherkenning en zintuiglijke verwerking onze waarneming selectief vormgeven.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "behavioral psychology & coaching",
-          "science",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m3cw5hemq4cabx1jxksx7k14",
         "title": "Psychology’s Power Tools",
         "author": "David A. Sbarra",
@@ -51751,7 +47922,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -51801,7 +47972,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -51908,7 +48079,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -51970,7 +48141,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -52242,7 +48413,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -53146,36 +49317,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33f1t1qgfmdw5jw3m1x5hze",
-        "title": "omg.lol is the Internet We Need Right Now",
-        "author": "Brennan Kenneth Brown",
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2132,
-        "publishedDate": "2025-12-12",
-        "savedDate": "2026-09-22T02:27:51.991000+00:00",
-        "imageUrl": "https://brennan.dayhttps://miro.medium.com/v2/resize:fit:4800/format:webp/1*gKP_U2aXLagA-Dn790lAPw.png",
-        "sourceUrl": "https://brennan.day/omg-lol-is-the-internet-we-need-right-now/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33f1t1qgfmdw5jw3m1x5hze",
-        "summary": "Take back your corner of the Internet. Stop building on rented land. Stop trusting platforms that see you as product. Stop waiting for some company to make the “perfect” tool.",
-        "whyRead": "Dit raakt je interesse in front-end software development, technologiecultuur en online samenwerking: een enthousiast voorbeeld van hoe kleine, menselijke webdiensten eigenaarschap en gemeenschap boven algoritmische groei kunnen zetten.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "front-end software development",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33evj29qt4x77m8ex32erc3",
         "title": "Proper English is a Myth: There's No 'Correct' Way to Write",
         "author": "Brennan Kenneth Brown",
@@ -53441,7 +49582,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 76
+            "position": 77
           },
           {
             "familyId": "philosophy",
@@ -53540,7 +49681,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -53700,19 +49841,13 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-scrum-top-100",
-          "aaa-social-studies-top-100"
+          "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
             "size": "top-100",
             "position": 36
-          },
-          {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 100
           }
         ]
       },
@@ -53762,7 +49897,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -54071,7 +50206,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 39
+            "position": 40
           },
           {
             "familyId": "adhd",
@@ -54176,7 +50311,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 85
+            "position": 86
           },
           {
             "familyId": "software-development",
@@ -54225,7 +50360,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -54304,7 +50439,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 64
+            "position": 65
           },
           {
             "familyId": "philosophy",
@@ -54557,7 +50692,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "philosophy",
@@ -55149,68 +51284,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2f1qxw8ddqy8yg8bedvven0",
-        "title": "When Making a Salad Felt Radical - The New York Times",
-        "author": "nytimes.com",
-        "siteName": "New York Times",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1455,
-        "publishedDate": "2022-07-18",
-        "savedDate": "2026-09-14T04:10:28.102000+00:00",
-        "imageUrl": "https://static01.nyt.com/images/2022/07/19/arts/14alison-knowles1/14alison-knowles1-facebookJumbo.jpg",
-        "sourceUrl": "https://www.nytimes.com/2022/07/18/arts/design/alison-knowles-bampfa-berkeley-fluxus-art.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m2f1qxw8ddqy8yg8bedvven0",
-        "summary": "Ahead of her retrospective in Berkeley, Calif., the artist Alison Knowles talks about her Fluxus roots, the appeal of beans and the power of interactive artworks.",
-        "whyRead": "Een levendig interview met Fluxus-kunstenaar Alison Knowles over participatie, alledaagse materialen en toeval. De voorbeelden — van bonen en salades tot boeken als architectuur — laten zien hoe kunst kan veranderen in een gedeelde activiteit.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "history",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2f1qxfpj7qyzp0fj9d7qbfr",
-        "title": "Sally Kawamura: Towards Infinity: Mieko Shiomi’s “Transmedia”",
-        "author": "activatingfluxus.com",
-        "siteName": "Activating Fluxus",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2085,
-        "publishedDate": "2023-05-07",
-        "savedDate": "2026-09-14T04:10:27.702000+00:00",
-        "imageUrl": "https://activatingfluxus.com/wp-content/uploads/2023/05/screenshot-2023-05-07-at-13.52.22.png?w=1200",
-        "sourceUrl": "https://activatingfluxus.com/2023/05/07/sally-kawamura-towards-infinity-mieko-shiomis-transmedia/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2f1qxfpj7qyzp0fj9d7qbfr",
-        "summary": "Associated researcher Sally Kawamura explores the idea of “transmedia,” a term first coined by artist Mieko Shiomi in 2012. This concept refers to the process of creating new works or r…",
-        "whyRead": "Een essay over Mieko Shiomi’s Fluxus-werk en de manier waarop een kunstidee via nieuwe media, documentatie en heruitvoering blijft veranderen. Het past bij je interesse in culturele analyse en de grens tussen werk, context en publiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "history",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2f1qrd2q395gz2wkwc8x1n7",
         "title": "The psychology behind tab hoarding and how to overcome it",
         "author": "maxfoc.us",
@@ -55362,7 +51435,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -55594,7 +51667,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -55810,7 +51883,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 43
+            "position": 44
           },
           {
             "familyId": "pdfs",
@@ -55922,7 +51995,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 68
+            "position": 69
           },
           {
             "familyId": "software-development",
@@ -56090,7 +52163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 81
+            "position": 82
           },
           {
             "familyId": "adhd",
@@ -57121,34 +53194,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m1p7nxnhh4j001458qw06n22",
-        "title": "Making the world’s fastest website, and other mistakes",
-        "author": "dev.to",
-        "siteName": "DEV Community",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1823,
-        "publishedDate": "2022-03-15",
-        "savedDate": "2026-09-04T12:53:13.006000+00:00",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frix9oblwajfxxrtwc9xk.jpg",
-        "sourceUrl": "https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na",
-        "readwiseUrl": "https://read.readwise.io/read/01m1p7nxnhh4j001458qw06n22",
-        "summary": "Crazed developer attempts real ecommerce without front-end JavaScript to prove that y’all playin’",
-        "whyRead": "Een persoonlijk verhaal over performancebudgetten, frameworks, server-side rendering en third parties. De waarde zit in de combinatie van harde technische grenzen en een kritische blik op hoe architectuur de daadwerkelijke gebruikerservaring vormt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m1p7414hg20qvstgwygjwdhv",
         "title": "Be progressive",
         "author": "adactio.com",
@@ -57183,35 +53228,6 @@ window.TOP_ARTICLES = {
             "position": 14
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1p73e78g88e21p5pm8ccfy4",
-        "title": "The weirdly obscure art of Streamed HTML",
-        "author": "dev.to",
-        "siteName": "DEV Community",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2247,
-        "publishedDate": "2022-03-15",
-        "savedDate": "2026-09-04T12:43:07.368000+00:00",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjqs50vvpgkt08zsrgckw.jpg",
-        "sourceUrl": "https://dev.to/tigt/the-weirdly-obscure-art-of-streamed-html-4gc2",
-        "readwiseUrl": "https://read.readwise.io/read/01m1p73e78g88e21p5pm8ccfy4",
-        "summary": "Literally “one weird trick” to massively improve Time To First Byte",
-        "whyRead": "Een persoonlijk performanceonderzoek naar streamed HTML, waarin API-latency, teamgrenzen, TTFB en architectuurkeuzes samenkomen. Het biedt een concrete casus voor de vraag wanneer streaming meer waarde heeft dan een volledige SPA.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "professional development",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -57513,7 +53529,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 63
+            "position": 64
           },
           {
             "familyId": "philosophy",
@@ -57926,7 +53942,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -58017,7 +54033,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 33
+            "position": 34
           },
           {
             "familyId": "philosophy",
@@ -58064,7 +54080,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 75
+            "position": 76
           },
           {
             "familyId": "philosophy",
@@ -58214,7 +54230,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -58343,7 +54359,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -58437,7 +54453,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -58570,7 +54586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 67
+            "position": 68
           },
           {
             "familyId": "philosophy",
@@ -59150,36 +55166,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m072k5pcs8smv4xq9jmm5jef",
-        "title": "Why Is Everyone In Tech So Sad?",
-        "author": "Aaron Horwath",
-        "siteName": "NOEMA",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3811,
-        "publishedDate": "2026-08-06",
-        "savedDate": "2026-11-06T12:50:15.662000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/08/HR_Knitting_Noema_LeonieBos-copy.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&rect=0%2C32%2C945%2C495&w=1200&wpsize=noema-social-facebook&s=ff77fe7391cba53b40080273232ce909",
-        "sourceUrl": "https://noemamag.com/why-is-everyone-in-tech-so-sad/",
-        "readwiseUrl": "https://read.readwise.io/read/01m072k5pcs8smv4xq9jmm5jef",
-        "summary": "Work has never been able to provide people with the kind of value that a vocation, spiritual belief system or community once did. But AI might change that.",
-        "whyRead": "Onderzoekt waarom veel techwerkers somber zijn en welke organisatie- en cultuurfactoren daarachter zitten.",
-        "bestMoment": "Voor technologiearbeid, werkcultuur en welzijn.",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m05be2mdpdf3vg9xy5xr0kcz",
         "title": "The Art of Donald McGill",
         "author": "orwellfoundation.com",
@@ -59343,7 +55329,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 23
+            "position": 24
           },
           {
             "familyId": "philosophy",
@@ -59392,7 +55378,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -59546,7 +55532,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 74
+            "position": 75
           },
           {
             "familyId": "adhd",
@@ -59635,7 +55621,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 80
+            "position": 81
           },
           {
             "familyId": "adhd",
@@ -59686,7 +55672,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 62
+            "position": 63
           },
           {
             "familyId": "philosophy",
@@ -59736,37 +55722,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kycfev2jfr2v5x5pqr2scxz7",
-        "title": "How to Win a Billion Dollars and Ruin Your Life",
-        "author": "Miller’s Book Review 📚",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1249,
-        "publishedDate": "2026-07-25",
-        "savedDate": "2026-07-25T11:09:39.795000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
-        "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
-        "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
-        "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kyab47vf7vat0n76fpwrgrj6",
         "title": "Your Book Review: Breakdown In Pakistan",
         "author": "Astral Codex Ten",
@@ -59808,7 +55763,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 50
+            "position": 51
           },
           {
             "familyId": "philosophy",
@@ -59864,7 +55819,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -60209,6 +56164,76 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kxh3dh3k49hmjw138btvczcf",
+        "title": "Mindset",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "6 hrs 46 mins",
+        "readingMinutes": 406,
+        "wordCount": 107416,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:45.482000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3dh3k49hmjw138btvczcf",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3dh3k49hmjw138btvczcf",
+        "summary": "Carol Dweck is widely regarded as one of the world’s leading researchers in the fields of personality, social psychology and developmental psychology. She has been the William B.",
+        "whyRead": "Raakt je interesse in leren en gedragspsychologie. Dwecks onderscheid tussen vaste en groeigerichte overtuigingen geeft taal voor hoe mensen op fouten, inspanning en ontwikkeling reageren.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "behavioral psychology & coaching",
+          "learning & meta-learning"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 92
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3de9mx3etpeb0vtg4cz7d",
+        "title": "How to Know a Person_ The Art of Seeing Others Deeply and Being Deeply Seen",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "5 hrs 29 mins",
+        "readingMinutes": 329,
+        "wordCount": 87017,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:42.496000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3de9mx3etpeb0vtg4cz7d",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3de9mx3etpeb0vtg4cz7d",
+        "summary": "The culture of my upbringing could be summed up by the phrase “Think Yiddish, act British. ” We were reserved, stiff-upper-lip types.",
+        "whyRead": "Raakt je interesse in reflectief ouderschap en menselijke relaties. Brooks biedt een essayistische gids voor aandachtig waarnemen, goede gesprekken en empathie zonder mensen tot problemen te reduceren.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 61
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kxh3dc0gn9f96vqa7s1t9fnw",
         "title": "Het nationaalsocialisme als rancuneleer",
         "author": "read.readwise.io",
@@ -60302,6 +56327,370 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kxh3d5wyz061tvv798szmrge",
+        "title": "Diep Werk_ Werken Met Aandacht in Een Wereld Vol Afleiding",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "4 hrs 53 mins",
+        "readingMinutes": 293,
+        "wordCount": 77522,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:33.259000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3d5wyz061tvv798szmrge",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3d5wyz061tvv798szmrge",
+        "summary": "Cal Newport gebruikte de term ‘diep werk’ voor het eerst op zijn populaire blog.",
+        "whyRead": "Raakt je interesse in aandacht, werk en leerstrategieën. Newport verdedigt langdurige concentratie als zeldzame vaardigheid in een economie van afleiding.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 91
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3d3s4z22xfj6gfratdzr3",
+        "title": "Creativiteit_ Flow en de psychologie van de ontdekking",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "8 hrs 22 mins",
+        "readingMinutes": 502,
+        "wordCount": 132904,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:31.311000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
+        "summary": "Alle rechten voorbehouden.",
+        "whyRead": "Raakt je interesse in creativiteit, aandacht en een betekenisvol dagelijks leven. Csikszentmihalyi beschrijft flow als een toestand waarin uitdaging en vaardigheid elkaar precies raken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 90
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3d2n0y4xzmz2rvatkatm6",
+        "title": "All Things Shining_ Reading the Western Classics to Find Meaning in a Secular Age",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "5 hrs 38 mins",
+        "readingMinutes": 338,
+        "wordCount": 89325,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:30.118000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3d2n0y4xzmz2rvatkatm6",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3d2n0y4xzmz2rvatkatm6",
+        "summary": "The Simon & Schuster Speakers Bureau can bring authors to your live event.",
+        "whyRead": "Raakt je interesse in klassieke filosofie en betekenis in een seculiere wereld. Dreyfus en Kelly lezen de westerse canon als bron voor praktijken van toewijding zonder terug te vallen op één absolute moraal.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "geschiedenis"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3d1q5vzfd5h11dr5a7gyx",
+        "title": "Waarom Generalisten Verder Komen",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 29 mins",
+        "readingMinutes": 449,
+        "wordCount": 118839,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:29.328000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
+        "summary": "De uitgever heeft getracht alle rechthebbenden te achterhalen.",
+        "whyRead": "Raakt je interesse in leren en loopbaanontwikkeling. Epstein verdedigt brede ervaring, experimenteren en traag specialiseren in complexe, onzekere domeinen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 89
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3czjr80mzr8pvskbk9jb8",
+        "title": "Traumasporen in lichaam, brein en geest",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "11 hrs 54 mins",
+        "readingMinutes": 714,
+        "wordCount": 189114,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:27.737000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3czjr80mzr8pvskbk9jb8",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3czjr80mzr8pvskbk9jb8",
+        "summary": "‘Dit boek is een tour de force.",
+        "whyRead": "Raakt je interesse in de emotionele kant van zorg en psychologisch herstel. Van der Kolk verbindt trauma aan lichaam, brein, relaties en meerdere vormen van behandeling.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "behavioral psychology & coaching",
+          "health & wellness"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 88
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3cyaq8vgrybrcg1c5kz91",
+        "title": "Tiny Experiments",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "4 hrs 35 mins",
+        "readingMinutes": 275,
+        "wordCount": 72830,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:34.960000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3cyaq8vgrybrcg1c5kz91",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3cyaq8vgrybrcg1c5kz91",
+        "summary": "‘I loved this profound, practical, and generous book.",
+        "whyRead": "Raakt je interesse in PKM, leren en een minder rigide vorm van zelfontwikkeling. Le Cunff vervangt grote doelen door kleine, toetsbare experimenten die nieuwsgierigheid en feedback centraal zetten.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3cwavw31x7t8azkzf0fcn",
+        "title": "The Social Animal_ The Hidden Sources of Love, Character, and Achievement",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "9 hrs 44 mins",
+        "readingMinutes": 584,
+        "wordCount": 154678,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:24.490000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3cwavw31x7t8azkzf0fcn",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3cwavw31x7t8azkzf0fcn",
+        "summary": "LIBRARY OF CONGRESS CATALOGING-IN-PUBLICATION DATA Brooks, David The social animal: the hidden sources of love, character, and achievement / David Brooks. p.",
+        "whyRead": "Raakt je interesse in sociale structuren, karakter en psychologie. Brooks verweeft onderzoek met levensverhalen om te laten zien hoe relaties, normen en omgeving keuzes vormen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 71
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3cv21q7mnt54x3w2y1b19",
+        "title": "The Shortest History of Europe",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "3 hrs 47 mins",
+        "readingMinutes": 227,
+        "wordCount": 59991,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:22.035000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3cv21q7mnt54x3w2y1b19",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3cv21q7mnt54x3w2y1b19",
+        "summary": "No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form by any means electronic, mechanical, photocopying, recording or otherwise without the prior consent of the publishers.",
+        "whyRead": "Raakt je interesse in West-Europese geschiedenis en politieke ideeëngeschiedenis. Hirst biedt een korte, leesbare interpretatie van de krachten die Europa vormden.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "history",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 38
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3ct67mq72nz251bvhx6dq",
+        "title": "The Second Mountain",
+        "author": "David Brooks",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 29 mins",
+        "readingMinutes": 449,
+        "wordCount": 118750,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:21.588000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3ct67mq72nz251bvhx6dq",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3ct67mq72nz251bvhx6dq",
+        "summary": "",
+        "whyRead": "Diepgaand Amerikaans essay over de overgang van individuele prestatie ('eerste berg') naar betekenis via toewijding, gemeenschap en relaties ('tweede berg') - sterke raakvlakken met filosofie, moraalsociologie en persoonlijke groei.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 70
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxh3cs7g026yxg2v0sfmvjby",
+        "title": "The Road to Character",
+        "author": "read.readwise.io",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 2 mins",
+        "readingMinutes": 422,
+        "wordCount": 111578,
+        "publishedDate": "2026-07-14",
+        "savedDate": "2026-07-14T19:59:20.528000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://read.readwise.io/read/01kxh3cs7g026yxg2v0sfmvjby",
+        "readwiseUrl": "https://read.readwise.io/read/01kxh3cs7g026yxg2v0sfmvjby",
+        "summary": "Excerpt from George C. Marshall: Education of a General, 1880–1939 by Forrest C.",
+        "whyRead": "Raakt je interesse in karakter, deugd en betekenisvolle levenskeuzes. Brooks contrasteert uiterlijke prestaties met nederigheid, dienstbaarheid en morele vorming.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 87
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kxh3cr3pknc3hxnhsx33xdcx",
         "title": "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
         "author": "read.readwise.io",
@@ -60335,43 +56724,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 13
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01kxh3cq0yd7tq672g97w9pts7",
-        "title": "Rest_ Why You Get More Done When You Work Less",
-        "author": "read.readwise.io",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "5 hrs 29 mins",
-        "readingMinutes": 329,
-        "wordCount": 87109,
-        "publishedDate": "2026-07-14",
-        "savedDate": "2026-07-14T19:59:18.075000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://read.readwise.io/read/01kxh3cq0yd7tq672g97w9pts7",
-        "readwiseUrl": "https://read.readwise.io/read/01kxh3cq0yd7tq672g97w9pts7",
-        "summary": "Alex Soojung-Kim Pang is the founder of the Restful Company, a consulting company in Silicon Valley, California, and a visiting academic at Stanford University.",
-        "whyRead": "Raakt je interesse in duurzaam kenniswerk, creativiteit en persoonlijke groei. Pang maakt rust niet tot beloning ná productiviteit, maar tot voorwaarde voor goed en origineel werk.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 95
+            "position": 14
           }
         ]
       },
@@ -60407,7 +56760,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 45
+            "position": 54
           }
         ]
       },
@@ -60455,7 +56808,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 38
+            "position": 39
           },
           {
             "familyId": "philosophy",
@@ -60751,7 +57104,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "adhd",
@@ -60935,7 +57288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 41
+            "position": 49
           }
         ]
       },
@@ -61208,7 +57561,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 66
+            "position": 67
           },
           {
             "familyId": "adhd",
@@ -61261,7 +57614,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 37
+            "position": 38
           },
           {
             "familyId": "adhd",
@@ -61614,7 +57967,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 16
+            "position": 18
           }
         ]
       },
@@ -61747,7 +58100,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 49
+            "position": 50
           },
           {
             "familyId": "philosophy",
@@ -61837,7 +58190,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 36
+            "position": 44
           }
         ]
       },
@@ -61961,7 +58314,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 20
+            "position": 21
           },
           {
             "familyId": "philosophy",
@@ -62278,41 +58631,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kgdfpy0f0pts3sax7x38mdqc",
-        "title": "Short Fiction",
-        "author": "Mary Shelley",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "11 hrs 13 mins",
-        "readingMinutes": 673,
-        "wordCount": 178271,
-        "publishedDate": "2025-12-13",
-        "savedDate": "2026-02-01T20:53:34.193000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/415657935/Bryf_WamFy0rkqSWdl_xPb86r9GLajueqw6Jd-aYYfk-cove_BYflIEV.jpg",
-        "sourceUrl": "private://read/01kgdfpy0f0pts3sax7x38mdqc",
-        "readwiseUrl": "https://read.readwise.io/read/01kgdfpy0f0pts3sax7x38mdqc",
-        "summary": "Stories of love, loss, and curses haunt these lives. Secret vows, forced matches, and deaths bring grief and flight. Yet through children and care, despair softens into hope.",
-        "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01kgdfp777bge0tsbfpzway43h",
         "title": "Why Designers Can No Longer Trust the Design Process",
         "author": "Hatch Conference",
@@ -62620,7 +58938,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 68
+            "position": 82
           }
         ]
       },
@@ -62888,7 +59206,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 47
+            "position": 56
           }
         ]
       },
@@ -62935,7 +59253,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 45
+            "position": 46
           },
           {
             "familyId": "philosophy",
@@ -63021,7 +59339,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 60
+            "position": 61
           },
           {
             "familyId": "videos",
@@ -63072,7 +59390,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 66
+            "position": 80
           }
         ]
       },
@@ -63522,7 +59840,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 17
+            "position": 21
           }
         ]
       },
@@ -63759,7 +60077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 27
+            "position": 32
           }
         ]
       },
@@ -63797,7 +60115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 26
+            "position": 31
           }
         ]
       },
@@ -63835,36 +60153,121 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 46
+            "position": 55
           }
         ]
       },
       {
         "position": null,
-        "id": "01k55qwkzkqaphvktn41xznxv2",
-        "title": "Wuthering Heights",
-        "author": "Emily Brontë",
+        "id": "01k5r4cnzrn3zybwgkzzfxmc0n",
+        "title": "The Second Mountain",
+        "author": "David Brooks",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "7 hrs 31 mins",
+        "readingMinutes": 451,
+        "wordCount": 119350,
+        "publishedDate": "2019-04-16",
+        "savedDate": "2025-09-22T07:14:42.317000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/366099070/RN-CZvy48u-odnRzVM8Ea2bMWfdliT3Sxu-obLTvArQ-cover-cover.jpeg",
+        "sourceUrl": "private://read/01k5r4cnzrn3zybwgkzzfxmc0n",
+        "readwiseUrl": "https://read.readwise.io/read/01k5r4cnzrn3zybwgkzzfxmc0n",
+        "summary": "Suffering can wake people up and reveal a deep urge to care for others. The \"second mountain\" is a life of commitment, community, and service that grows from that inner change. Society must shift from hyper‑individualism toward solidarity so more people can find this fuller life.",
+        "whyRead": "Raakt je interesse in filosofie en deugdethiek — Brooks' argument over de tweede berg als diepere toewijding raakt direct aan vragen over wat een goed leven is.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy",
+          "sociology & inequality"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 20
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01k5450gkevfxv0ag824t5vmk1",
+        "title": "Rapt",
+        "author": "Winifred Gallagher",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "4 hrs 49 mins",
+        "readingMinutes": 289,
+        "wordCount": 76524,
+        "publishedDate": null,
+        "savedDate": "2025-09-14T13:00:43.523000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363013240/C9kI4k1B4QfwXmT_xm3FOeWO1-iwQbLWWEz-OgDpEHU-cove_i3NpUaF.jpg",
+        "sourceUrl": "private://read/01k5450gkevfxv0ag824t5vmk1",
+        "readwiseUrl": "https://read.readwise.io/read/01k5450gkevfxv0ag824t5vmk1",
+        "summary": "Your attention shapes your reality and your sense of self.  \nIt is limited and selective, so what you focus on becomes real while other things fade.  \nYou can train focus to create flow and well‑being, but modern distractions often scatter it.",
+        "whyRead": "Raakt je interesse in psychologie en aandacht — Gallaghers these dat de kwaliteit van je leven bepaald wordt door waar je aandacht op richt is een krachtig en wetenschappelijk onderbouwd idee.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "cognitive science",
+          "personal growth & life philosophy",
+          "psychology & behavior"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 67
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01k544vnd6tt5zdpkvyvvkv0hy",
+        "title": "All Things Shining",
+        "author": "Hubert Dreyfus",
         "siteName": "readwise-upload-epub",
         "category": "epub",
         "language": null,
-        "readingTime": "7 hrs 34 mins",
-        "readingMinutes": 454,
-        "wordCount": 120074,
-        "publishedDate": "2018-07-18",
-        "savedDate": "2025-09-15T03:49:53.267000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363048604/plxZpEhMXpSAsqmZyQ9nok5p4T_D1SxKr8UZp2mzMis-cove_yz97RCf.jpg",
-        "sourceUrl": "private://read/01k55qwkzkqaphvktn41xznxv2",
-        "readwiseUrl": "https://read.readwise.io/read/01k55qwkzkqaphvktn41xznxv2",
-        "summary": "Heathcliff controls visits and provokes the household. Catherine is distraught and insists on seeing Linton because he may be dying. Mrs. Heathcliff sits alone by the bedside while servants tend to Linton and everyone is tense.",
-        "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
+        "readingTime": "5 hrs 57 mins",
+        "readingMinutes": 357,
+        "wordCount": 94520,
+        "publishedDate": null,
+        "savedDate": "2025-09-14T12:58:04.594000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363012753/ast2ETEPgJSe681HhC9vYNfrPDiOdWpIEb4PDW1u0mo-cove_mCBcqF4.jpg",
+        "sourceUrl": "private://read/01k544vnd6tt5zdpkvyvvkv0hy",
+        "readwiseUrl": "https://read.readwise.io/read/01k544vnd6tt5zdpkvyvvkv0hy",
+        "summary": "Modern thought makes humans the sole source of meaning and hides the sacred richness Homer saw. Melville’s Moby Dick argues we should accept surface events and everyday moods as their own meanings instead of hunting for hidden truths. Homeric polytheism shows that the gods’ danger and multiplicity give life force, so we must resist trying to “become gods” ourselves.",
+        "whyRead": "Raakt je interesse in filosofie en cultuurgeschiedenis — Dreyfus en Kelly zoeken naar het heilige in een seculiere wereld via literatuur van Homerus tot Melville.",
         "bestMoment": "analytisch",
         "tags": [
-          "arts & culture",
-          "fiction"
+          "personal growth & life philosophy",
+          "philosophy"
         ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 53
+          }
+        ]
       },
       {
         "position": null,
@@ -63936,7 +60339,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 72
+            "position": 86
           }
         ]
       },
@@ -63971,7 +60374,43 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 71
+            "position": 85
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01k0mdvkd0e8bgcq04s7nky4wb",
+        "title": "Rest: Why You Get More Done When You Work Less",
+        "author": "Alex Soojung-Kim Pang",
+        "siteName": null,
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "5 hrs 36 mins",
+        "readingMinutes": 336,
+        "wordCount": 88832,
+        "publishedDate": "2016-11-17",
+        "savedDate": "2025-07-20T17:24:41.518000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/340559222/sZ06a61FTErqNNhoHiP0zhFvn_KFF9HDLXX1j-iv1EM-cove_npKie9K.jpg",
+        "sourceUrl": "private://read/01k0mdvkd0e8bgcq04s7nky4wb",
+        "readwiseUrl": "https://read.readwise.io/read/01k0mdvkd0e8bgcq04s7nky4wb",
+        "summary": "Rest is not just a break from work but a vital part of being creative and productive. Many great thinkers worked only a few hours a day and spent the rest of their time resting or enjoying hobbies. Treating rest as a skill and making it active helps us work better and live more fulfilling lives.",
+        "whyRead": "Raakt je interesse in leren en productiviteit — Pang onderbouwt met wetenschappelijk bewijs dat rust geen verspilling is maar een voorwaarde voor diep werk.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "health & wellness",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 39
           }
         ]
       },
@@ -64044,7 +60483,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 61
+            "position": 75
           }
         ]
       },
@@ -64096,6 +60535,45 @@ window.TOP_ARTICLES = {
             "familyId": "adhd",
             "size": "top-100",
             "position": 5
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01jz08kx1t39dbdpjq58cwgnsp",
+        "title": "Mind Management, Not Time Management",
+        "author": "David Kadavy",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "4 hrs 33 mins",
+        "readingMinutes": 273,
+        "wordCount": 72204,
+        "publishedDate": "2025-06-10",
+        "savedDate": "2025-06-30T11:12:37.032000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/324517530/OnVPrFtaX8YcP3RMyRNkUfe1HwyZ2qtWYxca7D4sJ9w-MMT-_8H3nNRh.jpg",
+        "sourceUrl": "private://read/01jz08kx1t39dbdpjq58cwgnsp",
+        "readwiseUrl": "https://read.readwise.io/read/01jz08kx1t39dbdpjq58cwgnsp",
+        "summary": "Creativity works best when you match your mental state to the task. Find your Creative Sweet Spot, a special time when you can generate ideas easily. Use your most creative hours for new ideas and later times to polish and finish work.",
+        "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 19
           }
         ]
       },
@@ -64182,7 +60660,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 44
+            "position": 52
           }
         ]
       },
@@ -64216,43 +60694,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 70
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01jaraxstjdzrdw2zs4r638p2v",
-        "title": "Journey to the Center of the Earth",
-        "author": "Jules Verne",
-        "siteName": null,
-        "category": "epub",
-        "language": null,
-        "readingTime": "4 hrs 45 mins",
-        "readingMinutes": 285,
-        "wordCount": 75359,
-        "publishedDate": "2020-07-01",
-        "savedDate": "2024-10-21T20:05:07.695000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/227853731/FmaMJNXV-gJNkJYpN29uVWiHqgBTeOS1Hn8AbttosvI-cove_Ag906PX.jpg",
-        "sourceUrl": "private://read/01jagf2tpmeye0951wr9zt69cz",
-        "readwiseUrl": "https://read.readwise.io/read/01jaraxstjdzrdw2zs4r638p2v",
-        "summary": "In \"Journey to the Center of the Earth,\" the narrator feels both excitement and fear as he and his companions descend into a volcanic crater. Their guide, Hans, skillfully leads them through dangerous terrain while the narrator's uncle eagerly observes everything. Despite the challenges, Hans bravely manages to save important supplies, showing his dedication to the journey.",
-        "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 97
+            "position": 84
           }
         ]
       },
@@ -64290,36 +60732,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 34
+            "position": 42
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01j7x2qde4aaycp5jtn9b23jqh",
-        "title": "The Importance of Being Earnest",
-        "author": "Oscar Wilde",
-        "siteName": null,
-        "category": "epub",
-        "language": null,
-        "readingTime": "1 hr 24 mins",
-        "readingMinutes": 84,
-        "wordCount": 22206,
-        "publishedDate": "2014-05-25",
-        "savedDate": "2024-09-16T09:30:53.042000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/215851494/HsyksIX47WMG4SzJAxK8WaBhlnAkHbWmYg3SubKpxdA-cove_oPGnYxo.jpg",
-        "sourceUrl": "private://read/01j7phr9gma7cjv8qr88ph3432",
-        "readwiseUrl": "https://read.readwise.io/read/01j7x2qde4aaycp5jtn9b23jqh",
-        "summary": "\"The Importance of Being Earnest\" is a play by Oscar Wilde. The text is believed to be in the public domain in the United States. Users outside the U.S. should check local copyright laws before using it.",
-        "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -64390,45 +60805,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 35
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01j6f8r2v0xj1cgdnf7pqxqjyz",
-        "title": "Candide",
-        "author": "Voltaire",
-        "siteName": null,
-        "category": "epub",
-        "language": null,
-        "readingTime": "2 hrs 20 mins",
-        "readingMinutes": 140,
-        "wordCount": 36844,
-        "publishedDate": "2014-05-25",
-        "savedDate": "2024-08-29T14:31:03.776000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/208577671/pwrBnaxIxWcVGx24iu-GkDjTmnsId2IwsTEpAHidwnc-cove_vhFGQXY.jpg",
-        "sourceUrl": "private://read/01j62kcp0vk20jp9525jm2efwv",
-        "readwiseUrl": "https://read.readwise.io/read/01j6f8r2v0xj1cgdnf7pqxqjyz",
-        "summary": "Candide travels through war-torn villages, longing for Miss Cunégonde and feeling remorse for his past actions. He discovers wealth in diamonds but is consumed by grief and worry for her well-being. Ultimately, he reflects on his experiences, feeling that returning to Europe has brought him more misery than happiness.",
-        "whyRead": "Sluit aan op een van je inhoudelijke leesinteresses en verdient een eerste inhoudelijke beoordeling.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 96
+            "position": 43
           }
         ]
       },
@@ -64466,7 +60843,45 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 33
+            "position": 41
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j5gahscsyzezft9tvjy6h15x",
+        "title": "Het nationaalsocialisme als rancuneleer",
+        "author": "Menno ter Braak",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": "Nederlands",
+        "readingTime": "29 mins",
+        "readingMinutes": 29,
+        "wordCount": 7518,
+        "publishedDate": "2022-01-27",
+        "savedDate": "2024-08-17T14:06:07.275000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/206166652/SZj1MHNjMH8oKo-hEmXPMoiJwoAHgK0Kz560xPgZGHw-cove_lIDUPFn.jpg",
+        "sourceUrl": "private://read/01j5gahscsyzezft9tvjy6h15x",
+        "readwiseUrl": "https://read.readwise.io/read/01j5gahscsyzezft9tvjy6h15x",
+        "summary": "Het nationaalsocialisme is ontstaan uit een gevoel van wrok en ressentiment binnen de samenleving. Het is een beweging die zich voedt met haat en tegenstellingen, en die de democratische waarden perverteert. De strijd tegen het nationaalsocialisme moet zich richten op de idealisering van dit ressentiment, niet alleen onder nationaalsocialisten, maar ook onder democraten en socialisten.",
+        "whyRead": "Raakt je kerninteresses in politieke filosofie en fascisme — Ter Braak analyseert het nazisme als ressentiment-ideologie, met Nietzsche als sleutel, vóórdat de Tweede Wereldoorlog uitbrak.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 16
           }
         ]
       },
@@ -64506,45 +60921,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 38
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01j422az0v87b7wzb7fx7f9r9t",
-        "title": "Uitgewoond",
-        "author": "Cody Hochstenbach",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "6 hrs 14 mins",
-        "readingMinutes": 374,
-        "wordCount": 99033,
-        "publishedDate": "2022-02-04",
-        "savedDate": "2024-07-30T14:57:31.176000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199899402/QuXYrL6y1YkOgbobSImUA45J1DS-RYrtYaRRdWjimOY-cover-cover.jpeg",
-        "sourceUrl": "private://read/01j422az0v87b7wzb7fx7f9r9t",
-        "readwiseUrl": "https://read.readwise.io/read/01j422az0v87b7wzb7fx7f9r9t",
-        "summary": "Cody Hochstenbach (1989) is als stadsgeograaf verbonden aan de Universiteit van Amsterdam.",
-        "whyRead": "Raakt je interesse in sociologie en Nederlandse samenleving — Hochstenbach ontmantelt de wooncrisis als gevolg van bewuste politieke keuzes, niet pech of marktfalen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 94
+            "position": 46
           }
         ]
       },
@@ -64581,7 +60958,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 63
+            "position": 77
           }
         ]
       },
@@ -64666,7 +61043,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 25
+            "position": 30
           }
         ]
       },
@@ -64702,7 +61079,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 53
+            "position": 64
           }
         ]
       },
@@ -64741,7 +61118,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 18
+            "position": 23
           }
         ]
       },
@@ -64780,7 +61157,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 43
+            "position": 51
           }
         ]
       },
@@ -64815,7 +61192,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 50
+            "position": 59
           }
         ]
       },
@@ -64853,7 +61230,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 52
+            "position": 63
           }
         ]
       },
@@ -64891,7 +61268,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 49
+            "position": 58
           }
         ]
       },
@@ -64929,7 +61306,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 48
+            "position": 57
           }
         ]
       },
@@ -64964,7 +61341,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 62
+            "position": 76
           }
         ]
       },
@@ -65000,7 +61377,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 59
+            "position": 73
           }
         ]
       },
@@ -65080,7 +61457,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 31
+            "position": 37
           }
         ]
       },
@@ -65119,7 +61496,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 15
+            "position": 17
           }
         ]
       },
@@ -65155,45 +61532,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 30
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01j29d3d60k7dhd72yfq1ytt3z",
-        "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
-        "author": "Kirk Teachout",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "2 hrs 35 mins",
-        "readingMinutes": 155,
-        "wordCount": 40811,
-        "publishedDate": "2023-04-16",
-        "savedDate": "2024-07-08T14:48:55.244000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401381/7mvzTcWGM-LqIHxt8Z36_8vfIK8p_NP5KyV1Ad2Yd6w-cover-cover.jpeg",
-        "sourceUrl": "private://read/01j29d3d60k7dhd72yfq1ytt3z",
-        "readwiseUrl": "https://read.readwise.io/read/01j29d3d60k7dhd72yfq1ytt3z",
-        "summary": "No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without written permission from the author, except for the use of brief quotations in a book review.",
-        "whyRead": "Brede gids over angst, slaapproblemen en negatief denken als symptomen van overmatig piekeren.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "cognitive science",
-          "health & wellness",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 99
+            "position": 36
           }
         ]
       },
@@ -65231,7 +61570,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 57
+            "position": 69
           }
         ]
       },
@@ -65270,7 +61609,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 64
+            "position": 78
           }
         ]
       },
@@ -65306,7 +61645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 42
+            "position": 50
           }
         ]
       },
@@ -65344,7 +61683,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 32
+            "position": 40
           }
         ]
       },
@@ -65380,7 +61719,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 56
+            "position": 68
           }
         ]
       },
@@ -65416,7 +61755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 20
+            "position": 25
           }
         ]
       },
@@ -65452,7 +61791,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 29
+            "position": 35
           }
         ]
       },
@@ -65490,7 +61829,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 24
+            "position": 29
           }
         ]
       },
@@ -65534,72 +61873,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01j29d3477vpv22gsyz7y1zrp7",
-        "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
-        "author": "Catherine Shanahan, M. D.",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "19 hrs 38 mins",
-        "readingMinutes": 1178,
-        "wordCount": 312044,
-        "publishedDate": "2017-01-03",
-        "savedDate": "2024-07-08T14:48:46.155000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401240/jfK5f80o7qNc3L1lkpSG6603GoAcTSoObX__CNCgW38-cover-cover.jpeg",
-        "sourceUrl": "private://read/01j29d3477vpv22gsyz7y1zrp7",
-        "readwiseUrl": "https://read.readwise.io/read/01j29d3477vpv22gsyz7y1zrp7",
-        "summary": "In \"Deep Nutrition,\" Dr. Catherine Shanahan emphasizes the importance of traditional foods for better health, supported by new scientific findings. She argues that processed foods and vegetable oils are harmful, while natural fats and well-sourced ingredients can enhance our health. This updated edition aims to reinforce the idea that our diet directly influences our genes and overall well-being.",
-        "whyRead": "Raakt je interesse in gezondheid en voeding; Shanahan onderbouwt met evolutionaire biologie waarom traditionele voeding beter aansluit bij onze genetische aanleg.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "food & cooking",
-          "health & wellness",
-          "popular science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01j29d329ferdddmnja3ywxwye",
-        "title": "As a Man Thinketh: 21st Century Edition (The Wisdom of James Allen)",
-        "author": "James Allen",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5676,
-        "publishedDate": "2021-10-03",
-        "savedDate": "2024-07-08T14:48:44.091000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401232/o-hoaP5YwHO5ekQKE9Y0P_lqlAgwDkzyKTZiYf0nlrc-cover-cover.jpeg",
-        "sourceUrl": "private://read/01j29d329ferdddmnja3ywxwye",
-        "readwiseUrl": "https://read.readwise.io/read/01j29d329ferdddmnja3ywxwye",
-        "summary": "Our thoughts shape our lives and determine our character and circumstances. By cultivating positive thoughts and having a clear purpose, we can transform our experiences and achieve our goals. Ultimately, we have the power to create our own destiny through the choices we make in our minds.",
-        "whyRead": "Raakt je interesse in levensfilosofie en persoonlijke ontwikkeling. Deze moderne herformulering van James Allens zelfhulpklassieker verbindt karakter en levensrichting aan de gedachten die iemand cultiveert; de meerwaarde zit vooral in het historische ideeëngoed, niet in de belofte dat denken alleen alle omstandigheden bepaalt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01j29b7xf9vas2b7q4308ts4bb",
         "title": "Writing to Learn",
         "author": "William Knowlton Zinsser",
@@ -65632,7 +61905,44 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 37
+            "position": 45
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j29b7wmwqd8j7qn6fes4n48j",
+        "title": "Walden",
+        "author": "Henry David Thoreau",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "6 hrs 48 mins",
+        "readingMinutes": 408,
+        "wordCount": 107951,
+        "publishedDate": "1996-01-02",
+        "savedDate": "2024-07-08T14:16:25.001000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393610/h-dQUl_4iy0C9XCO0pP3fS7FFbCIAYWxu48AFw1LFYA-cover-cover.jpeg",
+        "sourceUrl": "private://read/01j29b7wmwqd8j7qn6fes4n48j",
+        "readwiseUrl": "https://read.readwise.io/read/01j29b7wmwqd8j7qn6fes4n48j",
+        "summary": "In \"Walden,\" Henry David Thoreau describes his two years living alone in a self-built house by Walden Pond. He reflects on the mistakes people make in their busy lives, missing the beauty and simplicity of nature. Thoreau emphasizes the importance of connecting with the natural world and appreciating its gifts.",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; Walden is Thoreau's klassieke verslag van zijn experiment in zelfvoorziening — tijdloos in zijn kritiek op consumptie en materialisme.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 34
           }
         ]
       },
@@ -65671,7 +61981,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 28
+            "position": 33
           }
         ]
       },
@@ -65709,7 +62019,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 51
+            "position": 62
           }
         ]
       },
@@ -65747,7 +62057,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -65786,7 +62096,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 55
+            "position": 66
           }
         ]
       },
@@ -65822,7 +62132,46 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 69
+            "position": 83
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j29b7ntzajr6pssz3xz0h0gd",
+        "title": "Extra Focus: The Quick Start Guide to Adult ADHD",
+        "author": "Jesse J. Anderson",
+        "siteName": "readwise.io",
+        "category": "epub",
+        "language": "Engels",
+        "readingTime": "2 hrs 2 mins",
+        "readingMinutes": 122,
+        "wordCount": 32156,
+        "publishedDate": "2023-09-19",
+        "savedDate": "2024-07-08T14:16:18.043000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393475/_X2nayWK05ZV85G7snhJ13VPdGeTuqjLeUEseZdldos-cover-cover.jpeg",
+        "sourceUrl": "private://read/01j29b7ntzajr6pssz3xz0h0gd",
+        "readwiseUrl": "https://read.readwise.io/read/01j29b7ntzajr6pssz3xz0h0gd",
+        "summary": "Understanding how ADHD affects attention and focus can help individuals with ADHD navigate challenges in prioritizing tasks and following through on goals. People with ADHD often struggle with distinguishing between urgent tasks and important tasks, leading to a tendency to prioritize immediate needs over long-term goals. Despite good intentions, individuals with ADHD may face difficulties in remembering and consistently applying productivity strategies or new habits.",
+        "whyRead": "Raakt je interesse in ADHD en neurodiversiteit; een toegankelijke startgids die de sterke kanten en valkuilen van volwassen ADHD beschrijft met praktische strategieën.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "adhd & neurodivergence",
+          "cognitive science",
+          "tools & workflows"
+        ],
+        "coreInterests": [
+          "pkm",
+          "adhd"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 13
           }
         ]
       },
@@ -65906,7 +62255,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 54
+            "position": 65
           }
         ]
       },
@@ -65941,7 +62290,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 23
+            "position": 28
           }
         ]
       },
@@ -65978,36 +62327,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 22
+            "position": 27
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01j28vk8x6dvbnv05fex4z13dz",
-        "title": "Het drielichamenprobleem",
-        "author": "Cixin Liu",
-        "siteName": "readwise.io",
-        "category": "epub",
-        "language": null,
-        "readingTime": "7 hrs 41 mins",
-        "readingMinutes": 461,
-        "wordCount": 121948,
-        "publishedDate": "2020-10-16",
-        "savedDate": "2024-07-08T09:43:00.797000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
-        "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
-        "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
-        "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
-        "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "fiction",
-          "popular science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -66043,7 +62365,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 40
+            "position": 48
           }
         ]
       },
@@ -66079,7 +62401,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 65
+            "position": 79
           }
         ]
       },
@@ -66118,7 +62440,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 19
+            "position": 24
           }
         ]
       },
@@ -66287,7 +62609,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       }
