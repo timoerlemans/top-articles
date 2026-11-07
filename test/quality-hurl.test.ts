@@ -36,6 +36,7 @@ test("Hurl workflows install the libxml2 runtime required by the pinned binary",
   ]);
 
   for (const workflow of workflows) {
+    assert.match(workflow, /runs-on: ubuntu-24\.04/);
     assert.match(workflow, /apt-get install --no-install-recommends -y libxml2/);
   }
 });
