@@ -60,6 +60,11 @@ jobs:
       - name: Run project checks
         run: npm run check
 
+      - name: Install Hurl runtime dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y libxml2
+
       - name: Install pinned quality tools
         run: bash .github/scripts/install-quality-tools.sh
 

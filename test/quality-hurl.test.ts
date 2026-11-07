@@ -28,3 +28,14 @@ test("the local Hurl runner starts the same static site used by the smoke test",
   assert.match(runner, /python3 -m http\.server/);
   assert.match(runner, /hurl --test/);
 });
+
+test("Hurl workflows install the libxml2 runtime required by the pinned binary", async () => {
+  const workflows = await Promise.all([
+    readFile(resolve(repositoryRoot, ".github/workflows/quality.yml"), "utf8"),
+    readFile(resolve(repositoryRoot, ".github/workflows/site-quality.yml"), "utf8"),
+  ]);
+
+  for (const workflow of workflows) {
+    assert.match(workflow, /apt-get install --no-install-recommends -y libxml2/);
+  }
+});
