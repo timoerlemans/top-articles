@@ -120,6 +120,7 @@ Een artikel hoeft geen inzicht, les of analytische laag te bieden om `later` te 
 
 - Konik en Karlsson hebben geen absolute triage-uitzondering. Een podcast, exacte URL-duplicaat of ander aantoonbaar Tier 1-document van deze auteurs volgt dezelfde Archive-route; een regulier Later-document wordt door `want-to-read` in de prioriteitsflow beschermd.
 - Controleer vóór een move dat de actuele metadata en het manifest dezelfde document-ID, bronstatus en bestemming tonen. Bij twijfel, ontbrekende bron of onzekere ownership: niet verplaatsen en de onzekerheid rapporteren.
+- Boeken/EPUB's worden nooit automatisch gearchiveerd; routeer ze naar `later`, ook wanneer een Tier-1-signaal aanwezig is. Alleen een expliciete handmatige opdracht van de gebruiker mag een boek naar `archive` verplaatsen. Classificeer hiervoor met de canonieke `isBook`-detector in `scripts/lib/priority-document.ts`; die herkent EPUB's en `book`/`books`-tags en behoudt de bestaande PDF-uitzondering.
 
 ## Phase 2: Tier 1 pre-filter en standaardrouting
 

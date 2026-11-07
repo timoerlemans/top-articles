@@ -43,6 +43,12 @@ Invoke readwise-triage with Reader location pre-set to `new` — do not ask its 
 | other complete success | Move to `later` with the controlled Reader-move operation |
 | partial, missing, error, or failed write | Do not move; keep manifest/provenance visible |
 
+Boeken/EPUB's worden nooit automatisch gearchiveerd; routeer ze naar `later`, ook wanneer ze door
+een Tier-1-filter worden geraakt. Alleen een expliciete handmatige opdracht van de gebruiker mag
+een boek naar `archive` verplaatsen. Classificeer hiervoor met de canonieke `isBook`-detector in
+`scripts/lib/priority-document.ts`; die herkent EPUB's en `book`/`books`-tags en behoudt de bestaande
+PDF-uitzondering.
+
 Replace Phase F's closing question with a one-line auto-action note instead of presenting choices to the user:
 
 `↳ Autonoom: {actie} (aanbeveling: {recommendation}).`

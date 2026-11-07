@@ -42,12 +42,18 @@ De vaste volgorde is `authors -> priority -> archive -> cleanup -> build`. Na ie
 Reader-mutatie worden de volgende stappen opnieuw gepland, omdat hun bronfingerprint en hash
 kunnen zijn veranderd. Bij een upstream-fout worden downstream-stappen niet uitgevoerd.
 
-De algemene archive-stap beschermt uitsluitend canonieke familie-top-100-lidmaatschappen en de
-expliciete `want-to-read`-tag. Afgeleide ontdeklijsten (`Consensus`, `Nieuw`, `Tijdloos`) en
+De algemene archive-stap beschermt canonieke familie-top-100-lidmaatschappen, de expliciete
+`want-to-read`-tag en alle boeken. Afgeleide ontdeklijsten (`Consensus`, `Nieuw`, `Tijdloos`) en
 curatietags (`must-read`, `shortlist`) beschermen niet. Cleanup verwijdert alleen beheerde
 ordinale/toplijsttags en behoudt inhouds-, curatoriale en `want-to-read`-tags. Journals,
 bronfingerprints, bounded batches en losse add/remove-fallbacks blijven de bron van waarheid voor
 hervatting en tagbehoud.
+
+Boeken/EPUB's worden nooit automatisch gearchiveerd; routeer ze naar `later`, ook wanneer een
+Tier-1-signaal aanwezig is. Alleen een expliciete handmatige opdracht van de gebruiker mag een boek
+naar `archive` verplaatsen. Classificeer hiervoor met de canonieke `isBook`-detector in
+`scripts/lib/priority-document.ts`; die herkent EPUB's en `book`/`books`-tags en behoudt de bestaande
+PDF-uitzondering.
 
 ## Remote onderhoudsketen
 

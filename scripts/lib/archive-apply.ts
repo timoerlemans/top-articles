@@ -2,6 +2,7 @@ import { assertArchivePlanFresh } from "./archive-plan.js";
 import type { ArchivePlan } from "./archive-plan.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { PriorityDocument } from "./priority-document.js";
+import { isBook } from "./priority-document.js";
 import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v8.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 
@@ -91,6 +92,10 @@ export async function applyArchivePlan({
   const candidateIds = new Set(plan.candidateDocumentIds);
   if (journal.completed.some((id) => !candidateIds.has(id))) {
     throw new Error("Archivejournal bevat een document dat niet in het plan staat");
+  }
+  const bookCandidateIds = plan.candidateDocumentIds.filter((id) => currentDocuments.some((document) => document.id === id && isBook(document)));
+  if (bookCandidateIds.length > 0) {
+    throw new Error(`Boeken mogen niet automatisch worden gearchiveerd: ${bookCandidateIds.join(", ")}`);
   }
   if (assertFresh) {
     assertFresh();

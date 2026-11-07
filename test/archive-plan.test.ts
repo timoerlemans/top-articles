@@ -49,6 +49,18 @@ test("protects want-to-read documents in later even when they have no top-100 me
   assert.equal(verifyArchivePostcondition(plan, [wantToRead], { version: 1, items: {} }), true);
 });
 
+test("protects books from automatic archiving even without priority signals", () => {
+  const topBookIds = Array.from({ length: 100 }, (_, index) => `book-${String(index).padStart(3, "0")}`);
+  const plan = buildArchivePlan([
+    ...topBookIds.map((id) => doc(id, { category: "epub" })),
+    doc("book-z", { category: "epub" }),
+    doc("ordinary", { category: "note" }),
+  ], { version: 1, items: {} });
+
+  assert.equal(plan.protectedDocumentIds.includes("book-z"), true);
+  assert.deepEqual(plan.candidateDocumentIds, ["ordinary"]);
+});
+
 test("does not protect a preferred author without the explicit want-to-read tag", () => {
   const preferred = doc("preferred-author", { category: "note", author: "Eleanor Konik" });
   const plan = buildArchivePlan([preferred], { version: 1, items: {} });

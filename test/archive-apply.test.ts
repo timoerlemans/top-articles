@@ -5,7 +5,7 @@ import { buildArchivePlan } from "../scripts/lib/archive-plan.js";
 import { applyArchivePlan, type ArchiveJournal } from "../scripts/lib/archive-apply.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
-function doc(id: string): PriorityDocument {
+function doc(id: string, overrides: Partial<PriorityDocument> = {}): PriorityDocument {
   return {
     id,
     title: id,
@@ -13,12 +13,41 @@ function doc(id: string): PriorityDocument {
     location: "later",
     saved_at: "2026-01-01T00:00:00.000Z",
     tags: {},
+    ...overrides,
   };
 }
 
 function journal(planHash: string): ArchiveJournal {
   return { planHash, startedAt: "2026-09-16T12:00:00.000Z", completed: [], failures: [] };
 }
+
+test("rejects a book candidate before writing or moving anything", async () => {
+  const book = doc("book", { category: "epub" });
+  let moves = 0;
+  let writes = 0;
+
+  await assert.rejects(
+    applyArchivePlan({
+      plan: { planHash: "book-plan", candidateDocumentIds: ["book"] },
+      currentDocuments: [book],
+      overrides: { version: 1, items: {} },
+      journal: journal("book-plan"),
+      assertFresh: () => undefined,
+      moveDocuments: () => {
+        moves += 1;
+        return Promise.resolve([{ documentId: "book", success: true }]);
+      },
+      writeJournal: () => {
+        writes += 1;
+        return Promise.resolve();
+      },
+    }),
+    /boek.*archiv/i,
+  );
+
+  assert.equal(moves, 0);
+  assert.equal(writes, 0);
+});
 
 test("moves candidates in bounded batches and journals completed IDs", async () => {
   const source = [doc("one"), doc("two"), doc("three")];
