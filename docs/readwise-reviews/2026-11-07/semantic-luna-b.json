@@ -1,0 +1,2626 @@
+{
+  "runId": "inbox-2026-11-07",
+  "reviewer": "Codex Luna",
+  "scope": "cohort indices 61-120, oldest to newest; semantic review of full local source where available; no Reader/config mutation",
+  "topicKeys": [
+    "scrum",
+    "software-development",
+    "front-end-development",
+    "social-studies",
+    "adhd",
+    "philosophy"
+  ],
+  "ratingKeys": [
+    "globalRelevance",
+    "substance",
+    "durability",
+    "usefulness"
+  ],
+  "items": [
+    {
+      "i": 61,
+      "id": "01m6h5r2r0pyyht8p7vhbfs63y",
+      "title": "A Brief History of Courage",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Courage is action despite fear; this brief email excerpt offers a philosophical reflection.",
+      "source": {
+        "status": "partial",
+        "reason": "The saved source is a teaser/excerpt and may omit the core development."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "The saved source is a teaser/excerpt and may omit the core development.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later provisional; shortlist too strong."
+      },
+      "currentTags": [
+        "shortlist",
+        "philosophy",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 62,
+      "id": "01m6h80zhs1mdwny5akhnc3y12",
+      "title": "In Praise Of Japan’s Failure To Keep Up",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "Japan’s slower digital adoption may preserve human-scale practices and challenge innovation-at-all-costs assumptions.",
+      "source": {
+        "status": "complete",
+        "reason": "Interpretive essay; broad comparisons are not established."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Interpretive essay; broad comparisons are not established.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; no shortlist."
+      },
+      "currentTags": [
+        "economics",
+        "technology",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 63,
+      "id": "01m6jzfg5wdcs3hvzsat1trtgn",
+      "title": "The 60-Minute Project Kick-Off That Saves You Six Months of Arguments",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A structured 60-minute kickoff aligns purpose, roles, risks and working agreements to prevent project conflict.",
+      "source": {
+        "status": "complete",
+        "reason": "Practical framework is clear; outcome claim is promotional/anecdotal."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 4
+      },
+      "topics": {
+        "scrum": 4,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "high",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Practical framework is clear; outcome claim is promotional/anecdotal.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "facilitation",
+        "product management",
+        "professional development"
+      ]
+    },
+    {
+      "i": 64,
+      "id": "01m6k0k9j7yz1n5stfbty2n4sk",
+      "title": "On Self-Doubt, Self-Worth, and How to Manage Your Self-Esteem as a Writer",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A book excerpt discusses separating self-worth from writing outcomes and managing self-doubt.",
+      "source": {
+        "status": "complete",
+        "reason": "Excerpt context limits scope; book promotion present."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Excerpt context limits scope; book promotion present.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later reasonable; shortlist marginal."
+      },
+      "currentTags": [
+        "arts & culture",
+        "behavioral psychology & coaching"
+      ]
+    },
+    {
+      "i": 65,
+      "id": "01m6k3wkntrgndqw9s434mftyb",
+      "title": "5 boring ways to become more creative",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Routine, rest, constraints and exposure to ideas support creativity more reliably than waiting for inspiration.",
+      "source": {
+        "status": "complete",
+        "reason": "Familiar advice with light evidence."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Familiar advice with light evidence.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist slightly high."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 66,
+      "id": "01m6k58mttfa0z5yx1qv6yp4sh",
+      "title": "A Woebegone Pivot?",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "An Agile pivot without diagnosing the underlying problem risks repeating failure.",
+      "source": {
+        "status": "complete",
+        "reason": "Short opinion with limited evidence/context."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 2,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Short opinion with limited evidence/context.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "ai ethics & society",
+        "business & startups",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 67,
+      "id": "01m6kbasmkpj5e6cyj7z2zt7a7",
+      "title": "6 Lessons from the Blue Tsunami",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Political lessons from a Democratic electoral wave emphasize coalition and messaging.",
+      "source": {
+        "status": "complete",
+        "reason": "Time-sensitive and partisan interpretation."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Time-sensitive and partisan interpretation.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist not needed."
+      },
+      "currentTags": [
+        "shortlist",
+        "current affairs & politics",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "i": 68,
+      "id": "01m6kfwyxsk0kf0fajntykq37a",
+      "title": "I got my dream book deal, then I stopped writing...",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A writer describes how a dream book deal disrupted writing; saved source is a partial premium excerpt.",
+      "source": {
+        "status": "partial",
+        "reason": "Source cuts off before resolution."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Source cuts off before resolution.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as excerpt only; no shortlist."
+      },
+      "currentTags": [
+        "arts & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 69,
+      "id": "01m6kgdf12vf137vy60q6dzq11",
+      "title": "Watch What You Say: Free Speech and ‘Problematic’ Lit",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A review argues literary merit and moral criticism can coexist and censorship debates need context.",
+      "source": {
+        "status": "complete",
+        "reason": "Review framing/examples are selective."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Review framing/examples are selective.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist plausible."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "i": 70,
+      "id": "01m6khb3tebqkeh9r2apnntgct",
+      "title": "Malcolm Gladwell: The Most Useful Hour You'll Ever Spend on Storytelling",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A long interview presents storytelling as selecting and shaping details for audience understanding.",
+      "source": {
+        "status": "complete",
+        "reason": "Advice is broad and anecdotal."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "high",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Advice is broad and anecdotal.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "professional development"
+      ]
+    },
+    {
+      "i": 71,
+      "id": "01m6knewadxyksngqcjeq605c9",
+      "title": "🎓 Why Redistribution Alone Doesn't Move People Between Social Classes",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Social mobility depends on networks, norms and institutions as well as redistribution.",
+      "source": {
+        "status": "complete",
+        "reason": "Causal claims and policy implications are not fully established."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Causal claims and policy implications are not fully established.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist slightly high."
+      },
+      "currentTags": [
+        "economics",
+        "shortlist",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 72,
+      "id": "01m6krn18z5ts8vs2g5x8yatdb",
+      "title": "a day in the Software Factory - how it all comes together",
+      "category": "email",
+      "disposition": "exclude",
+      "thesis": "This is a promotional Software Factory course/cohort page, not an independent article.",
+      "source": {
+        "status": "complete",
+        "reason": "Commercial purpose dominates."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Commercial purpose dominates.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Remove from Later; shortlist inappropriate."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "software development"
+      ]
+    },
+    {
+      "i": 73,
+      "id": "01m6kzmgehvgtkmcnevsp3yj9b",
+      "title": "The Music Innovator Who Lived in a Friend's Basement",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A biographical profile of experimental musician Bruce Haack highlights unconventional creative practice.",
+      "source": {
+        "status": "complete",
+        "reason": "Engaging profile, limited depth."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Engaging profile, limited depth.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Keep as light reading; no shortlist."
+      },
+      "currentTags": [
+        "history",
+        "light-reading",
+        "arts & culture"
+      ]
+    },
+    {
+      "i": 74,
+      "id": "01m6m9gqd12whecmf6esgnbnd9",
+      "title": "Why We Need Iris Murdoch Now",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Murdoch’s account of attention and unselfing offers a durable alternative to ethics as rule-following.",
+      "source": {
+        "status": "complete",
+        "reason": "Contemporary application is interpretive; philosophical substance is strong."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 4,
+        "durability": 4,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": 2,
+      "confidence": "high",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Contemporary application is interpretive; philosophical substance is strong.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "ethics",
+        "shortlist",
+        "philosophy",
+        "arts & culture"
+      ]
+    },
+    {
+      "i": 75,
+      "id": "01m6mgkgd9yx6ev75b2mzfj8bh",
+      "title": "James Talarico’s Leap of Faith",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A profile considers faith, politics and public identity through James Talarico; saved source is incomplete.",
+      "source": {
+        "status": "partial",
+        "reason": "Incomplete profile may omit key context."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Incomplete profile may omit key context.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as excerpt; no shortlist."
+      },
+      "currentTags": [
+        "political philosophy",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 76,
+      "id": "01m6mqamyd6214j5hwtr3ah26q",
+      "title": "Links For November 2026",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A collection of links across science, culture and current affairs has no single developed thesis.",
+      "source": {
+        "status": "complete",
+        "reason": "Value depends on link relevance; ephemeral."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Value depends on link relevance; ephemeral.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as discovery bundle; no shortlist."
+      },
+      "currentTags": [
+        "science",
+        "light-reading",
+        "arts & culture",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 77,
+      "id": "01m6n165y3a1wn992zjh6cj4rt",
+      "title": "Weerstand",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A Dutch newsletter reflects on resistance and the choices involved in responding to AI and learning.",
+      "source": {
+        "status": "complete",
+        "reason": "Personal/philosophical rather than evidence-led."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Personal/philosophical rather than evidence-led.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist somewhat high."
+      },
+      "currentTags": [
+        "shortlist",
+        "philosophy",
+        "ai ethics & society",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "i": 78,
+      "id": "01m6n18d531gq9eg7n11bh5021",
+      "title": "De geestelijk vader van de Amerikaanse AI-industrie spreekt!",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A curated Dutch interview with a prominent AI thinker considers technology, society and the industry's future.",
+      "source": {
+        "status": "complete",
+        "reason": "Interview framing concerns a contested topic."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Interview framing concerns a contested topic.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist high."
+      },
+      "currentTags": [
+        "shortlist",
+        "philosophy",
+        "technology",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "i": 79,
+      "id": "01m6n25rva57mt7xs923hyph6v",
+      "title": "Measuring AI Impact",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A practical framework distinguishes AI activity and outputs from meaningful operational impact.",
+      "source": {
+        "status": "complete",
+        "reason": "Promotional content; framework not broadly validated."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Promotional content; framework not broadly validated.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 80,
+      "id": "01m6n7jg41bwzr7e144t93cpv9",
+      "title": "I think we're nearing the end of the scrolling era",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "Algorithmic feeds may be losing appeal as users seek smaller, intentional discovery methods.",
+      "source": {
+        "status": "complete",
+        "reason": "Trend prediction is partly anecdotal and may date."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Trend prediction is partly anecdotal and may date.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist reasonable."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "sociology & social structures",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 81,
+      "id": "01m6nf9rpvcc8dy5pzx2vjrwkc",
+      "title": "You Do Not Have a Capacity Problem",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Teams often mistake queues and work-in-progress overload for lack of capacity; improve flow instead.",
+      "source": {
+        "status": "complete",
+        "reason": "Consulting framing may simplify constraints."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 2,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Consulting framing may simplify constraints.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "flow & delivery",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 82,
+      "id": "01m6npbes0gf4vrryyah91f7h5",
+      "title": "Bouw van AI-datacenters onzeker na Amerikaanse verkiezingen",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A Dutch current-affairs digest reports uncertainty around US AI data-center plans after elections.",
+      "source": {
+        "status": "complete",
+        "reason": "Time-sensitive summary, limited analysis."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Time-sensitive summary, limited analysis.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later for context; no shortlist."
+      },
+      "currentTags": [
+        "technology",
+        "current affairs & politics",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "i": 83,
+      "id": "01m6npdtp3d1g12p0ezaw954gx",
+      "title": "The Laws of Thought",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A cognitive science essay explores how thought depends on learned associations and mental models.",
+      "source": {
+        "status": "complete",
+        "reason": "Scientific grounding/scope should be checked against cited research."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Scientific grounding/scope should be checked against cited research.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist high."
+      },
+      "currentTags": [
+        "science",
+        "shortlist",
+        "philosophy"
+      ]
+    },
+    {
+      "i": 84,
+      "id": "01m6npqmj7f7t53f8b7spac12n",
+      "title": "5 hidden benefits of slowing down",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A brief self-help piece suggests slowing down helps notice experience and reduce reactive habits.",
+      "source": {
+        "status": "complete",
+        "reason": "Generic and lightly supported."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Generic and lightly supported.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later low priority; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "light-reading",
+        "health & wellness",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 85,
+      "id": "01m6nqnf6mhpqwqcx4azhksfyf",
+      "title": "What Democrats Can Do",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A political essay proposes strategic and economic responses for Democrats, with an embedded book promotion.",
+      "source": {
+        "status": "complete",
+        "reason": "Partisan recommendations and evidence are limited."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Partisan recommendations and evidence are limited.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later for US politics; no shortlist."
+      },
+      "currentTags": [
+        "economics",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 86,
+      "id": "01m6nx2adsqtdxvsx9yfd3a86g",
+      "title": "Ness Labs: The Paradox of Comfort ☁️",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A reflection argues comfort and discomfort each have benefits and growth involves balance.",
+      "source": {
+        "status": "complete",
+        "reason": "Generalized psychological framing."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Generalized psychological framing.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist high."
+      },
+      "currentTags": [
+        "shortlist",
+        "light-reading",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 87,
+      "id": "01m6p3a1zfeyf9097k7257x284",
+      "title": "How to show your impact when your best work is invisible",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A Scrum Master can track interventions and team outcomes to make invisible facilitation work legible.",
+      "source": {
+        "status": "complete",
+        "reason": "Examples do not prove consistent organizational recognition."
+      },
+      "ratings": {
+        "globalRelevance": 4,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 4
+      },
+      "topics": {
+        "scrum": 3,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Examples do not prove consistent organizational recognition.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 88,
+      "id": "01m6p3e7f5n4vssv1zgjppd8r9",
+      "title": "Building The New Equilibrium Economy",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A speculative essay predicts AI, energy and political shifts will produce a new economic settlement.",
+      "source": {
+        "status": "complete",
+        "reason": "Forward-looking mix of analysis and speculation."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Forward-looking mix of analysis and speculation.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist optional."
+      },
+      "currentTags": [
+        "economics",
+        "shortlist",
+        "technology",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "i": 89,
+      "id": "01m6phcnk63qwn0xp5e71hgxfj",
+      "title": "Mencken Agonistes",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A cultural-political essay revisits Mencken and American irreverence in public argument.",
+      "source": {
+        "status": "complete",
+        "reason": "Historical analogy is selective."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Historical analogy is selective.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist reasonable."
+      },
+      "currentTags": [
+        "history",
+        "shortlist",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "i": 90,
+      "id": "01m6phcnfq5nxz7z2h342ma8cf",
+      "title": "You Wince Like a Girl",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A literary review discusses Sylvia Plath, gendered reception and how readers interpret vulnerability.",
+      "source": {
+        "status": "complete",
+        "reason": "Interpretive criticism, but substantial essay."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 4,
+        "durability": 4,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "high",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Interpretive criticism, but substantial essay.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "i": 91,
+      "id": "01m6phcn8q5bx70y5tsxh1a36e",
+      "title": "Gleaner, Cobbler, Commons",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A historical essay uses gleaning and shared resources to examine commons, property and work.",
+      "source": {
+        "status": "complete",
+        "reason": "Historical examples do not settle current policy."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Historical examples do not settle current policy.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "history",
+        "economics",
+        "shortlist",
+        "arts & culture"
+      ]
+    },
+    {
+      "i": 92,
+      "id": "01m6pjve51skvb29c8psb0c3e7",
+      "title": "Essential AI Feedback Loops For Any TypeScript Project",
+      "category": "email",
+      "disposition": "exclude",
+      "thesis": "Only a teaser advertising a longer TypeScript/AI feedback-loop article is saved; promised guidance is absent.",
+      "source": {
+        "status": "partial",
+        "reason": "Source is a teaser, not the article."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Source is a teaser, not the article.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Remove from Later; shortlist inappropriate."
+      },
+      "currentTags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "professional development"
+      ]
+    },
+    {
+      "i": 93,
+      "id": "01m6ppv0aejybgywfk4jraab2z",
+      "title": "The AI Business Model Just Collapsed",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "An opinion piece argues AI unit economics and customer value challenge the prevailing business model.",
+      "source": {
+        "status": "complete",
+        "reason": "Headline overstates evidence; market facts change quickly."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Headline overstates evidence; market facts change quickly.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as viewpoint; no shortlist."
+      },
+      "currentTags": [
+        "ai ethics & society",
+        "business & startups"
+      ]
+    },
+    {
+      "i": 94,
+      "id": "01m6pstjmx64q9zfy4sg3cwstk",
+      "title": "The benchmark where AIs have to lie to win",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A social-deduction benchmark tests whether language models deceive, coordinate and infer roles.",
+      "source": {
+        "status": "complete",
+        "reason": "Game behavior is not proof of real-world intent."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Game behavior is not proof of real-world intent.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "i": 95,
+      "id": "01m6qzwm572de8kkxcksrz4m1z",
+      "title": "The Paradox of Collaboration: You Need Troublemakers",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Constructive dissent can improve collaboration and prevent groupthink.",
+      "source": {
+        "status": "complete",
+        "reason": "Opinion-led and may romanticize conflict."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 1,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Opinion-led and may romanticize conflict.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist high."
+      },
+      "currentTags": [
+        "shortlist",
+        "organizational behavior & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "i": 96,
+      "id": "01m6r2vvcw11h9egjqdzq32pkg",
+      "title": "Je brandbook is genoeg: zo maak je een design system in Claude",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A Dutch tutorial turns a brandbook into a Claude-assisted design system; practical but product-dependent.",
+      "source": {
+        "status": "complete",
+        "reason": "Instructions may date; course/product promotion present."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 1,
+        "usefulness": 4
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Instructions may date; course/product promotion present.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist for current utility."
+      },
+      "currentTags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "professional development"
+      ]
+    },
+    {
+      "i": 97,
+      "id": "01m6r9xeqxecb7ya599pv2wv9x",
+      "title": "Stress? Zoek uit wat je negeert",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A short Dutch reflection suggests stress can signal ignored needs or unresolved demands.",
+      "source": {
+        "status": "complete",
+        "reason": "Generic advice, little evidence."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Generic advice, little evidence.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later low priority; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 98,
+      "id": "01m6ra898yp217txe093tp1hkz",
+      "title": "De nieuwsbrief is dood",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A Dutch weekend roundup links to media/culture pieces without one developed thesis.",
+      "source": {
+        "status": "complete",
+        "reason": "Ephemeral and brief."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Ephemeral and brief.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as roundup; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "arts & culture",
+        "entertainment & pop culture"
+      ]
+    },
+    {
+      "i": 99,
+      "id": "01m6ranw5mr62qbg750avkzxe9",
+      "title": "America’s Backlash Against Oligarchy",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A political essay interprets growing US opposition to concentrated wealth as a possible broad backlash.",
+      "source": {
+        "status": "complete",
+        "reason": "Contestable and time-sensitive trend claims."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Contestable and time-sensitive trend claims.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist somewhat high."
+      },
+      "currentTags": [
+        "economics",
+        "shortlist",
+        "political philosophy",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 100,
+      "id": "01m6reh50gn4vnqdnqaqy7scyt",
+      "title": "The most painful year of my life",
+      "category": "article",
+      "disposition": "exclude",
+      "thesis": "A personal book-launch/promotion story does not deliver a sufficiently standalone article.",
+      "source": {
+        "status": "complete",
+        "reason": "Promotional framing dominates limited reflection."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Promotional framing dominates limited reflection.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Exclude from Later; no shortlist."
+      },
+      "currentTags": [
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 101,
+      "id": "01m6rehd46e8py7grpbmr35ma4",
+      "title": "happy people are too busy living to post about it",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A personal essay begins an argument about screen time and happiness but ends before its promised protocol.",
+      "source": {
+        "status": "partial",
+        "reason": "Saved source stops before main content."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Saved source stops before main content.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later provisional; shortlist too high."
+      },
+      "currentTags": [
+        "personal growth & life philosophy",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "i": 102,
+      "id": "01m6rehk42cpbv5gz1711w8pt1",
+      "title": "A lazy writer's guide to writing a lot (from a lazy writer)",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A writing-advice article starts a method for producing more writing but cuts off before the core list.",
+      "source": {
+        "status": "partial",
+        "reason": "Incomplete before practical guidance."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Incomplete before practical guidance.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later provisional; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "professional development"
+      ]
+    },
+    {
+      "i": 103,
+      "id": "01m072k5pcs8smv4xq9jmm5jef",
+      "title": "Why Is Everyone In Tech So Sad?",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "An essay links tech-worker dissatisfaction to workism, status and meaning, with AI sharpening identity questions.",
+      "source": {
+        "status": "complete",
+        "reason": "Broad cultural claims are interpretive."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Broad cultural claims are interpretive.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist reasonable."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "ai ethics & society",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 104,
+      "id": "01m6rxncwce17pevzw7etzbmqk",
+      "title": "is your codebase a good fit for a Software Factory?",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Explains when a codebase/team may fit a Software Factory model, amid substantial paid-cohort promotion.",
+      "source": {
+        "status": "complete",
+        "reason": "Promotional content prominent; model is contextual."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Promotional content prominent; model is contextual.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later; shortlist reasonable for active interest."
+      },
+      "currentTags": [
+        "shortlist",
+        "flow & delivery",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "i": 105,
+      "id": "01m639vs09x47sefys7t5fbfcv",
+      "title": "When AGI Can Do the Product Owner's Job, What's Left?",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "As AI automates product-owner tasks, human value shifts toward judgment, context, relationships and responsibility.",
+      "source": {
+        "status": "complete",
+        "reason": "AGI capability forecasts are speculative."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 3,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "AGI capability forecasts are speculative.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "scrum",
+        "shortlist",
+        "product management",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "i": 106,
+      "id": "01m639vkv58dmakfm7pnyedren",
+      "title": "The New SDLC With Vibe Coding",
+      "category": "article",
+      "disposition": "exclude",
+      "thesis": "Short promotional landing page for a vibe-coding whitepaper; full whitepaper is absent beyond preview material.",
+      "source": {
+        "status": "partial",
+        "reason": "Only a teaser/contents preview of a longer whitepaper is present."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Only a teaser/contents preview of a longer whitepaper is present.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Exclude until full source; shortlist inappropriate."
+      },
+      "currentTags": [
+        "shortlist",
+        "philosophy",
+        "technology",
+        "ai ethics & society",
+        "software development"
+      ]
+    },
+    {
+      "i": 107,
+      "id": "01m6s30erxntyas758dayd4y8y",
+      "title": "Software Factories for Real Engineers",
+      "category": "article",
+      "disposition": "exclude",
+      "thesis": "The page mainly sells a two-week Software Factory cohort rather than offering an independent article.",
+      "source": {
+        "status": "complete",
+        "reason": "Promotional claims dominate useful framing."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 2,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Promotional claims dominate useful framing.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Remove from Later; shortlist inappropriate."
+      },
+      "currentTags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "software development"
+      ]
+    },
+    {
+      "i": 108,
+      "id": "01m6s30hm9h07nn74ycgy69qt0",
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "News report describes Xi’s call for an open global AI order and its contrast with US competition.",
+      "source": {
+        "status": "complete",
+        "reason": "Short time-bound report captures rhetoric, not implementation."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Short time-bound report captures rhetoric, not implementation.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later for current affairs; no shortlist."
+      },
+      "currentTags": [
+        "technology",
+        "ai ethics & society",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 109,
+      "id": "01m6s30qjmt8e0s5bbdde03g00",
+      "title": "Bench on the Clocktower",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A benchmark uses Blood on the Clocktower to test AI deception, coordination and hidden-role inference.",
+      "source": {
+        "status": "complete",
+        "reason": "Game behavior does not generalize directly to real-world motives."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Game behavior does not generalize directly to real-world motives.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "games",
+        "shortlist",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "i": 110,
+      "id": "01m6s30wm16vpbywvyjfczb6av",
+      "title": "Immigration, Migration, and \"100% Americanism\"",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A historical account connects WWI immigration, Black migration, anti-German panic and “100% Americanism.”",
+      "source": {
+        "status": "complete",
+        "reason": "Brief account; present implications mostly implicit."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Brief account; present implications mostly implicit.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist reasonable."
+      },
+      "currentTags": [
+        "history",
+        "shortlist",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 111,
+      "id": "01m3c9f6tb1yxz3jq92wk72j0q",
+      "title": "As a Scrum Master - How Do You Prove Your Impact?",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A Scrum Master should document interventions and effects, but this saved excerpt stops after the first step.",
+      "source": {
+        "status": "partial",
+        "reason": "Remainder of the method is gated/promotional and absent."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 3,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "sequenceFit": 1,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Remainder of the method is gated/promotional and absent.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Keep provisionally; shortlist/want-to-read too strong for snippet."
+      },
+      "currentTags": [
+        "agile",
+        "scrum",
+        "shortlist",
+        "want-to-read",
+        "team dynamics & collaboration"
+      ]
+    },
+    {
+      "i": 112,
+      "id": "01m6s3119tv38efbw3rpzjsn62",
+      "title": "Why slowing down might be the most underrated way to change",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "Slowing down and noticing automatic patterns may make change possible, though advice is generic.",
+      "source": {
+        "status": "complete",
+        "reason": "Hedged, unsourced claims and vague steps."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 1,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Hedged, unsourced claims and vague steps.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later at low priority; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 113,
+      "id": "01m6s313vcvncp2hv7s7hye5xp",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "A research abstract reports near-optimal integration of visual and haptic cues about object size.",
+      "source": {
+        "status": "partial",
+        "reason": "Only abstract and bibliographic page; full methods/results absent."
+      },
+      "ratings": {
+        "globalRelevance": 1,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "low",
+      "status": "draft",
+      "uncertainties": {
+        "source": "Only abstract and bibliographic page; full methods/results absent.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Keep as research lead; shortlist too strong."
+      },
+      "currentTags": [
+        "science",
+        "shortlist",
+        "research papers & academia"
+      ]
+    },
+    {
+      "i": 114,
+      "id": "01k8v9cz0ah2x4qddn265e4cnt",
+      "title": "Everything Is Television",
+      "category": "article",
+      "disposition": "include",
+      "thesis": "Digital platforms extend television’s spectacle and immediacy, eroding social capital, inwardness and sustained attention.",
+      "source": {
+        "status": "complete",
+        "reason": "Cultural diagnosis is analogical rather than tested here."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 1,
+        "philosophy": 3
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Cultural diagnosis is analogical rather than tested here.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "philosophy",
+        "light-reading",
+        "arts & culture",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 115,
+      "id": "01m6s4ytbn691aqfcgqs5e73q0",
+      "title": "The Pendulum Cycles",
+      "category": "rss",
+      "disposition": "include",
+      "thesis": "A personal essay treats change as cyclical and emphasizes resilience, cooperation and creative groundwork for renewal.",
+      "source": {
+        "status": "complete",
+        "reason": "Poetic/speculative rather than demonstrated."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Poetic/speculative rather than demonstrated.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; no shortlist."
+      },
+      "currentTags": [
+        "philosophy",
+        "arts & culture",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "i": 116,
+      "id": "01m6sapnhx0db2671gavkq579q",
+      "title": "A new name for a familiar problem",
+      "category": "email",
+      "disposition": "exclude",
+      "thesis": "A complete newsletter rebrand announcement defines the gap between contribution and recognition but mainly promotes future writing/tools and a companion book.",
+      "source": {
+        "status": "complete",
+        "reason": "Useful concept is introduced without the promised research or tools."
+      },
+      "ratings": {
+        "globalRelevance": 2,
+        "substance": 2,
+        "durability": 1,
+        "usefulness": 1
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "sequenceFit": 0,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Useful concept is introduced without the promised research or tools.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "remove",
+        "shortlist": "Exclude as promotional announcement; shortlist too high."
+      },
+      "currentTags": [
+        "shortlist",
+        "professional development",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "i": 117,
+      "id": "01m6sch2svmtwggpfbqtysc41d",
+      "title": "Your Book Review: Orality and Literacy",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "A substantial review of Walter Ong explains oral/literate cultures’ effects on memory and thought and argues digital writing should exploit spatial/visual affordances.",
+      "source": {
+        "status": "complete",
+        "reason": "Contest review synthesizes Ong; some claims may simplify oral cultures."
+      },
+      "ratings": {
+        "globalRelevance": 4,
+        "substance": 4,
+        "durability": 4,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 2,
+      "confidence": "high",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Contest review synthesizes Ong; some claims may simplify oral cultures.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit; this is an essay review, not a book."
+      },
+      "currentTags": [
+        "history",
+        "shortlist",
+        "learning & meta-learning",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 118,
+      "id": "01m6tfhgb8dy99xee97f7fn789",
+      "title": "Max (28) was neonazi, maar werd christen: “Ik vond het heel prettig om alles te haten”",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Dutch interview and expert commentary trace one man’s radicalization through online algorithms and belonging, and how friends/faith helped him leave.",
+      "source": {
+        "status": "complete",
+        "reason": "One case illustrates but cannot establish prevalence or causal weights."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "One case illustrates but cannot establish prevalence or causal weights.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later yes; shortlist unnecessary."
+      },
+      "currentTags": [
+        "technology",
+        "totalitarianism & fascism",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "i": 119,
+      "id": "01m6thz0jqetv5mcb2rsd1pzrn",
+      "title": "Het loopt op rolletjes: Friesland deel 2",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Dutch travelogue reflects on hospitality, shared life, anarchist ideas and how walking/asking for help create connection.",
+      "source": {
+        "status": "complete",
+        "reason": "Subjective personal narrative; useful mainly as light reading."
+      },
+      "ratings": {
+        "globalRelevance": 3,
+        "substance": 2,
+        "durability": 2,
+        "usefulness": 2
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Subjective personal narrative; useful mainly as light reading.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later as light/Dutch reading; no shortlist."
+      },
+      "currentTags": [
+        "light-reading",
+        "arts & culture",
+        "political philosophy",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "i": 120,
+      "id": "01m6tqfc309dsa303dxwv37m0y",
+      "title": "Hoe de paniek rond AI-teksten ons slechtere schrijvers maakt",
+      "category": "email",
+      "disposition": "include",
+      "thesis": "Essay argues AI-writing panic creates an arms race over stylistic markers, distracting from writing as thought and communication.",
+      "source": {
+        "status": "complete",
+        "reason": "Provocative rhetoric and examples outweigh systematic evidence."
+      },
+      "ratings": {
+        "globalRelevance": 4,
+        "substance": 3,
+        "durability": 3,
+        "usefulness": 3
+      },
+      "topics": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 1,
+        "philosophy": 2
+      },
+      "sequenceFit": 1,
+      "confidence": "medium",
+      "status": "accepted",
+      "uncertainties": {
+        "source": "Provocative rhetoric and examples outweigh systematic evidence.",
+        "interpretation": "Assessment reflects the saved source and its claims; not an independent fact-check.",
+        "personalFit": "Topical fit is inferred from the provided reading preferences."
+      },
+      "placement": {
+        "later": "keep",
+        "shortlist": "Later and shortlist fit."
+      },
+      "currentTags": [
+        "shortlist",
+        "arts & culture",
+        "ai ethics & society",
+        "learning & meta-learning"
+      ]
+    }
+  ]
+}

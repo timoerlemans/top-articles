@@ -1,0 +1,1878 @@
+{
+  "run_id": "inbox-2026-11-07",
+  "scope": {
+    "location": "later",
+    "last_moved_date": "2026-11-07",
+    "categories": [
+      "article",
+      "email",
+      "rss"
+    ],
+    "exclude": [
+      "epub",
+      "pdf",
+      "video",
+      "tweet",
+      "podcast"
+    ]
+  },
+  "count": 120,
+  "documents": [
+    {
+      "id": "01m61sjspffcbc39n5vdc1w1qx",
+      "title": "Readwise Books: Step Three of Our Master Plan",
+      "author": "Daniel Doyon",
+      "category": "article",
+      "saved_at": "2026-10-28T17:40:31.055000+00:00",
+      "last_moved_at": "2026-11-07T12:49:00.777000+00:00",
+      "source_url": "https://blog.readwise.io/readwise-books/?utm_source=readwise&utm_medium=email&utm_campaign=books-announcement",
+      "word_count": 5824,
+      "tags": [
+        "lees-0153",
+        "shortlist",
+        "technology",
+        "want-to-read",
+        "business & startups",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m63b43a5q3mxswjnw44kj7ed",
+      "title": "The Meeting Before the Meeting",
+      "author": "Sven Brodmerkel | Off-Script At Work",
+      "category": "email",
+      "saved_at": "2026-10-29T08:06:18.181000+00:00",
+      "last_moved_at": "2026-11-07T12:49:00.841000+00:00",
+      "source_url": "mailto:reader-forwarded-email/b1d465f494229c7c58291d974e09ad66",
+      "word_count": 1871,
+      "tags": [
+        "lees-0074",
+        "shortlist",
+        "aaa-top-100",
+        "social-studies-049",
+        "professional development",
+        "aaa-social-studies-top-100",
+        "team dynamics & collaboration",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m649bjfce5r8g5khpzxmmtb5",
+      "title": "What I learned about power from LBJ and Robert Moses",
+      "author": "Dwarkesh Patel",
+      "category": "email",
+      "saved_at": "2026-10-29T16:54:40.365000+00:00",
+      "last_moved_at": "2026-11-07T12:49:00.900000+00:00",
+      "source_url": "mailto:reader-forwarded-email/56e277b514c80a1ba0dfbbffbddaeb41",
+      "word_count": 4066,
+      "tags": [
+        "history",
+        "shortlist",
+        "political philosophy",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m64bb24wgdqt9qweczp7x7n2",
+      "title": "“Imagining is Resistance”: Tareq Baconi with Naomi Klein",
+      "author": "Naomi Klein",
+      "category": "email",
+      "saved_at": "2026-10-29T17:29:20.797000+00:00",
+      "last_moved_at": "2026-11-07T11:42:33.249000+00:00",
+      "source_url": "mailto:reader-forwarded-email/8eedf0f970c054f3624d3ce9bbeef164",
+      "word_count": 899,
+      "tags": [
+        "political philosophy",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m64bs3yej4q45vdnt31szq21",
+      "title": "Authors are boycotting Canada’s largest bookstore chain.",
+      "author": "Dan Sheehan",
+      "category": "rss",
+      "saved_at": "2026-10-29T17:36:58.390000+00:00",
+      "last_moved_at": "2026-11-07T11:43:37.637000+00:00",
+      "source_url": "https://lithub.com/authors-are-boycotting-canadas-largest-bookstore-chain/",
+      "word_count": 902,
+      "tags": [
+        "ethics",
+        "arts & culture",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m64v04a6erk44m6p33khgp3k",
+      "title": "In Theory",
+      "author": "The Ideas Letter",
+      "category": "email",
+      "saved_at": "2026-10-29T22:02:59.782000+00:00",
+      "last_moved_at": "2026-11-07T11:46:00.645000+00:00",
+      "source_url": "mailto:reader-forwarded-email/a0c62b18235d1a34a8e67ee54517debc",
+      "word_count": 2344,
+      "tags": [
+        "philosophy",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "id": "01m65kspf0vytgckj1r6d5v0gq",
+      "title": "My Skill Makes Claude Code GREAT At TDD",
+      "author": "Matt Pocock",
+      "category": "article",
+      "saved_at": "2026-10-30T05:16:23.393000+00:00",
+      "last_moved_at": "2026-11-07T12:49:00.988000+00:00",
+      "source_url": "https://go.drovr.sh/leO0cz8V7P/hi7iwD6c9w",
+      "word_count": 985,
+      "tags": [
+        "shortlist",
+        "software development",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m65vhvthpc8fbrwdrvexyeqm",
+      "title": "Iedereen is hypocriet, maar in welke mate kun je dat voor jezelf verantwoorden?",
+      "author": "Saskia en Alinda van her/ai",
+      "category": "email",
+      "saved_at": "2026-10-30T07:31:55.345000+00:00",
+      "last_moved_at": "2026-11-07T12:49:01.071000+00:00",
+      "source_url": "mailto:reader-forwarded-email/c53acb383ef859736222a7fc50c1f5a8",
+      "word_count": 2307,
+      "tags": [
+        "ethics",
+        "shortlist",
+        "ai ethics & society",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m660dc1k02b5q1246xwxhxmb",
+      "title": "Artificial Intelligence is a Horror Story",
+      "author": "Nick Ripatrazone",
+      "category": "rss",
+      "saved_at": "2026-10-30T08:56:44.995000+00:00",
+      "last_moved_at": "2026-11-07T12:49:01.144000+00:00",
+      "source_url": "https://lithub.com/artificial-intelligence-is-a-horror-story/",
+      "word_count": 978,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "arts & culture",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "id": "01m660dby0e6ywwzfp7edg7zsv",
+      "title": "No One Really Drives Away from Anything in Horror Films",
+      "author": "Tyler Malone",
+      "category": "rss",
+      "saved_at": "2026-10-30T08:56:47.880000+00:00",
+      "last_moved_at": "2026-11-07T11:54:29.845000+00:00",
+      "source_url": "https://lithub.com/no-one-really-drives-away-from-anything-in-horror-films/",
+      "word_count": 4079,
+      "tags": [
+        "philosophy",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m660y94f0w1zywfyhygbkdhw",
+      "title": "An Interrogation of Reality: On the Legacy of Blade Runner",
+      "author": "Joanne McNeil",
+      "category": "rss",
+      "saved_at": "2026-10-30T09:05:59.071000+00:00",
+      "last_moved_at": "2026-11-07T12:49:01.225000+00:00",
+      "source_url": "https://lithub.com/an-interrogation-of-reality-on-the-legacy-of-blade-runner/",
+      "word_count": 1764,
+      "tags": [
+        "fiction",
+        "shortlist",
+        "philosophy",
+        "light-reading",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m668syvrnffe15p6mps0zs6z",
+      "title": "Hoe ik schrijf (in vijf stappen)",
+      "author": "Ernst-Jan Pfauth",
+      "category": "email",
+      "saved_at": "2026-10-30T11:23:32.088000+00:00",
+      "last_moved_at": "2026-11-07T11:57:28.015000+00:00",
+      "source_url": "mailto:reader-forwarded-email/36b080a3158b823239e614eef3b2e9cd",
+      "word_count": 944,
+      "tags": [
+        "technology",
+        "arts & culture",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m66cjjp8dd0wndvbh5ev9n3v",
+      "title": "Minder telefoon, meer leven",
+      "author": "Thijs Launspach",
+      "category": "email",
+      "saved_at": "2026-10-30T12:29:24.553000+00:00",
+      "last_moved_at": "2026-11-07T12:01:26.921000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d653f2f62e671be4fa4a6b18cf0774ac",
+      "word_count": 734,
+      "tags": [
+        "technology",
+        "health & wellness",
+        "behavioral psychology & coaching"
+      ]
+    },
+    {
+      "id": "01m66rn5zcr4yywarhfej23z89",
+      "title": "say goodbye to AI brain fry",
+      "author": "Matt Pocock (AI Hero)",
+      "category": "email",
+      "saved_at": "2026-10-30T16:00:32.749000+00:00",
+      "last_moved_at": "2026-11-07T12:02:22.449000+00:00",
+      "source_url": "mailto:reader-forwarded-email/aa1e117ed7b095d303d81f294438f6b5",
+      "word_count": 1864,
+      "tags": [
+        "flow & delivery",
+        "health & wellness",
+        "software development"
+      ]
+    },
+    {
+      "id": "01m66vzks3gb61wz1fc1e3epsv",
+      "title": "The Sediment Of Culture Shapes Political Order",
+      "author": "Nathan Gardels",
+      "category": "rss",
+      "saved_at": "2026-10-30T16:58:37.291000+00:00",
+      "last_moved_at": "2026-11-07T12:49:01.302000+00:00",
+      "source_url": "https://www.noemamag.com/the-sediment-of-culture-shapes-political-order",
+      "word_count": 1264,
+      "tags": [
+        "shortlist",
+        "political philosophy",
+        "current affairs & politics",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m66xp7tm3cy6h89g8pky6gwg",
+      "title": "Robert Caro – The master biographer reflects at 91",
+      "author": "Dwarkesh Patel",
+      "category": "email",
+      "saved_at": "2026-10-30T17:28:30.292000+00:00",
+      "last_moved_at": "2026-11-07T13:14:44.154000+00:00",
+      "source_url": "mailto:reader-forwarded-email/c1768176e60314616fa5f68143ae4e6a",
+      "word_count": 7479,
+      "tags": [
+        "history",
+        "shortlist",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "id": "01m677zjk10nzfpaa13xqzst16",
+      "title": "Love with nowhere to go",
+      "author": "Aeon",
+      "category": "article",
+      "saved_at": "2026-10-30T20:28:21.751000+00:00",
+      "last_moved_at": "2026-11-07T12:49:35.107000+00:00",
+      "source_url": "https://aeon.co/essays/we-need-a-language-to-name-the-grief-that-comes-without-death?utm_source=Aeon+Newsletter&utm_campaign=2c730f962f-EMAIL_CAMPAIGN_2026_10_09_05_00_COPY_01&utm_medium=email&utm_term=0_-ec77df1527-838236001",
+      "word_count": 3903,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "personal growth & life philosophy",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6858kjmym6dbbk42kf14d80",
+      "title": "De Linkse Zuil - Biodiversiteit",
+      "author": "De Linkse Zuil van De Linkse Mannen lossen het op",
+      "category": "email",
+      "saved_at": "2026-10-31T05:00:06.612000+00:00",
+      "last_moved_at": "2026-11-07T12:10:14.521000+00:00",
+      "source_url": "mailto:reader-forwarded-email/8c70b1f725cbb592d79c6437c4de4f0d",
+      "word_count": 2218,
+      "tags": [
+        "science",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "id": "01m68bad6b7r2vc5ms3a3hxbgv",
+      "title": "Geld is onze god geworden. Hoe worden we weer vrij?",
+      "author": "De Ongelooflijke",
+      "category": "email",
+      "saved_at": "2026-10-31T06:45:57.067000+00:00",
+      "last_moved_at": "2026-11-07T12:49:35.041000+00:00",
+      "source_url": "mailto:reader-forwarded-email/1708f6cdd34d73dba5b06fb234a0de12",
+      "word_count": 4225,
+      "tags": [
+        "economics",
+        "shortlist",
+        "philosophy",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m68j04yxygbqtxvs1c1jfnfp",
+      "title": "Is Understanding Just \"Remembering in Disguise”?",
+      "author": "Carl Hendrick from The Learning Dispatch",
+      "category": "email",
+      "saved_at": "2026-10-31T08:42:40.990000+00:00",
+      "last_moved_at": "2026-11-07T12:49:34.997000+00:00",
+      "source_url": "mailto:reader-forwarded-email/a3e55038fd96ddd79e935c43fd400e60",
+      "word_count": 1662,
+      "tags": [
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m68rjzr08ds43576swqabbdb",
+      "title": "Azeem Azhar on the Explosion of Hacking and Other AI Issues",
+      "author": "Paul Krugman",
+      "category": "email",
+      "saved_at": "2026-10-31T10:37:49.696000+00:00",
+      "last_moved_at": "2026-11-07T12:49:34.952000+00:00",
+      "source_url": "mailto:reader-forwarded-email/cc58e0c1d8c8306372079e7522facb80",
+      "word_count": 8176,
+      "tags": [
+        "shortlist",
+        "technology",
+        "ai ethics & society",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m68tdf4stppre6dmtgqgcyhf",
+      "title": "G.K. Chesterton’s Nightmare: ‘The Man Who Was Thursday’",
+      "author": "Miller’s Book Review 📚",
+      "category": "email",
+      "saved_at": "2026-10-31T11:09:46.010000+00:00",
+      "last_moved_at": "2026-11-07T12:15:40.361000+00:00",
+      "source_url": "mailto:reader-forwarded-email/03cfaa79aa727c5e425b99c12e4665ef",
+      "word_count": 1926,
+      "tags": [
+        "fiction",
+        "philosophy",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m68zjbhv63f7p1g5nrr6e0tw",
+      "title": "I tried to prompt small models into behaving. Don’t",
+      "author": "Ivo Toby",
+      "category": "email",
+      "saved_at": "2026-10-31T12:39:49.051000+00:00",
+      "last_moved_at": "2026-11-07T12:49:34.910000+00:00",
+      "source_url": "mailto:reader-forwarded-email/cb8a983bdc0bc855d05465bb146ce348",
+      "word_count": 1896,
+      "tags": [
+        "shortlist",
+        "technology",
+        "ai ethics & society",
+        "software development"
+      ]
+    },
+    {
+      "id": "01m69ba8gxkyjsyf34655p7g6w",
+      "title": "You're Invited: A Five-Course Menu of EU Law",
+      "author": "Leonie on the EU",
+      "category": "email",
+      "saved_at": "2026-10-31T16:05:06.718000+00:00",
+      "last_moved_at": "2026-11-07T12:49:34.862000+00:00",
+      "source_url": "mailto:reader-forwarded-email/21cde9a8e6500284c0718b0da21d0d50",
+      "word_count": 2548,
+      "tags": [
+        "economics",
+        "shortlist",
+        "current affairs & politics",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "id": "01m69eegkcypqe5s10sy3hcb6g",
+      "title": "People Were People",
+      "author": "Evan Þ from Papyrus Rampant",
+      "category": "email",
+      "saved_at": "2026-10-31T16:59:51.789000+00:00",
+      "last_moved_at": "2026-11-07T12:49:33.806000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d7492ca6c79930efe041b1ef06781d63",
+      "word_count": 1700,
+      "tags": [
+        "history",
+        "shortlist",
+        "philosophy",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m69qw0mga54qqt57kvnzwzzd",
+      "title": "My 10 Rules for Public Speaking",
+      "author": "Ted Gioia",
+      "category": "email",
+      "saved_at": "2026-10-31T19:44:31.376000+00:00",
+      "last_moved_at": "2026-11-07T12:49:33.742000+00:00",
+      "source_url": "mailto:reader-forwarded-email/a3c825b99dc078b33a4606252db32da0",
+      "word_count": 2793,
+      "tags": [
+        "shortlist",
+        "learning & meta-learning",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6avase1ew8wcwm7rsvkff45",
+      "title": "I Am Relentless and Undaunted",
+      "author": "Brennan Kenneth Brown",
+      "category": "rss",
+      "saved_at": "2026-11-01T06:04:12.682000+00:00",
+      "last_moved_at": "2026-11-07T12:26:31.436000+00:00",
+      "source_url": "https://brennan.day/i-am-relentless-and-undaunted/",
+      "word_count": 1303,
+      "tags": [
+        "technology",
+        "environment & sustainability",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6b01a21mm1nznhemztgssdb",
+      "title": "How to manage the inevitable mess of running a company where everyone is a builder",
+      "author": "Jeff Gothelf",
+      "category": "article",
+      "saved_at": "2026-11-01T07:26:27.905000+00:00",
+      "last_moved_at": "2026-11-07T12:49:33.577000+00:00",
+      "source_url": "https://jeffgothelf.com/blog/how-to-manage-the-inevitable-mess-of-running-a-company-where-everyone-is-a-builder/?utm_source=substack&utm_medium=email",
+      "word_count": 1728,
+      "tags": [
+        "shortlist",
+        "product management",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6b01e9q8w5gqzzdas6xbvqq",
+      "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "author": "Teresa Torres",
+      "category": "article",
+      "saved_at": "2026-11-01T07:26:32.248000+00:00",
+      "last_moved_at": "2026-11-07T12:49:32.980000+00:00",
+      "source_url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille/?utm_source=substack&utm_medium=email",
+      "word_count": 517,
+      "tags": [
+        "shortlist",
+        "product management",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "id": "01m6b01r8a8hdmja274htff235",
+      "title": "Why Product Looks Like a Cost Center| ProdPad",
+      "author": "Janna Bastow",
+      "category": "article",
+      "saved_at": "2026-11-01T07:26:42.442000+00:00",
+      "last_moved_at": "2026-11-07T12:49:32.892000+00:00",
+      "source_url": "https://www.prodpad.com/blog/board-update-product-cost-center/?utm_source=substack&utm_medium=email",
+      "word_count": 1856,
+      "tags": [
+        "shortlist",
+        "product management",
+        "professional development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6b01z1h24ztwc841c49a588",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "author": "Lenny Rachitsky",
+      "category": "article",
+      "saved_at": "2026-11-01T07:26:49.394000+00:00",
+      "last_moved_at": "2026-11-07T12:49:32.835000+00:00",
+      "source_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf?utm_source=substack&utm_medium=email",
+      "word_count": 559,
+      "tags": [
+        "shortlist",
+        "product management",
+        "business & startups"
+      ]
+    },
+    {
+      "id": "01m6b026ptpbpfg1s52rr9f69w",
+      "title": "Heterogeneous Product Management is the future",
+      "author": "allan kelly",
+      "category": "article",
+      "saved_at": "2026-11-01T07:26:57.243000+00:00",
+      "last_moved_at": "2026-11-07T12:49:32.754000+00:00",
+      "source_url": "https://www.allankelly.net/archives/10815/heterogeneous-product-management-is-the-future/?utm_source=substack&utm_medium=email",
+      "word_count": 1141,
+      "tags": [
+        "shortlist",
+        "product management",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6b0369nb37ewthz9y8t42d0",
+      "title": "AI is overwhelming and I’m doing it wrong",
+      "author": "Ben Tossell",
+      "category": "article",
+      "saved_at": "2026-11-01T07:27:29.589000+00:00",
+      "last_moved_at": "2026-11-07T12:26:31.510000+00:00",
+      "source_url": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it?utm_source=substack&utm_medium=email",
+      "word_count": 1307,
+      "tags": [
+        "ai ethics & society",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6b03gr09rf6cmjyd5q5axkn",
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "author": "apollo.com",
+      "category": "article",
+      "saved_at": "2026-11-01T07:27:40.288000+00:00",
+      "last_moved_at": "2026-11-07T12:26:31.578000+00:00",
+      "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector?utm_source=substack&utm_medium=email",
+      "word_count": 649,
+      "tags": [
+        "economics",
+        "ai ethics & society",
+        "business & startups"
+      ]
+    },
+    {
+      "id": "01m6b03pxtvpf1qgzpk1kh5dwt",
+      "title": "Practical AI for Academics",
+      "author": "Claes Bäckman",
+      "category": "article",
+      "saved_at": "2026-11-01T07:27:46.618000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.470000+00:00",
+      "source_url": "https://claesbackman.com/ai_workshop/?utm_source=substack&utm_medium=email",
+      "word_count": 1645,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "professional development",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01m6b03xy49a5jf2gdf6zw9qpd",
+      "title": "Getting good at AI takes time and practice",
+      "author": "seangoedecke.com",
+      "category": "article",
+      "saved_at": "2026-11-01T07:27:53.797000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.395000+00:00",
+      "source_url": "https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/?utm_source=substack&utm_medium=email",
+      "word_count": 1238,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "learning & meta-learning",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6b04ajvb0jy3rzkscgp3m1q",
+      "title": "Caveman leadership and the CDO*",
+      "author": "Seth's Blog",
+      "category": "article",
+      "saved_at": "2026-11-01T07:28:06.747000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.320000+00:00",
+      "source_url": "https://seths.blog/2026/10/caveman-leadership-and-the-cdo/?utm_source=substack&utm_medium=email",
+      "word_count": 609,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6b04my837bm2f9jag89qf84",
+      "title": "Let Chaos Reign, and Then Rein In Chaos",
+      "author": "Marc Andreessen",
+      "category": "article",
+      "saved_at": "2026-11-01T07:28:17.352000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.242000+00:00",
+      "source_url": "https://www.a16z.news/p/let-chaos-reign-and-then-rein-in?utm_source=substack&utm_medium=email",
+      "word_count": 1838,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6b04xj9gbjh4446c0b95n8q",
+      "title": "Why Narcissistic Leaders Don’t Like Remote Work",
+      "author": "Knowledge at Wharton",
+      "category": "article",
+      "saved_at": "2026-11-01T07:28:26.185000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.168000+00:00",
+      "source_url": "https://knowledge.wharton.upenn.edu/article/why-narcissistic-leaders-dont-like-remote-work/?utm_source=substack&utm_medium=email",
+      "word_count": 1068,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6b05q83je3ppewxpbcs5c7h",
+      "title": "Zombie stats.",
+      "author": "Mack Grenfell",
+      "category": "article",
+      "saved_at": "2026-11-01T07:28:52.483000+00:00",
+      "last_moved_at": "2026-11-07T12:49:31.111000+00:00",
+      "source_url": "https://trakkr.ai/trakkr-research/zombie-stats?utm_source=substack&utm_medium=email",
+      "word_count": 1970,
+      "tags": [
+        "science",
+        "shortlist",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01m6b0qnjfc9wwqkgxjwm1ze8c",
+      "title": "Railroading: Don’t have AI FOMO, As You’re Already Missing Out Every Day",
+      "author": "Maarten Dalmijn from Maarten’s Newsletter",
+      "category": "email",
+      "saved_at": "2026-11-01T07:38:40.591000+00:00",
+      "last_moved_at": "2026-11-07T12:49:30.989000+00:00",
+      "source_url": "mailto:reader-forwarded-email/e6d70500623c50c744e1fc5ae1cfa4c7",
+      "word_count": 597,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6b308tbvg2j18b7h5fkx3ew",
+      "title": "Waarom mag een hobby geen geld opleveren?",
+      "author": "Tussen de regels",
+      "category": "article",
+      "saved_at": "2026-11-01T08:18:19.596000+00:00",
+      "last_moved_at": "2026-11-07T12:49:29.818000+00:00",
+      "source_url": "https://myrthegeerts.substack.com/p/waarom-mag-een-hobby-geen-geld-opleveren?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+      "word_count": 2431,
+      "tags": [
+        "economics",
+        "shortlist",
+        "philosophy",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6bkx74h512fhaw4xc8s6xx9",
+      "title": "I Met the Ferryman of the Underworld on the Thames (London Dispatch #4)",
+      "author": "Vashik Armenikus from Genius & Ink 🖌",
+      "category": "email",
+      "saved_at": "2026-11-01T13:13:45.361000+00:00",
+      "last_moved_at": "2026-11-07T12:30:19.135000+00:00",
+      "source_url": "mailto:reader-forwarded-email/f156c1fd36cd5cb3a0edd8833ab7ef5b",
+      "word_count": 1544,
+      "tags": [
+        "philosophy",
+        "arts & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6bkym7s4p07cdae95yt1xax",
+      "title": "Stop beating yourself up over impossible KPIs",
+      "author": "Hustling Tortoise",
+      "category": "email",
+      "saved_at": "2026-11-01T13:14:31.546000+00:00",
+      "last_moved_at": "2026-11-07T12:49:29.738000+00:00",
+      "source_url": "mailto:reader-forwarded-email/90759bc3e58c88a116b78dfd4ceb69d3",
+      "word_count": 554,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6br48b9b1nmpr3y24rq1srh",
+      "title": "23 of 41 Scrum Master candidates failed the interview on one question",
+      "author": "Vibhor Chandel",
+      "category": "email",
+      "saved_at": "2026-11-01T14:27:30.282000+00:00",
+      "last_moved_at": "2026-11-07T12:49:29.663000+00:00",
+      "source_url": "mailto:reader-forwarded-email/9735d11951164ad4d1c8402213ef5bff",
+      "word_count": 2888,
+      "tags": [
+        "scrum",
+        "shortlist",
+        "team dynamics & collaboration",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6c62das6e2b03ewbfv5t2ss",
+      "title": "🎙️#19 Prof. Jason Ā. Josephson Storm: Disenchantment is a Myth",
+      "author": "The Living Philosophy",
+      "category": "email",
+      "saved_at": "2026-11-01T18:31:09.914000+00:00",
+      "last_moved_at": "2026-11-07T12:49:29.605000+00:00",
+      "source_url": "mailto:reader-forwarded-email/a5647e22aa7105843b1645fb70d04022",
+      "word_count": 649,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "research papers & academia",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6b0153cmr7tccy5vqtdm1g8",
+      "title": "Cognitive Mercantilism",
+      "author": "Venkatesh Rao",
+      "category": "article",
+      "saved_at": "2026-11-02T05:07:55.647000+00:00",
+      "last_moved_at": "2026-11-07T12:49:33.659000+00:00",
+      "source_url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism?utm_source=substack&utm_medium=email",
+      "word_count": 3548,
+      "tags": [
+        "economics",
+        "shortlist",
+        "philosophy",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "id": "01m6dajfbk010n505kmcq0cmww",
+      "title": "Happiness is a 2x2 Matrix",
+      "author": "David Epstein",
+      "category": "article",
+      "saved_at": "2026-11-02T05:09:05.011000+00:00",
+      "last_moved_at": "2026-11-07T12:49:29.384000+00:00",
+      "source_url": "https://davidepstein.substack.com/p/happiness-is-a-2x2-matrix-691",
+      "word_count": 325,
+      "tags": [
+        "shortlist",
+        "learning & meta-learning",
+        "behavioral psychology & coaching"
+      ]
+    },
+    {
+      "id": "01m6e0f5x4az6198vn48facpms",
+      "title": "When is Fast…Too Fast?",
+      "author": "Bob Galen from Agile Moose",
+      "category": "email",
+      "saved_at": "2026-11-02T11:31:45.700000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.328000+00:00",
+      "source_url": "mailto:reader-forwarded-email/20f06a6aac3cac6af0e79ae80d6e5d44",
+      "word_count": 1100,
+      "tags": [
+        "scrum",
+        "shortlist",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6e2bnm7erhwsse06pg5j4e6",
+      "title": "What if the problem isn’t actually the problem?",
+      "author": "The Slow Return",
+      "category": "email",
+      "saved_at": "2026-11-02T12:04:47.879000+00:00",
+      "last_moved_at": "2026-11-07T12:30:19.342000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d435aa6c1653db481f4dcb1050727569",
+      "word_count": 1413,
+      "tags": [
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6ect06f18gqdbxv6rht0y5t",
+      "title": "AI and Extraction",
+      "author": "Jared Henderson from Commonplace Philosophy",
+      "category": "email",
+      "saved_at": "2026-11-02T15:07:23.216000+00:00",
+      "last_moved_at": "2026-11-07T12:30:19.418000+00:00",
+      "source_url": "mailto:reader-forwarded-email/60aaf79cb7e517151bb8c21bd12942c6",
+      "word_count": 2118,
+      "tags": [
+        "philosophy",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01m6egjxhp8983xtev5yhtf98c",
+      "title": "Migration myth 5/22: Development in poor countries will reduce migration",
+      "author": "Hein de Haas from Hein de Haas",
+      "category": "email",
+      "saved_at": "2026-11-02T16:13:25.431000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.274000+00:00",
+      "source_url": "mailto:reader-forwarded-email/e26a8f7028d41f71580e72100278f889",
+      "word_count": 387,
+      "tags": [
+        "economics",
+        "shortlist",
+        "current affairs & politics",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6f1dcc2xzzcmrzf4fj69mtx",
+      "title": "FAQ for Software Factories for Real Engineers",
+      "author": "Matt Pocock (AI Hero)",
+      "category": "email",
+      "saved_at": "2026-11-02T21:07:29.795000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.222000+00:00",
+      "source_url": "mailto:reader-forwarded-email/4fa05eecbb24d095956d58094af61771",
+      "word_count": 608,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6fraa3jk50k6cpxfbgps5bv",
+      "title": "Quantity vs quality in pottery is a lie",
+      "author": "becausecurious",
+      "category": "rss",
+      "saved_at": "2026-11-03T03:47:43.419000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.169000+00:00",
+      "source_url": "https://www.lesswrong.com/posts/LrAqM4bGmAoA79rP3/quantity-vs-quality-in-pottery-is-a-lie",
+      "word_count": 1011,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m6fxfea28zvchzpce15v3kxg",
+      "title": "Wie durft er nog te verlangen?",
+      "author": "Lena Bril",
+      "category": "email",
+      "saved_at": "2026-11-03T05:17:57.442000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.123000+00:00",
+      "source_url": "mailto:reader-forwarded-email/3c0f16432287d769cb064201f20c2fdb",
+      "word_count": 734,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "sociology & social structures",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6g3ewpxxg560fr9h0nt0a36",
+      "title": "Welcome to the Neutral Zone",
+      "author": "Anton from Manager.dev",
+      "category": "email",
+      "saved_at": "2026-11-03T07:02:30.878000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.070000+00:00",
+      "source_url": "mailto:reader-forwarded-email/33d11237d7188c47824f9a22976c0ef6",
+      "word_count": 2540,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6gbsmqtbdk0m3gejz91p6rx",
+      "title": "Four useful questions",
+      "author": "Henrik Karlsson",
+      "category": "email",
+      "saved_at": "2026-11-03T09:28:11.771000+00:00",
+      "last_moved_at": "2026-11-07T12:49:28.022000+00:00",
+      "source_url": "mailto:reader-forwarded-email/37645de0df0eb64890ef9542fcccd31d",
+      "word_count": 1525,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6gdexrc06tk5rwtcvgrc05x",
+      "title": "How J.R.R. Tolkien’s Strong Catholic Faith Influenced His Writing",
+      "author": "D.J. Taylor",
+      "category": "rss",
+      "saved_at": "2026-11-03T09:57:14.708000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.199000+00:00",
+      "source_url": "https://lithub.com/how-j-r-r-tolkiens-strong-catholic-faith-influenced-his-writing/",
+      "word_count": 1423,
+      "tags": [
+        "history",
+        "philosophy",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m6h5gr31djhj4qjxzbz2eyjw",
+      "title": "Why I started reviewing every book I read",
+      "author": "Sam Rinko from Knowledge Lust",
+      "category": "email",
+      "saved_at": "2026-11-03T16:57:43.265000+00:00",
+      "last_moved_at": "2026-11-07T12:49:27.969000+00:00",
+      "source_url": "mailto:reader-forwarded-email/84b05848a5324390df37ba3fbe7d9fca",
+      "word_count": 1389,
+      "tags": [
+        "shortlist",
+        "learning & meta-learning",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6h5jak19ct1z4w0yfdn9281",
+      "title": "The most lucrative AI business to start in 2027",
+      "author": "Dan Koe",
+      "category": "email",
+      "saved_at": "2026-11-03T16:58:34.977000+00:00",
+      "last_moved_at": "2026-11-07T12:32:58.799000+00:00",
+      "source_url": "mailto:reader-forwarded-email/c8cbc154b8dd8d700d088d6444e19d4f",
+      "word_count": 3515,
+      "tags": [
+        "technology",
+        "business & startups"
+      ]
+    },
+    {
+      "id": "01m6h5r2r0pyyht8p7vhbfs63y",
+      "title": "A Brief History of Courage",
+      "author": "Odysseas",
+      "category": "email",
+      "saved_at": "2026-11-03T17:01:43.552000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.720000+00:00",
+      "source_url": "mailto:reader-forwarded-email/95aeae176dc31618c125adcb1376ab7f",
+      "word_count": 655,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6h80zhs1mdwny5akhnc3y12",
+      "title": "In Praise Of Japan’s Failure To Keep Up",
+      "author": "Michael Fitzpatrick",
+      "category": "rss",
+      "saved_at": "2026-11-03T17:41:29.345000+00:00",
+      "last_moved_at": "2026-11-07T12:32:58.869000+00:00",
+      "source_url": "https://www.noemamag.com/in-praise-of-japans-failure-to-keep-up",
+      "word_count": 5782,
+      "tags": [
+        "economics",
+        "technology",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6jzfg5wdcs3hvzsat1trtgn",
+      "title": "The 60-Minute Project Kick-Off That Saves You Six Months of Arguments",
+      "author": "Nick Martin from WorkshopBank's Substack",
+      "category": "email",
+      "saved_at": "2026-11-04T09:50:39.804000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.669000+00:00",
+      "source_url": "mailto:reader-forwarded-email/057e6bda4d79bf3ee04b9bb5204ed1f3",
+      "word_count": 1638,
+      "tags": [
+        "shortlist",
+        "facilitation",
+        "product management",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6k0k9j7yz1n5stfbty2n4sk",
+      "title": "On Self-Doubt, Self-Worth, and How to Manage Your Self-Esteem as a Writer",
+      "author": "Helen Betya Rubinstein",
+      "category": "rss",
+      "saved_at": "2026-11-04T10:10:06.680000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.109000+00:00",
+      "source_url": "https://lithub.com/on-self-doubt-self-worth-and-how-to-manage-your-self-esteem-as-a-writer/",
+      "word_count": 2829,
+      "tags": [
+        "arts & culture",
+        "behavioral psychology & coaching"
+      ]
+    },
+    {
+      "id": "01m6k3wkntrgndqw9s434mftyb",
+      "title": "5 boring ways to become more creative",
+      "author": "Mark Manson from No Solutions… Only Trade-O ffs",
+      "category": "email",
+      "saved_at": "2026-11-04T11:07:43.674000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.612000+00:00",
+      "source_url": "mailto:reader-forwarded-email/82c3420970d445b71e1992b75b9aa643",
+      "word_count": 3427,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6k58mttfa0z5yx1qv6yp4sh",
+      "title": "A Woebegone Pivot?",
+      "author": "Bob Galen from Agile Moose",
+      "category": "email",
+      "saved_at": "2026-11-04T11:31:46.651000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.542000+00:00",
+      "source_url": "mailto:reader-forwarded-email/334127dba977bbf66793e648aa9b2185",
+      "word_count": 618,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "business & startups",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6kbasmkpj5e6cyj7z2zt7a7",
+      "title": "6 Lessons from the Blue Tsunami",
+      "author": "Brian Klaas",
+      "category": "email",
+      "saved_at": "2026-11-04T13:17:48.564000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.467000+00:00",
+      "source_url": "mailto:reader-forwarded-email/b154eb47697d95906baf6bf87c9b007e",
+      "word_count": 1524,
+      "tags": [
+        "shortlist",
+        "current affairs & politics",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6kfwyxsk0kf0fajntykq37a",
+      "title": "I got my dream book deal, then I stopped writing...",
+      "author": "A Mug of Insights",
+      "category": "email",
+      "saved_at": "2026-11-04T14:37:38.106000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.234000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d88a4c34db90c694a63aa375dead8e16",
+      "word_count": 1464,
+      "tags": [
+        "arts & culture",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6kgdf12vf137vy60q6dzq11",
+      "title": "Watch What You Say: Free Speech and ‘Problematic’ Lit",
+      "author": "Miller’s Book Review 📚",
+      "category": "email",
+      "saved_at": "2026-11-04T14:46:38.883000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.409000+00:00",
+      "source_url": "mailto:reader-forwarded-email/021574b0b7648064f5900efb4e18482f",
+      "word_count": 2038,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "id": "01m6khb3tebqkeh9r2apnntgct",
+      "title": "Malcolm Gladwell: The Most Useful Hour You'll Ever Spend on Storytelling",
+      "author": "David Perell",
+      "category": "email",
+      "saved_at": "2026-11-04T15:02:50.446000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.330000+00:00",
+      "source_url": "mailto:reader-forwarded-email/2b3a24ec3dfe065c1f555a99bc1d76c5",
+      "word_count": 7853,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6knewadxyksngqcjeq605c9",
+      "title": "🎓 Why Redistribution Alone Doesn't Move People Between Social Classes",
+      "author": "Eleanor Konik",
+      "category": "email",
+      "saved_at": "2026-11-04T16:14:48.141000+00:00",
+      "last_moved_at": "2026-11-07T12:49:26.271000+00:00",
+      "source_url": "mailto:reader-forwarded-email/ae4ac3f22b8e133ab7d3c5b904ce7bdb",
+      "word_count": 3279,
+      "tags": [
+        "economics",
+        "shortlist",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6krn18z5ts8vs2g5x8yatdb",
+      "title": "a day in the Software Factory - how it all comes together",
+      "author": "Matt Pocock (AI Hero)",
+      "category": "email",
+      "saved_at": "2026-11-04T17:10:35.551000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.934000+00:00",
+      "source_url": "mailto:reader-forwarded-email/05cd91bfd37c145ee707a50138b26d63",
+      "word_count": 1533,
+      "tags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "software development"
+      ]
+    },
+    {
+      "id": "01m6kzmgehvgtkmcnevsp3yj9b",
+      "title": "The Music Innovator Who Lived in a Friend's Basement",
+      "author": "Ted Gioia",
+      "category": "email",
+      "saved_at": "2026-11-04T19:12:38.353000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.311000+00:00",
+      "source_url": "mailto:reader-forwarded-email/394507df78574cb678498cd785ccabb0",
+      "word_count": 2001,
+      "tags": [
+        "history",
+        "light-reading",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m6m9gqd12whecmf6esgnbnd9",
+      "title": "Why We Need Iris Murdoch Now",
+      "author": "New York Journal of Philosophy",
+      "category": "email",
+      "saved_at": "2026-11-04T22:05:20.161000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.878000+00:00",
+      "source_url": "mailto:reader-forwarded-email/86982c22dbbc28723e30d4763e31bafc",
+      "word_count": 2523,
+      "tags": [
+        "ethics",
+        "shortlist",
+        "philosophy",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m6mgkgd9yx6ev75b2mzfj8bh",
+      "title": "James Talarico’s Leap of Faith",
+      "author": "New Yorker Substack",
+      "category": "email",
+      "saved_at": "2026-11-05T00:09:11.338000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.382000+00:00",
+      "source_url": "mailto:reader-forwarded-email/83238e91ea4baa1a3a86d842f71f0145",
+      "word_count": 1149,
+      "tags": [
+        "political philosophy",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6mqamyd6214j5hwtr3ah26q",
+      "title": "Links For November 2026",
+      "author": "Astral Codex Ten",
+      "category": "email",
+      "saved_at": "2026-11-05T02:06:41.101000+00:00",
+      "last_moved_at": "2026-11-07T12:35:35.449000+00:00",
+      "source_url": "mailto:reader-forwarded-email/30cc48fc05ce21f9b6ab354c1c72080c",
+      "word_count": 3401,
+      "tags": [
+        "science",
+        "light-reading",
+        "arts & culture",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6n165y3a1wn992zjh6cj4rt",
+      "title": "Weerstand",
+      "author": "Simon van Teutem",
+      "category": "email",
+      "saved_at": "2026-11-05T04:59:00.420000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.803000+00:00",
+      "source_url": "mailto:reader-forwarded-email/478f60d9b48f119527f0033c08616b7c",
+      "word_count": 538,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "ai ethics & society",
+        "learning & meta-learning"
+      ]
+    },
+    {
+      "id": "01m6n18d531gq9eg7n11bh5021",
+      "title": "De geestelijk vader van de Amerikaanse AI-industrie spreekt!",
+      "author": "Maurits Martijn",
+      "category": "email",
+      "saved_at": "2026-11-05T05:00:13.347000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.729000+00:00",
+      "source_url": "mailto:reader-forwarded-email/549206477121fb82ea299607293464d5",
+      "word_count": 1132,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "technology",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "id": "01m6n25rva57mt7xs923hyph6v",
+      "title": "Measuring AI Impact",
+      "author": "Stefan Wolpers",
+      "category": "email",
+      "saved_at": "2026-11-05T05:16:15.594000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.653000+00:00",
+      "source_url": "mailto:reader-forwarded-email/93adaf539c283efe1b0cb2b91f91a0e8",
+      "word_count": 4888,
+      "tags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6n7jg41bwzr7e144t93cpv9",
+      "title": "I think we're nearing the end of the scrolling era",
+      "author": "Substack",
+      "category": "article",
+      "saved_at": "2026-11-05T06:50:35.468000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.576000+00:00",
+      "source_url": "https://uncynical.substack.com/p/the-end-of-our-smartphone-era",
+      "word_count": 3293,
+      "tags": [
+        "shortlist",
+        "technology",
+        "sociology & social structures",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6nf9rpvcc8dy5pzx2vjrwkc",
+      "title": "You Do Not Have a Capacity Problem",
+      "author": "Erwin Verweij from Agile Viking Galaxy",
+      "category": "email",
+      "saved_at": "2026-11-05T09:05:38.011000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.500000+00:00",
+      "source_url": "mailto:reader-forwarded-email/cb250f8deed15c38cc4076c06f11d2e4",
+      "word_count": 1160,
+      "tags": [
+        "shortlist",
+        "flow & delivery",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6npbes0gf4vrryyah91f7h5",
+      "title": "Bouw van AI-datacenters onzeker na Amerikaanse verkiezingen",
+      "author": "AI Report",
+      "category": "email",
+      "saved_at": "2026-11-05T11:08:53.409000+00:00",
+      "last_moved_at": "2026-11-07T12:38:42.336000+00:00",
+      "source_url": "mailto:reader-forwarded-email/789d54977c056a5e295cc194b3d3e7a7",
+      "word_count": 3111,
+      "tags": [
+        "technology",
+        "current affairs & politics",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "id": "01m6npdtp3d1g12p0ezaw954gx",
+      "title": "The Laws of Thought",
+      "author": "Tommy Blanchard from Cognitive Wonderland",
+      "category": "email",
+      "saved_at": "2026-11-05T11:10:11.139000+00:00",
+      "last_moved_at": "2026-11-07T12:49:24.429000+00:00",
+      "source_url": "mailto:reader-forwarded-email/236ae1c591e6bfccf842508f4a0edde3",
+      "word_count": 2206,
+      "tags": [
+        "science",
+        "shortlist",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "01m6npqmj7f7t53f8b7spac12n",
+      "title": "5 hidden benefits of slowing down",
+      "author": "The Slow Return",
+      "category": "email",
+      "saved_at": "2026-11-05T11:15:32.552000+00:00",
+      "last_moved_at": "2026-11-07T12:49:23.294000+00:00",
+      "source_url": "mailto:reader-forwarded-email/1e8ee50471976eac7c03306509bbc867",
+      "word_count": 1304,
+      "tags": [
+        "shortlist",
+        "light-reading",
+        "health & wellness",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6nqnf6mhpqwqcx4azhksfyf",
+      "title": "What Democrats Can Do",
+      "author": "Paul Krugman",
+      "category": "email",
+      "saved_at": "2026-11-05T11:31:50.100000+00:00",
+      "last_moved_at": "2026-11-07T12:38:42.387000+00:00",
+      "source_url": "mailto:reader-forwarded-email/b423e38326135df2a8f29b786777d32c",
+      "word_count": 1075,
+      "tags": [
+        "economics",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6nx2adsqtdxvsx9yfd3a86g",
+      "title": "Ness Labs: The Paradox of Comfort ☁️",
+      "author": "Anne-Laure Le Cunff",
+      "category": "email",
+      "saved_at": "2026-11-05T13:06:14.073000+00:00",
+      "last_moved_at": "2026-11-07T12:49:23.198000+00:00",
+      "source_url": "mailto:reader-forwarded-email/c9ec38b763c6cefb6c8f816ed645532c",
+      "word_count": 1608,
+      "tags": [
+        "shortlist",
+        "light-reading",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6p3a1zfeyf9097k7257x284",
+      "title": "How to show your impact when your best work is invisible",
+      "author": "Vibhor Chandel",
+      "category": "email",
+      "saved_at": "2026-11-05T14:55:19.024000+00:00",
+      "last_moved_at": "2026-11-07T12:49:23.027000+00:00",
+      "source_url": "mailto:reader-forwarded-email/e64c75d1025a31f9b59c4871949c3909",
+      "word_count": 2012,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6p3e7f5n4vssv1zgjppd8r9",
+      "title": "Building The New Equilibrium Economy",
+      "author": "Philipp Humm",
+      "category": "rss",
+      "saved_at": "2026-11-05T14:57:32.718000+00:00",
+      "last_moved_at": "2026-11-07T12:49:22.945000+00:00",
+      "source_url": "https://www.noemamag.com/building-the-new-equilibrium-economy",
+      "word_count": 4110,
+      "tags": [
+        "economics",
+        "shortlist",
+        "technology",
+        "environment & sustainability"
+      ]
+    },
+    {
+      "id": "01m6phcnk63qwn0xp5e71hgxfj",
+      "title": "Mencken Agonistes",
+      "author": "Andrew Holter",
+      "category": "rss",
+      "saved_at": "2026-11-05T19:01:09.711000+00:00",
+      "last_moved_at": "2026-11-07T12:49:22.706000+00:00",
+      "source_url": "https://www.bostonreview.net/articles/mencken-agonistes/",
+      "word_count": 6534,
+      "tags": [
+        "history",
+        "shortlist",
+        "arts & culture",
+        "political philosophy"
+      ]
+    },
+    {
+      "id": "01m6phcnfq5nxz7z2h342ma8cf",
+      "title": "You Wince Like a Girl",
+      "author": "Kristin Grogan",
+      "category": "rss",
+      "saved_at": "2026-11-05T19:01:15.599000+00:00",
+      "last_moved_at": "2026-11-07T12:49:22.785000+00:00",
+      "source_url": "https://www.bostonreview.net/articles/you-wince-like-a-girl/",
+      "word_count": 5901,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6phcn8q5bx70y5tsxh1a36e",
+      "title": "Gleaner, Cobbler, Commons",
+      "author": "Peter Linebaugh",
+      "category": "rss",
+      "saved_at": "2026-11-05T19:01:21.375000+00:00",
+      "last_moved_at": "2026-11-07T12:49:22.866000+00:00",
+      "source_url": "https://www.bostonreview.net/articles/gleaner-cobbler-commons/",
+      "word_count": 6264,
+      "tags": [
+        "history",
+        "economics",
+        "shortlist",
+        "arts & culture"
+      ]
+    },
+    {
+      "id": "01m6pjve51skvb29c8psb0c3e7",
+      "title": "Essential AI Feedback Loops For Any TypeScript Project",
+      "author": "Matt Pocock (AI Hero)",
+      "category": "email",
+      "saved_at": "2026-11-05T19:26:57.186000+00:00",
+      "last_moved_at": "2026-11-07T12:49:20.239000+00:00",
+      "source_url": "mailto:reader-forwarded-email/6e0d8dde7097259c48f3e0ffb8a6537c",
+      "word_count": 142,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6ppv0aejybgywfk4jraab2z",
+      "title": "The AI Business Model Just Collapsed",
+      "author": "Ted Gioia",
+      "category": "email",
+      "saved_at": "2026-11-05T20:36:37.326000+00:00",
+      "last_moved_at": "2026-11-07T12:41:31.697000+00:00",
+      "source_url": "mailto:reader-forwarded-email/4861f14a1ed7946760a214cf8b273187",
+      "word_count": 1322,
+      "tags": [
+        "ai ethics & society",
+        "business & startups"
+      ]
+    },
+    {
+      "id": "01m6pstjmx64q9zfy4sg3cwstk",
+      "title": "The benchmark where AIs have to lie to win",
+      "author": "Dwarkesh Patel",
+      "category": "email",
+      "saved_at": "2026-11-05T21:28:49.054000+00:00",
+      "last_moved_at": "2026-11-07T12:49:20.168000+00:00",
+      "source_url": "mailto:reader-forwarded-email/2b2fcd61db8886a270866858e8f4fda5",
+      "word_count": 4208,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01m6qzwm572de8kkxcksrz4m1z",
+      "title": "The Paradox of Collaboration: You Need Troublemakers",
+      "author": "Maarten Dalmijn from Maarten’s Newsletter",
+      "category": "email",
+      "saved_at": "2026-11-06T08:34:02.024000+00:00",
+      "last_moved_at": "2026-11-07T12:49:20.087000+00:00",
+      "source_url": "mailto:reader-forwarded-email/897459ba222507f1e32d20e7021a5515",
+      "word_count": 935,
+      "tags": [
+        "shortlist",
+        "organizational behavior & culture",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6r2vvcw11h9egjqdzq32pkg",
+      "title": "Je brandbook is genoeg: zo maak je een design system in Claude",
+      "author": "Saskia en Alinda van her/ai",
+      "category": "email",
+      "saved_at": "2026-11-06T09:26:02.396000+00:00",
+      "last_moved_at": "2026-11-07T12:49:20.049000+00:00",
+      "source_url": "mailto:reader-forwarded-email/64837249e43bad64b93cb66b92a98f55",
+      "word_count": 1842,
+      "tags": [
+        "shortlist",
+        "ai ethics & society",
+        "software development",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m6r9xeqxecb7ya599pv2wv9x",
+      "title": "Stress? Zoek uit wat je negeert",
+      "author": "Intentioneel Leven",
+      "category": "email",
+      "saved_at": "2026-11-06T11:29:15.005000+00:00",
+      "last_moved_at": "2026-11-07T12:49:19.996000+00:00",
+      "source_url": "mailto:reader-forwarded-email/6263e8a244abd327078ac36ef7750ffd",
+      "word_count": 412,
+      "tags": [
+        "shortlist",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6ra898yp217txe093tp1hkz",
+      "title": "De nieuwsbrief is dood",
+      "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+      "category": "email",
+      "saved_at": "2026-11-06T11:35:09.855000+00:00",
+      "last_moved_at": "2026-11-07T12:49:19.948000+00:00",
+      "source_url": "mailto:reader-forwarded-email/a54cda92a0698d2f297a6718c678f45d",
+      "word_count": 709,
+      "tags": [
+        "shortlist",
+        "technology",
+        "arts & culture",
+        "entertainment & pop culture"
+      ]
+    },
+    {
+      "id": "01m6ranw5mr62qbg750avkzxe9",
+      "title": "America’s Backlash Against Oligarchy",
+      "author": "Paul Krugman",
+      "category": "email",
+      "saved_at": "2026-11-06T11:42:35.189000+00:00",
+      "last_moved_at": "2026-11-07T12:49:19.902000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d555f3bf70889e1590ec029c7b307d68",
+      "word_count": 1572,
+      "tags": [
+        "economics",
+        "shortlist",
+        "political philosophy",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6reh50gn4vnqdnqaqy7scyt",
+      "title": "The most painful year of my life",
+      "author": "amugofinsights.org",
+      "category": "article",
+      "saved_at": "2026-11-06T12:49:58.799000+00:00",
+      "last_moved_at": "2026-11-07T12:41:31.780000+00:00",
+      "source_url": "https://www.amugofinsights.org/the-most-painful-year-of-my-life/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
+      "word_count": 1086,
+      "tags": [
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6rehd46e8py7grpbmr35ma4",
+      "title": "happy people are too busy living to post about it",
+      "author": "amugofinsights.org",
+      "category": "article",
+      "saved_at": "2026-11-06T12:50:06.072000+00:00",
+      "last_moved_at": "2026-11-07T12:41:31.842000+00:00",
+      "source_url": "https://www.amugofinsights.org/happy-people-are-too-busy-living-to-post-about-it/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
+      "word_count": 1415,
+      "tags": [
+        "personal growth & life philosophy",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6rehk42cpbv5gz1711w8pt1",
+      "title": "A lazy writer's guide to writing a lot (from a lazy writer)",
+      "author": "amugofinsights.org",
+      "category": "article",
+      "saved_at": "2026-11-06T12:50:11.796000+00:00",
+      "last_moved_at": "2026-11-07T12:49:19.846000+00:00",
+      "source_url": "https://www.amugofinsights.org/a-lazy-writers-guide-to-writing-a-lot-from-a-lazy-writer/?ref=a-mug-of-insights-newsletter&attribution_id=6ae9ad06ffd18c000180a5bf&attribution_type=post",
+      "word_count": 920,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "professional development"
+      ]
+    },
+    {
+      "id": "01m072k5pcs8smv4xq9jmm5jef",
+      "title": "Why Is Everyone In Tech So Sad?",
+      "author": "Aaron Horwath",
+      "category": "article",
+      "saved_at": "2026-11-06T12:50:15.662000+00:00",
+      "last_moved_at": "2026-11-07T12:49:36.610000+00:00",
+      "source_url": "https://noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "word_count": 3811,
+      "tags": [
+        "shortlist",
+        "technology",
+        "ai ethics & society",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m6rxncwce17pevzw7etzbmqk",
+      "title": "is your codebase a good fit for a Software Factory?",
+      "author": "Matt Pocock (AI Hero)",
+      "category": "email",
+      "saved_at": "2026-11-06T17:14:22.477000+00:00",
+      "last_moved_at": "2026-11-07T12:49:18.115000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d422ebde6ca781960c253739c910493d",
+      "word_count": 2055,
+      "tags": [
+        "shortlist",
+        "flow & delivery",
+        "software development",
+        "organizational behavior & culture"
+      ]
+    },
+    {
+      "id": "01m639vs09x47sefys7t5fbfcv",
+      "title": "When AGI Can Do the Product Owner's Job, What's Left?",
+      "author": "productleadersdayindia.org",
+      "category": "article",
+      "saved_at": "2026-11-06T18:47:39.675000+00:00",
+      "last_moved_at": "2026-11-07T12:49:35.174000+00:00",
+      "source_url": "https://productleadersdayindia.org/blogs/ai-product-owner-guide/agi-product-owner-accountability.html",
+      "word_count": 2762,
+      "tags": [
+        "scrum",
+        "shortlist",
+        "product management",
+        "ai ethics & society"
+      ]
+    },
+    {
+      "id": "01m639vkv58dmakfm7pnyedren",
+      "title": "The New SDLC With Vibe Coding",
+      "author": "kaggle.com",
+      "category": "article",
+      "saved_at": "2026-11-06T18:47:41.970000+00:00",
+      "last_moved_at": "2026-11-07T12:49:35.224000+00:00",
+      "source_url": "https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding",
+      "word_count": 265,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "technology",
+        "ai ethics & society",
+        "software development"
+      ]
+    },
+    {
+      "id": "01m6s30erxntyas758dayd4y8y",
+      "title": "Software Factories for Real Engineers",
+      "author": "go.drovr.sh",
+      "category": "article",
+      "saved_at": "2026-11-06T18:47:47.739000+00:00",
+      "last_moved_at": "2026-11-07T12:49:18.045000+00:00",
+      "source_url": "https://go.drovr.sh/sdE458znaT/KtOi5dKCWu",
+      "word_count": 2899,
+      "tags": [
+        "shortlist",
+        "technology",
+        "flow & delivery",
+        "software development"
+      ]
+    },
+    {
+      "id": "01m6s30hm9h07nn74ycgy69qt0",
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "author": "reuters.com",
+      "category": "article",
+      "saved_at": "2026-11-06T18:47:50.665000+00:00",
+      "last_moved_at": "2026-11-07T12:44:31.007000+00:00",
+      "source_url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
+      "word_count": 665,
+      "tags": [
+        "technology",
+        "ai ethics & society",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6s30qjmt8e0s5bbdde03g00",
+      "title": "Bench on the Clocktower",
+      "author": "lesswrong.com",
+      "category": "article",
+      "saved_at": "2026-11-06T18:47:56.669000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.972000+00:00",
+      "source_url": "https://www.lesswrong.com/posts/4pgGkbwvdmxKPcJsM/bench-on-the-clocktower?utm_source=substack&utm_medium=email",
+      "word_count": 2795,
+      "tags": [
+        "games",
+        "shortlist",
+        "ai ethics & society",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01m6s30wm16vpbywvyjfczb6av",
+      "title": "Immigration, Migration, and \"100% Americanism\"",
+      "author": "onlineexhibits.library.yale.edu",
+      "category": "article",
+      "saved_at": "2026-11-06T18:48:01.921000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.898000+00:00",
+      "source_url": "https://onlineexhibits.library.yale.edu/s/american-and-nothing-else/page/immigration-and-americanism",
+      "word_count": 433,
+      "tags": [
+        "history",
+        "shortlist",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m3c9f6tb1yxz3jq92wk72j0q",
+      "title": "As a Scrum Master - How Do You Prove Your Impact?",
+      "author": "vibhorchandel.com",
+      "category": "article",
+      "saved_at": "2026-11-06T18:48:04.235000+00:00",
+      "last_moved_at": "2026-11-07T12:44:34.095000+00:00",
+      "source_url": "https://www.vibhorchandel.com/p/as-a-scrum-master-how-do-you-prove-your-impact?utm_source=substack&utm_medium=email",
+      "word_count": 1070,
+      "tags": [
+        "agile",
+        "scrum",
+        "shortlist",
+        "want-to-read",
+        "team dynamics & collaboration"
+      ]
+    },
+    {
+      "id": "01m6s3119tv38efbw3rpzjsn62",
+      "title": "Why slowing down might be the most underrated way to change",
+      "author": "theslowreturn.substack.com",
+      "category": "article",
+      "saved_at": "2026-11-06T18:48:06.637000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.849000+00:00",
+      "source_url": "https://theslowreturn.substack.com/p/why-slowing-down-might-be-the-most?utm_source=substack&utm_medium=email",
+      "word_count": 1485,
+      "tags": [
+        "shortlist",
+        "behavioral psychology & coaching",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6s313vcvncp2hv7s7hye5xp",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "author": "ideas.repec.org",
+      "category": "article",
+      "saved_at": "2026-11-06T18:48:09.241000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.804000+00:00",
+      "source_url": "https://ideas.repec.org/a/nat/nature/v415y2002i6870d10.1038_415429a.html?utm_source=substack&utm_medium=email",
+      "word_count": 222,
+      "tags": [
+        "science",
+        "shortlist",
+        "research papers & academia"
+      ]
+    },
+    {
+      "id": "01k8v9cz0ah2x4qddn265e4cnt",
+      "title": "Everything Is Television",
+      "author": "Derek Thompson",
+      "category": "article",
+      "saved_at": "2026-11-06T18:48:11.661000+00:00",
+      "last_moved_at": "2026-11-07T12:49:36.801000+00:00",
+      "source_url": "https://www.derekthompson.org/p/why-everything-became-television",
+      "word_count": 2278,
+      "tags": [
+        "shortlist",
+        "philosophy",
+        "light-reading",
+        "arts & culture",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6s4ytbn691aqfcgqs5e73q0",
+      "title": "The Pendulum Cycles",
+      "author": "Brennan Kenneth Brown",
+      "category": "rss",
+      "saved_at": "2026-11-06T19:21:48.221000+00:00",
+      "last_moved_at": "2026-11-07T12:44:31.092000+00:00",
+      "source_url": "https://brennan.day/the-pendulum-cycles/",
+      "word_count": 1542,
+      "tags": [
+        "philosophy",
+        "arts & culture",
+        "current affairs & politics"
+      ]
+    },
+    {
+      "id": "01m6sapnhx0db2671gavkq579q",
+      "title": "A new name for a familiar problem",
+      "author": "Sven Brodmerkel | The Reception Gap",
+      "category": "email",
+      "saved_at": "2026-11-06T21:02:15.613000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.722000+00:00",
+      "source_url": "mailto:reader-forwarded-email/1f2668af0a0b5637cfeaad5892807842",
+      "word_count": 653,
+      "tags": [
+        "shortlist",
+        "professional development",
+        "social psychology & interpersonal dynamics"
+      ]
+    },
+    {
+      "id": "01m6sch2svmtwggpfbqtysc41d",
+      "title": "Your Book Review: Orality and Literacy",
+      "author": "Astral Codex Ten",
+      "category": "email",
+      "saved_at": "2026-11-06T21:34:09.724000+00:00",
+      "last_moved_at": "2026-11-07T12:49:17.653000+00:00",
+      "source_url": "mailto:reader-forwarded-email/73d3682a66983edb90132e36846cd2e6",
+      "word_count": 6875,
+      "tags": [
+        "history",
+        "shortlist",
+        "learning & meta-learning",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6tfhgb8dy99xee97f7fn789",
+      "title": "Max (28) was neonazi, maar werd christen: “Ik vond het heel prettig om alles te haten”",
+      "author": "De Ongelooflijke",
+      "category": "email",
+      "saved_at": "2026-11-07T07:46:03.752000+00:00",
+      "last_moved_at": "2026-11-07T13:14:32.593000+00:00",
+      "source_url": "mailto:reader-forwarded-email/96d43c09725e13f2488d7e612d53a5a2",
+      "word_count": 2513,
+      "tags": [
+        "technology",
+        "totalitarianism & fascism",
+        "sociology & social structures"
+      ]
+    },
+    {
+      "id": "01m6thz0jqetv5mcb2rsd1pzrn",
+      "title": "Het loopt op rolletjes: Friesland deel 2",
+      "author": "Holly en Roos",
+      "category": "email",
+      "saved_at": "2026-11-07T08:28:23.511000+00:00",
+      "last_moved_at": "2026-11-07T13:14:32.655000+00:00",
+      "source_url": "mailto:reader-forwarded-email/673808f12a101f4fe2af42c02070143e",
+      "word_count": 1976,
+      "tags": [
+        "light-reading",
+        "arts & culture",
+        "political philosophy",
+        "personal growth & life philosophy"
+      ]
+    },
+    {
+      "id": "01m6tqfc309dsa303dxwv37m0y",
+      "title": "Hoe de paniek rond AI-teksten ons slechtere schrijvers maakt",
+      "author": "AI Report",
+      "category": "email",
+      "saved_at": "2026-11-07T10:04:42.465000+00:00",
+      "last_moved_at": "2026-11-07T13:14:32.711000+00:00",
+      "source_url": "mailto:reader-forwarded-email/d6e3fdcc2235d365df728697c387e001",
+      "word_count": 1315,
+      "tags": [
+        "shortlist",
+        "arts & culture",
+        "ai ethics & society",
+        "learning & meta-learning"
+      ]
+    }
+  ]
+}

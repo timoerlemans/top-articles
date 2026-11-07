@@ -1,0 +1,177 @@
+{
+  "runId": "inbox-2026-11-07",
+  "reviewer": "Codex/Luna agents",
+  "scope": {
+    "last_moved_date": "2026-11-07",
+    "location": "later",
+    "categories": [
+      "article",
+      "email",
+      "rss"
+    ],
+    "excludedCategories": [
+      "epub",
+      "pdf",
+      "video",
+      "tweet",
+      "podcast"
+    ]
+  },
+  "cohortCount": 120,
+  "disposition": {
+    "include": 110,
+    "exclude": 10
+  },
+  "status": {
+    "accepted": 103,
+    "draft": 13,
+    "excluded": 4
+  },
+  "confidence": {
+    "medium": 93,
+    "low": 13,
+    "high": 14
+  },
+  "sourceStatus": {
+    "complete": 103,
+    "partial": 15,
+    "complete-for-transcript": 2
+  },
+  "excluded": [
+    {
+      "id": "01m66xp7tm3cy6h89g8pky6gwg",
+      "title": "Robert Caro – The master biographer reflects at 91",
+      "reason": "Transcript complete; audiovisual interview not assessed."
+    },
+    {
+      "id": "01m6b01e9q8w5gqzzdas6xbvqq",
+      "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "Summary only; conversation unavailable."
+    },
+    {
+      "id": "01m6b01z1h24ztwc841c49a588",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "reason": "Podcast summary only."
+    },
+    {
+      "id": "01m6c62das6e2b03ewbfv5t2ss",
+      "title": "🎙️#19 Prof. Jason Ā. Josephson Storm: Disenchantment is a Myth",
+      "reason": "Transcript appears complete; audiovisual material not assessed."
+    },
+    {
+      "id": "01m6krn18z5ts8vs2g5x8yatdb",
+      "title": "a day in the Software Factory - how it all comes together",
+      "reason": "Commercial purpose dominates."
+    },
+    {
+      "id": "01m6pjve51skvb29c8psb0c3e7",
+      "title": "Essential AI Feedback Loops For Any TypeScript Project",
+      "reason": "Source is a teaser, not the article."
+    },
+    {
+      "id": "01m6reh50gn4vnqdnqaqy7scyt",
+      "title": "The most painful year of my life",
+      "reason": "Promotional framing dominates limited reflection."
+    },
+    {
+      "id": "01m639vkv58dmakfm7pnyedren",
+      "title": "The New SDLC With Vibe Coding",
+      "reason": "Only a teaser/contents preview of a longer whitepaper is present."
+    },
+    {
+      "id": "01m6s30erxntyas758dayd4y8y",
+      "title": "Software Factories for Real Engineers",
+      "reason": "Promotional claims dominate useful framing."
+    },
+    {
+      "id": "01m6sapnhx0db2671gavkq579q",
+      "title": "A new name for a familiar problem",
+      "reason": "Useful concept is introduced without the promised research or tools."
+    }
+  ],
+  "drafts": [
+    {
+      "id": "01m64bb24wgdqt9qweczp7x7n2",
+      "title": "“Imagining is Resistance”: Tareq Baconi with Naomi Klein",
+      "sourceStatus": "partial",
+      "reason": "The complete underlying conversation/book argument is unavailable."
+    },
+    {
+      "id": "01m64v04a6erk44m6p33khgp3k",
+      "title": "In Theory",
+      "sourceStatus": "partial",
+      "reason": "Underlying essays are not fully reproduced."
+    },
+    {
+      "id": "01m6b0369nb37ewthz9y8t42d0",
+      "title": "AI is overwhelming and I’m doing it wrong",
+      "sourceStatus": "partial",
+      "reason": "Underlying posts cited in excerpt are unavailable."
+    },
+    {
+      "id": "01m6dajfbk010n505kmcq0cmww",
+      "title": "Happiness is a 2x2 Matrix",
+      "sourceStatus": "partial",
+      "reason": "Embedded video not available; core evidence cannot be reviewed."
+    },
+    {
+      "id": "01m6h5r2r0pyyht8p7vhbfs63y",
+      "title": "A Brief History of Courage",
+      "sourceStatus": "partial",
+      "reason": "The saved source is a teaser/excerpt and may omit the core development."
+    },
+    {
+      "id": "01m6kfwyxsk0kf0fajntykq37a",
+      "title": "I got my dream book deal, then I stopped writing...",
+      "sourceStatus": "partial",
+      "reason": "Source cuts off before resolution."
+    },
+    {
+      "id": "01m6mgkgd9yx6ev75b2mzfj8bh",
+      "title": "James Talarico’s Leap of Faith",
+      "sourceStatus": "partial",
+      "reason": "Incomplete profile may omit key context."
+    },
+    {
+      "id": "01m6pjve51skvb29c8psb0c3e7",
+      "title": "Essential AI Feedback Loops For Any TypeScript Project",
+      "sourceStatus": "partial",
+      "reason": "Source is a teaser, not the article."
+    },
+    {
+      "id": "01m6rehd46e8py7grpbmr35ma4",
+      "title": "happy people are too busy living to post about it",
+      "sourceStatus": "partial",
+      "reason": "Saved source stops before main content."
+    },
+    {
+      "id": "01m6rehk42cpbv5gz1711w8pt1",
+      "title": "A lazy writer's guide to writing a lot (from a lazy writer)",
+      "sourceStatus": "partial",
+      "reason": "Incomplete before practical guidance."
+    },
+    {
+      "id": "01m639vkv58dmakfm7pnyedren",
+      "title": "The New SDLC With Vibe Coding",
+      "sourceStatus": "partial",
+      "reason": "Only a teaser/contents preview of a longer whitepaper is present."
+    },
+    {
+      "id": "01m3c9f6tb1yxz3jq92wk72j0q",
+      "title": "As a Scrum Master - How Do You Prove Your Impact?",
+      "sourceStatus": "partial",
+      "reason": "Remainder of the method is gated/promotional and absent."
+    },
+    {
+      "id": "01m6s313vcvncp2hv7s7hye5xp",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "sourceStatus": "partial",
+      "reason": "Only abstract and bibliographic page; full methods/results absent."
+    }
+  ],
+  "highAccepted": 14,
+  "files": [
+    "semantic-luna-a.json",
+    "semantic-luna-b.json"
+  ]
+}
