@@ -4,6198 +4,9 @@ window.TOP_ARTICLES = {
     "version": 2,
     "scope": "later",
     "complete": true,
-    "profiles": {
-      "01m6wrjsgg42r4g98epwq5wvky": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6w8hpewhyakgy2bw5379431": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m6vmpvrnfn11dgfqf2313e16": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmps4saarn0hdbva6vv016": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmppk19vq0m5sfhfwndknp": {
-        "effort": 0,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmphs7nhycsb350kf1j1na": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmpfeeb8qhqhx138bkng93": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmpcb28pvrwad76m69gy4j": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmp72pg8k1qxag17zx87et": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmp4cf9fdf5d3mgbtc4n4q": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmp10tbe3f029k2n1nfqsa": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6vmnygph5er6wsagq20c2s6": {
-        "effort": 1,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6sch2svmtwggpfbqtysc41d": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6sapnhx0db2671gavkq579q": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6s30wm16vpbywvyjfczb6av": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01m6s30erxntyas758dayd4y8y": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6rxncwce17pevzw7etzbmqk": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6qzwm572de8kkxcksrz4m1z": {
-        "effort": 0,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6pjve51skvb29c8psb0c3e7": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6phcnk63qwn0xp5e71hgxfj": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6phcnfq5nxz7z2h342ma8cf": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6phcn8q5bx70y5tsxh1a36e": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6m9gqd12whecmf6esgnbnd9": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6krn18z5ts8vs2g5x8yatdb": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6knewadxyksngqcjeq605c9": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6khb3tebqkeh9r2apnntgct": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m6kgdf12vf137vy60q6dzq11": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6k58mttfa0z5yx1qv6yp4sh": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6jzfg5wdcs3hvzsat1trtgn": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6h5r2r0pyyht8p7vhbfs63y": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6gbsmqtbdk0m3gejz91p6rx": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6fxfea28zvchzpce15v3kxg": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6fraa3jk50k6cpxfbgps5bv": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6egjxhp8983xtev5yhtf98c": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01m6ect06f18gqdbxv6rht0y5t": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6e0f5x4az6198vn48facpms": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6dah9d2n78v8y9ykcrhd7zr": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6c62das6e2b03ewbfv5t2ss": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m6br48b9b1nmpr3y24rq1srh": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6bkym7s4p07cdae95yt1xax": {
-        "effort": 0,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6b04ajvb0jy3rzkscgp3m1q": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6b01z1h24ztwc841c49a588": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6b01e9q8w5gqzzdas6xbvqq": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m6b01a21mm1nznhemztgssdb": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m6b0153cmr7tccy5vqtdm1g8": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v8ens25w912z90bzwam7n": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v8afp0hg2z66scbvkhsh7": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v7v82e8d7zvcnfe1dyfb1": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v7gc4ay13h02w9906wdrf": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v7fa3bnb4as9m9akvkfhd": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v7bts10jhbw9xv56t4k76": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m69v79wrtbcjwkrm1h473w02": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v78whcavht4heemvs4e0a": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69v77zfde4m3kghbqz2623n": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m69eegkcypqe5s10sy3hcb6g": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m68zjbhv63f7p1g5nrr6e0tw": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m68bad6b7r2vc5ms3a3hxbgv": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m677zjk10nzfpaa13xqzst16": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m66xp7tm3cy6h89g8pky6gwg": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m66vzks3gb61wz1fc1e3epsv": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m66rn5zcr4yywarhfej23z89": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m660y94f0w1zywfyhygbkdhw": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m65vhvthpc8fbrwdrvexyeqm": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m65kspf0vytgckj1r6d5v0gq": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m649bjfce5r8g5khpzxmmtb5": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m63emn1a8jt8zjps7pgz4ehh": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m63dkcvhkhm8h5vhn0mxmkbe": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m639w33trd4f76bf834pm1w1": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m639vznkm5ycd398cd8x63v2": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m639vxnmqfn2c6q5bbgxkh4s": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m639vs09x47sefys7t5fbfcv": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m639vkv58dmakfm7pnyedren": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m639v8040d24jtg2necc65hj": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m639v5g3xq4edx3xvzez0xre": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m630n1qbyvwk2m7e32eefkbv": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m61sjspffcbc39n5vdc1w1qx": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m61habhtbe0k6zmxsbcs2qms": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m612xs15enyrdczas1szjjxs": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m60ynpvc0gfx60p3ake0bh6x": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m60pwpz7sc0fps3rvxe9ws31": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m60mzr2a4tdwwsbbzz1m6e8n": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5yz1wfhvpdmg7b4tzkdn8va": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x1abf7081g3wf00yma4zkz": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x1a88ffeqr7n2dwt225363": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x1a5f458tywbbhx29xj5v3": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x1a3tfn5sxc7s8sty4573t": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x19zpj071qq5r2ym1fxf0p": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x19xt9b6pmpc0xkdddpdc5": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x19vwxa0stw61wbx7aevqj": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x19cy657m5z6qws0vfnzg7": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x18xywtkw0vxpsbqnytpxv": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5x18xf6b014g6vex7kzgmkq": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5vybq0ht9t33pyk9gcmz48d": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5vw7r6a3047mz2gm29n7x1n": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5vafph5qpkpeb8xgs237qsa": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5vaedk96gh4yky54hdwckx7": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5sr3v4fqnpzrnc21nxekmj0": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5rs37f667g3m8d0hxkn222n": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5rrrs6xz132z08z1se2h3yk": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5qct518h61qwc5sfpnzerb8": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m5q6hk0qgzwd84d3waztczp4": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5pvkcdex7j8ycvxnyg3zsrd": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5pjg0w7090h1rpxgn62420x": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5m4makfc0pnx0qq5sdbff6g": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m5kyjm19f1gcpp9b5yxt47pb": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01m5kh3405p49fvxq2rksg70e7": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5kg8kqmvrb31xsbf3ppv8te": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5j1d33arxpqw1qd9rshjbav": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5hnfbyk6rm2rz9h5y3fvmea": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5hjgkph09ab8rdqavngxtn0": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5hgqy7bjb7vb33mebh1xejg": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5hgqxzhnzcyfa7g77zejtw1": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5hdr79s3tz97xvky02dq6v0": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 0,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5h587y3eqrp3zge5mbd2e30": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5gwp6ep6gvcf3xx3cb3y5p2": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5f3r12kh3x5fyhkkevzb97a": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5f35w655mhf1t523ektfpc6": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 4
-      },
-      "01m5f0n37p6t9shndn140t02ye": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 3
-      },
-      "01m5d012s33q4wxrzeyj7y5phy": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m5cwnqaem9d87aapn8cay6gm": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5cq9ed525qq9xx1h153s5zm": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 4,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m5a9ptck05yjm72kwx5j1e7t": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m58r1w7bptzdxfgb6vcnx9jg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m58es6f9rz4b62t8msmtm87a": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m57q748ckep9x7ma8d1fqjsk": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m57d8e3a9ne8da1thz27c8nz": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m579emchn8k54ag4kb0v3yh2": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m56pa85xwwv9nzyqz2kf4pkv": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m56p9757qs78686smx9cvxrp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5442y87yf9rvcrw3q8qdkxw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5442hc5r7v134m64hpary4s": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m5317zs6sr7nr7d49as3yvgg": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m51ejpsjb8q5bhqcmnyyha1k": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 2
-      },
-      "01m51ejm0qgx622x0rx7jbbbjf": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m50n6gx619wydjfjq1wbc4ke": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 1
-      },
-      "01m50n6dyfbfy91gvy25mp411t": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m50n6aq5pn58z6m5mjzfkrf8": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m50n66d6sqs636zzz5fg2sqs": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 1
-      },
-      "01m4zyxsb59qr3v6e8t0tvtn61": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4zx1a1pn6z4da6vt7atg4ce": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4zw0j227bfces7kz3yfy3dt": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4zr983g97x0p1dgmtave66d": {
-        "effort": 0,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4zgcewzqk1gt0q8qwsveyr2": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4zg4dat2md13drdkfq72gqa": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4zdf56rnw5djf4a7sm0x5ex": {
-        "effort": 0,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4z5q54rtrdm9myd5phvam7t": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4yvw2405j0m7sdqs200ng1s": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m4yt6xy3kkmz3q1kqk3s2jzb": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4xteryt0azdkjsvhjbtf7y9": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4xcnv7egn77n0n13c5f5zna": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4x6088bqcrhfh2jyjg4amt0": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4vhf1shc9axz4ck68axr6he": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4v2ys9hh1mpe9rdn4zamf25": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m4t6040xhse0dv9efp1v819x": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4sk7xbev0csngrkw7ezxfh0": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 4
-      },
-      "01m4rqdgmsv1r1wzrt02j9f70c": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 4
-      },
-      "01m4rcez7h7kp9gjqeryqwth0y": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 4
-      },
-      "01m4ny01vqj9zf6y2qc6s2v79r": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4naee920e4qrgqze303jwap": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4nabx3t8bxk1n54pqnv3daz": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4mxqnhzkjb13x7bdxszs4pa": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4mxpxrevf72qey9pd30habf": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4mxpcrp5ecfe1jnmgw97p9f": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4mxbqftj1d6h8q7xvrq4xm4": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4mtzabe83c0yjy7rxnwha7b": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4krhezn8xrsbp9evcf5y6k3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4jp40rkevzjv5xyngmtthj0": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4jp3xvpfnnr7d03trmxw5ny": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4jp3vhk3qx5yqvn7cp99fmg": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 2
-      },
-      "01m4dcpyr9emw3hkp5y46gsvhy": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4csxss254dyjb2mbec0vw3h": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m4arvyk84mgrbdaeptexwsa3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m48ahd34prmsrfdgerqhjrj6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m45j75m87y74yd60vb2hww00": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m45a14vq9drbgqajeqxzh3ge": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m43x3maqp34bay2egnk1wa2j": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m43wq4jh5a6amm99p0epyqf6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m43dhx8the2g12ar1anpr3na": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m42nfy60gm6jzew68zd47tab": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m40srag0pz4f6hw0hmn7xvjr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 3
-      },
-      "01m3xsf7y0hmmx9v9c5h5sak2f": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3xnyrdf4c193pw1sqm67hj4": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3v78rp47de54c59j26vxrnn": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3v78ns6nxcvnznp14pxqxw7": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3ty2za1jhp6bfwwmrvwqa83": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3tst948q776hmwh8rct7gp3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3rbwfqmykrra79ycj6anysf": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3pjg369bw4jqvs3yyqshcxw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3kv2jmg7pc5ttmc0yevfm8x": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3ks4gkwdvbpmnvzf5h5p3ww": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3kq1j9rwm5dcer9vhmvbncx": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 4
-      },
-      "01m3j80hydy92jffjmba3qynrb": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3hr7cf5azvex6ja40dky9n4": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3hr629yekmazqarpyneg69p": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3hmttdtjvcq110wjk0zw9sx": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3h1gxyejcz42pg85wgrpwpe": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3gyq5ywy4dk43ebvasvy1jw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3gr6gfvpw8z714qvbjnrf43": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3gc1908kt90m70325apbz7m": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3fe92ymyskn9x20za5fda1b": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3fe84fwzc84f7jtgs70hpj5": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3fb9vd5qc5gaw8dzcre20m6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3ezmenqtajbtydymt9cvamt": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3dtcqa58z1qk7eks8ejrvxt": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 4
-      },
-      "01m3dtarte45rdkdm6vgwmdf92": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3dtap1scx5019b5hgytbygy": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3dtajmfqyrzqccbxx6gb63p": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3d23yzdxhdbmn7g4xd0dszh": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3d23yhmvpcn09xxn036jd3a": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3d23y59bjbbg4m0fmbrv68n": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3d23wkezka5t8rkdmaes1kd": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3d23vwm7j1b5pgvhjmqaedm": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 0,
-          "verkennen": 2,
-          "verdieping": 4
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m3d23rpk52c2w0wbveaf1ywq": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cw5hemq4cabx1jxksx7k14": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb40jc9x524gherhdhpg3w": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb3whaaxfkqzwdh0snehej": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb3m7rq080qjdpzyeyd7v4": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb3gpqmpsv8vqrtrmk8mfa": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb3dw9r8bbxaervxrhm68q": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb3ajq0dynkav0s12cn8p9": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3cb36ep292mj3ts6059wptc": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9ghtxbpfsjny1mvs5epae": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9g48smpwj7954pkvpp2zq": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9fqw050mxx7dsfhet3t6b": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9fnft0jarpf74b77mrne2": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9fkfk1r3wtzdszg03pecq": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3c9f6tb1yxz3jq92wk72j0q": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3bcvez8mhjr798chtpekmj1": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m3994zp56c3bka9grq2k98tp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m398yc7c60mgn63hvrfreqw8": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m391vyzc65eeqdk1cc0ftrrp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m38wkhc074q82fv1g1vzd2d4": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m37agy1w7er7trr8w91gpwwb": {
-        "effort": 4,
-        "emotionalWeight": 4,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m36qahevs5n3f4wrdr0xegg2": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m36e0e1mne2my12ancjax0fj": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m342p2njkgrn1qpn8acvxf52": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m34102prbcxcpgdx41yrr863": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m33svedqc2ndenjb8zzp9wqw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m33sv6k8pxz000kd3nv0jm5j": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m33evj29qt4x77m8ex32erc3": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m31krew5wqhvvfn07r816aq7": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m31jcfg9vjf5zwbyszy0ab04": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2yyxhjttcew9pmyhm8xsqm8": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2yyxf6wvce5ek4b7rgq0knv": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2yqbzyzcaeyktxzs2d07g03": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2ymxwfncx98gmphge27wnje": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2ykm2r74ak92tq0x6tfmr32": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2wjkqmf6e3rmjtmng2k5gm0": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2wjkbt920wa5myh1hvz67v6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2w4xmwcmgdcpkjyjpqrjyjb": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2w4wa0sspde6x1j82q8jhrd": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2w4q0nawzn679w0k1s4v64h": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2v58bxx1vadmtdmrb95vdsm": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2trsgdcxhsc4gf0trmbfvzq": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2sj3crywpy57w2k9nd8x35d": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2sj2qe8ek1zbz9kxev71gxv": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2q3jyb0n30vs5541sfrh5wk": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2ptdshnt478e55y9hah3157": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2nwzbeakn8gefz8s64p7gte": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2n023e21pj4j48m398wy215": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2msap2g98nwk78n4yxf36tf": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2mpk5g0ptfm6wsn2w2db6nz": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2mdj11mkw42apwdqw2v6ev6": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2kqe102n76g6yvve5qmew7f": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2kdst8ak0jx01eg6p6jg97n": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01m2kabg6g2j7sa06n52eyn7v7": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 1,
-        "interruptibility": 4
-      },
-      "01m2k7b9je6j7mz7cy45cfpkcc": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 0,
-          "verkennen": 2,
-          "verdieping": 4
-        },
-        "activation": 1,
-        "interruptibility": 2
-      },
-      "01m2k26569pzgzcmt79m9fyr5c": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jr8g2y03ankmxwvt6k866v": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jr89jfxrk18w99tsfc48xg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jm9r08d8ybdhqpqh2rqd3a": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jm9q1qegdm4sd2fdn65ajh": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jkgap4b0q9s0bsftq8bgta": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2jf1162hpbakpp87vn49yym": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m2jdambdhe703e1ecfvdkb9q": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 2,
-        "interruptibility": 4
-      },
-      "01m2jd6aqkd7b84hw7sbwcdfvr": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 0,
-          "verkennen": 2,
-          "verdieping": 4
-        },
-        "activation": 1,
-        "interruptibility": 2
-      },
-      "01m2jbf3n6p58de83t7hsz1t95": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01m2j0075w5khvczd7ryxe70z6": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 1
-      },
-      "01m2j004hvhgzyfq7fx9y57rec": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 1
-      },
-      "01m2hzz736ff6f5t97d1ctk4kk": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 1
-      },
-      "01m2hqbzy3gmwsq8nhwmmadjb1": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2hndcfjrxtfc5b27zeaqcke": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2gbthqrjaxjh99tqkckbc8f": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2f1qrd2q395gz2wkwc8x1n7": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2e4kdpwh1a7869hvqwxmkh3": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2dzwjcxjqdxgxt665c5b2ya": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2dzwen6cfw2jhhrnmqv43xp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2dwzwz5mg1nhnb11zmmxyn0": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2d7sherfyb949cqy4k003xt": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2cwyrq374986jczh0y8x91b": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m2a8v1prarfgvmkgwy4ercs4": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m253pktm74qr6be7rem8scbb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m227yg7yamdn2qq40a45gr71": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m207r5gtkhknjq6ezh237a4s": {
-        "effort": 2,
-        "emotionalWeight": 4,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01m1xy92em8n4jbgr4g35t97vt": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 4
-      },
-      "01m1x3j7mcz6nr1h97j6pmj0y6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1x3htad4kaatak8j78p7e11": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1w4fzwhgx8cz2g8nkap1pdq": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 1
-      },
-      "01m1v3gmjamae3pe9yj4zdykh4": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1rqhq0jsh1hs8h8v39a8etr": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1qrpd5gceesywwc4xbbs2d9": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1qrnm32e32se2m8gp9bvx2m": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q5n7sb6ar9nn4wsdbg35g6": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q5mmmtp4bapv8zdc44zcvg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q5mj32wmmzv65nwajcxaf3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q3a33tajs6z8x9f3pmvraf": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q39c2bg52c45zpapazahcw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q397npt8pd2zgh8kkyx7g7": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1q393yn5qpbe7gv7dq3eqv9": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ptj29cwr9k2jg48w4nvz74": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ptghcfvreqe0a796mr3f0z": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ptew1kmsww5mc9bbkkg26x": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ptdtpgacgz9tkd640axtse": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pkcqybtrart8abs9dmmcqd": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pkcmdmv93epp6nrb29me5b": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pkbwp8yhkmvyn4v9hw8p0p": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc8cz444y77ecj8rn0s6jj": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc7vnnk9e86sew4myjsr7n": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc7fdpfh7wg782tb035r64": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc72x702cayjqqyg82aer8": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc6gr3vhv7xva2751hmj1n": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc5ty6322rn2cg1cjtt21p": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc5k1q6bd3ywk10j54kee5": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1pc5bft2s8qqbgsbptmv6my": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p7skymwn1dbj14qd2xx2a4": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p7414hg20qvstgwygjwdhv": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p73a3z76hwhn4t9qqvpdch": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p7327vfsy0dqn6zk81hgja": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p5enqhqpmapttqja6kd4n2": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1p46tkw2fp087th9qdg88fg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1nbjzntew83f16xt14m9r2w": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1nbje7rssfyfzakc00nv9ja": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1kscgrbsgy40tyeqfk38mb2": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ksca8b1devdvjcpj1ppqy1": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1ksc86m5k1hmr9avtmtw1eb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1kppkgrbrrg09crtnnhtnr2": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1kpjvpkpjy10c0zp09d0hty": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1kbpy0d4mhwm6pmkvkvf13z": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1k4njhg2tq0hr2s2c7q8mc2": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1gp4waxm0cmf0dh788j4jvv": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1f3z0dj5te4w2sp8wkb7x1p": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 1
-      },
-      "01m19mp23fe6k9kgv4ca02h3nc": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1971j070aamhztgxr4k22jg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m17hcyt40k1nn13p6cp7eyr9": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m17hc9s31gyv0433ecry76qg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m1463q6ty4tpv1ezynjst4f5": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m110gbsyqc7vv1ejwtptm5rf": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0zs70wqrf8nvkmrwzg9843y": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0yzc8acebxvxektbepqg0kc": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0yzc4t547m4zm0yvgrk39xb": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 4
-      },
-      "01m0yytgcbktcptzp46cf14p2x": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0ps324qabpwbvdtsbnhmkw7": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0pngvw1pq8s12ss8bgyz5hj": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 4
-      },
-      "01m0phz82jsqawszgfebvkggxm": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0nepq34v9hbtcm1z1rcjn1e": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0d9rt9b3a66m87wr62cjx7g": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0cw5jj79htrsnbqxj1qmn9x": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0b3f62sb716wyqk6tqva87v": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m0b3f56gwerhja7mext6qpv8": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m05be2mdpdf3vg9xy5xr0kcz": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m059vqea4t02392f7364m2jr": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m059vn29v5bjn4nbhe0efecg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01m02v2mszvk3cjaw44d26cmvx": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kyy1z2njt280geg81vv0be2q": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kyxyqrfvk85easc927qpwtns": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01kyxa2yd57szp13ha57708606": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kysnpk8azvdg0fmar8118yy0": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kysnpjbzmxbkrjfbxzssm9ke": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kysfkm9jz6j3neya2h22rqsb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kyexyg0m6s4a4nddcw8mm63e": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kye6cwzsz29j9v1g53fzfy45": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kyab47vf7vat0n76fpwrgrj6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ky7rxntf6dz2x70h2w6vgtqr": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ky7jr9fzhv4h5e988f76rxth": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kxy1qnae4npandc4x9mv4aw0": {
-        "effort": 0,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01kxy1qkwpt5xkmvy06pz6bqvr": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01kxrhtjs9wgt5ta83dd02hya3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kxn6sfvvpwapf12145w6x7sv": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kwragbn5fwjf0dvfyfvwvne8": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kwgtzbakxnx83f8txktj9t89": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kw3yjp92dh7r7qzk3bja513n": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kvjbgrqsftb77gs496c0p12t": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kvhdf8kqbvctbnxfrt4r3nr5": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kvcrmaw54bese7ww1vf68che": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ktnkd8gctpytce8pvke8za97": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ktc8xc2yj17jm5hf96e12crc": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kt48nachk49100hbdvv2zqdr": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kt3pyfje0y9z49fzqmtkjsse": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ks96dy2nfby7cyd152ev2a9k": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ks4x3trnj452tc0tmezwjcej": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ks2b50wxejwag42nf6rnrq6d": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ks0eq0r3x8h0fgzzn289mazj": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ks0epa8kspp83kh75k75rxss": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krtrc68m499tqp0qe471vq9c": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krtrbnj1rtn0p7gt8fatgj7p": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krtrbe7xpgnmyq707xyfa6dw": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krqmh4tqphysje012p59hxec": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krn1jdcn6b450yv1z0j92tz3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krmzwafvfaac9xjpgfsvsvyb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01krm5d32nfhsa44jvbq4s6nny": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kqsnmx2rdcaktjvwsjmmq2cn": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01knefpm3ae2ew1jrq9twtjc1w": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kn4c4mv24kk2vjxqcn0y6efj": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kmmsmygjapx4f6gb2bhxds2j": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kmjjs1nc96hg1tq02gmgh657": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kkh0xtww0ex0apwdnpkatc8s": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kj5a1mnca55881qyj3jzm64b": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kj58br1h8mzqdgf9ccngjjkv": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kj585kpp3a99w8fhgx6mvx1v": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01khxyazzfph3etb69en1bhzgw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01khr5h2d75yj0yt1v6seck4nt": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kh225h5t6y7800yd56j6mrkk": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 1
-      },
-      "01kh1ypdtsb1f1nafttcy8qdmn": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kg2bfknxdbdtasxyva7fdma3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kfb2gw90wdpy96gedqddd1kd": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kf916mwdxkdydep3wwes334d": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01keyjrqgd6xh0svcy2ce3bb6e": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kehtft7xyq5df0c78mbcgnd0": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01keht5gn85sygznbg0h2ngzsm": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01ke8078ppphvc7nr28ecay5nf": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kd1canjswg2k0ey5cgtz3fa4": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "01kcb7n6kftwmca7m6dgprpkwf": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kc53cvnp2fqe09v8vmbym5mx": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kc0e03njf627g8qc72g98z28": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 3
-      },
-      "01kbfj8h0ds5fz6sa9b7vdeh3n": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01kbdvvwhgdyvavjfx3ey7ysak": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k9p5pa1athkkdm2j2nxfhf26": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k8v9cz0ah2x4qddn265e4cnt": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 2,
-        "interruptibility": 3
-      },
-      "01k88fp60409w7wsaz01a69vq4": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k7shq7r399ekxt6pavj3t3aa": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k7j6p8a88r4t4zarr6pqya82": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k7j6nyeb06gx7dcdxjaqp5ps": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k7h9szzyxzgn4ywcv20zas73": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01k6c63we3f9ftg7xqkj272e01": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 1,
-        "interruptibility": 3
-      },
-      "01k53c86shnrvw46eb6mbrn6dt": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01jzcewgkt8vr8w5y9c16rq55v": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01jkh2w2capy38f589kqkvyt4s": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01j79kewgmtnzh90zqn8ecv0at": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
-      "01hzhvwh05p9f4hf86ghy6pnyw": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01hzhvw6ytx5jnvzs4ppx7zc38": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01hzhvtw596p747p5hysvhdndz": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      },
-      "01hvgq17yct5zke2svk47k1148": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      }
-    }
+    "profiles": {}
   },
-  "generatedAt": "2026-11-08T11:48:36.322Z",
+  "generatedAt": "2026-11-09T13:19:50.706Z",
   "families": [
     {
       "id": "algemeen",
@@ -12156,6 +5967,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 60,
+              "id": "01m5x19zpj071qq5r2ym1fxf0p",
+              "title": "The Role of Agency in Scrum: Why Self-Management Without Agency is a Lie | Scrum.org",
+              "author": "click.sender.scrum.org",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 928,
+              "publishedDate": null,
+              "savedDate": "2026-10-26T21:19:18.738000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+              "sourceUrl": "https://click.sender.scrum.org/?qs=ABp7ImQiOjUwNDEsInQiOjU5MTUsInMiOjEzfQANAAAAAAF_1NbEd5BkhzXGyDc-wSch8uiBODA5H3pZwxL0ugPbttLqzp7pdliTS5Xdm79mR8YBygf-VCwVwJTyW_okeOSfZrfT03DfDd1nTZ0tUg",
+              "readwiseUrl": "https://read.readwise.io/read/01m5x19zpj071qq5r2ym1fxf0p",
+              "summary": "Scrum is often misunderstood as a set of ceremonies or a lightweight project management method. It is neither.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "organizational behavior & culture",
+                "scrum",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
               "id": "01m65kspf0vytgckj1r6d5v0gq",
               "title": "My Skill Makes Claude Code GREAT At TDD",
               "author": "Matt Pocock",
@@ -12183,7 +6023,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01m6egjxhp8983xtev5yhtf98c",
               "title": "Migration myth 5/22: Development in poor countries will reduce migration",
               "author": "Hein de Haas from Hein de Haas",
@@ -12212,7 +6052,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01m6qzwm572de8kkxcksrz4m1z",
               "title": "The Paradox of Collaboration: You Need Troublemakers",
               "author": "Maarten Dalmijn from Maarten’s Newsletter",
@@ -12241,7 +6081,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01ks0eq0r3x8h0fgzzn289mazj",
               "title": "Why neurodivergent people often feel like they started life 10 years late",
               "author": "Neurodivergent Geek Girl",
@@ -12273,7 +6113,39 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 65,
+              "id": "01m6xjr6nbyn9c08dktm79h0t8",
+              "title": "De beste series van 2026 en hun veranderlessen - deel 2",
+              "author": "Thought of the week | Annelies van Ek",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 863,
+              "publishedDate": "2026-11-08",
+              "savedDate": "2026-11-08T12:39:52.236000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/b4d21f4fd264d6a822b34e5ce6e03fcb",
+              "readwiseUrl": "https://read.readwise.io/read/01m6xjr6nbyn9c08dktm79h0t8",
+              "summary": "In 2026 waren er toffe series. De series waar ik het meest van genoten heb laat ik in een serie langskomen.",
+              "whyRead": "Raakt je interesse in menselijke interactie, organisatieverandering en cultuur. De series worden gebruikt als toegankelijke casussen over opvolging, macht, positieve deviantie, loyaliteit en invloed zonder formele autoriteit.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "entertainment & pop culture",
+                "organizational behavior & culture",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "cultuur_games_film",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 66,
               "id": "01m1p7skymwn1dbj14qd2xx2a4",
               "title": "Compilers are the New Frameworks",
               "author": "tomdale.net",
@@ -12304,7 +6176,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01m36e0e1mne2my12ancjax0fj",
               "title": "[Case Study] Lessons from descaling 25 Scrum teams",
               "author": "Joe Foley",
@@ -12333,7 +6205,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01m57d8e3a9ne8da1thz27c8nz",
               "title": "The Pendulum of Existence: Why Life Swings Between Pain and Boredom? | Schopenhauer",
               "author": "Philosophy Stuff from Philosophy Stuff",
@@ -12362,7 +6234,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01m5f35w655mhf1t523ektfpc6",
               "title": "Agile Moose on Ken Pugh",
               "author": "Bob Galen from Agile Moose",
@@ -12392,7 +6264,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01m639w33trd4f76bf834pm1w1",
               "title": "Stop normalizing unprofessional behaviour in the name of agility",
               "author": "engineering-leadership.hinshelwood.com",
@@ -12420,7 +6292,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01hzhvwh05p9f4hf86ghy6pnyw",
               "title": "Personal Energy Management (PEM)",
               "author": "Harisk",
@@ -12449,7 +6321,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01m6sapnhx0db2671gavkq579q",
               "title": "A new name for a familiar problem",
               "author": "Sven Brodmerkel | The Reception Gap",
@@ -12479,7 +6351,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m227yg7yamdn2qq40a45gr71",
               "title": "The AI4Agile Practitioners Report 2026",
               "author": "Scrum.org",
@@ -12508,7 +6380,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m391vyzc65eeqdk1cc0ftrrp",
               "title": "Waar is de 'flow' gebleven?",
               "author": "Max Brouwer from Mensenwerk - De menselijke maat in een wereld vol AI",
@@ -12534,12 +6406,10 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m4ny01vqj9zf6y2qc6s2v79r",
               "title": "The Tech Lead said we only needed sixty percent of a Scrum Master",
               "author": "Vibhor Chandel",
@@ -12568,7 +6438,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01kh225h5t6y7800yd56j6mrkk",
               "title": "AI Doesn’t Reduce Work—It Intensifies It",
               "author": "Aruna Ranganathan, Xingqi Maggie Ye",
@@ -12595,7 +6465,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01m5317zs6sr7nr7d49as3yvgg",
               "title": "Watch me build a real feature with Claude Code",
               "author": "Matt Pocock (AI Hero)",
@@ -12624,7 +6494,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01m579emchn8k54ag4kb0v3yh2",
               "title": "AI, Rising Inequality and Rising Oligarchy",
               "author": "Paul Krugman",
@@ -12653,7 +6523,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01m5vybq0ht9t33pyk9gcmz48d",
               "title": "The future of large files in Git is Git",
               "author": "tylercipriani.com",
@@ -12682,7 +6552,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 80,
               "id": "01m6bkym7s4p07cdae95yt1xax",
               "title": "Stop beating yourself up over impossible KPIs",
               "author": "Hustling Tortoise",
@@ -12711,7 +6581,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01m6h5r2r0pyyht8p7vhbfs63y",
               "title": "A Brief History of Courage",
               "author": "Odysseas",
@@ -12739,7 +6609,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01m5hjgkph09ab8rdqavngxtn0",
               "title": "It’s Time to Take Starlink Away from Elon Musk",
               "author": "Paul Krugman",
@@ -12769,7 +6639,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01m6s30wm16vpbywvyjfczb6av",
               "title": "Immigration, Migration, and \"100% Americanism\"",
               "author": "onlineexhibits.library.yale.edu",
@@ -12798,7 +6668,69 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 84,
+              "id": "01m6w8hjde30wz9zbqa9ptc7ny",
+              "title": "Why Do Multi-Agent LLM Systems Fail?",
+              "author": "arxiv.org",
+              "siteName": "arXiv.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 318,
+              "publishedDate": "2025-10-26",
+              "savedDate": "2026-11-08T00:22:14.702000+00:00",
+              "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+              "sourceUrl": "https://arxiv.org/abs/2503.13657",
+              "readwiseUrl": "https://read.readwise.io/read/01m6w8hjde30wz9zbqa9ptc7ny",
+              "summary": "Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.",
+              "whyRead": "Raakt je interesse in AI-systemen, softwareontwikkeling en samenwerking. Het abstract biedt een bruikbaar foutentaxonomiekader voor multi-agent-systemen, met misalignment en verificatie als sociale en technische ontwerpvragen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "research papers & academia",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 85,
+              "id": "01m6w8hmejnbhpfrvj8wfddvve",
+              "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+              "author": "arxiv.org",
+              "siteName": "arXiv.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 261,
+              "publishedDate": "2026-03-30",
+              "savedDate": "2026-11-08T00:22:16.785000+00:00",
+              "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+              "sourceUrl": "https://arxiv.org/abs/2603.28990",
+              "readwiseUrl": "https://read.readwise.io/read/01m6w8hmejnbhpfrvj8wfddvve",
+              "summary": "How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-organization. We observe that autonomous behavior already emerges in current LLM agents: given minimal structural scaffolding (fixed ordering), agents spontaneously invent specialized roles, voluntarily abstain from tasks outside their competence, and form shallow hierarchies -- without any pre-assigned roles or external design. A hybrid protocol (Sequential) that enables this autonomy outperforms centralized coordination by 14% (p<0.001), with a 44% quality spread between protocols (Cohen's d=1.86, p<0.0001). The degree of emergent autonomy scales with model capability: strong models self-organize effectively, while models below a capability threshold still benefit from rigid structure -- suggesting that as foundation models improve, the scope for autonomous coordination will expand. The system scales sub-linearly to 256 agents without quality degradation (p=0.61), producing 5,006 unique roles from just 8 agents. Results replicate across closed- and open-source models, with open-source achieving 95% of closed-source quality at 24x lower cost. The practical implication: give agents a mission, a protocol, and a capable model -- not a pre-assigned role.",
+              "whyRead": "Raakt je interesse in AI, softwareontwikkeling en samenwerking tussen agents. Het abstract rapporteert een groot experiment naar de vraag wanneer zelforganisatie beter werkt dan vooraf ontworpen hiërarchie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "research papers & academia",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 86,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -12830,7 +6762,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 87,
               "id": "01m3j80hydy92jffjmba3qynrb",
               "title": "the senior engineer death spiral",
               "author": "Sunil Pai",
@@ -12861,7 +6793,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 88,
               "id": "01m4jp3xvpfnnr7d03trmxw5ny",
               "title": "The slow death of the hands-on engineering manager",
               "author": "Anton Zaides",
@@ -12892,7 +6824,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 89,
               "id": "01m4nabx3t8bxk1n54pqnv3daz",
               "title": "Where do AI norms come from?",
               "author": "charity.wtf",
@@ -12921,7 +6853,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 90,
               "id": "01m6b01e9q8w5gqzzdas6xbvqq",
               "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
               "author": "Teresa Torres",
@@ -12949,7 +6881,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 91,
               "id": "01m5vw7r6a3047mz2gm29n7x1n",
               "title": "My AI Conundrum",
               "author": "Bob Galen from Agile Moose",
@@ -12978,7 +6910,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 92,
               "id": "01m6k58mttfa0z5yx1qv6yp4sh",
               "title": "A Woebegone Pivot?",
               "author": "Bob Galen from Agile Moose",
@@ -13007,7 +6939,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 93,
               "id": "01m2jbf3n6p58de83t7hsz1t95",
               "title": "Alle kunst is politiek, zelfs die van Ed Sheeran",
               "author": "Rocher",
@@ -13040,7 +6972,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 94,
               "id": "01m3ks4gkwdvbpmnvzf5h5p3ww",
               "title": "The Empathy Trap",
               "author": "Bob Galen from Agile Moose",
@@ -13072,7 +7004,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 95,
               "id": "01m3v78rp47de54c59j26vxrnn",
               "title": "Reflections on the Digital Cleanup Gathering 2026",
               "author": "agilealliance.org",
@@ -13101,7 +7033,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 96,
               "id": "01m4zg4dat2md13drdkfq72gqa",
               "title": "Hoe word je zo gestrest mogelijk?",
               "author": "Lars Tummers - Werknotities",
@@ -13127,12 +7059,10 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "sociologie"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 97,
               "id": "01m5f0n37p6t9shndn140t02ye",
               "title": "Trump is Destroying Americans’ Healthcare",
               "author": "Paul Krugman",
@@ -13159,7 +7089,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 98,
               "id": "01m5x19xt9b6pmpc0xkdddpdc5",
               "title": "Cognitive Trap: Accountability Diffusion | Scrum.org",
               "author": "click.sender.scrum.org",
@@ -13190,7 +7120,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 99,
               "id": "01m61habhtbe0k6zmxsbcs2qms",
               "title": "Resolve it or dissolve it!",
               "author": "David Allen",
@@ -13221,7 +7151,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 100,
               "id": "01m6w8hpewhyakgy2bw5379431",
               "title": "Empiricism at Machine Speed Part 5: The Developer's Nexus",
               "author": "scrum.org",
@@ -13251,123 +7181,6 @@ window.TOP_ARTICLES = {
                 "aaa-scrum-top-100",
                 "aaa-software-development-top-100"
               ]
-            },
-            {
-              "position": 97,
-              "id": "01m3hr629yekmazqarpyneg69p",
-              "title": "Matz is nice so we are nice",
-              "author": "blog.steveklabnik.com",
-              "siteName": "steveklabnik.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 357,
-              "publishedDate": "2011-10-19",
-              "savedDate": "2026-09-27T15:36:50.750000+00:00",
-              "imageUrl": "https://og-image.now.sh/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg",
-              "sourceUrl": "https://blog.steveklabnik.com/posts/2011-08-19-matz-is-nice-so-we-are-nice",
-              "readwiseUrl": "https://read.readwise.io/read/01m3hr629yekmazqarpyneg69p",
-              "summary": "Steve Klabnik's personal website",
-              "whyRead": "Relevant voor je interesse in softwareontwikkeling en samenwerking: deze korte terugblik verbindt open-sourcecultuur aan vriendelijk, maar eerlijk technisch commentaar.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01m5cq9ed525qq9xx1h153s5zm",
-              "title": "Jung’s Shadow: The Parts of Yourself You Refuse to Acknowledge",
-              "author": "Philosophy Stuff from Philosophy Stuff",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 687,
-              "publishedDate": "2026-10-20",
-              "savedDate": "2026-10-20T13:16:24.357000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/88a7dadf8db72e00b5c22ec540389830",
-              "readwiseUrl": "https://read.readwise.io/read/01m5cq9ed525qq9xx1h153s5zm",
-              "summary": "In 1913, a respected Swiss psychiatrist in his late thirties found himself in the middle of a crisis he could not explain.",
-              "whyRead": "Raakt je interesse in geest, identiteit en zelfkennis; deze toegankelijke introductie gebruikt Jungs schaduwbegrip om afgewezen eigenschappen en projectie te onderzoeken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "behavioral psychology & coaching",
-                "personal growth & life philosophy",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01m5x19zpj071qq5r2ym1fxf0p",
-              "title": "The Role of Agency in Scrum: Why Self-Management Without Agency is a Lie | Scrum.org",
-              "author": "click.sender.scrum.org",
-              "siteName": "Scrum.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 928,
-              "publishedDate": null,
-              "savedDate": "2026-10-26T21:19:18.738000+00:00",
-              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-              "sourceUrl": "https://click.sender.scrum.org/?qs=ABp7ImQiOjUwNDEsInQiOjU5MTUsInMiOjEzfQANAAAAAAF_1NbEd5BkhzXGyDc-wSch8uiBODA5H3pZwxL0ugPbttLqzp7pdliTS5Xdm79mR8YBygf-VCwVwJTyW_okeOSfZrfT03DfDd1nTZ0tUg",
-              "readwiseUrl": "https://read.readwise.io/read/01m5x19zpj071qq5r2ym1fxf0p",
-              "summary": "Scrum is often misunderstood as a set of ceremonies or a lightweight project management method. It is neither.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "organizational behavior & culture",
-                "scrum",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m5x1a88ffeqr7n2dwt225363",
-              "title": "Stop Guessing, Start Forecasting: Why Scrum Teams Should Embrace Monte Carlo | Scrum.org",
-              "author": "click.sender.scrum.org",
-              "siteName": "Scrum.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 653,
-              "publishedDate": null,
-              "savedDate": "2026-10-26T21:19:27.503000+00:00",
-              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-              "sourceUrl": "https://click.sender.scrum.org/?qs=ABp7ImQiOjUwNDEsInQiOjU5MTUsInMiOjEzfQANAAAAAAF_1NbEepl-qpHDcoe-9N4KifgQzbTQY65ueFQjuNr8W4rtpAEAFBTb_kM8tdWeg7_6PXIl61PCx0ne3gKMzbFJhP_vLtghQ0LE-yXoPg",
-              "readwiseUrl": "https://read.readwise.io/read/01m5x1a88ffeqr7n2dwt225363",
-              "summary": "Monte Carlo simulations are only as useful as the data and assumptions behind them.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "flow & delivery",
-                "product management",
-                "scrum"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": []
             }
           ]
         }
@@ -15838,6 +9651,38 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 67,
+              "id": "01m6xjr6nbyn9c08dktm79h0t8",
+              "title": "De beste series van 2026 en hun veranderlessen - deel 2",
+              "author": "Thought of the week | Annelies van Ek",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 863,
+              "publishedDate": "2026-11-08",
+              "savedDate": "2026-11-08T12:39:52.236000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/b4d21f4fd264d6a822b34e5ce6e03fcb",
+              "readwiseUrl": "https://read.readwise.io/read/01m6xjr6nbyn9c08dktm79h0t8",
+              "summary": "In 2026 waren er toffe series. De series waar ik het meest van genoten heb laat ik in een serie langskomen.",
+              "whyRead": "Raakt je interesse in menselijke interactie, organisatieverandering en cultuur. De series worden gebruikt als toegankelijke casussen over opvolging, macht, positieve deviantie, loyaliteit en invloed zonder formele autoriteit.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "entertainment & pop culture",
+                "organizational behavior & culture",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "cultuur_games_film",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 68,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": "David Perell",
@@ -15867,7 +9712,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01m0ps324qabpwbvdtsbnhmkw7",
               "title": "When Burnout Looks Like Productivity",
               "author": "Vasco Duarte",
@@ -15896,7 +9741,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m3ezmenqtajbtydymt9cvamt",
               "title": "🏃‍♀️ On Achieving Goals By Ignoring Them",
               "author": "Eleanor Konik",
@@ -15923,7 +9768,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m4krhezn8xrsbp9evcf5y6k3",
               "title": "15 low energy ways to sustain a writing life",
               "author": "Lydia Rose",
@@ -15950,7 +9795,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m5f35w655mhf1t523ektfpc6",
               "title": "Agile Moose on Ken Pugh",
               "author": "Bob Galen from Agile Moose",
@@ -15980,7 +9825,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m0zs70wqrf8nvkmrwzg9843y",
               "title": "Matt Haig: How to Write a Book Millions of People Read",
               "author": "David Perell",
@@ -16010,7 +9855,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m33evj29qt4x77m8ex32erc3",
               "title": "Proper English is a Myth: There's No 'Correct' Way to Write",
               "author": "Brennan Kenneth Brown",
@@ -16041,7 +9886,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01hzhvwh05p9f4hf86ghy6pnyw",
               "title": "Personal Energy Management (PEM)",
               "author": "Harisk",
@@ -16070,7 +9915,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m5hgqy7bjb7vb33mebh1xejg",
               "title": "Holiness and Hedonism: On the Contradictory Duality of American Power",
               "author": "Thaddeus Russell",
@@ -16101,7 +9946,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m6khb3tebqkeh9r2apnntgct",
               "title": "Malcolm Gladwell: The Most Useful Hour You'll Ever Spend on Storytelling",
               "author": "David Perell",
@@ -16127,7 +9972,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01ky7jr9fzhv4h5e988f76rxth",
               "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future",
               "author": "tim.blog",
@@ -16156,7 +10001,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": "orwellfoundation.com",
@@ -16186,7 +10031,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m31jcfg9vjf5zwbyszy0ab04",
               "title": "Your Middle Managers Need to Be Leaders Too",
               "author": "reworked.co",
@@ -16217,7 +10062,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m3cw5hemq4cabx1jxksx7k14",
               "title": "Psychology’s Power Tools",
               "author": "David A. Sbarra",
@@ -16246,7 +10091,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m4xcnv7egn77n0n13c5f5zna",
               "title": "Did publishers cause the decline of reading? I don’t think so.",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -16276,7 +10121,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m4zgcewzqk1gt0q8qwsveyr2",
               "title": "Beyond the Glass",
               "author": "Daniel Barnum",
@@ -16306,7 +10151,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01kkh0xtww0ex0apwdnpkatc8s",
               "title": "Negative Pre-Game Speeches Don’t Work. Here’s What Does.",
               "author": "Steve Magness",
@@ -16335,7 +10180,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -16367,7 +10212,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m5f3r12kh3x5fyhkkevzb97a",
               "title": "What to do if you feel so, so angry at the state of the world",
               "author": "Casper ter Kuile",
@@ -16394,7 +10239,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m5kh3405p49fvxq2rksg70e7",
               "title": "Essay: Het lege vakje - by Saskia Toonen",
               "author": "Substack",
@@ -16420,7 +10265,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01j79kewgmtnzh90zqn8ecv0at",
               "title": "Why A.I. Isn’t Going to Make Art | The New Yorker",
               "author": "Ted Chiang",
@@ -16447,7 +10292,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m660y94f0w1zywfyhygbkdhw",
               "title": "An Interrogation of Reality: On the Legacy of Blade Runner",
               "author": "Joanne McNeil",
@@ -16476,7 +10321,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m6kgdf12vf137vy60q6dzq11",
               "title": "Watch What You Say: Free Speech and ‘Problematic’ Lit",
               "author": "Miller’s Book Review 📚",
@@ -16505,7 +10350,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m63dkcvhkhm8h5vhn0mxmkbe",
               "title": "Why Are Women’s Biographies Often Told From a Man’s Point of View?",
               "author": "Sarah Fritz",
@@ -16535,7 +10380,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -16565,7 +10410,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m2hndcfjrxtfc5b27zeaqcke",
               "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
               "author": "Bloomberg",
@@ -16595,7 +10440,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m34k3sy8z3axkjz3rsy0t06a",
               "title": "The World We've Built Is Making Us Sick",
               "author": "Cole Hastings",
@@ -16626,7 +10471,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m58es6f9rz4b62t8msmtm87a",
               "title": "Tanizaki: The Absurdity of Technology (Part II)",
               "author": "Vashik Armenikus from Genius & Ink 🖌",
@@ -16655,7 +10500,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m6phcn8q5bx70y5tsxh1a36e",
               "title": "Gleaner, Cobbler, Commons",
               "author": "Peter Linebaugh",
@@ -16684,7 +10529,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m5hgqxzhnzcyfa7g77zejtw1",
               "title": "Why Wikipedia is a Wonder of the Modern World—That We’ll Never See the Likes of Again",
               "author": "Richard Cooke",
@@ -16713,7 +10558,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m4vhf1shc9axz4ck68axr6he",
               "title": "Claude, don’t touch my lump",
               "author": "Adam Mastroianni",
@@ -16739,7 +10584,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m2jbf3n6p58de83t7hsz1t95",
               "title": "Alle kunst is politiek, zelfs die van Ed Sheeran",
               "author": "Rocher",
@@ -16772,7 +10617,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m3ks4gkwdvbpmnvzf5h5p3ww",
               "title": "The Empathy Trap",
               "author": "Bob Galen from Agile Moose",
@@ -16798,37 +10643,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "sociologie",
                 "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m4zg4dat2md13drdkfq72gqa",
-              "title": "Hoe word je zo gestrest mogelijk?",
-              "author": "Lars Tummers - Werknotities",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 745,
-              "publishedDate": "2026-10-15",
-              "savedDate": "2026-10-15T10:01:11.770000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/0a4b99e93d06e61f3b014caa50ec2c73",
-              "readwiseUrl": "https://read.readwise.io/read/01m4zg4dat2md13drdkfq72gqa",
-              "summary": "De tips zijn concreet.",
-              "whyRead": "Een Nederlandstalige, humoristische boekentip over tijdsdruk en stress die individuele gewoonten verbindt met bredere maatschappelijke verschillen tussen groepen. De combinatie van concrete toepasbaarheid, sociologische context en essayistische toon past beter bij je interesses dan generieke productiviteitstips.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "health & wellness",
-                "personal growth & life philosophy",
-                "sociology & social structures"
-              ],
-              "coreInterests": [
-                "sociologie"
               ],
               "alsoIn": [
                 "aaa-short-top-100"
@@ -19755,9 +13569,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 80,
@@ -19811,14 +13623,16 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "ai ethics & society",
                 "scrum",
+                "software development",
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
             },
             {
               "position": 82,
@@ -19840,9 +13654,9 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
+                "organizational behavior & culture",
                 "scrum",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -19902,7 +13716,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "organizational behavior & culture",
-                "scrum"
+                "team coaching"
               ],
               "coreInterests": [
                 "agile"
@@ -23260,6 +17074,93 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 75,
+              "id": "01m6yep7chwn8xvd8n7gr9bw5y",
+              "title": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
+              "author": "Joseph Cox",
+              "siteName": "404 Media",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2279,
+              "publishedDate": "2026-10-29",
+              "savedDate": "2026-11-08T20:48:07.569000+00:00",
+              "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
+              "sourceUrl": "https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yep7chwn8xvd8n7gr9bw5y",
+              "summary": "Proton CEO Andy Yen projects a calm persona and rails against Big Tech and critiques AI. Internally, he is pushing engineers to build Proton with AI, even when they have security concerns.",
+              "whyRead": "Raakt je interesse in AI-ethiek, beveiliging en organisatiecultuur. Dit onderzoeksartikel laat zien hoe een privacybedrijf AI-adoptie kan versnellen terwijl angst en machtsasymmetrie kritische tegenspraak blokkeren.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "organizational behavior & culture",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 76,
+              "id": "01m6yjtec6ajxd4508x4df91c9",
+              "title": "Some Memories of Early Anthropic",
+              "author": "Ivan Vendrov",
+              "siteName": "lesswrong.com",
+              "category": "rss",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2734,
+              "publishedDate": "2026-11-08",
+              "savedDate": "2026-11-08T22:00:17.102000+00:00",
+              "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+              "sourceUrl": "https://www.lesswrong.com/posts/9PiLfo6iQbbDWFHv7/some-memories-of-early-anthropic",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yjtec6ajxd4508x4df91c9",
+              "summary": "The following events took place between October 2022 and May 2023. I wrote very little of this down at the time so am recalling from memory, and am rendering the gist of the dialogue rather than the exact words used. I’ve also swapped some pronouns and other personal identifiable details.Please remember that this is not a description of “what Anthropic is like”, but merely the experience of one guy in a junior role during a short window of time, weighted towards emotionally intense moments because they’re easier to remember clearly and because sharing them doesn’t run afoul of the spirit of the confidentiality agreements I signed. Anthropic is now a massive organization with many silos and secrets and I have very little idea what was or is happening there in some overall sense. But given the enormous power of the AI labs and the paucity of public information about their inner workings, I feel compelled to share the most salient parts of my personal experience. I hope this encourages my former colleagues, and folks at other labs, to fill in the rest of the picture.I’m at the Anthropic office for lunch. The interviews went well. They want me on board. I’m a little unsure. My other offer is a 2-month contract on the OpenAI governance team, working with a friend on some fun conceptual research. I’m leaning towards taking the OpenAI contract - my long-term relationship just ended, I’m still a little burned out from my startup, and the Anthropic job seems potentially quite stressful.After lunch one of the co-founders pulls me into his office for a wide-ranging, casual chat about how to make AI go well. It’s very fun - he’s smart, personable, funny, urbane. “The government won’t do anything about AI until it’s far too late”, I opine at one point. “Our strategy has to rely on the market and on civil society.”He leans forward, his gaze hardening. “You’re wrong there. There are people in Washington - the serious people, you know - watching all this very closely. I speak to...",
+              "whyRead": "Raakt je interesse in AI-ethiek, organisatiecultuur en macht in organisaties. Deze persoonlijke terugblik laat zien hoe missie, status, angst en psychologische veiligheid kunnen botsen binnen een AI-lab.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "organizational behavior & culture",
+                "professional development"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 77,
+              "id": "01m6za92yd6ey095ghp5qgttdz",
+              "title": "How I’m using AI without losing my mind | #333",
+              "author": "Paul Millerd",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2818,
+              "publishedDate": "2026-11-09",
+              "savedDate": "2026-11-09T04:50:17.166000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/e6c0c1dc9b737afcdada229c20c57845",
+              "readwiseUrl": "https://read.readwise.io/read/01m6za92yd6ey095ghp5qgttdz",
+              "summary": "I don’t really know how to write about anything except AI right now. But I am more excited and energized than ever.",
+              "whyRead": "Raakt je interesse in AI, kenniswerk en organisatiecultuur. Paul Millerd beschrijft concreet hoe agents zijn werk veranderen en waarom menselijke waarde verschuift naar oordeel, proces, cultuur en feedback.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 78,
               "id": "01kysnpk8azvdg0fmar8118yy0",
               "title": "The Three Griefs: Why Timing Matters",
               "author": "thereframediaries.substack.com",
@@ -23292,7 +17193,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 79,
               "id": "01m17hc9s31gyv0433ecry76qg",
               "title": "On being a woman who wants power",
               "author": "erinmerylstudy",
@@ -23326,7 +17227,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 80,
               "id": "01m2yqbzyzcaeyktxzs2d07g03",
               "title": "Night Knowledge",
               "author": "The Yale Review | Essays",
@@ -23360,7 +17261,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 81,
               "id": "01m3cb3whaaxfkqzwdh0snehej",
               "title": "How to run a retrospective meeting in 6 steps",
               "author": "mural.co",
@@ -23392,7 +17293,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 82,
               "id": "01m66vzks3gb61wz1fc1e3epsv",
               "title": "The Sediment Of Culture Shapes Political Order",
               "author": "Nathan Gardels",
@@ -23425,7 +17326,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 83,
               "id": "01m6sch2svmtwggpfbqtysc41d",
               "title": "Your Book Review: Orality and Literacy",
               "author": "Astral Codex Ten",
@@ -23457,7 +17358,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 84,
               "id": "01kysfkm9jz6j3neya2h22rqsb",
               "title": "Can Your Autistic Nervous System Survive Your Workplace?",
               "author": "thereframediaries.substack.com",
@@ -23490,7 +17391,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 85,
               "id": "01m1rqhq0jsh1hs8h8v39a8etr",
               "title": "Case Study: When Agile Meets Neurodivergence",
               "author": "Joe Foley & Pulkit Singhal & Katarzyna Oratowska & Eren Özdemir & Agile Alliance & Daniele Davi & Thamiris Ramos",
@@ -23527,7 +17428,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 86,
               "id": "01m4dcpyr9emw3hkp5y46gsvhy",
               "title": "On Hannah Arendt and Mary McCarthy’s Decades-Long Friendship",
               "author": "Roger Berkowitz",
@@ -23561,7 +17462,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 87,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -23593,7 +17494,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 88,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -23625,7 +17526,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 89,
               "id": "01m2msap2g98nwk78n4yxf36tf",
               "title": "Lead Without a Ladder: How I Climbed Into Engineering Leadership",
               "author": "Pauline Jepp",
@@ -23656,7 +17557,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 90,
               "id": "01m3d23yzdxhdbmn7g4xd0dszh",
               "title": "All You Need is INVEST? No!",
               "author": "xp123.com",
@@ -23688,7 +17589,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 91,
               "id": "01m3gr6gfvpw8z714qvbjnrf43",
               "title": "Same People",
               "author": "Mike Fisher",
@@ -23718,7 +17619,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 92,
               "id": "01m3xsf7y0hmmx9v9c5h5sak2f",
               "title": "Inventing and Implementing “The Scrum Master Dilemma Game”",
               "author": "agilealliance.org",
@@ -23749,7 +17650,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 93,
               "id": "01m42nfy60gm6jzew68zd47tab",
               "title": "The Ticket Is Not The Work",
               "author": "Blogger",
@@ -23780,7 +17681,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 94,
               "id": "01m60mzr2a4tdwwsbbzz1m6e8n",
               "title": "More output, less progress?",
               "author": "Anton from Manager.dev",
@@ -23814,7 +17715,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 95,
               "id": "01m60ynpvc0gfx60p3ake0bh6x",
               "title": "How to Run a 30-Minute Weekly Team Meeting That Replaces the Hour You Have Now",
               "author": "Nick Martin from WorkshopBank's Substack",
@@ -23846,7 +17747,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 96,
               "id": "01m6sapnhx0db2671gavkq579q",
               "title": "A new name for a familiar problem",
               "author": "Sven Brodmerkel | The Reception Gap",
@@ -23876,7 +17777,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 97,
               "id": "01m4yvw2405j0m7sdqs200ng1s",
               "title": "To Switch, or Not to Switch the AI Model",
               "author": "Stefan Wolpers",
@@ -23909,7 +17810,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 98,
               "id": "01m56p9757qs78686smx9cvxrp",
               "title": "TBM 445: The Feature Factory: A 10-Year Retrospective",
               "author": "John Cutler",
@@ -23940,7 +17841,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 99,
               "id": "01m2jr89jfxrk18w99tsfc48xg",
               "title": "On idea-driven ideas",
               "author": "eth.limo",
@@ -23973,7 +17874,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 100,
               "id": "01m19mp23fe6k9kgv4ca02h3nc",
               "title": "The Puzzle That Explains Why Planning Poker Actually Works",
               "author": "Dejan Majkic",
@@ -24003,102 +17904,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 98,
-              "id": "01ktnkd8gctpytce8pvke8za97",
-              "title": "The Trouble With Grit",
-              "author": "Sven Brodmerkel | Off-Script At Work",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2283,
-              "publishedDate": "2026-06-09",
-              "savedDate": "2026-06-09T07:09:04.909000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/eea0a1400ad7aa355362974cc8ada8da",
-              "readwiseUrl": "https://read.readwise.io/read/01ktnkd8gctpytce8pvke8za97",
-              "summary": "Somewhere right now, a grown man is lowering himself into a wheelie bin full of ice water while a phone, propped against a kettlebell, records the experience for posterity.",
-              "whyRead": "Raakt learning/meta-learning, gedragspsychologie en neurodivergentie: Brodmerkel prikt de grit-cultuur door zonder het nut van volhouden helemaal weg te gooien. Vooral sterk waar hij laat zien hoe een smalle psychologische maat verandert in een morele eis aan leerlingen, werknemers en anders werkende breinen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "adhd & neurodivergence",
-                "behavioral psychology & coaching",
-                "learning & meta-learning"
-              ],
-              "coreInterests": [
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01m50n6dyfbfy91gvy25mp411t",
-              "title": "Book Review: Nationalism as a Way of Life",
-              "author": "thesiseleven.com",
-              "siteName": "thesis eleven",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1481,
-              "publishedDate": "2026-09-11",
-              "savedDate": "2026-10-15T20:48:55.247000+00:00",
-              "imageUrl": "https://thesiseleven.com/wp-content/uploads/2026/09/nationalism-as-a-way-of-life-the-rise-and-transformation-of-modern-subjectivities-e28093-pdfepub-version-downloadable-7711-vxvov-1.jpg",
-              "sourceUrl": "https://thesiseleven.com/2026/09/11/book-review-nationalism-as-a-way-of-life/",
-              "readwiseUrl": "https://read.readwise.io/read/01m50n6dyfbfy91gvy25mp411t",
-              "summary": "Siniša Malešević, Nationalism as a Way of Life: The Rise and Transformation of Modern Subjectivities (Cambridge University Press, 2025) Reviewed by John A. Hall",
-              "whyRead": "Raakt je interesse in politieke ideologieën en sociale structuren: bespreekt nationalisme als gevormde leefwereld, niet alleen als expliciete overtuiging.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-philosophy-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m2mpk5g0ptfm6wsn2w2db6nz",
-              "title": "One Outcome Per Hour: How to Design Any Workshop in 45 Minutes",
-              "author": "Nick Martin from WorkshopBank's Substack",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1282,
-              "publishedDate": "2026-09-16",
-              "savedDate": "2026-09-16T08:51:04.320000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/27c82e0367d9929f52ffb85b7d680eea",
-              "readwiseUrl": "https://read.readwise.io/read/01m2mpk5g0ptfm6wsn2w2db6nz",
-              "summary": "I used to think the answer was more preparation. One more evening, a tighter deck and it would land.",
-              "whyRead": "Een praktisch kader om workshops vanuit concrete opbrengsten te ontwerpen. Het helpt je om voorbereiding, groepsinteractie en tijd niet als losse activiteiten te plannen, maar als een reeks momenten waarin deelnemers iets tastbaars produceren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "facilitation",
-                "learning & meta-learning",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
                 "aaa-scrum-top-100"
               ]
             }
@@ -24818,9 +18623,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-philosophy-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 12,
@@ -25315,6 +19118,68 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 28,
+              "id": "01m6w8hjde30wz9zbqa9ptc7ny",
+              "title": "Why Do Multi-Agent LLM Systems Fail?",
+              "author": "arxiv.org",
+              "siteName": "arXiv.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 318,
+              "publishedDate": "2025-10-26",
+              "savedDate": "2026-11-08T00:22:14.702000+00:00",
+              "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+              "sourceUrl": "https://arxiv.org/abs/2503.13657",
+              "readwiseUrl": "https://read.readwise.io/read/01m6w8hjde30wz9zbqa9ptc7ny",
+              "summary": "Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.",
+              "whyRead": "Raakt je interesse in AI-systemen, softwareontwikkeling en samenwerking. Het abstract biedt een bruikbaar foutentaxonomiekader voor multi-agent-systemen, met misalignment en verificatie als sociale en technische ontwerpvragen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "research papers & academia",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 29,
+              "id": "01m6w8hmejnbhpfrvj8wfddvve",
+              "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+              "author": "arxiv.org",
+              "siteName": "arXiv.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 261,
+              "publishedDate": "2026-03-30",
+              "savedDate": "2026-11-08T00:22:16.785000+00:00",
+              "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+              "sourceUrl": "https://arxiv.org/abs/2603.28990",
+              "readwiseUrl": "https://read.readwise.io/read/01m6w8hmejnbhpfrvj8wfddvve",
+              "summary": "How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-organization. We observe that autonomous behavior already emerges in current LLM agents: given minimal structural scaffolding (fixed ordering), agents spontaneously invent specialized roles, voluntarily abstain from tasks outside their competence, and form shallow hierarchies -- without any pre-assigned roles or external design. A hybrid protocol (Sequential) that enables this autonomy outperforms centralized coordination by 14% (p<0.001), with a 44% quality spread between protocols (Cohen's d=1.86, p<0.0001). The degree of emergent autonomy scales with model capability: strong models self-organize effectively, while models below a capability threshold still benefit from rigid structure -- suggesting that as foundation models improve, the scope for autonomous coordination will expand. The system scales sub-linearly to 256 agents without quality degradation (p=0.61), producing 5,006 unique roles from just 8 agents. Results replicate across closed- and open-source models, with open-source achieving 95% of closed-source quality at 24x lower cost. The practical implication: give agents a mission, a protocol, and a capable model -- not a pre-assigned role.",
+              "whyRead": "Raakt je interesse in AI, softwareontwikkeling en samenwerking tussen agents. Het abstract rapporteert een groot experiment naar de vraag wanneer zelforganisatie beter werkt dan vooraf ontworpen hiërarchie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "research papers & academia",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 30,
               "id": "01m1w4fzwhgx8cz2g8nkap1pdq",
               "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
               "author": "arxiv.org",
@@ -25343,7 +19208,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 31,
               "id": "01m3tst948q776hmwh8rct7gp3",
               "title": "Context Is the New Code",
               "author": "InfoQ",
@@ -25370,7 +19235,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 32,
               "id": "01kc0e03njf627g8qc72g98z28",
               "title": "# Writing a good CLAUDE.md",
               "author": "Kyle Mistele",
@@ -25400,7 +19265,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 33,
               "id": "01m2w4xmwcmgdcpkjyjpqrjyjb",
               "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
               "author": "r.updates.infoq.com",
@@ -25431,7 +19296,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 34,
               "id": "01m3bcvez8mhjr798chtpekmj1",
               "title": "Building a Collaborative Platform Culture in a Bank",
               "author": "Ben Linders",
@@ -25462,7 +19327,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 35,
               "id": "01m3d23y59bjbbg4m0fmbrv68n",
               "title": "Small – Scalable – Stories in the INVEST Model",
               "author": "xp123.com",
@@ -25493,7 +19358,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 36,
               "id": "01m3d23yhmvpcn09xxn036jd3a",
               "title": "Testable Stories in the INVEST Model",
               "author": "xp123.com",
@@ -25524,7 +19389,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 37,
               "id": "01m3gc1908kt90m70325apbz7m",
               "title": "Adaptive Recommenders in the Real World: Inference, Evals, and System Design",
               "author": "r.updates.infoq.com",
@@ -25553,7 +19418,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 38,
               "id": "01m4mxbqftj1d6h8q7xvrq4xm4",
               "title": "The fake double diamond is dead. The real double diamond is immortal.",
               "author": "Pavel Samsonov",
@@ -25584,7 +19449,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 39,
               "id": "01m51ejm0qgx622x0rx7jbbbjf",
               "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
               "author": "Ben Linders",
@@ -25615,7 +19480,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 40,
               "id": "01m6w8hpewhyakgy2bw5379431",
               "title": "Empiricism at Machine Speed Part 5: The Developer's Nexus",
               "author": "scrum.org",
@@ -25647,7 +19512,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 41,
               "id": "01m3ty2za1jhp6bfwwmrvwqa83",
               "title": "Breaking Eggs: The Case for Dropping Practices",
               "author": "Dion Nicolaas",
@@ -25678,7 +19543,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 42,
               "id": "01m5x1abf7081g3wf00yma4zkz",
               "title": "You Need Tighter WIP Limits With AI | Scrum.org",
               "author": "click.sender.scrum.org",
@@ -25710,7 +19575,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 43,
               "id": "01ke8078ppphvc7nr28ecay5nf",
               "title": "Let a thousand societies bloom",
               "author": "eth.limo",
@@ -25743,7 +19608,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 44,
               "id": "01keht5gn85sygznbg0h2ngzsm",
               "title": "Nobody knows how large software products work",
               "author": "seangoedecke.com",
@@ -25770,7 +19635,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 45,
               "id": "01knefpm3ae2ew1jrq9twtjc1w",
               "title": "Filesystems are having a moment",
               "author": "a digital garden by daniel phiri",
@@ -25796,7 +19661,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 46,
               "id": "01m1nbje7rssfyfzakc00nv9ja",
               "title": "Rigorous Yet Sustainable Human Reviews in the AI Era",
               "author": "Ben Linders",
@@ -25827,7 +19692,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 47,
               "id": "01m1pc6gr3vhv7xva2751hmj1n",
               "title": "Second-guessing the modern web",
               "author": "macwright.org",
@@ -25855,7 +19720,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 48,
               "id": "01m1pkcmdmv93epp6nrb29me5b",
               "title": "The problem with single page applications",
               "author": "adamsilver.io",
@@ -25885,7 +19750,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 49,
               "id": "01m1q3a33tajs6z8x9f3pmvraf",
               "title": "Responsive Deliverables",
               "author": "daverupert.com",
@@ -25916,7 +19781,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 50,
               "id": "01m2ptdshnt478e55y9hah3157",
               "title": "Teaching Engineers, Trusting AI: How Education Enabled Autonomous Code Review",
               "author": "Sarah Deitke",
@@ -25945,7 +19810,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 51,
               "id": "01m51ejpsjb8q5bhqcmnyyha1k",
               "title": "What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
               "author": "InfoQ",
@@ -25974,7 +19839,38 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 52,
+              "id": "01m5x18xf6b014g6vex7kzgmkq",
+              "title": "Your AI agents can deliver; Scrum is what governs them",
+              "author": "click.sender.scrum.org",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2255,
+              "publishedDate": null,
+              "savedDate": "2026-10-26T21:18:43.686000+00:00",
+              "imageUrl": "https://zenexmachina.com/wp-content/uploads/2026/10/zxm-asset-cn8n-2448-scrum-governs-agents-featured-gemini-v1.png",
+              "sourceUrl": "https://click.sender.scrum.org/?qs=ABp7ImQiOjUwNDEsInQiOjU5MTUsInMiOjEzfQANAAAAAAF_1NbEatPfr8h0tDZPviBMcXmgDgQfbgg69zAu7R8y4GgopLcT2mgbQPv0Q9-EeUPZc3Ufw_p1csOkhlbBI-ziuQSNsOUzyVcEblZ53g",
+              "readwiseUrl": "https://read.readwise.io/read/01m5x18xf6b014g6vex7kzgmkq",
+              "summary": "Scrum governs three things: who decides what gets built, what counts as finished, and how the rules change when they stop working.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "scrum",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 53,
               "id": "01m5x18xywtkw0vxpsbqnytpxv",
               "title": "The New SDLC From Google Has a Harness. It Doesn't Have a Team. | Scrum.org",
               "author": "click.sender.scrum.org",
@@ -25993,9 +19889,9 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
+                "organizational behavior & culture",
                 "scrum",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -26005,7 +19901,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 54,
               "id": "01m68zjbhv63f7p1g5nrr6e0tw",
               "title": "I tried to prompt small models into behaving. Don’t",
               "author": "Ivo Toby",
@@ -26032,7 +19928,36 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 55,
+              "id": "01m6y1q25z1t9s93z24n7ynqn5",
+              "title": "what is your job when the Factory writes the code?",
+              "author": "Matt Pocock (AI Hero)",
+              "siteName": "aihero.dev",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1661,
+              "publishedDate": "2026-11-08",
+              "savedDate": "2026-11-08T17:01:23.520000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/63c45a9005f2c5dc36ade511e000b8b7",
+              "readwiseUrl": "https://read.readwise.io/read/01m6y1q25z1t9s93z24n7ynqn5",
+              "summary": "Of course you are responsible for the agent's environment, which we've talked about before.",
+              "whyRead": "Raakt je interesse in softwareontwikkeling, AI-tools en engineeringcultuur. De tekst verplaatst de rol van programmeur naar het ontwerpen van doelen, kwaliteitsnormen, context en samenwerking rond coding agents.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "software development"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 56,
               "id": "01m1pkcqybtrart8abs9dmmcqd",
               "title": "Principles of Design",
               "author": "w3.org",
@@ -26062,7 +19987,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 57,
               "id": "01m2jr8g2y03ankmxwvt6k866v",
               "title": "The importance of full-stack openness and verifiability",
               "author": "eth.limo",
@@ -26094,7 +20019,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 58,
               "id": "01m2wjkbt920wa5myh1hvz67v6",
               "title": "Let's talk about DHH",
               "author": "thelibre.news",
@@ -26127,7 +20052,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 59,
               "id": "01m4v2ys9hh1mpe9rdn4zamf25",
               "title": "5 reasons \"this won't work in my codebase\" isn't true",
               "author": "Matt Pocock (AI Hero)",
@@ -26156,7 +20081,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 60,
               "id": "01m6e0f5x4az6198vn48facpms",
               "title": "When is Fast…Too Fast?",
               "author": "Bob Galen from Agile Moose",
@@ -26185,7 +20110,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 61,
               "id": "01krmzwafvfaac9xjpgfsvsvyb",
               "title": "Stevey's Google Platforms Rant · GitHub",
               "author": "gist.github.com",
@@ -26212,7 +20137,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 62,
               "id": "01m1p73a3z76hwhn4t9qqvpdch",
               "title": "The Single-Page-App Morality Play",
               "author": "baldurbjarnason.com",
@@ -26242,7 +20167,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 63,
               "id": "01m1pc5bft2s8qqbgsbptmv6my",
               "title": "The Cost of Javascript Frameworks",
               "author": "timkadlec.com",
@@ -26273,7 +20198,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 64,
               "id": "01m1pc7vnnk9e86sew4myjsr7n",
               "title": "Everything You Know About Latency Is Wrong",
               "author": "bravenewgeek.com",
@@ -26300,7 +20225,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 65,
               "id": "01m1ptdtpgacgz9tkd640axtse",
               "title": "Future-Ready Content",
               "author": "alistapart.com",
@@ -26327,7 +20252,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 66,
               "id": "01m1ptew1kmsww5mc9bbkkg26x",
               "title": "Atomic Design",
               "author": "bradfrost.com",
@@ -26354,7 +20279,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 67,
               "id": "01m1ptj29cwr9k2jg48w4nvz74",
               "title": "Response Times: The 3 Important Limits",
               "author": "useit.com",
@@ -26383,7 +20308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 68,
               "id": "01m1qrnm32e32se2m8gp9bvx2m",
               "title": "Content Strategy: The Philosophy of Data",
               "author": "boxesandarrows.com",
@@ -26410,7 +20335,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 69,
               "id": "01m2dzwjcxjqdxgxt665c5b2ya",
               "title": "Write Things Down",
               "author": "Ben Thompson",
@@ -26437,7 +20362,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 70,
               "id": "01m3gyq5ywy4dk43ebvasvy1jw",
               "title": "Kindness as First-class Citizen in Programming",
               "author": "Brennan Kenneth Brown",
@@ -26466,7 +20391,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 71,
               "id": "01m6b01a21mm1nznhemztgssdb",
               "title": "How to manage the inevitable mess of running a company where everyone is a builder",
               "author": "Jeff Gothelf",
@@ -26495,7 +20420,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 72,
               "id": "01m4naee920e4qrgqze303jwap",
               "title": "25 Years Ago, a Manifesto Was Born",
               "author": "agilealliance.org",
@@ -26527,7 +20452,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 73,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -26560,7 +20485,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 74,
               "id": "01m1p7skymwn1dbj14qd2xx2a4",
               "title": "Compilers are the New Frameworks",
               "author": "tomdale.net",
@@ -26591,7 +20516,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 75,
               "id": "01m1pc7fdpfh7wg782tb035r64",
               "title": "JavaScript isn’t always available and it’s not the user’s fault",
               "author": "adamsilver.io",
@@ -26622,7 +20547,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 76,
               "id": "01m4rcez7h7kp9gjqeryqwth0y",
               "title": "🤖 Muse Was My Gateway Drug to Grok Bot",
               "author": "Eleanor Konik",
@@ -26649,7 +20574,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 77,
               "id": "01m5f35w655mhf1t523ektfpc6",
               "title": "Agile Moose on Ken Pugh",
               "author": "Bob Galen from Agile Moose",
@@ -26679,7 +20604,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 78,
               "id": "01m65kspf0vytgckj1r6d5v0gq",
               "title": "My Skill Makes Claude Code GREAT At TDD",
               "author": "Matt Pocock",
@@ -26707,7 +20632,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 79,
               "id": "01kfb2gw90wdpy96gedqddd1kd",
               "title": "Don't fall into the anti-AI hype",
               "author": "antirez.com",
@@ -26734,7 +20659,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 80,
               "id": "01kj585kpp3a99w8fhgx6mvx1v",
               "title": "Sprintdoel in Scrum",
               "author": "Scrum Facilitators",
@@ -26765,7 +20690,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 81,
               "id": "01kj58br1h8mzqdgf9ccngjjkv",
               "title": "Er is slechts één soort Product Backlog refinement",
               "author": "Scrum Facilitators",
@@ -26796,7 +20721,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 82,
               "id": "01m1pkbwp8yhkmvyn4v9hw8p0p",
               "title": "For a Future-Friendly Web",
               "author": "alistapart.com",
@@ -26824,7 +20749,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 83,
               "id": "01m4yt6xy3kkmz3q1kqk3s2jzb",
               "title": "Introducing Core 4: The best way to measure and improve your product velocity",
               "author": "lennysnewsletter.com",
@@ -26853,7 +20778,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 84,
               "id": "01m6rxncwce17pevzw7etzbmqk",
               "title": "is your codebase a good fit for a Software Factory?",
               "author": "Matt Pocock (AI Hero)",
@@ -26882,7 +20807,36 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 85,
+              "id": "01m6yepg3x2kn1rv0gzarj4jp3",
+              "title": "Senior Engineers Are Using AI Wrong and Software Factories Are Dumb",
+              "author": "Joe Maddalone",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-10-30",
+              "savedDate": "2026-11-08T20:48:16.510000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4Oq_gdhjYUw/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=4Oq_gdhjYUw",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yepg3x2kn1rv0gzarj4jp3",
+              "summary": "AI is forcing a paradigm shift in software engineering, moving beyond outdated mental models and we're mostly ignoring it.\n\nA lot of what we consider “good software engineering” is a response to the cost of producing, maintaining, and coordinating software written by humans. AI changes those costs. And if the costs change, some of our best practices might stop making sense.\n\nThat doesn’t mean everything we know becomes obsolete. It means we should ask which practices are fundamental principles and which are workarounds for the limitations of human-driven development.\n\n🔗 Rob West Article: https://robwest.info/articles/the-agentic-software-factory-is-the-wrong-metaphor/\n🔗 More hard questions: https://el337.com/posts/kill-your-darlings-hire-juniors/\n\n━━━━━━━━━━━━━\n🍿 WATCH THESE VIDEOS\n━━━━━━━━━━━━━\n▶ Cloning Adobe Is Morally Correct And You Should Do It: https://www.youtube.com/watch?v=mVsmhKW6zOM\n▶ Apple FM CLI: On-Device AI for MacOS 27: https://www.youtube.com/watch?v=c2DoWnnK8eQ\n▶ Splash AI on Mac: 5x Faster vs OMLX: https://www.youtube.com/watch?v=QOlXRrRmjGE\n\n📌 SUBSCRIBE FOR MORE\n👉 https://www.youtube.com/@JoeMaddalone?sub_confirmation=1",
+              "whyRead": "Raakt je interesse in softwareontwikkeling en AI-ondersteund bouwen. De video bevraagt de metaforen waarmee engineers nieuwe tools proberen te begrijpen en waarschuwt voor het versnellen van het verkeerde proces.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "coreInterests": [],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 86,
               "id": "01m4jp3vhk3qx5yqvn7cp99fmg",
               "title": "The 13 software engineering laws",
               "author": "Anton Zaides",
@@ -26911,7 +20865,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 87,
               "id": "01m639vznkm5ycd398cd8x63v2",
               "title": "Why Most Scrum Masters Are Failing and What They Should Know",
               "author": "engineering-leadership.hinshelwood.com",
@@ -26940,7 +20894,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 88,
               "id": "01m1p46tkw2fp087th9qdg88fg",
               "title": "The \"Developer Experience\" Bait-and-Switch",
               "author": "infrequently.org",
@@ -26968,7 +20922,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 89,
               "id": "01m1p5enqhqpmapttqja6kd4n2",
               "title": "Can You Afford It?: Real-world Web Performance Budgets",
               "author": "infrequently.org",
@@ -26995,7 +20949,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 90,
               "id": "01m1q5n7sb6ar9nn4wsdbg35g6",
               "title": "The Discipline of Content Strategy",
               "author": "alistapart.com",
@@ -27024,7 +20978,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 91,
               "id": "01m5317zs6sr7nr7d49as3yvgg",
               "title": "Watch me build a real feature with Claude Code",
               "author": "Matt Pocock (AI Hero)",
@@ -27053,7 +21007,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 92,
               "id": "01m5gwp6ep6gvcf3xx3cb3y5p2",
               "title": "AI-Assisted Product Discovery",
               "author": "Stefan Wolpers",
@@ -27082,7 +21036,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 93,
               "id": "01m5vybq0ht9t33pyk9gcmz48d",
               "title": "The future of large files in Git is Git",
               "author": "tylercipriani.com",
@@ -27111,7 +21065,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 94,
               "id": "01m2yyxhjttcew9pmyhm8xsqm8",
               "title": "What a Software Tester Asks Before Answering (the Lifeboat Test)",
               "author": "Dejan Majkic",
@@ -27140,7 +21094,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 95,
               "id": "01m3j80hydy92jffjmba3qynrb",
               "title": "the senior engineer death spiral",
               "author": "Sunil Pai",
@@ -27171,7 +21125,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 96,
               "id": "01m4jp3xvpfnnr7d03trmxw5ny",
               "title": "The slow death of the hands-on engineering manager",
               "author": "Anton Zaides",
@@ -27202,7 +21156,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 97,
               "id": "01m58r1w7bptzdxfgb6vcnx9jg",
               "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
               "author": "Geoffrey Huntley",
@@ -27231,7 +21185,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 98,
               "id": "01m5kg8kqmvrb31xsbf3ppv8te",
               "title": "A Complete Guide To AGENTS.md",
               "author": "Matt Pocock",
@@ -27258,7 +21212,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 99,
               "id": "01m66rn5zcr4yywarhfej23z89",
               "title": "say goodbye to AI brain fry",
               "author": "Matt Pocock (AI Hero)",
@@ -27287,7 +21241,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 100,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -27314,152 +21268,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-luchtig-top-100",
                 "video-top-100"
-              ]
-            },
-            {
-              "position": 96,
-              "id": "01m5hdr79s3tz97xvky02dq6v0",
-              "title": "Het lek dat DigiD platlegde, werd gevonden met AI",
-              "author": "AI Report",
-              "siteName": "beehiiv.com",
-              "category": "email",
-              "language": null,
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2662,
-              "publishedDate": "2026-10-22",
-              "savedDate": "2026-10-22T09:05:55.001000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/ebba56a2af0b5de0b29405976e7ea536",
-              "readwiseUrl": "https://read.readwise.io/read/01m5hdr79s3tz97xvky02dq6v0",
-              "summary": "Van 26 tot en met 30 oktober pakken we dat aan tijdens AI Report: Agent Week. In vijf korte lessen bouw je samen met Xiang een AI-collega voor één terugkerende taak uit je werk.",
-              "whyRead": "Raakt je interesse in AI, softwareontwikkeling en digitale veiligheid; deze editie laat zien hoe AI kwetsbaarheden opspoort én waarom dezelfde agentcapaciteit toezicht en terughoudendheid vereist.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "software development",
-                "technology"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01m6pjve51skvb29c8psb0c3e7",
-              "title": "Essential AI Feedback Loops For Any TypeScript Project",
-              "author": "Matt Pocock (AI Hero)",
-              "siteName": "aihero.dev",
-              "category": "email",
-              "language": null,
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 142,
-              "publishedDate": "2026-11-05",
-              "savedDate": "2026-11-05T19:26:57.186000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6e0d8dde7097259c48f3e0ffb8a6537c",
-              "readwiseUrl": "https://read.readwise.io/read/01m6pjve51skvb29c8psb0c3e7",
-              "summary": "Without them, your agent drifts. It doesn't catch its own mistakes.",
-              "whyRead": "Een praktische set feedbackloops voor betrouwbare AI in TypeScript-projecten.",
-              "bestMoment": "Bij teststrategie, agent-workflows en codekwaliteit.",
-              "tags": [
-                "ai ethics & society",
-                "professional development",
-                "software development"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kd1canjswg2k0ey5cgtz3fa4",
-              "title": "Why I Am Not Going To Buy A Computer",
-              "author": "Wendell Berry",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2606,
-              "publishedDate": "2010-08-16",
-              "savedDate": "2025-12-21T21:16:27.610000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/2141105/5hCO91vKEoY07c3FPV0rL0LZfu5RutUk7f5MX-vwCxA-cover-2141105.png",
-              "sourceUrl": "https://classes.matthewjbrown.net/teaching-files/philtech/berry-computer.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1canjswg2k0ey5cgtz3fa4",
-              "summary": null,
-              "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "philosophy",
-                "software development"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": [
-                "pdf-top-10",
-                "pdf-top-100",
-                "aaa-philosophy-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01m2wjkqmf6e3rmjtmng2k5gm0",
-              "title": "The DHH Problem",
-              "author": "davidcel.is",
-              "siteName": "davidcel.is",
-              "category": "article",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2510,
-              "publishedDate": "2025-09-19",
-              "savedDate": "2026-09-19T10:15:24.047000+00:00",
-              "imageUrl": "https://cdn.davidcel.is/blog/1969109991007069746.png",
-              "sourceUrl": "https://davidcel.is/articles/the-dhh-problem/",
-              "readwiseUrl": "https://read.readwise.io/read/01m2wjkqmf6e3rmjtmng2k5gm0",
-              "summary": "Ages ago, when I was still a student, I taught myself Ruby on Rails for my senior thesis and fell in love. Fifteen years later, and I’ve used Rails at every job I’ve ever held in the tech industry. Fifteen years, and I still love Rails! But there’s something rotten at its core, and we share a name.",
-              "whyRead": "Raakt je interesse in organisatiegedrag, macht en open-sourcegovernance: dit essay gebruikt DHH en de Railswereld om te onderzoeken hoe persoonlijk leiderschap, bedrijfsgeld en politieke opvattingen doorwerken in technische gemeenschappen. Vooral de analyse van een no-politics-regel is relevant voor teamcoaching.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "organizational behavior & culture",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m391vyzc65eeqdk1cc0ftrrp",
-              "title": "Waar is de 'flow' gebleven?",
-              "author": "Max Brouwer from Mensenwerk - De menselijke maat in een wereld vol AI",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 685,
-              "publishedDate": "2026-09-24",
-              "savedDate": "2026-09-24T06:32:55.533000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/64b2943d83cc42ae563aabba328ef925",
-              "readwiseUrl": "https://read.readwise.io/read/01m391vyzc65eeqdk1cc0ftrrp",
-              "summary": "Specifiek ging dit over senior softwareontwikkelaars. Waar ze eerder nog regelmatig zelf code moesten schrijven, zijn ze nu vooral bezig met het reviewen van AI-gegenereerde output.",
-              "whyRead": "Raakt je interesse in AI en samenwerking: een Nederlandse teamontwikkelaar beschrijft hoe AI-codegeneratie reviewwerk verzwaart en creatieve flow kan verdringen. Het stuk verbindt die werkbelasting aan menselijke interactie en mentale duurzaamheid.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai ethics & society",
-                "flow & delivery",
-                "software development"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
               ]
             }
           ]
@@ -31791,7 +25599,6 @@ window.TOP_ARTICLES = {
                 "filosofie"
               ],
               "alsoIn": [
-                "aaa-software-development-top-100",
                 "pdf-top-100",
                 "aaa-philosophy-top-100"
               ]
@@ -32119,7 +25926,6 @@ window.TOP_ARTICLES = {
                 "filosofie"
               ],
               "alsoIn": [
-                "aaa-software-development-top-100",
                 "pdf-top-10",
                 "aaa-philosophy-top-100"
               ]
@@ -32434,6 +26240,33 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 18,
+              "id": "01m6yeprbfannsa0pwppw5am9k",
+              "title": "Critical Thinking: Why Is It So Hard to Teach?",
+              "author": "Daniel T. Willingham",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "33 mins",
+              "readingMinutes": 33,
+              "wordCount": 8576,
+              "publishedDate": "2008-01-31",
+              "savedDate": "2026-11-08T20:48:24.944000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/515718941/EjZaskPKWvLiINSWt0s5jMo6yCbU5ZtP3rA63NOfnuQ-cove_akQcSg1.png",
+              "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/critical-thinking-why-is-it-so/1490.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yeprbfannsa0pwppw5am9k",
+              "summary": null,
+              "whyRead": "Raakt je interesse in leren, wetenschap en meta-learning. Willingham legt helder uit waarom kritisch denken niet als contextvrije vaardigheid kan worden aangeleerd.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "learning & meta-learning",
+                "research papers & academia",
+                "science"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 19,
               "id": "01m3dtcqa58z1qk7eks8ejrvxt",
               "title": "United States Counterterrorism Strategy",
               "author": "The White House",
@@ -32463,7 +26296,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 20,
               "id": "01m69v77zfde4m3kghbqz2623n",
               "title": "Zeitgeber",
               "author": "Greg Egan",
@@ -32488,7 +26321,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 21,
               "id": "01m69v79wrtbcjwkrm1h473w02",
               "title": "Binti",
               "author": "Nnedi Okorafor",
@@ -32513,7 +26346,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 22,
               "id": "01m69v7bts10jhbw9xv56t4k76",
               "title": "A Memory Called Empire",
               "author": "Arkady Martine",
@@ -32538,7 +26371,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 23,
               "id": "01m69v7fa3bnb4as9m9akvkfhd",
               "title": "The Traitor Baru Cormorant",
               "author": "Seth Dickinson",
@@ -32563,7 +26396,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01m69v8afp0hg2z66scbvkhsh7",
               "title": "The Great Hunt: Book Two of The Wheel of Time",
               "author": "Robert Jordan",
@@ -32589,7 +26422,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 25,
               "id": "01m69v8ens25w912z90bzwam7n",
               "title": "The Kaiju Preservation Society",
               "author": "John Scalzi",
@@ -32614,7 +26447,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 26,
               "id": "01m2k7b9je6j7mz7cy45cfpkcc",
               "title": "Finite-Time Blowup With Smooth Forcing For Incompressible Porous Media",
               "author": "Levent Alpöge, Diego Córdoba, Luis Martínez-Zorrilla",
@@ -32641,7 +26474,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 27,
               "id": "01m2jdambdhe703e1ecfvdkb9q",
               "title": "Oversight Of A.I.: Principles For Regulation",
               "author": "Dario Amodei",
@@ -32668,7 +26501,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 28,
               "id": "01m2kabg6g2j7sa06n52eyn7v7",
               "title": "Anthropic Response To Ostp Rfi (March 2025) - Final Submission (V3)",
               "author": "Faisal D’Souza, NCO",
@@ -33808,6 +27641,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 27,
+              "id": "01m6yepg3x2kn1rv0gzarj4jp3",
+              "title": "Senior Engineers Are Using AI Wrong and Software Factories Are Dumb",
+              "author": "Joe Maddalone",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-10-30",
+              "savedDate": "2026-11-08T20:48:16.510000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4Oq_gdhjYUw/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=4Oq_gdhjYUw",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yepg3x2kn1rv0gzarj4jp3",
+              "summary": "AI is forcing a paradigm shift in software engineering, moving beyond outdated mental models and we're mostly ignoring it.\n\nA lot of what we consider “good software engineering” is a response to the cost of producing, maintaining, and coordinating software written by humans. AI changes those costs. And if the costs change, some of our best practices might stop making sense.\n\nThat doesn’t mean everything we know becomes obsolete. It means we should ask which practices are fundamental principles and which are workarounds for the limitations of human-driven development.\n\n🔗 Rob West Article: https://robwest.info/articles/the-agentic-software-factory-is-the-wrong-metaphor/\n🔗 More hard questions: https://el337.com/posts/kill-your-darlings-hire-juniors/\n\n━━━━━━━━━━━━━\n🍿 WATCH THESE VIDEOS\n━━━━━━━━━━━━━\n▶ Cloning Adobe Is Morally Correct And You Should Do It: https://www.youtube.com/watch?v=mVsmhKW6zOM\n▶ Apple FM CLI: On-Device AI for MacOS 27: https://www.youtube.com/watch?v=c2DoWnnK8eQ\n▶ Splash AI on Mac: 5x Faster vs OMLX: https://www.youtube.com/watch?v=QOlXRrRmjGE\n\n📌 SUBSCRIBE FOR MORE\n👉 https://www.youtube.com/@JoeMaddalone?sub_confirmation=1",
+              "whyRead": "Raakt je interesse in softwareontwikkeling en AI-ondersteund bouwen. De video bevraagt de metaforen waarmee engineers nieuwe tools proberen te begrijpen en waarschuwt voor het versnellen van het verkeerde proces.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "coreInterests": [],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 28,
               "id": "01m4yx7g5d245zs4n2fz2j3nj1",
               "title": "i read 20 books in a month to cure my stupidity",
               "author": "kodekai",
@@ -33834,7 +27696,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 29,
               "id": "01k0cqxq0sc86vbdcxk5zm8y75",
               "title": "E132 Attention Management with Maura Thomas",
               "author": "Anthony S. Park",
@@ -33861,7 +27723,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01m10yhg1v62pzt1tqg88gy59z",
               "title": "Why Authors Can't Finish",
               "author": "Daniel Greene",
@@ -33888,7 +27750,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01m4p9sncf170nejtfgaj08vyh",
               "title": "Make Your Art.",
               "author": "vlogbrothers",
@@ -33917,7 +27779,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01m2jcnf83yy25g6fma9v37dcs",
               "title": "Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors",
               "author": "youtube.com",
@@ -33947,7 +27809,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01m24w3e6rqjjrmems4xkcepfk",
               "title": "I studied creativity for 365 days & here’s what I learned.",
               "author": "Deya",
@@ -33974,7 +27836,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01kbdvx6khj52azfg1r48s7mc8",
               "title": "The Routine That's Keeping You Miserable",
               "author": "HealthyGamerGG",
@@ -34001,7 +27863,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01m3wj8aarpq22s5503bt4q4vk",
               "title": "Walking Is the Only Exercise Your Body Was Actually Designed For",
               "author": "The Feynman Way",
@@ -35094,9 +28956,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "adhd"
               ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 23,
@@ -38655,6 +32515,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 78,
+              "id": "01m6yenmp4qxgksr4hqv9h7v7z",
+              "title": "Reproducing civilization",
+              "author": "Joseph Heath",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3555,
+              "publishedDate": "2026-10-24",
+              "savedDate": "2026-11-08T20:47:48.420000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!vp8Z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feae177a6-97bd-4692-b2a3-7f9d813d4333_1370x873.jpeg",
+              "sourceUrl": "https://josephheath.substack.com/p/reproducing-civilization/",
+              "readwiseUrl": "https://read.readwise.io/read/01m6yenmp4qxgksr4hqv9h7v7z",
+              "summary": "It’s a dirty job, but someone has to do it",
+              "whyRead": "Raakt je interesse in politieke filosofie, sociologie en de spanning tussen individu en gemeenschap. Joseph Heath onderzoekt waarom liberale en kapitalistische instituties vaak “tweede beste” oplossingen zijn die actief moeten worden uitgelegd en doorgegeven.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "economics",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 79,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -38687,7 +32578,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m50n6dyfbfy91gvy25mp411t",
               "title": "Book Review: Nationalism as a Way of Life",
               "author": "thesiseleven.com",
@@ -38716,12 +32607,10 @@ window.TOP_ARTICLES = {
                 "geschiedenis",
                 "sociologie"
               ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m0phz82jsqawszgfebvkggxm",
               "title": "No amount of velocity can shield your team from opportunity cost",
               "author": "Pavel Samsonov",
@@ -38753,7 +32642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m37agy1w7er7trr8w91gpwwb",
               "title": "Abuse by Authority: The Hidden Harm of Illegal Orders",
               "author": "Saina Mohand",
@@ -38786,7 +32675,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m50n66d6sqs636zzz5fg2sqs",
               "title": "The Right Words in the Right Order",
               "author": "theideasletter.org",
@@ -38817,7 +32706,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m5442hc5r7v134m64hpary4s",
               "title": "The ladder of knowledge",
               "author": "Aeon",
@@ -38845,7 +32734,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01m5442y87yf9rvcrw3q8qdkxw",
               "title": "Is everything conscious?",
               "author": "Sam Kimpton-Nye",
@@ -38873,7 +32762,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m253pktm74qr6be7rem8scbb",
               "title": "Four Kinds of Power, and How They Work in Organisations",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -38905,7 +32794,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m2kdst8ak0jx01eg6p6jg97n",
               "title": "Operating Multi-Client Influence Networks Across Platforms",
               "author": "Anthropic",
@@ -38936,7 +32825,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kd1canjswg2k0ey5cgtz3fa4",
               "title": "Why I Am Not Going To Buy A Computer",
               "author": "Wendell Berry",
@@ -38962,13 +32851,12 @@ window.TOP_ARTICLES = {
                 "filosofie"
               ],
               "alsoIn": [
-                "aaa-software-development-top-100",
                 "pdf-top-10",
                 "pdf-top-100"
               ]
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -39001,7 +32889,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m2wjkbt920wa5myh1hvz67v6",
               "title": "Let's talk about DHH",
               "author": "thelibre.news",
@@ -39034,7 +32922,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01kxrhtjs9wgt5ta83dd02hya3",
               "title": "The looting of science fiction",
               "author": "Aeon",
@@ -39066,7 +32954,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m65vhvthpc8fbrwdrvexyeqm",
               "title": "Iedereen is hypocriet, maar in welke mate kun je dat voor jezelf verantwoorden?",
               "author": "Saskia en Alinda van her/ai",
@@ -39096,7 +32984,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m6ect06f18gqdbxv6rht0y5t",
               "title": "AI and Extraction",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -39125,7 +33013,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -39158,7 +33046,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01krtrbe7xpgnmyq707xyfa6dw",
               "title": "Intellectual Loneliness: A Field Guide",
               "author": "Sven Brodmerkel (PhD)",
@@ -39191,7 +33079,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01kh1ypdtsb1f1nafttcy8qdmn",
               "title": "Backseat Software",
               "author": "Mike Swanson",
@@ -39222,7 +33110,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": "David Perell",
@@ -39252,7 +33140,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m4zr983g97x0p1dgmtave66d",
               "title": "The Absurd: Why Humans Search for Meaning in an Indifferent Universe | Camus",
               "author": "Philosophy Stuff from Philosophy Stuff",
@@ -39280,7 +33168,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": "Longreads",
@@ -39313,7 +33201,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m6phcnk63qwn0xp5e71hgxfj",
               "title": "Mencken Agonistes",
               "author": "Andrew Holter",
@@ -39344,37 +33232,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-luchtig-top-100"
               ]
-            },
-            {
-              "position": 100,
-              "id": "01m4csxss254dyjb2mbec0vw3h",
-              "title": "The Reinvention of the Dev Team",
-              "author": "InfoQ",
-              "siteName": "InfoQ",
-              "category": "article",
-              "language": null,
-              "readingTime": "31 mins",
-              "readingMinutes": 31,
-              "wordCount": 8031,
-              "publishedDate": "2026-10-07",
-              "savedDate": "2026-10-08T03:46:46.690000+00:00",
-              "imageUrl": "https://res.infoq.com/presentations/agentic-dev-teams/en/card_header_image/HannahFoxwell-twitterCard-1790242915891.jpg",
-              "sourceUrl": "https://r.updates.infoq.com/tr/cl/byRmFNAPEKORcgRIJAudBVw5Zjt0T5Na-OTtct_g6y3_CA8RD31_P2jDJAf-WSHxGUhf2b4kBC1CeB3Kg_YnjzyfAvDBOBUXo1fwnrQysjd_QlYQpk1zpBJWkWfe13HzwpvirNdVCPQYW_XohsfZTy7jUmiq-uA_GNtU0UYN9ARVRGo2M596IdNewFPYiWUi9RTHxLGGMgyPetZBQHKlyoHECR3pwpnzuEZR9Dk3-Bjhx3JF11Y-24I8t-O2MVDGWvKmYHmoOFrAo0OE_SxT5tJkY1sA555BIqoSQb5d-tRuz3q8QQDVGrkI9VKaX4v7RbqIsVjGjkZKEuUlwzt-tmO2nTm30s2oThI2uD1Yvd_C445K4kK_R11J28aG7PpMFG646ZYwsfC2Q2kcJ91MAwVfRl11yUAu6TNHKlYaNiFyyAma77JFYAjhOPCavPBz-EXHailNhsFbv8Jr_GMsYlr29L0toSv8VMVi3OmoBPB5gXW2mGJIN22YcqhcMNBksIW7vGEoG0tweR_-Kve_u4201D2i7XPHBCog0BccQrtkeKQCmBhc3xSCYCR9LXTC2-Twxxgp6wHGNY2BVSgQU_MtBMQrOrzuWXh5O4F2BB26Cj33WfleRklBW6RbAX73",
-              "readwiseUrl": "https://read.readwise.io/read/01m4csxss254dyjb2mbec0vw3h",
-              "summary": "Hannah Foxwell shares how the surge of agentic coding forces engineering leaders to rethink team dynamics. She discusses three key anchors for navigating AI-driven velocity: building software worth building, prioritizing automated safety over speed, and preserving the human element through generalist \"broken comb\" skillsets and sustainable on-call practices.",
-              "whyRead": "Raakt je interesse in AI, softwareteams en de menselijke kant van engineering. Het artikel laat zien dat agentic coding niet alleen snelheid toevoegt, maar ook verantwoordelijkheden, kwaliteitsrisico’s en teamrollen opnieuw verdeelt.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "ai ethics & society",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
             }
           ]
         }
@@ -39383,6 +33240,345 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m6za92yd6ey095ghp5qgttdz",
+        "title": "How I’m using AI without losing my mind | #333",
+        "author": "Paul Millerd",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2818,
+        "publishedDate": "2026-11-09",
+        "savedDate": "2026-11-09T04:50:17.166000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/e6c0c1dc9b737afcdada229c20c57845",
+        "readwiseUrl": "https://read.readwise.io/read/01m6za92yd6ey095ghp5qgttdz",
+        "summary": "I don’t really know how to write about anything except AI right now. But I am more excited and energized than ever.",
+        "whyRead": "Raakt je interesse in AI, kenniswerk en organisatiecultuur. Paul Millerd beschrijft concreet hoe agents zijn werk veranderen en waarom menselijke waarde verschuift naar oordeel, proces, cultuur en feedback.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "organizational behavior & culture",
+          "professional development",
+          "technology"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 77
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6yjtec6ajxd4508x4df91c9",
+        "title": "Some Memories of Early Anthropic",
+        "author": "Ivan Vendrov",
+        "siteName": "lesswrong.com",
+        "category": "rss",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2734,
+        "publishedDate": "2026-11-08",
+        "savedDate": "2026-11-08T22:00:17.102000+00:00",
+        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+        "sourceUrl": "https://www.lesswrong.com/posts/9PiLfo6iQbbDWFHv7/some-memories-of-early-anthropic",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yjtec6ajxd4508x4df91c9",
+        "summary": "The following events took place between October 2022 and May 2023. I wrote very little of this down at the time so am recalling from memory, and am rendering the gist of the dialogue rather than the exact words used. I’ve also swapped some pronouns and other personal identifiable details.Please remember that this is not a description of “what Anthropic is like”, but merely the experience of one guy in a junior role during a short window of time, weighted towards emotionally intense moments because they’re easier to remember clearly and because sharing them doesn’t run afoul of the spirit of the confidentiality agreements I signed. Anthropic is now a massive organization with many silos and secrets and I have very little idea what was or is happening there in some overall sense. But given the enormous power of the AI labs and the paucity of public information about their inner workings, I feel compelled to share the most salient parts of my personal experience. I hope this encourages my former colleagues, and folks at other labs, to fill in the rest of the picture.I’m at the Anthropic office for lunch. The interviews went well. They want me on board. I’m a little unsure. My other offer is a 2-month contract on the OpenAI governance team, working with a friend on some fun conceptual research. I’m leaning towards taking the OpenAI contract - my long-term relationship just ended, I’m still a little burned out from my startup, and the Anthropic job seems potentially quite stressful.After lunch one of the co-founders pulls me into his office for a wide-ranging, casual chat about how to make AI go well. It’s very fun - he’s smart, personable, funny, urbane. “The government won’t do anything about AI until it’s far too late”, I opine at one point. “Our strategy has to rely on the market and on civil society.”He leans forward, his gaze hardening. “You’re wrong there. There are people in Washington - the serious people, you know - watching all this very closely. I speak to...",
+        "whyRead": "Raakt je interesse in AI-ethiek, organisatiecultuur en macht in organisaties. Deze persoonlijke terugblik laat zien hoe missie, status, angst en psychologische veiligheid kunnen botsen binnen een AI-lab.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "organizational behavior & culture",
+          "professional development"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 76
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6yepwj6r0fee689k77enmqf",
+        "title": "Moral Letters to Lucilius",
+        "author": "Seneca",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "14 hrs 48 mins",
+        "readingMinutes": 888,
+        "wordCount": 235229,
+        "publishedDate": "2026-10-16",
+        "savedDate": "2026-11-08T20:48:30.587000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/517789998/-Zz60l7rhZT92iSQtmfOhKNXVQOUhjfPPYiJyJeqY6Y-cove_xIqyPON.jpg",
+        "sourceUrl": "private://read/01m6yepwj6r0fee689k77enmqf",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yepwj6r0fee689k77enmqf",
+        "summary": "\nSeneca was a Stoic philosopher and statesman in Rome’s early post-Augustan era. He was Nero’s tutor, and then his advisor when Nero became emperor in 54 CE. After Seneca retired from public life, he wrote a series of letters to his friend Lucilius, the procurator of Sicily. These letters were circulated right before Seneca’s death in 65 CE, when Nero forced him to commit suicide for his alleged involvement in a conspiracy.\nThese letters, which were written for widespread publication as well as directly to Lucilius, mainly focus on guiding the reader to a life well-lived. At times, the advice is regarding specific personal issues, such as when he gives a review of a book written by Lucilius. Other letters give Seneca’s thoughts on broader issues like slavery, independence of thought, and virtue. Through all of them, his Stoicism shines through, whether in his metaphysics (like when he writes on “the god within us”) or in his focus on how virtue is the only good. His diverse interests are also on display, as when he addresses current events (like the burning of Lyons), or when he speculates on science (like when he offers his thoughts on animal instincts).\nThese letters have been popular and influential since their initial circulation, and were widely read from the Roman period, up through the Middle Ages, and into the Renaissance, where Michel de Montaigne used them as a model for his Essays. They remain highly regarded today for their practical and sage advice.\n",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m6yeprbfannsa0pwppw5am9k",
+        "title": "Critical Thinking: Why Is It So Hard to Teach?",
+        "author": "Daniel T. Willingham",
+        "siteName": "readwise-upload-pdf",
+        "category": "pdf",
+        "language": null,
+        "readingTime": "33 mins",
+        "readingMinutes": 33,
+        "wordCount": 8576,
+        "publishedDate": "2008-01-31",
+        "savedDate": "2026-11-08T20:48:24.944000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/515718941/EjZaskPKWvLiINSWt0s5jMo6yCbU5ZtP3rA63NOfnuQ-cove_akQcSg1.png",
+        "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/critical-thinking-why-is-it-so/1490.pdf",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yeprbfannsa0pwppw5am9k",
+        "summary": null,
+        "whyRead": "Raakt je interesse in leren, wetenschap en meta-learning. Willingham legt helder uit waarom kritisch denken niet als contextvrije vaardigheid kan worden aangeleerd.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "learning & meta-learning",
+          "research papers & academia",
+          "science"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "pdf-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "pdfs",
+            "size": "top-100",
+            "position": 18
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6yepg3x2kn1rv0gzarj4jp3",
+        "title": "Senior Engineers Are Using AI Wrong and Software Factories Are Dumb",
+        "author": "Joe Maddalone",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2026-10-30",
+        "savedDate": "2026-11-08T20:48:16.510000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/4Oq_gdhjYUw/sddefault.jpg",
+        "sourceUrl": "https://youtube.com/watch/?v=4Oq_gdhjYUw",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yepg3x2kn1rv0gzarj4jp3",
+        "summary": "AI is forcing a paradigm shift in software engineering, moving beyond outdated mental models and we're mostly ignoring it.\n\nA lot of what we consider “good software engineering” is a response to the cost of producing, maintaining, and coordinating software written by humans. AI changes those costs. And if the costs change, some of our best practices might stop making sense.\n\nThat doesn’t mean everything we know becomes obsolete. It means we should ask which practices are fundamental principles and which are workarounds for the limitations of human-driven development.\n\n🔗 Rob West Article: https://robwest.info/articles/the-agentic-software-factory-is-the-wrong-metaphor/\n🔗 More hard questions: https://el337.com/posts/kill-your-darlings-hire-juniors/\n\n━━━━━━━━━━━━━\n🍿 WATCH THESE VIDEOS\n━━━━━━━━━━━━━\n▶ Cloning Adobe Is Morally Correct And You Should Do It: https://www.youtube.com/watch?v=mVsmhKW6zOM\n▶ Apple FM CLI: On-Device AI for MacOS 27: https://www.youtube.com/watch?v=c2DoWnnK8eQ\n▶ Splash AI on Mac: 5x Faster vs OMLX: https://www.youtube.com/watch?v=QOlXRrRmjGE\n\n📌 SUBSCRIBE FOR MORE\n👉 https://www.youtube.com/@JoeMaddalone?sub_confirmation=1",
+        "whyRead": "Raakt je interesse in softwareontwikkeling en AI-ondersteund bouwen. De video bevraagt de metaforen waarmee engineers nieuwe tools proberen te begrijpen en waarschuwt voor het versnellen van het verkeerde proces.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "aaa-software-development-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 85
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 27
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6yep7chwn8xvd8n7gr9bw5y",
+        "title": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
+        "author": "Joseph Cox",
+        "siteName": "404 Media",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2279,
+        "publishedDate": "2026-10-29",
+        "savedDate": "2026-11-08T20:48:07.569000+00:00",
+        "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
+        "sourceUrl": "https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yep7chwn8xvd8n7gr9bw5y",
+        "summary": "Proton CEO Andy Yen projects a calm persona and rails against Big Tech and critiques AI. Internally, he is pushing engineers to build Proton with AI, even when they have security concerns.",
+        "whyRead": "Raakt je interesse in AI-ethiek, beveiliging en organisatiecultuur. Dit onderzoeksartikel laat zien hoe een privacybedrijf AI-adoptie kan versnellen terwijl angst en machtsasymmetrie kritische tegenspraak blokkeren.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "organizational behavior & culture",
+          "technology"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 75
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6yenmp4qxgksr4hqv9h7v7z",
+        "title": "Reproducing civilization",
+        "author": "Joseph Heath",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3555,
+        "publishedDate": "2026-10-24",
+        "savedDate": "2026-11-08T20:47:48.420000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!vp8Z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feae177a6-97bd-4692-b2a3-7f9d813d4333_1370x873.jpeg",
+        "sourceUrl": "https://josephheath.substack.com/p/reproducing-civilization/",
+        "readwiseUrl": "https://read.readwise.io/read/01m6yenmp4qxgksr4hqv9h7v7z",
+        "summary": "It’s a dirty job, but someone has to do it",
+        "whyRead": "Raakt je interesse in politieke filosofie, sociologie en de spanning tussen individu en gemeenschap. Joseph Heath onderzoekt waarom liberale en kapitalistische instituties vaak “tweede beste” oplossingen zijn die actief moeten worden uitgelegd en doorgegeven.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "economics",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-philosophy-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "philosophy",
+            "size": "top-100",
+            "position": 78
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6y1q25z1t9s93z24n7ynqn5",
+        "title": "what is your job when the Factory writes the code?",
+        "author": "Matt Pocock (AI Hero)",
+        "siteName": "aihero.dev",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1661,
+        "publishedDate": "2026-11-08",
+        "savedDate": "2026-11-08T17:01:23.520000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/63c45a9005f2c5dc36ade511e000b8b7",
+        "readwiseUrl": "https://read.readwise.io/read/01m6y1q25z1t9s93z24n7ynqn5",
+        "summary": "Of course you are responsible for the agent's environment, which we've talked about before.",
+        "whyRead": "Raakt je interesse in softwareontwikkeling, AI-tools en engineeringcultuur. De tekst verplaatst de rol van programmeur naar het ontwerpen van doelen, kwaliteitsnormen, context en samenwerking rond coding agents.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "organizational behavior & culture",
+          "professional development",
+          "software development"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 55
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6xjr6nbyn9c08dktm79h0t8",
+        "title": "De beste series van 2026 en hun veranderlessen - deel 2",
+        "author": "Thought of the week | Annelies van Ek",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 863,
+        "publishedDate": "2026-11-08",
+        "savedDate": "2026-11-08T12:39:52.236000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b4d21f4fd264d6a822b34e5ce6e03fcb",
+        "readwiseUrl": "https://read.readwise.io/read/01m6xjr6nbyn9c08dktm79h0t8",
+        "summary": "In 2026 waren er toffe series. De series waar ik het meest van genoten heb laat ik in een serie langskomen.",
+        "whyRead": "Raakt je interesse in menselijke interactie, organisatieverandering en cultuur. De series worden gebruikt als toegankelijke casussen over opvolging, macht, positieve deviantie, loyaliteit en invloed zonder formele autoriteit.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "entertainment & pop culture",
+          "organizational behavior & culture",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "cultuur_games_film",
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 65
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 67
+          }
+        ]
+      },
       {
         "position": null,
         "id": "01m6wx2vbm4g7szgnjr86bfdtr",
@@ -39483,7 +33679,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 100
           },
           {
             "familyId": "scrum",
@@ -39493,7 +33689,95 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 38
+            "position": 40
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6w8hmejnbhpfrvj8wfddvve",
+        "title": "Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures",
+        "author": "arxiv.org",
+        "siteName": "arXiv.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 261,
+        "publishedDate": "2026-03-30",
+        "savedDate": "2026-11-08T00:22:16.785000+00:00",
+        "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "sourceUrl": "https://arxiv.org/abs/2603.28990",
+        "readwiseUrl": "https://read.readwise.io/read/01m6w8hmejnbhpfrvj8wfddvve",
+        "summary": "How much autonomy can multi-agent LLM systems sustain -- and what enables it? We present a 25,000-task computational experiment spanning 8 models, 4--256 agents, and 8 coordination protocols ranging from externally imposed hierarchy to emergent self-organization. We observe that autonomous behavior already emerges in current LLM agents: given minimal structural scaffolding (fixed ordering), agents spontaneously invent specialized roles, voluntarily abstain from tasks outside their competence, and form shallow hierarchies -- without any pre-assigned roles or external design. A hybrid protocol (Sequential) that enables this autonomy outperforms centralized coordination by 14% (p<0.001), with a 44% quality spread between protocols (Cohen's d=1.86, p<0.0001). The degree of emergent autonomy scales with model capability: strong models self-organize effectively, while models below a capability threshold still benefit from rigid structure -- suggesting that as foundation models improve, the scope for autonomous coordination will expand. The system scales sub-linearly to 256 agents without quality degradation (p=0.61), producing 5,006 unique roles from just 8 agents. Results replicate across closed- and open-source models, with open-source achieving 95% of closed-source quality at 24x lower cost. The practical implication: give agents a mission, a protocol, and a capable model -- not a pre-assigned role.",
+        "whyRead": "Raakt je interesse in AI, softwareontwikkeling en samenwerking tussen agents. Het abstract rapporteert een groot experiment naar de vraag wanneer zelforganisatie beter werkt dan vooraf ontworpen hiërarchie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "research papers & academia",
+          "software development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 85
+          },
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 29
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m6w8hjde30wz9zbqa9ptc7ny",
+        "title": "Why Do Multi-Agent LLM Systems Fail?",
+        "author": "arxiv.org",
+        "siteName": "arXiv.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 318,
+        "publishedDate": "2025-10-26",
+        "savedDate": "2026-11-08T00:22:14.702000+00:00",
+        "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "sourceUrl": "https://arxiv.org/abs/2503.13657",
+        "readwiseUrl": "https://read.readwise.io/read/01m6w8hjde30wz9zbqa9ptc7ny",
+        "summary": "Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.",
+        "whyRead": "Raakt je interesse in AI-systemen, softwareontwikkeling en samenwerking. Het abstract biedt een bruikbaar foutentaxonomiekader voor multi-agent-systemen, met misalignment en verificatie als sociale en technische ontwerpvragen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "research papers & academia",
+          "software development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 84
+          },
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 28
           }
         ]
       },
@@ -39956,7 +34240,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 80
+            "position": 83
           }
         ]
       },
@@ -39994,12 +34278,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 72
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 93
+            "position": 96
           }
         ]
       },
@@ -40037,7 +34321,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 83
           }
         ]
       },
@@ -40125,7 +34409,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 80
+            "position": 84
           }
         ]
       },
@@ -40163,43 +34447,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m6pjve51skvb29c8psb0c3e7",
-        "title": "Essential AI Feedback Loops For Any TypeScript Project",
-        "author": "Matt Pocock (AI Hero)",
-        "siteName": "aihero.dev",
-        "category": "email",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 142,
-        "publishedDate": "2026-11-05",
-        "savedDate": "2026-11-05T19:26:57.186000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6e0d8dde7097259c48f3e0ffb8a6537c",
-        "readwiseUrl": "https://read.readwise.io/read/01m6pjve51skvb29c8psb0c3e7",
-        "summary": "Without them, your agent drifts. It doesn't catch its own mistakes.",
-        "whyRead": "Een praktische set feedbackloops voor betrouwbare AI in TypeScript-projecten.",
-        "bestMoment": "Bij teststrategie, agent-workflows en codekwaliteit.",
-        "tags": [
-          "ai ethics & society",
-          "professional development",
-          "software development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 97
+            "position": 63
           }
         ]
       },
@@ -40245,7 +34493,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -40320,7 +34568,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -40524,7 +34772,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -40562,7 +34810,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -40600,7 +34848,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 92
           }
         ]
       },
@@ -40675,7 +34923,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -40826,7 +35074,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -40864,7 +35112,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -40902,7 +35150,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 56
+            "position": 60
           }
         ]
       },
@@ -41108,7 +35356,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -41270,7 +35518,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 90
           }
         ]
       },
@@ -41308,7 +35556,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 67
+            "position": 71
           }
         ]
       },
@@ -41433,7 +35681,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 24
+            "position": 25
           }
         ]
       },
@@ -41521,7 +35769,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 23
+            "position": 24
           }
         ]
       },
@@ -42133,7 +36381,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       },
@@ -42245,7 +36493,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 21
+            "position": 22
           }
         ]
       },
@@ -42305,7 +36553,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 20
+            "position": 21
           }
         ]
       },
@@ -42373,7 +36621,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 19
+            "position": 20
           }
         ]
       },
@@ -42698,7 +36946,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 51
+            "position": 54
           }
         ]
       },
@@ -42887,7 +37135,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 79
+            "position": 82
           },
           {
             "familyId": "philosophy",
@@ -42930,7 +37178,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 94
+            "position": 99
           }
         ]
       },
@@ -42968,7 +37216,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -43007,7 +37255,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -43043,12 +37291,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 61
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 74
+            "position": 78
           }
         ]
       },
@@ -43212,7 +37460,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -43249,7 +37497,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 70
           }
         ]
       },
@@ -43287,7 +37535,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 82
+            "position": 87
           }
         ]
       },
@@ -43697,7 +37945,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 99
           },
           {
             "familyId": "adhd",
@@ -43790,7 +38038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 92
+            "position": 95
           }
         ]
       },
@@ -43879,7 +38127,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 91
+            "position": 94
           },
           {
             "familyId": "software-development",
@@ -44012,45 +38260,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 40
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m5x1a88ffeqr7n2dwt225363",
-        "title": "Stop Guessing, Start Forecasting: Why Scrum Teams Should Embrace Monte Carlo | Scrum.org",
-        "author": "click.sender.scrum.org",
-        "siteName": "Scrum.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 653,
-        "publishedDate": null,
-        "savedDate": "2026-10-26T21:19:27.503000+00:00",
-        "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-        "sourceUrl": "https://click.sender.scrum.org/?qs=ABp7ImQiOjUwNDEsInQiOjU5MTUsInMiOjEzfQANAAAAAAF_1NbEepl-qpHDcoe-9N4KifgQzbTQY65ueFQjuNr8W4rtpAEAFBTb_kM8tdWeg7_6PXIl61PCx0ne3gKMzbFJhP_vLtghQ0LE-yXoPg",
-        "readwiseUrl": "https://read.readwise.io/read/01m5x1a88ffeqr7n2dwt225363",
-        "summary": "Monte Carlo simulations are only as useful as the data and assumptions behind them.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "flow & delivery",
-          "product management",
-          "scrum"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
+            "position": 42
           }
         ]
       },
@@ -44158,7 +38368,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "organizational behavior & culture",
           "scrum",
-          "team coaching"
+          "team dynamics & collaboration"
         ],
         "coreInterests": [
           "agile"
@@ -44170,7 +38380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 60
           }
         ]
       },
@@ -44209,7 +38419,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 98
           },
           {
             "familyId": "scrum",
@@ -44240,7 +38450,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "organizational behavior & culture",
-          "scrum"
+          "team coaching"
         ],
         "coreInterests": [
           "agile"
@@ -44314,9 +38524,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
+          "organizational behavior & culture",
           "scrum",
-          "software development",
-          "team dynamics & collaboration"
+          "software development"
         ],
         "coreInterests": [
           "agile"
@@ -44334,7 +38544,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 50
+            "position": 53
           }
         ]
       },
@@ -44358,21 +38568,27 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "ai ethics & society",
           "scrum",
+          "software development",
           "team dynamics & collaboration"
         ],
         "coreInterests": [
           "agile"
         ],
         "alsoIn": [
-          "aaa-scrum-top-100"
+          "aaa-scrum-top-100",
+          "aaa-software-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
             "size": "top-100",
             "position": 81
+          },
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 52
           }
         ]
       },
@@ -44409,12 +38625,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 79
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 88
+            "position": 93
           }
         ]
       },
@@ -44452,7 +38668,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 91
           }
         ]
       },
@@ -44997,7 +39213,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -45033,7 +39249,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 93
+            "position": 98
           }
         ]
       },
@@ -45155,7 +39371,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -45195,7 +39411,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -45233,43 +39449,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m5hdr79s3tz97xvky02dq6v0",
-        "title": "Het lek dat DigiD platlegde, werd gevonden met AI",
-        "author": "AI Report",
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2662,
-        "publishedDate": "2026-10-22",
-        "savedDate": "2026-10-22T09:05:55.001000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/ebba56a2af0b5de0b29405976e7ea536",
-        "readwiseUrl": "https://read.readwise.io/read/01m5hdr79s3tz97xvky02dq6v0",
-        "summary": "Van 26 tot en met 30 oktober pakken we dat aan tijdens AI Report: Agent Week. In vijf korte lessen bouw je samen met Xiang een AI-collega voor één terugkerende taak uit je werk.",
-        "whyRead": "Raakt je interesse in AI, softwareontwikkeling en digitale veiligheid; deze editie laat zien hoe AI kwetsbaarheden opspoort én waarom dezelfde agentcapaciteit toezicht en terughoudendheid vereist.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -45359,7 +39539,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 87
+            "position": 92
           }
         ]
       },
@@ -45395,7 +39575,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -45433,17 +39613,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 69
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 72
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 73
+            "position": 77
           }
         ]
       },
@@ -45479,7 +39659,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 97
           }
         ]
       },
@@ -45556,44 +39736,6 @@ window.TOP_ARTICLES = {
             "familyId": "kort",
             "size": "top-100",
             "position": 38
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m5cq9ed525qq9xx1h153s5zm",
-        "title": "Jung’s Shadow: The Parts of Yourself You Refuse to Acknowledge",
-        "author": "Philosophy Stuff from Philosophy Stuff",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 687,
-        "publishedDate": "2026-10-20",
-        "savedDate": "2026-10-20T13:16:24.357000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/88a7dadf8db72e00b5c22ec540389830",
-        "readwiseUrl": "https://read.readwise.io/read/01m5cq9ed525qq9xx1h153s5zm",
-        "summary": "In 1913, a respected Swiss psychiatrist in his late thirties found himself in the middle of a crisis he could not explain.",
-        "whyRead": "Raakt je interesse in geest, identiteit en zelfkennis; deze toegankelijke introductie gebruikt Jungs schaduwbegrip om afgewezen eigenschappen en projectie te onderzoeken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 98
           }
         ]
       },
@@ -45676,7 +39818,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 92
+            "position": 97
           }
         ]
       },
@@ -45714,7 +39856,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -45796,7 +39938,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -45834,7 +39976,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -45966,7 +40108,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 95
+            "position": 98
           }
         ]
       },
@@ -46003,7 +40145,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -46040,7 +40182,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -46077,12 +40219,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 77
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 86
+            "position": 91
           }
         ]
       },
@@ -46120,7 +40262,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 49
+            "position": 51
           }
         ]
       },
@@ -46164,7 +40306,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 37
+            "position": 39
           }
         ]
       },
@@ -46239,19 +40381,13 @@ window.TOP_ARTICLES = {
           "sociologie"
         ],
         "alsoIn": [
-          "aaa-social-studies-top-100",
           "aaa-philosophy-top-100"
         ],
         "memberships": [
           {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 99
-          },
-          {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -46334,7 +40470,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -46500,7 +40636,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -46539,7 +40675,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -46571,19 +40707,13 @@ window.TOP_ARTICLES = {
           "sociologie"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
-          "aaa-luchtig-top-100"
+          "aaa-short-top-100"
         ],
         "memberships": [
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
+            "position": 96
           }
         ]
       },
@@ -46721,7 +40851,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 27
+            "position": 28
           }
         ]
       },
@@ -46810,7 +40940,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 94
+            "position": 97
           },
           {
             "familyId": "philosophy",
@@ -46853,7 +40983,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 79
+            "position": 83
           }
         ]
       },
@@ -46930,7 +41060,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -47004,7 +41134,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -47046,7 +41176,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 55
+            "position": 59
           }
         ]
       },
@@ -47226,7 +41356,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 72
+            "position": 76
           }
         ]
       },
@@ -47300,7 +41430,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -47338,7 +41468,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -47383,7 +41513,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 68
+            "position": 72
           }
         ]
       },
@@ -47421,7 +41551,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 89
           }
         ]
       },
@@ -47622,7 +41752,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 36
+            "position": 38
           }
         ]
       },
@@ -47700,7 +41830,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -47789,12 +41919,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 88
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 91
+            "position": 96
           }
         ]
       },
@@ -47832,7 +41962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 81
+            "position": 86
           }
         ]
       },
@@ -47910,7 +42040,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 83
+            "position": 86
           },
           {
             "familyId": "philosophy",
@@ -47947,19 +42077,13 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100",
-          "aaa-philosophy-top-100"
+          "aaa-software-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
             "position": 11
-          },
-          {
-            "familyId": "philosophy",
-            "size": "top-100",
-            "position": 100
           }
         ]
       },
@@ -48372,7 +42496,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 90
+            "position": 93
           }
         ]
       },
@@ -48485,7 +42609,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 89
+            "position": 92
           }
         ]
       },
@@ -48565,7 +42689,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -48603,7 +42727,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 95
           }
         ]
       },
@@ -48727,7 +42851,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 39
+            "position": 41
           }
         ]
       },
@@ -48763,7 +42887,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 29
+            "position": 31
           }
         ]
       },
@@ -48930,12 +43054,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 94
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -49056,12 +43180,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 87
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 90
+            "position": 95
           }
         ]
       },
@@ -49104,45 +43228,6 @@ window.TOP_ARTICLES = {
             "familyId": "front-end-development",
             "size": "top-100",
             "position": 5
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m3hr629yekmazqarpyneg69p",
-        "title": "Matz is nice so we are nice",
-        "author": "blog.steveklabnik.com",
-        "siteName": "steveklabnik.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 357,
-        "publishedDate": "2011-10-19",
-        "savedDate": "2026-09-27T15:36:50.750000+00:00",
-        "imageUrl": "https://og-image.now.sh/Next.js%20Blog%20Starter%20Example.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg",
-        "sourceUrl": "https://blog.steveklabnik.com/posts/2011-08-19-matz-is-nice-so-we-are-nice",
-        "readwiseUrl": "https://read.readwise.io/read/01m3hr629yekmazqarpyneg69p",
-        "summary": "Steve Klabnik's personal website",
-        "whyRead": "Relevant voor je interesse in softwareontwikkeling en samenwerking: deze korte terugblik verbindt open-sourcecultuur aan vriendelijk, maar eerlijk technisch commentaar.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "social psychology & interpersonal dynamics",
-          "software development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 97
           }
         ]
       },
@@ -49257,7 +43342,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 66
+            "position": 70
           }
         ]
       },
@@ -49346,7 +43431,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 88
+            "position": 91
           }
         ]
       },
@@ -49384,7 +43469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 35
+            "position": 37
           }
         ]
       },
@@ -49568,7 +43653,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -49607,7 +43692,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 18
+            "position": 19
           }
         ]
       },
@@ -49851,7 +43936,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 87
+            "position": 90
           }
         ]
       },
@@ -49895,7 +43980,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 34
+            "position": 36
           }
         ]
       },
@@ -49939,7 +44024,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 33
+            "position": 35
           }
         ]
       },
@@ -50115,7 +44200,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -50216,7 +44301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 78
+            "position": 81
           }
         ]
       },
@@ -50940,7 +45025,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 32
+            "position": 34
           }
         ]
       },
@@ -51099,19 +45184,13 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
-          "aaa-software-development-top-100"
+          "aaa-short-top-100"
         ],
         "memberships": [
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
-          },
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 100
+            "position": 74
           }
         ]
       },
@@ -51201,7 +45280,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -51278,7 +45357,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 67
           }
         ]
       },
@@ -51317,7 +45396,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "videos",
@@ -51594,7 +45673,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 74
           },
           {
             "familyId": "front-end-development",
@@ -51690,7 +45769,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -51728,7 +45807,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 89
+            "position": 94
           }
         ]
       },
@@ -51820,7 +45899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 77
+            "position": 80
           },
           {
             "familyId": "philosophy",
@@ -51919,44 +45998,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2wjkqmf6e3rmjtmng2k5gm0",
-        "title": "The DHH Problem",
-        "author": "davidcel.is",
-        "siteName": "davidcel.is",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2510,
-        "publishedDate": "2025-09-19",
-        "savedDate": "2026-09-19T10:15:24.047000+00:00",
-        "imageUrl": "https://cdn.davidcel.is/blog/1969109991007069746.png",
-        "sourceUrl": "https://davidcel.is/articles/the-dhh-problem/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wjkqmf6e3rmjtmng2k5gm0",
-        "summary": "Ages ago, when I was still a student, I taught myself Ruby on Rails for my senior thesis and fell in love. Fifteen years later, and I’ve used Rails at every job I’ve ever held in the tech industry. Fifteen years, and I still love Rails! But there’s something rotten at its core, and we share a name.",
-        "whyRead": "Raakt je interesse in organisatiegedrag, macht en open-sourcegovernance: dit essay gebruikt DHH en de Railswereld om te onderzoeken hoe persoonlijk leiderschap, bedrijfsgeld en politieke opvattingen doorwerken in technische gemeenschappen. Vooral de analyse van een no-politics-regel is relevant voor teamcoaching.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "organizational behavior & culture",
-          "software development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01m2wjkbt920wa5myh1hvz67v6",
         "title": "Let's talk about DHH",
         "author": "thelibre.news",
@@ -51992,12 +46033,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 54
+            "position": 58
           },
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -52041,7 +46082,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 31
+            "position": 33
           }
         ]
       },
@@ -52372,7 +46413,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 48
+            "position": 50
           }
         ]
       },
@@ -52525,7 +46566,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 86
+            "position": 89
           },
           {
             "familyId": "software-development",
@@ -52562,19 +46603,13 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-scrum-top-100",
-          "aaa-social-studies-top-100"
+          "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
             "size": "top-100",
             "position": 79
-          },
-          {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 100
           }
         ]
       },
@@ -52712,7 +46747,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -52748,7 +46783,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 27
+            "position": 28
           }
         ]
       },
@@ -52784,7 +46819,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 25
+            "position": 26
           }
         ]
       },
@@ -52860,7 +46895,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 53
+            "position": 57
           },
           {
             "familyId": "philosophy",
@@ -52906,7 +46941,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 96
+            "position": 99
           },
           {
             "familyId": "philosophy",
@@ -53090,7 +47125,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 26
+            "position": 27
           }
         ]
       },
@@ -53177,7 +47212,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -53218,12 +47253,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 93
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -53446,7 +47481,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -53610,7 +47645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 65
+            "position": 69
           }
         ]
       },
@@ -53922,7 +47957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -53958,7 +47993,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -53996,7 +48031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -54042,7 +48077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -54261,7 +48296,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 28
+            "position": 30
           }
         ]
       },
@@ -54377,7 +48412,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 82
+            "position": 85
           },
           {
             "familyId": "adhd",
@@ -54465,7 +48500,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 64
+            "position": 68
           }
         ]
       },
@@ -54503,7 +48538,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 85
+            "position": 90
           }
         ]
       },
@@ -54619,7 +48654,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 47
+            "position": 49
           }
         ]
       },
@@ -54777,7 +48812,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 63
+            "position": 67
           }
         ]
       },
@@ -54855,7 +48890,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 62
+            "position": 66
           }
         ]
       },
@@ -54891,7 +48926,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 61
+            "position": 65
           }
         ]
       },
@@ -54930,7 +48965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 52
+            "position": 56
           }
         ]
       },
@@ -54968,7 +49003,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 46
+            "position": 48
           },
           {
             "familyId": "front-end-development",
@@ -55015,7 +49050,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 78
+            "position": 82
           }
         ]
       },
@@ -55094,7 +49129,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 60
+            "position": 64
           }
         ]
       },
@@ -55138,7 +49173,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 71
+            "position": 75
           },
           {
             "familyId": "front-end-development",
@@ -55229,7 +49264,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 45
+            "position": 47
           }
         ]
       },
@@ -55348,7 +49383,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 59
+            "position": 63
           },
           {
             "familyId": "front-end-development",
@@ -55397,12 +49432,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 66
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 70
+            "position": 74
           }
         ]
       },
@@ -55478,7 +49513,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 58
+            "position": 62
           }
         ]
       },
@@ -55551,7 +49586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 84
+            "position": 89
           }
         ]
       },
@@ -55588,7 +49623,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 83
+            "position": 88
           }
         ]
       },
@@ -55696,7 +49731,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 44
+            "position": 46
           }
         ]
       },
@@ -56145,7 +50180,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 97
+            "position": 100
           }
         ]
       },
@@ -56283,7 +50318,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 76
+            "position": 79
           },
           {
             "familyId": "philosophy",
@@ -56469,7 +50504,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -56507,7 +50542,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "adhd",
@@ -56562,7 +50597,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 85
+            "position": 88
           }
         ]
       },
@@ -56656,7 +50691,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 84
+            "position": 87
           }
         ]
       },
@@ -56694,7 +50729,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -56788,7 +50823,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -57239,12 +51274,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 68
           },
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -57396,7 +51431,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -57481,7 +51516,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -57729,7 +51764,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 75
+            "position": 78
           },
           {
             "familyId": "adhd",
@@ -57818,7 +51853,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 81
+            "position": 84
           },
           {
             "familyId": "adhd",
@@ -58054,7 +52089,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -58173,12 +52208,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 86
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -58266,7 +52301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -59213,7 +53248,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -59322,15 +53357,9 @@ window.TOP_ARTICLES = {
           "adhd"
         ],
         "alsoIn": [
-          "aaa-social-studies-top-100",
           "aaa-adhd-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 98
-          },
           {
             "familyId": "adhd",
             "size": "top-100",
@@ -59692,7 +53721,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 64
           },
           {
             "familyId": "luchtig",
@@ -59900,7 +53929,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -60044,7 +54073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 57
+            "position": 61
           }
         ]
       },
@@ -60146,7 +54175,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 69
+            "position": 73
           },
           {
             "familyId": "philosophy",
@@ -60227,7 +54256,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 43
+            "position": 45
           }
         ]
       },
@@ -60528,7 +54557,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -60618,7 +54647,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 77
+            "position": 81
           }
         ]
       },
@@ -60662,7 +54691,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 76
+            "position": 80
           }
         ]
       },
@@ -60836,7 +54865,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -60880,7 +54909,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -60945,12 +54974,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 95
+            "position": 100
           },
           {
             "familyId": "videos",
@@ -61086,7 +55115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 75
+            "position": 79
           }
         ]
       },
@@ -61132,7 +55161,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -61309,7 +55338,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 42
+            "position": 44
           }
         ]
       },
@@ -61355,7 +55384,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 41
+            "position": 43
           },
           {
             "familyId": "philosophy",
@@ -61427,17 +55456,11 @@ window.TOP_ARTICLES = {
           "filosofie"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100",
           "pdf-top-10",
           "pdf-top-100",
           "aaa-philosophy-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 98
-          },
           {
             "familyId": "pdfs",
             "size": "top-10",
@@ -61451,7 +55474,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -61711,7 +55734,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 30
+            "position": 32
           }
         ]
       },
@@ -61804,7 +55827,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -62749,7 +56772,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -63126,7 +57149,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -65010,12 +59033,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 71
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
