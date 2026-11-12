@@ -18,7 +18,11 @@ Before preparing evidence or judging a document, read the complete canonical
 
 Follow that contract for preparation, private review attempts, incremental reuse, confidence,
 local import and coverage reporting. Review all current Later documents across categories and
-priority levels. Codex supplies semantic judgments; scripts retrieve sources, validate and rank.
+priority levels. Every explicit Later review is also a publication job: establish the remote
+baseline before judging, produce isolated proposed configs, pass both validators, merge only the
+run-produced IDs, commit/push the isolated result, and verify the remote SHA. If those gates cannot
+be completed, stop the semantic review before accepting partial work and report it as blocked;
+never finish with only a local config or a merely prepared evidence snapshot. Codex supplies semantic judgments; scripts retrieve sources, validate and rank.
 The contract defines `full-source-v1` provenance with backward-compatible `semantic-v2` judgments,
 all six topics including `philosophy`, and the stop rule for reusable medium judgments.
 An operational fallback never counts as a completed semantic review.

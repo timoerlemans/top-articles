@@ -12,6 +12,12 @@ uit feedback vereisen de afzonderlijke [leesfeedbackroute](../README.md#leesfeed
 
 ## Route en scope
 
+Een actuele Later-review is een publicatiejob, geen read-only rapportage. De run krijgt vóór de
+eerste inhoudelijke beoordeling een remote run-start-SHA en beide configbaselines. Alleen een run
+die alle eigen geproduceerde priority- en profielobjecten valideert mag naar de publicatiefase.
+Een ontbrekende/stale bron maakt de review niet “bijna klaar”: los het bronprobleem eerst op of
+stop de review zonder accepted partials te importeren.
+
 Werk vanuit de repository, met een eigen private runmap onder `.tmp/readwise/`:
 
 ```bash
@@ -33,8 +39,15 @@ npm run priority:judge -- import-review --run-dir PAD
    voor afronding opnieuw tegen actueel Later; nieuwe of gewijzigde documenten vragen aanvullende
    evidence. Een oude snapshot alleen bewijst geen actuele dekking.
 4. `import-review` valideert en verwerkt uitsluitend lokale accepted judgments uit deze run.
-   Het is geen Reader-mutatie of publicatie. Behoud andere lokale edits; vergelijk per ID met de
-   baseline en stop de conflicterende import bij een gelijktijdig gewijzigd oordeel voor hetzelfde ID.
+   Het is een tussenstap voor het opbouwen van `proposed/`, geen eindstatus. Behoud andere lokale
+   edits; vergelijk per ID met de baseline en stop de conflicterende import bij een gelijktijdig
+   gewijzigd oordeel voor hetzelfde ID.
+
+5. Publiceer dezelfde run direct na de validators via de geïsoleerde `review:publish`-route. Maak
+   daarna een schone tijdelijke worktree vanaf de opnieuw gecontroleerde remote tip, commit alleen
+   de twee reviewconfiguraties, push `HEAD:main` en verifieer de remote SHA. De review is pas klaar
+   nadat die verificatie geslaagd is; evidence, import of een geschreven outputdirectory zijn geen
+   publicatie.
 
 Na een onderbreking bewaart `review-status` de actuele ID-selectie in `live-selection.json`.
 Hervat de nog actieve open IDs; bewaar het werk voor vertrokken documenten als historie.

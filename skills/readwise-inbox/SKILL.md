@@ -59,21 +59,30 @@ Everything else in readwise-triage remains active:
 - Paywall/Tier 1 handling uses the controlled Reader move and records its result; incomplete or failed work is not counted as successful.
 - Phase H (linked articles) uses the strict target-page gate and full library/Feed/run deduplication.
 
-## Step 3: Incremental Later review maintenance
+## Step 3: Later review is a publication job
 
-After the inbox documents have been routed, inspect the complete current `later` collection — not only IDs moved by this inbox run. This is a read-only coverage step unless the user explicitly requests semantic review publication:
+After the inbox documents have been routed, inspect the complete current `later` collection — not only IDs moved by this inbox run. This step is a publication job whenever semantic review is invoked. The inbox request itself is explicit authorization to publish the resulting validated review; do not ask for a second confirmation.
 
 ```bash
 npm run priority:judge -- prepare-review --all-later --run-dir <private-run-directory>
 npm run priority:judge -- fetch-review-sources --run-dir <private-run-directory>
 npm run priority:judge -- review-status --run-dir <private-run-directory>
-npm run reading:profiles -- prepare --all-later --fetch-content
-npm run reading:profiles -- validate --require-all-reviewed
+npm run reading:profiles -- prepare --all-later --fetch-content --evidence-dir <profile-run-directory>
+npm run reading:profiles -- validate --require-all-reviewed --evidence-dir <profile-run-directory>
+npm run review:publish -- publish --run-dir <private-run-directory> --output-dir <isolated-output> --expected-remote <remote-main-sha>
 ```
 
 For priority confidence and semantic review, follow `<repository>/docs/priority-review.md` through the canonical priority-judge skill. Reuse only current `full-source-v1` judgments; legacy semantic v2 alone is not full-source coverage. Codex reads and judges any targeted sources when semantic review is in scope. Preserve private draft attempts alongside existing accepted scores. Reuse complete reading-profile-v2 outcomes within their own scope. A fallback with operational `accepted` status never counts as semantic review coverage. The priority topic set includes philosophy. Keep evidence/source caches and manifests until the included assessments and reports finish.
 
-Do not write Reader tags, locations, notes, highlights, or config during this read-only maintenance step. If publication is explicitly in scope, preserve the run-start baseline and produced-ID manifest, run `review:publish` into an isolated output/worktree, validate both configs, compare the remote tip again, and request confirmation before commit/push. Preserve unrelated remote edits and stop on same-ID conflicts.
+### Publication gate
+
+1. Create the runmap and both run-start config baselines before judging. Record the remote `main` SHA and the exact produced IDs; preserve unrelated local edits.
+2. Before writing any accepted judgment, make the run publishable: every produced priority judgment must be current, `full-source-v1`, medium/high confidence, complete for all six topics, and accepted; every produced profile must pass the v2 schema with an explicit accepted/draft/rejected outcome. Missing or stale source coverage is a blocker, not a draft to carry toward publication.
+3. Run both validators against the proposed run output. A failed validator means the semantic review is incomplete: resolve the source/review problem or stop. Do not import partial results into the active config and do not report the review as finished.
+4. Run `review:publish` into an isolated output directory. Re-check the remote tip, merge only the run-produced IDs, validate the isolated configs, commit only those two config files in a clean temporary worktree, push `HEAD:main`, and verify the remote SHA after the push.
+5. The final report must include the pushed commit and verified remote SHA. “Evidence prepared”, “locally imported”, or “output written” is not publication.
+
+Do not write Reader tags, locations, notes, highlights, or active config during the review itself. The only config write is the isolated publication merge described above. Preserve unrelated remote edits and stop on same-ID conflicts. If publication cannot complete, report the run as incomplete and leave the review private; never leave a successful-looking local-only review behind.
 
 **Geen automatische reorder:** noch deze skill, noch readwise-triage roept `readwise-reorder` aan voor nieuw naar `later` verplaatste documenten. Wil de gebruiker dat die alsnog een `lees-`/`boek-`-positie krijgen, dan is dat een losse, expliciete vervolgstap (`readwise-reorder`, Modus B) — nooit stilzwijgend meelopen in deze pipeline.
 
