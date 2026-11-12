@@ -16573,6 +16573,336 @@
         "source-status:complete"
       ],
       "reason": "Leesprofiel vraagt een afzonderlijke inhoudelijke beoordeling; deze run legt de onvoltooide uitkomst expliciet vast."
+    },
+    "01m72nv6dw2rj6rydh9sqbgvhx": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "c3e7ea40f578a52b20fa2a7673fec479911802d621110e1512872f9c58db08d5",
+      "evidenceFingerprint": "e505d797abfe14a7d8a9122d100187e66423691e7a5fcfd5101d0da0a5ffc213",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m72jq05txhnzrkq6b50drjws": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "12937bdb3e99a76a84d1de7382fd8ab3137b1213ac8dcb4221dc0294895d6175",
+      "evidenceFingerprint": "699b70c2c769578991c722100a42cb42a4d21e47fc73065331997a3cd285408d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
+    },
+    "01m72g6bzqg7782s57ggpwnk8m": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "12e33ac5212b4e755bd6769770184d26281a06eed0d82696c6d342ff32b2ff25",
+      "evidenceFingerprint": "434903a81f3f92e102f763cccb83d73f2c72e15358bdcfe2cb9ba0df0a78bff4",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
+      }
+    },
+    "01m7247321kgje0g98ssyexwxb": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "2d5d5eb40ed9b440735dbff0f0c7b33a22da9904ab18b8025f02b4a406089e3a",
+      "evidenceFingerprint": "6b6e5d043866b791d33d233068809edf3f77c62666f00323058035e3229040dd",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m70vxxmcrsfegrqajnkpzcww": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "eab2825ce6f4848520234c6d4e7d928811c94cf14cb1b4ccdd9d59f64b034a11",
+      "evidenceFingerprint": "3e9f382e2c512800adbdbf40567b41baeee6a11362e3095f35c613641ba93a7e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
+    },
+    "01m70vdtty0z4yjdrwqqzqg6kp": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "af1577ce2afbba9828f29b730333bc8f7d40a90632e8825e2459c851f00dedb3",
+      "evidenceFingerprint": "6ae007084ad861067230fc333178711fff8e1797301a27557cbfdf50fef6fb9f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m70ffd7tyk61666gg8pvjwed": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "da13cbb75207f6e05810ce249597cb828cbb254442a829864b5c693dd6dc01bd",
+      "evidenceFingerprint": "ab56b68df20f0eee4ccc801e0ad7a562faf9d3b19af13e72fd63961959fb578e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      }
+    },
+    "01m702q8h0z4hgh8wzhy8q852p": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "4fd04b9fe460afdb2ecc361a80ab13e09c1c44361af3ea2f1024904fc2bed025",
+      "evidenceFingerprint": "006874176849a222ae50a9076b04ba7bd18a32721d93e0a9169471260aee6525",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
+    },
+    "01m7017fn46xm4mzrwx3fwwfxt": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "68869838775c691e193291e41b4ffd0a1b527334017748cbf22dd02ee4daece1",
+      "evidenceFingerprint": "e5a92121a94b3fb1ac62229db164d934f563539a6eb27e7772268ab682439090",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m7016w7smewys76rxmk1zd1w": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e7a21f8e4a93aaf3e1ab90b499895b6707be9a81cdea58404179d4a6dc19627d",
+      "evidenceFingerprint": "5a978b5ddf8552cb88a7a46c2112f689578767a27d23db7a59e1b252f2191c15",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
+    },
+    "01m6zwj6s7em47gm3604c8b5t4": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e46f148d71bd5ec68a65ed75610b7fdfd733c901b0ca3be7a3e6ad6b564e5aaf",
+      "evidenceFingerprint": "50400a2b13ab6d1ce6e25e77bb5c46d5ceb5262e9d8c4d13971fe5e10d887eb0",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-full-source-review",
+      "judgedAt": "2026-11-10T14:30:00.000Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "Volledige inhoudelijke bronreview van een nieuw Later-document uit de inbox-run.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
     }
   }
 }
