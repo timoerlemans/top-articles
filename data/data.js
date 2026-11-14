@@ -21,7 +21,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-11-13T12:40:44.288Z",
+  "generatedAt": "2026-11-14T11:44:09.573Z",
   "families": [
     {
       "id": "algemeen",
@@ -25233,6 +25233,7 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
+                "arts & culture",
                 "fiction"
               ],
               "coreInterests": [],
@@ -25678,7 +25679,7 @@ window.TOP_ARTICLES = {
               "wordCount": 13559,
               "publishedDate": null,
               "savedDate": "2026-11-02T05:08:26.146000+00:00",
-              "imageUrl": "",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/511095499/rv6ymk-aYhrn95YGcYeDEepzfyJaRxgQCiC6UrBD3gM-cove_wala1NB.png",
               "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/why-is-ai-generated-language-s/1482.pdf",
               "readwiseUrl": "https://read.readwise.io/read/01m6dah9d2n78v8y9ykcrhd7zr",
               "summary": null,
@@ -26005,7 +26006,7 @@ window.TOP_ARTICLES = {
               "wordCount": 13559,
               "publishedDate": null,
               "savedDate": "2026-11-02T05:08:26.146000+00:00",
-              "imageUrl": "",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/511095499/rv6ymk-aYhrn95YGcYeDEepzfyJaRxgQCiC6UrBD3gM-cove_wala1NB.png",
               "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/why-is-ai-generated-language-s/1482.pdf",
               "readwiseUrl": "https://read.readwise.io/read/01m6dah9d2n78v8y9ykcrhd7zr",
               "summary": null,
@@ -35502,7 +35503,7 @@ window.TOP_ARTICLES = {
         "wordCount": 13559,
         "publishedDate": null,
         "savedDate": "2026-11-02T05:08:26.146000+00:00",
-        "imageUrl": "",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/511095499/rv6ymk-aYhrn95YGcYeDEepzfyJaRxgQCiC6UrBD3gM-cove_wala1NB.png",
         "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/why-is-ai-generated-language-s/1482.pdf",
         "readwiseUrl": "https://read.readwise.io/read/01m6dah9d2n78v8y9ykcrhd7zr",
         "summary": null,
@@ -37671,6 +37672,7 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
+          "arts & culture",
           "fiction"
         ],
         "coreInterests": [],
