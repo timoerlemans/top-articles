@@ -6,7 +6,7 @@ window.TOP_ARTICLES = {
     "complete": true,
     "profiles": {}
   },
-  "generatedAt": "2026-11-16T12:57:54.582Z",
+  "generatedAt": "2026-11-17T13:20:08.909Z",
   "families": [
     {
       "id": "algemeen",
@@ -25233,32 +25233,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 95,
-              "id": "01m63hhr3qh54vvej7c2rja659",
-              "title": "The Devils",
-              "author": "Joe Abercrombie",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": null,
-              "readingTime": "13 hrs 41 mins",
-              "readingMinutes": 821,
-              "wordCount": 217344,
-              "publishedDate": null,
-              "savedDate": "2026-10-29T09:58:36.936000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/513797452/pOfK0upfiht9qTTyXUkGE6_WW-22JmahSr5_Mt_5EIM-p9-image-0-0.jpg",
-              "sourceUrl": "private://read/01m63hhr3qh54vvej7c2rja659",
-              "readwiseUrl": "https://read.readwise.io/read/01m63hhr3qh54vvej7c2rja659",
-              "summary": "Holy work sometimes requires unholy deeds.\n\nBrother Diaz has been summoned to the Holy City, where he is certain a commendation and grand holy assignment awaits him. But his new flock is made up of unrepentant murderers, practitioners of ghastly magic, and outright monsters. The mission he is tasked with will require bloody measures from them all in order to achieve its righteous ends.\n\nElves lurk at our borders and hunger for our flesh, while greedy princes care for nothing but their own ambitions and comfort. With a hellish journey before him, it's a good thing Brother Diaz has the devils on his side.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "arts & culture",
-                "fiction"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 96,
               "id": "01m69p19mkt5dnrgreerj9gk4d",
               "title": "Mind Management, Not Time Management: Productivity When Creativity Matters (Getting Art Done Book 2)",
               "author": "David Kadavy",
@@ -25284,7 +25258,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 96,
               "id": "01m69v7htjq8zjgayyy6as51sm",
               "title": "Children of Time: Winner of the Arthur C. Clarke Award for Best Science Fiction Novel (The Children of Time Novels Book 1)",
               "author": "Adrian Tchaikovsky",
@@ -25309,7 +25283,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01m69v7jkmxnbgva4qbf3rssn6",
               "title": "Autonomous",
               "author": "Annalee Newitz",
@@ -25334,7 +25308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01m69v7m92kwqvqzv1dpqa4atn",
               "title": "The Ghost Brigades (Old Man's War Book 2)",
               "author": "John Scalzi",
@@ -25359,7 +25333,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01m69v7nenq47prfygx975063t",
               "title": "The Alloy of Law (The Mistborn Saga)",
               "author": "Brandon Sanderson",
@@ -25374,6 +25348,31 @@ window.TOP_ARTICLES = {
               "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807208/jm7nBrvD2jyzy4LHSaZAZ17S30fy49Kim3Stb9h0eYw-p48-_BrSNZEi.jpg",
               "sourceUrl": "private://read/01m69v7nenq47prfygx975063t",
               "readwiseUrl": "https://read.readwise.io/read/01m69v7nenq47prfygx975063t",
+              "summary": "",
+              "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
+              "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
+              "tags": [
+                "fiction"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
+              "id": "01m69v7p7ebyvvrpacwa89sjge",
+              "title": "The Emperor's Blades: Chronicle of the Unhewn Throne, Book I",
+              "author": "Brian Staveley",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "11 hrs 53 mins",
+              "readingMinutes": 713,
+              "wordCount": 188897,
+              "publishedDate": null,
+              "savedDate": "2026-10-31T20:43:19.681000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807209/bgjXmv0PWKUQPhv0u6551E0igqf2hYRzLJGfq9He3zI-p0-image-0-0.jpg",
+              "sourceUrl": "private://read/01m69v7p7ebyvvrpacwa89sjge",
+              "readwiseUrl": "https://read.readwise.io/read/01m69v7p7ebyvvrpacwa89sjge",
               "summary": "",
               "whyRead": "Een volledige fictiewerk voor langdurige ontspanningslectuur.",
               "bestMoment": "Wanneer je tijd hebt voor geconcentreerd lezen.",
@@ -36177,33 +36176,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m69v824n6p0cjmteaz65venn",
-        "title": "Warbreaker: A Cosmere Novel",
-        "author": "Brandon Sanderson",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "16 hrs 3 mins",
-        "readingMinutes": 963,
-        "wordCount": 254981,
-        "publishedDate": null,
-        "savedDate": "2026-10-31T20:43:31.881000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/514807237/m3mkI-nr3EC3KFp8NIU-RrsPik-wIR6XNfn3YzylrEU-p0-image-0-0.jpg",
-        "sourceUrl": "private://read/01m69v824n6p0cjmteaz65venn",
-        "readwiseUrl": "https://read.readwise.io/read/01m69v824n6p0cjmteaz65venn",
-        "summary": "",
-        "whyRead": "Een volledig boek over een alternatief verhaal voor werk en leven.",
-        "bestMoment": "Voor een langere studie van betekenisvol werk en loopbaankeuzes.",
-        "tags": [
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m69v80zz5jmbw3xbnqwfgngw",
         "title": "Mistborn Trilogy (The Mistborn Saga)",
         "author": "Brandon Sanderson",
@@ -36467,8 +36439,16 @@ window.TOP_ARTICLES = {
           "fiction"
         ],
         "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
       },
       {
         "position": null,
@@ -36500,7 +36480,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 100
+            "position": 99
           }
         ]
       },
@@ -36534,7 +36514,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 99
+            "position": 98
           }
         ]
       },
@@ -36594,7 +36574,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 98
+            "position": 97
           }
         ]
       },
@@ -36628,7 +36608,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 97
+            "position": 96
           }
         ]
       },
@@ -37127,7 +37107,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 96
+            "position": 95
           }
         ]
       },
@@ -37665,41 +37645,6 @@ window.TOP_ARTICLES = {
             "familyId": "philosophy",
             "size": "top-100",
             "position": 21
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m63hhr3qh54vvej7c2rja659",
-        "title": "The Devils",
-        "author": "Joe Abercrombie",
-        "siteName": "readwise-upload-epub",
-        "category": "epub",
-        "language": null,
-        "readingTime": "13 hrs 41 mins",
-        "readingMinutes": 821,
-        "wordCount": 217344,
-        "publishedDate": null,
-        "savedDate": "2026-10-29T09:58:36.936000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/513797452/pOfK0upfiht9qTTyXUkGE6_WW-22JmahSr5_Mt_5EIM-p9-image-0-0.jpg",
-        "sourceUrl": "private://read/01m63hhr3qh54vvej7c2rja659",
-        "readwiseUrl": "https://read.readwise.io/read/01m63hhr3qh54vvej7c2rja659",
-        "summary": "Holy work sometimes requires unholy deeds.\n\nBrother Diaz has been summoned to the Holy City, where he is certain a commendation and grand holy assignment awaits him. But his new flock is made up of unrepentant murderers, practitioners of ghastly magic, and outright monsters. The mission he is tasked with will require bloody measures from them all in order to achieve its righteous ends.\n\nElves lurk at our borders and hunger for our flesh, while greedy princes care for nothing but their own ambitions and comfort. With a hellish journey before him, it's a good thing Brother Diaz has the devils on his side.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "arts & culture",
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 95
           }
         ]
       },
