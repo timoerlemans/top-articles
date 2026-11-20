@@ -6,7 +6,7 @@ window.TOP_ARTICLES = {
     "complete": true,
     "profiles": {}
   },
-  "generatedAt": "2026-11-19T13:05:42.511Z",
+  "generatedAt": "2026-11-20T13:04:02.440Z",
   "families": [
     {
       "id": "algemeen",
