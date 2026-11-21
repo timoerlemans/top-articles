@@ -1,11 +1,11 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-11-20T13:04:02.440Z",
+  "generatedAt": "2026-11-21T12:45:32.722Z",
   "model": "readwise-priority-v8",
   "scope": "later",
   "coreInterestPriority": {
     "version": 1,
-    "generatedAt": "2026-11-20T13:04:02.440Z",
+    "generatedAt": "2026-11-21T12:45:32.722Z",
     "order": [
       "agile",
       "adhd",
@@ -59,7 +59,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 3,
         "weight": 12,
         "source": "manual",
-        "evidenceDocumentCount": 169,
+        "evidenceDocumentCount": 171,
         "evidenceScore": 0
       },
       {
@@ -912,6 +912,61 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies": 246
       }
     },
+    "01m7m9fe7ghv3x4xhww2paj259": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 164
+      },
+      "actualPositions": {
+        "boek": 164
+      }
+    },
     "01m7m4z636h6azyczkn7wxbq53": {
       "baseScore": 89,
       "adjustment": 0,
@@ -1022,6 +1077,791 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 414,
         "software-development": 62,
         "social-studies": 194
+      }
+    },
+    "01m7k2qg0b9q66p5fb1a88026d": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 163
+      },
+      "actualPositions": {
+        "boek": 163
+      }
+    },
+    "01m7k2qf9t9te11m6fwknvpebd": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 162
+      },
+      "actualPositions": {
+        "boek": 162
+      }
+    },
+    "01m7k2qdyfdej51jx17w2xngkv": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 161
+      },
+      "actualPositions": {
+        "boek": 161
+      }
+    },
+    "01m7k2qd77jg3cjaefy43wagjz": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 160
+      },
+      "actualPositions": {
+        "boek": 160
+      }
+    },
+    "01m7k2qc0t5j8st29w0sg1k2v3": {
+      "baseScore": 82,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 82,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 20,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal, usefulness-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 88,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 125
+      },
+      "actualPositions": {
+        "boek": 125
+      }
+    },
+    "01m7k2qba3mnqw92yxq6nnexhd": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 159
+      },
+      "actualPositions": {
+        "boek": 159
+      }
+    },
+    "01m7k2qak93cnm3rmjxy9813fk": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 158
+      },
+      "actualPositions": {
+        "boek": 158
+      }
+    },
+    "01m7k2q9x2k4bsad283y1f5erc": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 157
+      },
+      "actualPositions": {
+        "boek": 157
+      }
+    },
+    "01m7k2q9773xp9c0rxad6ddh6p": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 155
+      },
+      "actualPositions": {
+        "boek": 155
+      }
+    },
+    "01m7k2q7x8k00m40e2g2418s18": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 154
+      },
+      "actualPositions": {
+        "boek": 154
+      }
+    },
+    "01m7k2q6ytn81ac1mr3avqzvxk": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 153
+      },
+      "actualPositions": {
+        "boek": 153
+      }
+    },
+    "01m7k2q629ph38a58856pb59ja": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 152
+      },
+      "actualPositions": {
+        "boek": 152
+      }
+    },
+    "01m7k2q5b1hpr0djdgwgr10x8z": {
+      "baseScore": 84,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 84,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 12,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 10,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": [
+          "Filosofie: +12 (filosofie)."
+        ]
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [
+        {
+          "interest": "filosofie",
+          "evidence": [
+            {
+              "kind": "readwise-tag",
+              "source": "philosophy",
+              "label": "filosofie"
+            }
+          ],
+          "qualityScore": 72,
+          "weight": 12
+        }
+      ],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 90,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 99
+      },
+      "actualPositions": {
+        "boek": 99
+      }
+    },
+    "01m7k2q4cf823e7cg1tpsnf3rs": {
+      "baseScore": 67,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 67,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 5,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, substance-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": []
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 73,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 156
+      },
+      "actualPositions": {
+        "boek": 156
       }
     },
     "01m7k2q3nqpbhhcx7z5mx6snkp": {
@@ -1158,10 +1998,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 97
+        "boek": 98
       },
       "actualPositions": {
-        "boek": 97
+        "boek": 98
       }
     },
     "01m7k2q2639kjaep8aw4pbxcwb": {
@@ -1233,10 +2073,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 75
+        "boek": 76
       },
       "actualPositions": {
-        "boek": 75
+        "boek": 76
       }
     },
     "01m7k2q1g9hqd88cmjtftk6760": {
@@ -1303,10 +2143,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 74
+        "boek": 75
       },
       "actualPositions": {
-        "boek": 74
+        "boek": 75
       }
     },
     "01m7k2q0fp4pvks3t0g21kdmcr": {
@@ -1373,10 +2213,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 96
+        "boek": 97
       },
       "actualPositions": {
-        "boek": 96
+        "boek": 97
       }
     },
     "01m7jwdaddt4bpa70xsfdr91sz": {
@@ -1443,10 +2283,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 95
+        "boek": 96
       },
       "actualPositions": {
-        "boek": 95
+        "boek": 96
       }
     },
     "01m7jw2czwxztgg3jhr6y46bb7": {
@@ -1498,10 +2338,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 122
+        "boek": 124
       },
       "actualPositions": {
-        "boek": 122
+        "boek": 124
       }
     },
     "01m7jw2aex41242tjgrazje9nb": {
@@ -1568,10 +2408,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 94
+        "boek": 95
       },
       "actualPositions": {
-        "boek": 94
+        "boek": 95
       }
     },
     "01m7jw25c6an1n3dyr47hn8r6f": {
@@ -1623,10 +2463,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 121
+        "boek": 123
       },
       "actualPositions": {
-        "boek": 121
+        "boek": 123
       }
     },
     "01m7hxbbkpxcjgdqhgm0tdqyzb": {
@@ -1973,6 +2813,76 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 412,
         "software-development": 60,
         "social-studies": 192
+      }
+    },
+    "01m7hpgsa5fh0sbwh2sedezrvq": {
+      "baseScore": 94,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 94,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 12,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 20,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": [
+          "Filosofie: +12 (filosofie)."
+        ]
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [
+        {
+          "interest": "filosofie",
+          "evidence": [
+            {
+              "kind": "readwise-tag",
+              "source": "philosophy",
+              "label": "filosofie"
+            }
+          ],
+          "qualityScore": 82,
+          "weight": 12
+        }
+      ],
+      "sequences": [
+        "boek"
+      ],
+      "sequenceScores": {
+        "boek": {
+          "score": 100,
+          "tier": "hoog",
+          "mode": "global"
+        }
+      },
+      "positions": {
+        "boek": 74
+      },
+      "actualPositions": {
+        "boek": 74
       }
     },
     "01m7gpe1vfb4dfj4eyrs71vffq": {
@@ -3962,10 +4872,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 93
+        "boek": 94
       },
       "actualPositions": {
-        "boek": 93
+        "boek": 94
       }
     },
     "01m6yeprbfannsa0pwppw5am9k": {
@@ -4514,10 +5424,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 148
+        "boek": 151
       },
       "actualPositions": {
-        "boek": 148
+        "boek": 151
       }
     },
     "01m6wrjsgg42r4g98epwq5wvky": {
@@ -7439,10 +8349,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 78
+        "boek": 79
       },
       "actualPositions": {
-        "boek": 78
+        "boek": 79
       }
     },
     "01m6m9gqd12whecmf6esgnbnd9": {
@@ -8854,10 +9764,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 80
+        "boek": 81
       },
       "actualPositions": {
-        "boek": 80
+        "boek": 81
       }
     },
     "01m6dah9d2n78v8y9ykcrhd7zr": {
@@ -9990,10 +10900,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 147
+        "boek": 150
       },
       "actualPositions": {
-        "boek": 147
+        "boek": 150
       }
     },
     "01m69v8ff23551hwq9cn32wy96": {
@@ -10046,10 +10956,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 146
+        "boek": 149
       },
       "actualPositions": {
-        "boek": 146
+        "boek": 149
       }
     },
     "01m69v8ens25w912z90bzwam7n": {
@@ -10166,10 +11076,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 145
+        "boek": 148
       },
       "actualPositions": {
-        "boek": 145
+        "boek": 148
       }
     },
     "01m69v8bcxf54d6f4sc5wdc4bc": {
@@ -10222,10 +11132,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 120
+        "boek": 122
       },
       "actualPositions": {
-        "boek": 120
+        "boek": 122
       }
     },
     "01m69v8afp0hg2z66scbvkhsh7": {
@@ -10334,10 +11244,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 119
+        "boek": 121
       },
       "actualPositions": {
-        "boek": 119
+        "boek": 121
       }
     },
     "01m69v888a17rh64f2kwr5p2da": {
@@ -10390,10 +11300,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 144
+        "boek": 147
       },
       "actualPositions": {
-        "boek": 144
+        "boek": 147
       }
     },
     "01m69v8360dj5fks0qqee26wjy": {
@@ -10446,10 +11356,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 118
+        "boek": 120
       },
       "actualPositions": {
-        "boek": 118
+        "boek": 120
       }
     },
     "01m69v80zz5jmbw3xbnqwfgngw": {
@@ -10502,10 +11412,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 117
+        "boek": 119
       },
       "actualPositions": {
-        "boek": 117
+        "boek": 119
       }
     },
     "01m69v7yqsw0cssey169dv4k66": {
@@ -10558,10 +11468,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 116
+        "boek": 118
       },
       "actualPositions": {
-        "boek": 116
+        "boek": 118
       }
     },
     "01m69v7y09z58gwvmq9522q1y6": {
@@ -10614,10 +11524,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 115
+        "boek": 117
       },
       "actualPositions": {
-        "boek": 115
+        "boek": 117
       }
     },
     "01m69v7x9j2fs92xhj3sexvv9j": {
@@ -10670,10 +11580,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 114
+        "boek": 116
       },
       "actualPositions": {
-        "boek": 114
+        "boek": 116
       }
     },
     "01m69v7v82e8d7zvcnfe1dyfb1": {
@@ -10790,10 +11700,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 112
+        "boek": 114
       },
       "actualPositions": {
-        "boek": 112
+        "boek": 114
       }
     },
     "01m69v7sbddvrmsy2j54yczd6m": {
@@ -10846,10 +11756,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 111
+        "boek": 113
       },
       "actualPositions": {
-        "boek": 111
+        "boek": 113
       }
     },
     "01m69v7rkqqyd8yvjsb3wjh0hh": {
@@ -10902,10 +11812,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 113
+        "boek": 115
       },
       "actualPositions": {
-        "boek": 113
+        "boek": 115
       }
     },
     "01m69v7q2ddpdm3ks173ry5vw9": {
@@ -10958,10 +11868,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 109
+        "boek": 111
       },
       "actualPositions": {
-        "boek": 109
+        "boek": 111
       }
     },
     "01m69v7p7ebyvvrpacwa89sjge": {
@@ -11014,10 +11924,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 108
+        "boek": 110
       },
       "actualPositions": {
-        "boek": 108
+        "boek": 110
       }
     },
     "01m69v7nenq47prfygx975063t": {
@@ -11070,10 +11980,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 107
+        "boek": 109
       },
       "actualPositions": {
-        "boek": 107
+        "boek": 109
       }
     },
     "01m69v7m92kwqvqzv1dpqa4atn": {
@@ -11126,10 +12036,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 106
+        "boek": 108
       },
       "actualPositions": {
-        "boek": 106
+        "boek": 108
       }
     },
     "01m69v7kfk61k793epzwj39b6q": {
@@ -11182,10 +12092,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 110
+        "boek": 112
       },
       "actualPositions": {
-        "boek": 110
+        "boek": 112
       }
     },
     "01m69v7jkmxnbgva4qbf3rssn6": {
@@ -11238,10 +12148,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 105
+        "boek": 107
       },
       "actualPositions": {
-        "boek": 105
+        "boek": 107
       }
     },
     "01m69v7htjq8zjgayyy6as51sm": {
@@ -11294,10 +12204,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 104
+        "boek": 106
       },
       "actualPositions": {
-        "boek": 104
+        "boek": 106
       }
     },
     "01m69v7gc4ay13h02w9906wdrf": {
@@ -11478,10 +12388,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 143
+        "boek": 146
       },
       "actualPositions": {
-        "boek": 143
+        "boek": 146
       }
     },
     "01m69v7dce7z83931537b6s2nj": {
@@ -11534,10 +12444,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 142
+        "boek": 145
       },
       "actualPositions": {
-        "boek": 142
+        "boek": 145
       }
     },
     "01m69v7cmj64yxkvc7n8cj7xhs": {
@@ -11590,10 +12500,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 141
+        "boek": 144
       },
       "actualPositions": {
-        "boek": 141
+        "boek": 144
       }
     },
     "01m69v7bts10jhbw9xv56t4k76": {
@@ -11710,10 +12620,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 140
+        "boek": 143
       },
       "actualPositions": {
-        "boek": 140
+        "boek": 143
       }
     },
     "01m69v79wrtbcjwkrm1h473w02": {
@@ -11958,10 +12868,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 139
+        "boek": 142
       },
       "actualPositions": {
-        "boek": 139
+        "boek": 142
       }
     },
     "01m69v763pebmw6168emxcv66p": {
@@ -12014,10 +12924,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 138
+        "boek": 141
       },
       "actualPositions": {
-        "boek": 138
+        "boek": 141
       }
     },
     "01m69v75ag5b235mkakcy00ejz": {
@@ -12070,10 +12980,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 137
+        "boek": 140
       },
       "actualPositions": {
-        "boek": 137
+        "boek": 140
       }
     },
     "01m69v74g2w5z2xjk42vb15cxj": {
@@ -12126,10 +13036,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 136
+        "boek": 139
       },
       "actualPositions": {
-        "boek": 136
+        "boek": 139
       }
     },
     "01m69v73gncwjvh7y8jqth7vj6": {
@@ -12182,10 +13092,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 135
+        "boek": 138
       },
       "actualPositions": {
-        "boek": 135
+        "boek": 138
       }
     },
     "01m69v72f28stq4cyrjhz6wwf6": {
@@ -12238,10 +13148,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 134
+        "boek": 137
       },
       "actualPositions": {
-        "boek": 134
+        "boek": 137
       }
     },
     "01m69p19mkt5dnrgreerj9gk4d": {
@@ -12294,10 +13204,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 103
+        "boek": 105
       },
       "actualPositions": {
-        "boek": 103
+        "boek": 105
       }
     },
     "01m69nd867hdx03sxe4bcvcdxg": {
@@ -12350,10 +13260,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 133
+        "boek": 136
       },
       "actualPositions": {
-        "boek": 133
+        "boek": 136
       }
     },
     "01m69eegkcypqe5s10sy3hcb6g": {
@@ -12545,10 +13455,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 132
+        "boek": 135
       },
       "actualPositions": {
-        "boek": 132
+        "boek": 135
       }
     },
     "01m68zjbhv63f7p1g5nrr6e0tw": {
@@ -23560,10 +24470,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 87
+        "boek": 88
       },
       "actualPositions": {
-        "boek": 87
+        "boek": 88
       }
     },
     "01m4p9sncf170nejtfgaj08vyh": {
@@ -45871,10 +46781,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 131
+        "boek": 134
       },
       "actualPositions": {
-        "boek": 131
+        "boek": 134
       }
     },
     "01m19mp23fe6k9kgv4ca02h3nc": {
@@ -51494,10 +52404,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 102
+        "boek": 104
       },
       "actualPositions": {
-        "boek": 102
+        "boek": 104
       }
     },
     "01kxh3de9mx3etpeb0vtg4cz7d": {
@@ -51798,10 +52708,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 101
+        "boek": 103
       },
       "actualPositions": {
-        "boek": 101
+        "boek": 103
       }
     },
     "01kxh3d3s4z22xfj6gfratdzr3": {
@@ -51853,10 +52763,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 100
+        "boek": 102
       },
       "actualPositions": {
-        "boek": 100
+        "boek": 102
       }
     },
     "01kxh3d2n0y4xzmz2rvatkatm6": {
@@ -51991,10 +52901,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 99
+        "boek": 101
       },
       "actualPositions": {
-        "boek": 99
+        "boek": 101
       }
     },
     "01kxh3czjr80mzr8pvskbk9jb8": {
@@ -52046,10 +52956,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 98
+        "boek": 100
       },
       "actualPositions": {
-        "boek": 98
+        "boek": 100
       }
     },
     "01kxh3cyaq8vgrybrcg1c5kz91": {
@@ -52171,10 +53081,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 77
+        "boek": 78
       },
       "actualPositions": {
-        "boek": 77
+        "boek": 78
       }
     },
     "01kxh3cv21q7mnt54x3w2y1b19": {
@@ -52324,10 +53234,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 76
+        "boek": 77
       },
       "actualPositions": {
-        "boek": 76
+        "boek": 77
       }
     },
     "01kxh3cs7g026yxg2v0sfmvjby": {
@@ -52526,10 +53436,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 125
+        "boek": 128
       },
       "actualPositions": {
-        "boek": 125
+        "boek": 128
       }
     },
     "01kxh3cnkmne0bwxm5vvjzsnvy": {
@@ -55964,10 +56874,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 124
+        "boek": 127
       },
       "actualPositions": {
-        "boek": 124
+        "boek": 127
       }
     },
     "01kksm80zx4vk4cskkm9r0nddv": {
@@ -57258,10 +58168,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 128
+        "boek": 131
       },
       "actualPositions": {
-        "boek": 128
+        "boek": 131
       }
     },
     "01kgdfp777bge0tsbfpzway43h": {
@@ -57909,10 +58819,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 88
+        "boek": 89
       },
       "actualPositions": {
-        "boek": 88
+        "boek": 89
       }
     },
     "01kehtft7xyq5df0c78mbcgnd0": {
@@ -58905,10 +59815,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 86
+        "boek": 87
       },
       "actualPositions": {
-        "boek": 86
+        "boek": 87
       }
     },
     "01kc0e03njf627g8qc72g98z28": {
@@ -60755,10 +61665,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 151
+        "boek": 167
       },
       "actualPositions": {
-        "boek": 151
+        "boek": 167
       }
     },
     "01k5450gkevfxv0ag824t5vmk1": {
@@ -61041,10 +61951,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 92
+        "boek": 93
       },
       "actualPositions": {
-        "boek": 92
+        "boek": 93
       }
     },
     "01k4d2kxngyzjt0vzg9sav4hbn": {
@@ -61097,10 +62007,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 91
+        "boek": 92
       },
       "actualPositions": {
-        "boek": 91
+        "boek": 92
       }
     },
     "01k0mdvkd0e8bgcq04s7nky4wb": {
@@ -61299,10 +62209,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 81
+        "boek": 82
       },
       "actualPositions": {
-        "boek": 81
+        "boek": 82
       }
     },
     "01jzcewgkt8vr8w5y9c16rq55v": {
@@ -61690,10 +62600,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 90
+        "boek": 91
       },
       "actualPositions": {
-        "boek": 90
+        "boek": 91
       }
     },
     "01jaraxstjdzrdw2zs4r638p2v": {
@@ -61745,10 +62655,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 127
+        "boek": 130
       },
       "actualPositions": {
-        "boek": 127
+        "boek": 130
       }
     },
     "01j9hge0y4p2at8emp4c3kkhwp": {
@@ -61870,10 +62780,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 150
+        "boek": 166
       },
       "actualPositions": {
-        "boek": 150
+        "boek": 166
       }
     },
     "01j79kewgmtnzh90zqn8ecv0at": {
@@ -62095,10 +63005,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 126
+        "boek": 129
       },
       "actualPositions": {
-        "boek": 126
+        "boek": 129
       }
     },
     "01j5m80ektv0bcx45xmy2a5kdy": {
@@ -62404,10 +63314,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 123
+        "boek": 126
       },
       "actualPositions": {
-        "boek": 123
+        "boek": 126
       }
     },
     "01j422ay10wfm6whm7md7qny8s": {
@@ -62474,10 +63384,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 83
+        "boek": 84
       },
       "actualPositions": {
-        "boek": 83
+        "boek": 84
       }
     },
     "01j3xagwbegqfdev85fvd1v6f7": {
@@ -63187,10 +64097,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 82
+        "boek": 83
       },
       "actualPositions": {
-        "boek": 82
+        "boek": 83
       }
     },
     "01j29d3hp212xny83jkj13kan8": {
@@ -63243,10 +64153,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 79
+        "boek": 80
       },
       "actualPositions": {
-        "boek": 79
+        "boek": 80
       }
     },
     "01j29d3gwr2rypyn0gyfn4dym7": {
@@ -63581,10 +64491,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 129
+        "boek": 132
       },
       "actualPositions": {
-        "boek": 129
+        "boek": 132
       }
     },
     "01j29d3cds6c9f3v6jjbwjd0m8": {
@@ -63723,10 +64633,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 84
+        "boek": 85
       },
       "actualPositions": {
-        "boek": 84
+        "boek": 85
       }
     },
     "01j29d3aw87yzcwsjrejygem67": {
@@ -64236,10 +65146,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 130
+        "boek": 133
       },
       "actualPositions": {
-        "boek": 130
+        "boek": 133
       }
     },
     "01j29d329ferdddmnja3ywxwye": {
@@ -64307,10 +65217,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 152
+        "boek": 168
       },
       "actualPositions": {
-        "boek": 152
+        "boek": 168
       }
     },
     "01j29b7xf9vas2b7q4308ts4bb": {
@@ -64829,10 +65739,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 89
+        "boek": 90
       },
       "actualPositions": {
-        "boek": 89
+        "boek": 90
       }
     },
     "01j29b7ntzajr6pssz3xz0h0gd": {
@@ -65250,10 +66160,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 149
+        "boek": 165
       },
       "actualPositions": {
-        "boek": 149
+        "boek": 165
       }
     },
     "01j28vk7ysb2em2twbr7zmfv0b": {
@@ -65377,10 +66287,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "boek": 85
+        "boek": 86
       },
       "actualPositions": {
-        "boek": 85
+        "boek": 86
       }
     },
     "01j28vhxyk558cnpcqjsy3p80p": {

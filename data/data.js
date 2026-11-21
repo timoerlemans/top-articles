@@ -6,7 +6,7 @@ window.TOP_ARTICLES = {
     "complete": true,
     "profiles": {}
   },
-  "generatedAt": "2026-11-20T13:04:02.440Z",
+  "generatedAt": "2026-11-21T12:45:32.722Z",
   "families": [
     {
       "id": "algemeen",
@@ -24693,6 +24693,34 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 74,
+              "id": "01m7hpgsa5fh0sbwh2sedezrvq",
+              "title": "Essays",
+              "author": "Ralph Waldo Emerson",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "8 hrs 28 mins",
+              "readingMinutes": 508,
+              "wordCount": 134509,
+              "publishedDate": "2023-12-08",
+              "savedDate": "2026-11-16T08:10:33.663000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520203188/4XM9VJmscec7BkFhs6VsEft6UGPQFUSI9-wSD2U-ds0-cove_53iDLOt.jpg",
+              "sourceUrl": "private://read/01m7hpgsa5fh0sbwh2sedezrvq",
+              "readwiseUrl": "https://read.readwise.io/read/01m7hpgsa5fh0sbwh2sedezrvq",
+              "summary": "\nThe titles of Ralph Waldo Emerson’s essays consist of a range of general concepts such as character, experience, friendship, history, intellect, love, nature, politics, prudence and, most famously, self-reliance. However, in no case is the content of an essay limited to considerations relevant to its title concept. Emerson’s style is digressive and aphoristic, his lengthy paragraphs strewn with terse, dogmatic assertions. The pieces record the diffuse preconceptions and opinions of the author, typically without arguing for them.\n“Nature,” Emerson’s first published essay, was published independently five years before his first collection of essays. It became a foundational text for transcendentalism, the New England intellectual movement that upheld the divine character of the natural world and the importance of spiritual connection with it. In its emphasis on reason, individual conscience, and innate human goodness, transcendentalism was related to Unitarianism, where Emerson began his career as a minister. While Emerson resigned from this post after only a few years, he retained a lifelong concern with religion and theology that is frequently manifest in his essays.\nEven in the earlier essays Emerson expresses in passing a general opposition to slavery, but he has sometimes been criticized for remaining aloof from the social issues of his day, and especially from abolition. Emerson’s growing willingness to think and speak about slavery as he aged is visible in the collection; its final essay is a lecture given before the American Anti-Slavery Society. In “Politics,” he includes “emancipat[ing] the slave” alongside befriending the poor, building schools and cherishing the arts in a list of causes that he takes to represent “real good.”\nEmerson’s essays were especially influential among the members of the Transcendental Club that met in Cambridge, Massachusetts, which included Henry Thoreau among its members. Reading the essays was also instrumental in the litera...",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 75,
               "id": "01m7k2q1g9hqd88cmjtftk6760",
               "title": "Demon in White",
               "author": "Christopher Ruocchio",
@@ -24720,7 +24748,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m7k2q2639kjaep8aw4pbxcwb",
               "title": "Kingdoms of Death",
               "author": "Christopher Ruocchio",
@@ -24750,7 +24778,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kxh3ct67mq72nz251bvhx6dq",
               "title": "The Second Mountain",
               "author": "David Brooks",
@@ -24778,7 +24806,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01kxh3cwavw31x7t8azkzf0fcn",
               "title": "The Social Animal_ The Hidden Sources of Love, Character, and Achievement",
               "author": "read.readwise.io",
@@ -24806,7 +24834,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01m6p8vtja4m4rc3ena3scq4gp",
               "title": "Dad Brain",
               "author": "Darby Saxbe, Darby Saxbe, PhD",
@@ -24835,7 +24863,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01j29d3hp212xny83jkj13kan8",
               "title": "Think and Grow Rich",
               "author": "Napoleon Hill",
@@ -24862,7 +24890,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m6dahydg800t0wj21evmkja5",
               "title": "The Commanding Heights",
               "author": "Will Manidis",
@@ -24890,7 +24918,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01k04hd67cscrapj1n35btr6tg",
               "title": "The Inner Compass: Cultivating the Courage to Trust Yourself",
               "author": "Lawrence Yeo",
@@ -24918,7 +24946,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01j29d3tbesb7m09zyn0z78vjr",
               "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
               "author": "Tim Urban",
@@ -24944,7 +24972,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01j422ay10wfm6whm7md7qny8s",
               "title": "Vertel me het einde",
               "author": "Valeria Luiselli",
@@ -24972,7 +25000,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01j29d3bqtx49g937cc5fnz2dc",
               "title": "Mind Management, Not Time Management",
               "author": "David Kadavy",
@@ -25002,7 +25030,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01j28vk6sshcs4s85dctd96np2",
               "title": "Hoe we een klimaatramp kunnen vermijden",
               "author": "Bill Gates",
@@ -25029,7 +25057,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kc0e4wxqhr18yfp4mf49hg2n",
               "title": "Short Science Fiction",
               "author": "Isaac Asimov",
@@ -25056,7 +25084,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m4p9vrm6q6hzcbh8mgm9m7qs",
               "title": "Anatomy of a Breakthrough: How to Get Unstuck When It Matters Most",
               "author": "Adam Alter",
@@ -25083,7 +25111,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01keqeq7nyxjpnsd031e66kmej",
               "title": "As I Lay Dying",
               "author": "William Faulkner",
@@ -25112,7 +25140,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01j29b7q4wm936424r1keh3kz8",
               "title": "How to Read a Book",
               "author": "Mortimer J. Adler",
@@ -25139,7 +25167,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01jjc89qwjr4ry5xp4wneehw5x",
               "title": "Ondernemingsraad voor Dummies",
               "author": "Ruben Houweling",
@@ -25164,7 +25192,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01k4d2kxngyzjt0vzg9sav4hbn",
               "title": "Traumasporen in lichaam, brein en geest",
               "author": "Bessel van der Kolk",
@@ -25190,7 +25218,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01k4z6fmjcf1ffwdqjh2hf4j5k",
               "title": "Diep werk: werken in een wereld vol afleiding",
               "author": "Cal Newport",
@@ -25216,7 +25244,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m6yepwj6r0fee689k77enmqf",
               "title": "Moral Letters to Lucilius",
               "author": "Seneca",
@@ -25244,7 +25272,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m7jw2aex41242tjgrazje9nb",
               "title": "The Fires of December",
               "author": "Brandon Sanderson",
@@ -25272,7 +25300,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m7jwdaddt4bpa70xsfdr91sz",
               "title": "Warbreaker",
               "author": "Brandon Sanderson",
@@ -25300,7 +25328,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m7k2q0fp4pvks3t0g21kdmcr",
               "title": "Tales of the Sun Eater, Vol. 4",
               "author": "Christopher Ruocchio",
@@ -25328,7 +25356,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m7k2q2yqpeyrz6s7bbcpgg2d",
               "title": "Howling Dark",
               "author": "Christopher Ruocchio",
@@ -25356,7 +25384,35 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
+              "id": "01m7k2q5b1hpr0djdgwgr10x8z",
+              "title": "Disquiet Gods",
+              "author": "Christopher Ruocchio",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "18 hrs 34 mins",
+              "readingMinutes": 1114,
+              "wordCount": 295129,
+              "publishedDate": "2024-12-17",
+              "savedDate": "2026-11-16T21:02:58.418000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842330/TfNtli3KPyyvSt5kw5m3W-VbMn0dGO-DhIyxPGh2StM-cove_DyOUZiT.jpg",
+              "sourceUrl": "private://read/01m7k2q5b1hpr0djdgwgr10x8z",
+              "readwiseUrl": "https://read.readwise.io/read/01m7k2q5b1hpr0djdgwgr10x8z",
+              "summary": "The sixth and penultimate novel of the galaxy-spanning Sun Eater series merges the best of space opera and epic fantasy, as Hadrian Marlowe continues down a path that can only end in fireAmbitious universe-building combines with intimate character portraits for storytelling on a truly epic scale—for fans of Orson Scott Card, Adrian Tchaikovsky, Patrick Rothfuss and Jack CampbellThe end is nigh.It has been nearly two hundred years since Hadrian Marlowe assaulted the person of the Emperor and walked away from war. From his Empire. His duty. From the will and service of the eldritch being known only as the Quiet. The galaxy lies in the grip of a terrible plague, and worse, the Cielcin have overrun the realms of men.A messenger has come to Jadd, bearing a summons from the Sollan Emperor for the one-time hero. A summons, a pardon, and a plea. HAPSIS, the Emperor’s secret first-contact intelligence organization, has located one of the dreadful...",
+              "whyRead": "Raakt je interesse in sciencefiction en fantasy en verbindt de oorlogssaga met vragen over geloof, autonomie en identiteit. Als zesde Sun Eater-deel laat het zien hoe Hadrians persoonlijke keuzes botsen met imperium, geschiedenis en bijna goddelijke machten.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "fiction",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
               "id": "01kxh3czjr80mzr8pvskbk9jb8",
               "title": "Traumasporen in lichaam, brein en geest",
               "author": "read.readwise.io",
@@ -25377,58 +25433,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "behavioral psychology & coaching",
                 "health & wellness"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kxh3d1q5vzfd5h11dr5a7gyx",
-              "title": "Waarom Generalisten Verder Komen",
-              "author": "read.readwise.io",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "7 hrs 29 mins",
-              "readingMinutes": 449,
-              "wordCount": 118839,
-              "publishedDate": "2026-07-14",
-              "savedDate": "2026-07-14T19:59:29.328000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
-              "readwiseUrl": "https://read.readwise.io/read/01kxh3d1q5vzfd5h11dr5a7gyx",
-              "summary": "De uitgever heeft getracht alle rechthebbenden te achterhalen.",
-              "whyRead": "Raakt je interesse in leren en loopbaanontwikkeling. Epstein verdedigt brede ervaring, experimenteren en traag specialiseren in complexe, onzekere domeinen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "professional development"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kxh3d3s4z22xfj6gfratdzr3",
-              "title": "Creativiteit_ Flow en de psychologie van de ontdekking",
-              "author": "read.readwise.io",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "8 hrs 22 mins",
-              "readingMinutes": 502,
-              "wordCount": 132904,
-              "publishedDate": "2026-07-14",
-              "savedDate": "2026-07-14T19:59:31.311000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
-              "readwiseUrl": "https://read.readwise.io/read/01kxh3d3s4z22xfj6gfratdzr3",
-              "summary": "Alle rechten voorbehouden.",
-              "whyRead": "Raakt je interesse in creativiteit, aandacht en een betekenisvol dagelijks leven. Csikszentmihalyi beschrijft flow als een toestand waarin uitdaging en vaardigheid elkaar precies raken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "behavioral psychology & coaching",
-                "personal growth & life philosophy"
               ],
               "coreInterests": [],
               "alsoIn": []
@@ -33538,6 +33542,32 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01m7m9fe7ghv3x4xhww2paj259",
+        "title": "Warbreaker",
+        "author": "Brandon Sanderson",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "16 hrs 2 mins",
+        "readingMinutes": 962,
+        "wordCount": 254837,
+        "publishedDate": "2018-03-24",
+        "savedDate": "2026-11-17T08:20:19.841000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/521025883/Mo0uWVg5lS-bVUIdDY7G911ZWanxPCqJt_IoK5TzR7w-cover-cover.jpeg",
+        "sourceUrl": "private://read/01m7m9fe7ghv3x4xhww2paj259",
+        "readwiseUrl": "https://read.readwise.io/read/01m7m9fe7ghv3x4xhww2paj259",
+        "summary": "Warbreaker is the story of two sisters, who happen to be princesses, the God King one of them has to marry, the lesser god who doesn't like his job, and the immortal who's still trying to undo the mistakes he made hundreds of years ago.Their world is one in which those who die in glory return as gods to live confined to a pantheon in Hallandren's capital city and where a power known as BioChromatic magic is based on an essence known as breath that can only be collected one unit at a time from individual people.By using breath and drawing upon the color in everyday objects, all manner of miracles and mischief can be accomplished. It will take considerable quantities of each to resolve all the challenges facing Vivenna and Siri, princesses of Idris; Susebron the God King; Lightsong, reluctant god of bravery, and mysterious Vasher, the Warbreaker.Other Tor books by Brandon SandersonThe CosmereThe Stormlight...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m7m4z636h6azyczkn7wxbq53",
         "title": "The cycle of overcorrection",
         "author": "Anton from Manager.dev",
@@ -33573,6 +33603,381 @@ window.TOP_ARTICLES = {
             "position": 62
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01m7k2qg0b9q66p5fb1a88026d",
+        "title": "The Lesser Devil",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "3 hrs 50 mins",
+        "readingMinutes": 230,
+        "wordCount": 60902,
+        "publishedDate": "2020-04-14",
+        "savedDate": "2026-11-16T21:03:09.346000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842381/3kx9iOhsbkosbVZi36ivQb4TRKrFJR2dFXTad3ODAPU-cove_EZi2zzK.jpg",
+        "sourceUrl": "private://read/01m7k2qg0b9q66p5fb1a88026d",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qg0b9q66p5fb1a88026d",
+        "summary": "The scanning, uploading, and distribution of this book via the Internet or any other means without the permission of the author is illegal and punishable by law.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qf9t9te11m6fwknvpebd",
+        "title": "Provenance",
+        "author": "Ann Leckie",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 7 mins",
+        "readingMinutes": 427,
+        "wordCount": 113092,
+        "publishedDate": "2017-09-26",
+        "savedDate": "2026-11-16T21:03:08.621000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842379/eiyFDHTtTh1AAVINii_ADV4r0Mb-C6EtVTbsSvToCoo-cove_o6UzOOu.jpg",
+        "sourceUrl": "private://read/01m7k2qf9t9te11m6fwknvpebd",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qf9t9te11m6fwknvpebd",
+        "summary": "Following her record-breaking debut trilogy, Ann Leckie, winner of the Hugo, Nebula, Arthur C. Clarke and Locus Awards, returns with an enthralling new novel of power, theft, privilege and birthright. A power-driven young woman has just one chance to secure the status she craves and regain priceless lost artifacts prized by her people. She must free their thief from a prison planet from which no one has ever returned.  Ingray and her charge will return to her home world to find their planet in political turmoil, at the heart of an escalating interstellar conflict. Together, they must make a new plan to salvage Ingray's future, her family, and her world, before they are lost to her for good.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qdyfdej51jx17w2xngkv",
+        "title": "Translation State",
+        "author": "Ann Leckie",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "6 hrs 50 mins",
+        "readingMinutes": 410,
+        "wordCount": 108585,
+        "publishedDate": "2024-05-08",
+        "savedDate": "2026-11-16T21:03:07.232000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842374/pynhdEx6dEdaGbXGxySmXU5lEx3AUqv7s-RuTT4GsAA-cove_lS67UjJ.jpg",
+        "sourceUrl": "private://read/01m7k2qdyfdej51jx17w2xngkv",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qdyfdej51jx17w2xngkv",
+        "summary": "The mystery of a missing translator sets three lives on a collision course that will have a ripple effect across the stars in this powerful novel from a Hugo, Nebula, and Arthur C. Clarke award-winning author. \"There are few who write science fiction like Ann Leckie can. There are few who ever could.\" —John Scalzi  Qven was created to be a Presger translator. The pride of their Clade, they always had a clear path before them: learn human ways, and eventually, make a match and serve as an intermediary between the dangerous alien Presger and the human worlds. The realization that they might want something else isn't \"optimal behavior\". It's the type of behavior that results in elimination.  But Qven rebels. And in doing so, their path collides with those of two others. Enae, a reluctant diplomat whose dead grandmaman has left hir an impossible task as an inheritance: hunting down a fugitive who has been missing for...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qd77jg3cjaefy43wagjz",
+        "title": "Ancillary Sword",
+        "author": "Ann Leckie",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 18 mins",
+        "readingMinutes": 438,
+        "wordCount": 116037,
+        "publishedDate": "2014-10-07",
+        "savedDate": "2026-11-16T21:03:06.491000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842367/ThugPL6IszcaUuA9mt1K7AtfaC-qdgEgdAhszJXz5MI-cove_yjaxS6Q.jpg",
+        "sourceUrl": "private://read/01m7k2qd77jg3cjaefy43wagjz",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qd77jg3cjaefy43wagjz",
+        "summary": "Seeking atonement for past crimes, Breq takes on a mission as captain of a troublesome new crew of Radchai soldiers, in the sequel to the New York Times bestselling, award-winning Ancillary Justice.​ Breq is a soldier who used to be a warship. Once a weapon of conquest controlling thousands of minds, now she has only a single body and serves the emperor. With a new ship and a troublesome crew, Breq is ordered to go to the only place in the galaxy she would agree to go: to Athoek Station to protect the family of a lieutenant she once knew — a lieutenant she murdered in cold blood. Ann Leckie's Imperial Radch trilogy has become one of the new classics of science fiction. Beautifully written and forward thinking, it does what good science fiction does best, taking readers to bold new worlds with plenty explosions along the way.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qc0t5j8st29w0sg1k2v3",
+        "title": "Ancillary Justice",
+        "author": "Ann Leckie",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 59 mins",
+        "readingMinutes": 479,
+        "wordCount": 126850,
+        "publishedDate": "2013-10-01",
+        "savedDate": "2026-11-16T21:03:05.262000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842358/N8JCGM016Nfqjvb3uCX0r52HnfT1ZycX3FNmAM65RMk-cove_z8D1TLa.jpg",
+        "sourceUrl": "private://read/01m7k2qc0t5j8st29w0sg1k2v3",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qc0t5j8st29w0sg1k2v3",
+        "summary": "Winner of the Hugo, Nebula, and Arthur C. Clarke Awards: This record-breaking novel follows a warship trapped in a human body on a quest for revenge. A must read for fans of Ursula K. Le Guin and James S. A. Corey.  \"There are few who write science fiction like Ann Leckie can. There are few who ever could.\" — John Scalzi On a remote, icy planet, the soldier known as Breq is drawing closer to completing her quest. Once, she was the Justice of Toren — a colossal starship with an artificial intelligence linking thousands of soldiers in the service of the Radch, the empire that conquered the galaxy. Now, an act of treachery has ripped it all away, leaving her with one fragile human body, unanswered questions, and a burning desire for vengeance.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qba3mnqw92yxq6nnexhd",
+        "title": "Ancillary Mercy",
+        "author": "Ann Leckie",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "7 hrs 0 mins",
+        "readingMinutes": 420,
+        "wordCount": 111038,
+        "publishedDate": "2015-10-06",
+        "savedDate": "2026-11-16T21:03:04.537000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842354/7HU--_9ryRyjXFbZpOEG_1is2EiJWsCETvyXibHJ7X0-cove_2XpYPls.jpg",
+        "sourceUrl": "private://read/01m7k2qba3mnqw92yxq6nnexhd",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qba3mnqw92yxq6nnexhd",
+        "summary": "The stunning conclusion to the trilogy that began with the Hugo, Nebula, and Arthur C. Clarke award-winning Ancillary Justice. For a moment, things seemed to be under control for Breq, the soldier who used to be a warship. Then a search of Atheok Station's slums turns up someone who shouldn't exist, and a messenger from the mysterious Presger empire arrives, as does Breq's enemy, the divided and quite possibly insane Anaander Mianaai - ruler of an empire at war with itself.Breq refuses to flee with her ship and crew, because that would leave the people of Athoek in terrible danger. The odds aren't good, but that's never stopped her before. In the Ancillary world: 1. Ancillary Justice2. Ancillary Sword3. Ancillary Mercy",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2qak93cnm3rmjxy9813fk",
+        "title": "Tales of the Sun Eater, Vol. 1",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "4 hrs 9 mins",
+        "readingMinutes": 249,
+        "wordCount": 65763,
+        "publishedDate": "2021-04-15",
+        "savedDate": "2026-11-16T21:03:03.828000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842353/eAZHKZ_Nks6NnVetyge8ogy3tcW5T8Z6rT1IcWMrqM0-cover-cover.jpeg",
+        "sourceUrl": "private://read/01m7k2qak93cnm3rmjxy9813fk",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2qak93cnm3rmjxy9813fk",
+        "summary": "A compilation of short stories",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q9x2k4bsad283y1f5erc",
+        "title": "Tales of the Sun Eater, Vol. 3",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "4 hrs 15 mins",
+        "readingMinutes": 255,
+        "wordCount": 67424,
+        "publishedDate": "2023-09-14",
+        "savedDate": "2026-11-16T21:03:03.094000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842351/vZm7MaKQQ8GqPUcdgv405h2T1pTeO1sBLka85BgwEZM-cover-cover.jpeg",
+        "sourceUrl": "private://read/01m7k2q9x2k4bsad283y1f5erc",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q9x2k4bsad283y1f5erc",
+        "summary": "The scanning, uploading, and distribution of this book via the Internet or any other means without the permission of the author is illegal and punishable by law.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q9773xp9c0rxad6ddh6p",
+        "title": "Queen Amid Ashes",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "3 hrs 14 mins",
+        "readingMinutes": 194,
+        "wordCount": 51243,
+        "publishedDate": "2022-06-27",
+        "savedDate": "2026-11-16T21:03:02.395000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842346/qkW0yKtY-9WwMn3JnuThHvcikYpO9pSmfzPW6xlMaRY-cover-cover.jpeg",
+        "sourceUrl": "private://read/01m7k2q9773xp9c0rxad6ddh6p",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q9773xp9c0rxad6ddh6p",
+        "summary": "The scanning, uploading, and distribution of this book via the Internet or any other means without the permission of the author is illegal and punishable by law.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q7x8k00m40e2g2418s18",
+        "title": "Tales of the Sun Eater, Vol. 2",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "2 hrs 59 mins",
+        "readingMinutes": 179,
+        "wordCount": 47364,
+        "publishedDate": "2022-05-31",
+        "savedDate": "2026-11-16T21:03:01.050000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842340/V7GCySYzzzk1192HItdqyVYN6rbaUI7EsjjI_5RlDKw-cover-cover.jpeg",
+        "sourceUrl": "private://read/01m7k2q7x8k00m40e2g2418s18",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q7x8k00m40e2g2418s18",
+        "summary": "The scanning, uploading, and distribution of this book via the Internet or any other means without the permission of the author is illegal and punishable by law.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q6ytn81ac1mr3avqzvxk",
+        "title": "Shadows Upon Time",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "24 hrs 15 mins",
+        "readingMinutes": 1455,
+        "wordCount": 385319,
+        "publishedDate": "2025-11-18",
+        "savedDate": "2026-11-16T21:03:00.081000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842339/ePUl3B03LvKnNdUPdpBdUiBLH67rk4ltjcs_B6cH5UI-cove_ipO3I5M.jpg",
+        "sourceUrl": "private://read/01m7k2q6ytn81ac1mr3avqzvxk",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q6ytn81ac1mr3avqzvxk",
+        "summary": "The seventh and final novel of the galaxy-spanning series merges the best of space opera and epic fantasy, as Hadrian Marlowe at last lights the greatest fire humanity has ever seenAmbitious universe-building combines with intimate character portraits for storytelling on a truly epic scale—for fans of Orson Scott Card, Adrian Tchaikovsky, Patrick Rothfuss, and Jack CampbellThe trumpet sounds.The end has come at last. After his victory at Vorgossos, Hadrian Marlowe finds himself a fugitive, on the run not only from the Extrasolarians, but from his own people, the Sollan Empire he betrayed—and who betrayed him. Hidden safely beyond the borders of human space, Hadrian awaits the arrival of the one ally he has left: the Jaddian Prince Kaim-Olorin du Otranto.What's more, the inhuman Cielcin have vanished, unseen for more than one hundred years. The armies of men have grown complacent, but Hadrian knows the truth: the Cielcin are gathering their...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q629ph38a58856pb59ja",
+        "title": "Ashes of Man",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "13 hrs 50 mins",
+        "readingMinutes": 830,
+        "wordCount": 219757,
+        "publishedDate": "2022-12-06",
+        "savedDate": "2026-11-16T21:02:59.204000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842333/lsk1Bh-u9YeQEtDeP2zBCqOlngbLmrstJbURmfwtJ6o-cove_AJE1cuZ.jpg",
+        "sourceUrl": "private://read/01m7k2q629ph38a58856pb59ja",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q629ph38a58856pb59ja",
+        "summary": "The fifth novel of the galaxy-spanning Sun Eater series merges the best of space opera and epic fantasy, as Hadrian Marlowe continues down a path that can only end in fire.The galaxy is burning. With the Cielcin united under one banner, the Sollan Empire stands alone after the betrayal of the Commonwealth. The Prophet-King of the Cielcin has sent its armies to burn the worlds of men, and worse, there are rumors...whispers that Hadrian Marlowe is dead, killed in the fighting. But it is not so. Hadrian survived with the help of the witch, Valka, and together they escaped the net of the enemy having learned a terrible truth: the gods that the Cielcin worship are real and will not rest until the universe is dark and cold. What is more, the Emperor himself is in danger. The Prophet-King has learned to track his movements as he travels along the borders of Imperial space. Now the Cielcin legions are closing in, their swords poised to...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m7k2q5b1hpr0djdgwgr10x8z",
+        "title": "Disquiet Gods",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "18 hrs 34 mins",
+        "readingMinutes": 1114,
+        "wordCount": 295129,
+        "publishedDate": "2024-12-17",
+        "savedDate": "2026-11-16T21:02:58.418000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842330/TfNtli3KPyyvSt5kw5m3W-VbMn0dGO-DhIyxPGh2StM-cove_DyOUZiT.jpg",
+        "sourceUrl": "private://read/01m7k2q5b1hpr0djdgwgr10x8z",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q5b1hpr0djdgwgr10x8z",
+        "summary": "The sixth and penultimate novel of the galaxy-spanning Sun Eater series merges the best of space opera and epic fantasy, as Hadrian Marlowe continues down a path that can only end in fireAmbitious universe-building combines with intimate character portraits for storytelling on a truly epic scale—for fans of Orson Scott Card, Adrian Tchaikovsky, Patrick Rothfuss and Jack CampbellThe end is nigh.It has been nearly two hundred years since Hadrian Marlowe assaulted the person of the Emperor and walked away from war. From his Empire. His duty. From the will and service of the eldritch being known only as the Quiet. The galaxy lies in the grip of a terrible plague, and worse, the Cielcin have overrun the realms of men.A messenger has come to Jadd, bearing a summons from the Sollan Emperor for the one-time hero. A summons, a pardon, and a plea. HAPSIS, the Emperor’s secret first-contact intelligence organization, has located one of the dreadful...",
+        "whyRead": "Raakt je interesse in sciencefiction en fantasy en verbindt de oorlogssaga met vragen over geloof, autonomie en identiteit. Als zesde Sun Eater-deel laat het zien hoe Hadrians persoonlijke keuzes botsen met imperium, geschiedenis en bijna goddelijke machten.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "fiction",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 99
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m7k2q4cf823e7cg1tpsnf3rs",
+        "title": "Empire of Silence",
+        "author": "Christopher Ruocchio",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "16 hrs 35 mins",
+        "readingMinutes": 995,
+        "wordCount": 263491,
+        "publishedDate": "2018-07-03",
+        "savedDate": "2026-11-16T21:03:02.659000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520842349/qcNcBFiyHquZFS8cj-eOw0uDfDzew67zIwDjQbtyDr0-cove_FEGqGch.jpg",
+        "sourceUrl": "private://read/01m7k2q4cf823e7cg1tpsnf3rs",
+        "readwiseUrl": "https://read.readwise.io/read/01m7k2q4cf823e7cg1tpsnf3rs",
+        "summary": "Hadrian Marlowe, a man revered as a hero and despised as a murderer, chronicles his tale in the galaxy-spanning debut of the Sun Eater series, merging the best of space opera and epic fantasy.It was not his war.On the wrong planet, at the right time, for the best reasons, Hadrian Marlowe started down a path that could only end in fire. The galaxy remembers him as a hero: the man who burned every last alien Cielcin from the sky. They remember him as a monster: the devil who destroyed a sun, casually annihilating four billion human lives—even the Emperor himself—against Imperial orders.But Hadrian was not a hero. He was not a monster. He was not even a soldier.Fleeing his father and a future as a torturer, Hadrian finds himself stranded on a strange, backwater world. Forced to fight as a gladiator and into the intrigues of a foreign planetary court, he will find himself fight a war he did not start, for an Empire he does not love, against an...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -33645,7 +34050,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -33684,7 +34089,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -33721,7 +34126,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -33758,7 +34163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -33795,7 +34200,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -33858,7 +34263,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -34006,6 +34411,43 @@ window.TOP_ARTICLES = {
             "familyId": "software-development",
             "size": "top-100",
             "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m7hpgsa5fh0sbwh2sedezrvq",
+        "title": "Essays",
+        "author": "Ralph Waldo Emerson",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "8 hrs 28 mins",
+        "readingMinutes": 508,
+        "wordCount": 134509,
+        "publishedDate": "2023-12-08",
+        "savedDate": "2026-11-16T08:10:33.663000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/520203188/4XM9VJmscec7BkFhs6VsEft6UGPQFUSI9-wSD2U-ds0-cove_53iDLOt.jpg",
+        "sourceUrl": "private://read/01m7hpgsa5fh0sbwh2sedezrvq",
+        "readwiseUrl": "https://read.readwise.io/read/01m7hpgsa5fh0sbwh2sedezrvq",
+        "summary": "\nThe titles of Ralph Waldo Emerson’s essays consist of a range of general concepts such as character, experience, friendship, history, intellect, love, nature, politics, prudence and, most famously, self-reliance. However, in no case is the content of an essay limited to considerations relevant to its title concept. Emerson’s style is digressive and aphoristic, his lengthy paragraphs strewn with terse, dogmatic assertions. The pieces record the diffuse preconceptions and opinions of the author, typically without arguing for them.\n“Nature,” Emerson’s first published essay, was published independently five years before his first collection of essays. It became a foundational text for transcendentalism, the New England intellectual movement that upheld the divine character of the natural world and the importance of spiritual connection with it. In its emphasis on reason, individual conscience, and innate human goodness, transcendentalism was related to Unitarianism, where Emerson began his career as a minister. While Emerson resigned from this post after only a few years, he retained a lifelong concern with religion and theology that is frequently manifest in his essays.\nEven in the earlier essays Emerson expresses in passing a general opposition to slavery, but he has sometimes been criticized for remaining aloof from the social issues of his day, and especially from abolition. Emerson’s growing willingness to think and speak about slavery as he aged is visible in the collection; its final essay is a lecture given before the American Anti-Slavery Society. In “Politics,” he includes “emancipat[ing] the slave” alongside befriending the poor, building schools and cherishing the arts in a list of causes that he takes to represent “real good.”\nEmerson’s essays were especially influential among the members of the Transcendental Club that met in Cambridge, Massachusetts, which included Henry Thoreau among its members. Reading the essays was also instrumental in the litera...",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 74
           }
         ]
       },
@@ -34710,7 +35152,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -35942,7 +36384,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -36485,7 +36927,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -42191,7 +42633,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -53261,16 +53703,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy"
         ],
         "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53335,16 +53769,8 @@ window.TOP_ARTICLES = {
           "professional development"
         ],
         "coreInterests": [],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53377,7 +53803,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -53449,7 +53875,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -53525,7 +53951,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -55888,7 +56314,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -56348,7 +56774,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -57318,7 +57744,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -57353,7 +57779,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -57462,7 +57888,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -57673,7 +58099,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -58052,7 +58478,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -58435,7 +58861,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -58471,7 +58897,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -58733,7 +59159,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -59314,7 +59740,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -59610,7 +60036,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
